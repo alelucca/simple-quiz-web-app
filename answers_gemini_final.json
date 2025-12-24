@@ -1,0 +1,4510 @@
+[
+  {
+    "num_page": 1,
+    "items": [
+      {
+        "num_domanda": 1,
+        "domanda": "L'energia dei raggi x è direttamente proporzionale:",
+        "opzioni": [
+          "alla loro lunghezza d'onda",
+          "alla loro frequenza",
+          "alla velocità della luce",
+          "alla loro elasticità"
+        ],
+        "risposta_corretta": "alla loro frequenza"
+      },
+      {
+        "num_domanda": 2,
+        "domanda": "L'imaging plate è:",
+        "opzioni": [
+          "un detettore che registra sulla propria superficie l'energia dei fotoni x",
+          "un tipo di tubo radiogeno",
+          "un algoritmo di ricostruzione delle immagini in tac",
+          "un sistema integrato di appiattimento delle immagini"
+        ],
+        "risposta_corretta": "un detettore che registra sulla propria superficie l'energia dei fotoni x"
+      },
+      {
+        "num_domanda": 3,
+        "domanda": "Lo standard delle immagini digitali in radiologia è:",
+        "opzioni": [
+          "Jpg",
+          "Dicom",
+          "Raf",
+          "Rat"
+        ],
+        "risposta_corretta": "Dicom"
+      },
+      {
+        "num_domanda": 4,
+        "domanda": "Il maggior contributo alla dose media annuale di radiazioni assorbite è dovuta a:",
+        "opzioni": [
+          "radiazione cosmica",
+          "irradiazione interna da sorgenti terrestri (radon)",
+          "radiodiagnostica e medicina nucleare",
+          "prodotti commerciali"
+        ],
+        "risposta_corretta": "irradiazione interna da sorgenti terrestri (radon)"
+      },
+      {
+        "num_domanda": 5,
+        "domanda": "Definizione di effetto deterministico:",
+        "opzioni": [
+          "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo",
+          "esiste un valore di dose soglia al di sotto del quale l'effetto si verifica sempre",
+          "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è possibile",
+          "nessuna delle precedenti è corretta"
+        ],
+        "risposta_corretta": "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo"
+      },
+      {
+        "num_domanda": 6,
+        "domanda": "Gli effetti stocastici si dividono in:",
+        "opzioni": [
+          "somatici precoci e tardivi",
+          "somatici tardivi e genetici",
+          "genetici precoci e tardivi",
+          "genetici e deterministici"
+        ],
+        "risposta_corretta": "somatici tardivi e genetici"
+      },
+      {
+        "num_domanda": 7,
+        "domanda": "Quale delle seguenti affermazioni è corretta riguardo l'esposizione alle radiazioni ionizzanti di pazienti pediatrici?",
+        "opzioni": [
+          "alcuni organi sono più radiosensibili di quelli degli adulti",
+          "alcuni organi sono meno radiosensibili di quelli degli adulti",
+          "la dose assorbita è doppia di quella dell'adulto",
+          "la dose assorbita è la metà di quella dell'adulto"
+        ],
+        "risposta_corretta": "alcuni organi sono più radiosensibili di quelli degli adulti"
+      },
+      {
+        "num_domanda": 8,
+        "domanda": "Il fascio di raggi x:",
+        "opzioni": [
+          "è emesso dal tubo radiogeno",
+          "ha energia elevata, tale da attraversare il corpo",
+          "è attenuato in misura variabile",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      }
+    ]
+  },
+  {
+    "num_page": 2,
+    "items": [
+      {
+        "num_domanda": 9,
+        "domanda": "Il radiogramma del torace in ortostasi è acquisito a:",
+        "opzioni": [
+          "270 cm",
+          "150 cm",
+          "120 cm",
+          "180 cm"
+        ],
+        "risposta_corretta": "180 cm"
+      },
+      {
+        "num_domanda": 10,
+        "domanda": "La fluoroscopia permette di:",
+        "opzioni": [
+          "posizionare correttamente il paziente nelle radiografie delle ossa",
+          "ottenere immagini radiologiche in tempo reale",
+          "testare la fluorescenza di diversi materiali",
+          "cercare corpi estranei fluorescenti"
+        ],
+        "risposta_corretta": "ottenere immagini radiologiche in tempo reale"
+      },
+      {
+        "num_domanda": 11,
+        "domanda": "L'unità di misura della dose assorbita è:",
+        "opzioni": [
+          "il radon",
+          "il sievert",
+          "il grey",
+          "il kerma in aria"
+        ],
+        "risposta_corretta": "il grey"
+      },
+      {
+        "num_domanda": 12,
+        "domanda": "In TC multistrato i parametri per stimare la dose sono:",
+        "opzioni": [
+          "il CTDI e il DLP",
+          "l'ESD",
+          "il DAP",
+          "il DAP e il CTDI"
+        ],
+        "risposta_corretta": "il CTDI e il DLP"
+      },
+      {
+        "num_domanda": 13,
+        "domanda": "L'acronimo LDR significa:",
+        "opzioni": [
+          "livelli di riferimento",
+          "limiti di radioprotezione",
+          "livelli diagnostici di riferimento",
+          "limiti diagnostici di radioprotezione"
+        ],
+        "risposta_corretta": "livelli diagnostici di riferimento"
+      },
+      {
+        "num_domanda": 14,
+        "domanda": "La regolamentazione dei LDR è stabilita dal decreto:",
+        "opzioni": [
+          "D. Lgs 230/95",
+          "D. Lgs 241/00",
+          "D. Lgs 187/00",
+          "D. Lgs 237/00"
+        ],
+        "risposta_corretta": "D. Lgs 187/00"
+      },
+      {
+        "num_domanda": 15,
+        "domanda": "Gli effetti genetici delle radiazioni:",
+        "opzioni": [
+          "colpiscono l'individuo irradiato",
+          "colpiscono le cellule del midollo osseo",
+          "colpiscono le generazioni successive dell'individuo irradiato",
+          "colpiscono le cellule dello stroma ovarico e testicolare"
+        ],
+        "risposta_corretta": "colpiscono le generazioni successive dell'individuo irradiato"
+      },
+      {
+        "num_domanda": 16,
+        "domanda": "La dose assorbita non si può misurare in:",
+        "opzioni": [
+          "gray",
+          "rad",
+          "j/kg",
+          "ma/s"
+        ],
+        "risposta_corretta": "ma/s"
+      },
+      {
+        "num_domanda": 17,
+        "domanda": "Quale affermazione circa la dose equivalente è falsa?",
+        "opzioni": [
+          "è direttamente proporzionale alla dose assorbita",
+          "dipende dal tipo di radiazione considerate",
+          "dipende dal tessuto-organo irradiato",
+          "si misura in sievert"
+        ],
+        "risposta_corretta": "dipende dal tessuto-organo irradiato"
+      }
+    ]
+  },
+  {
+    "num_page": 3,
+    "items": [
+      {
+        "num_domanda": 18,
+        "domanda": "Quale affermazione circa la dose efficace è falsa?",
+        "opzioni": [
+          "dipende dal tessuto-organo irradiato",
+          "si misura in sievert",
+          "prende in considerazione gli effetti stocastici",
+          "non dipende dalla dose equivalente"
+        ],
+        "risposta_corretta": "non dipende dalla dose equivalente"
+      },
+      {
+        "num_domanda": 19,
+        "domanda": "Di queste affermazioni sulla dose in radiologia quale di queste è falsa?",
+        "opzioni": [
+          "bisogna usare bassi kv per mantenere bassa la dose",
+          "bisogna usare alti kv per mantenere bassa la dose",
+          "aumentare la collimazione riduce la dose",
+          "maggiore è la distanza del tubo dal paziente minore è la dose"
+        ],
+        "risposta_corretta": "bisogna usare bassi kv per mantenere bassa la dose"
+      },
+      {
+        "num_domanda": 20,
+        "domanda": "Le radiazioni a bassa energia che non sono utili alla produzione delle immagini si eliminano utilizzando filtri:",
+        "opzioni": [
+          "in piombo",
+          "in titanio",
+          "in argento",
+          "in alluminio"
+        ],
+        "risposta_corretta": "in alluminio"
+      },
+      {
+        "num_domanda": 21,
+        "domanda": "Quale di queste affermazioni sulla radiologia digitale è falsa?",
+        "opzioni": [
+          "la sottoesposizione da un'immagine rumorosa",
+          "la sovraesposizione può non essere riconosciuta",
+          "i sistemi digitali richiedono una perfetta esposizione",
+          "hanno un più alto range dinamico"
+        ],
+        "risposta_corretta": "i sistemi digitali richiedono una perfetta esposizione"
+      },
+      {
+        "num_domanda": 22,
+        "domanda": "Per ridurre la dose al paziente in fluoroscopia non devo:",
+        "opzioni": [
+          "ridurre il tempo di scopia",
+          "mantenere il paziente alla massima distanza dalla sorgente",
+          "aumentare la collimazione",
+          "aumentare il numero di immagini/secondo e la risoluzione di contrasto"
+        ],
+        "risposta_corretta": "aumentare il numero di immagini/secondo e la risoluzione di contrasto"
+      },
+      {
+        "num_domanda": 23,
+        "domanda": "La radiografia del torace si esegue con tubo radiogeno ad almeno 180 cm dal paziente per:",
+        "opzioni": [
+          "evitare che cadendo lo possa ferire",
+          "ridurre l'ingrandimento delle strutture mediastiniche",
+          "ingrandire le immagini dei polmoni",
+          "aumentare il contrasto tra mediastino e polmoni"
+        ],
+        "risposta_corretta": "ridurre l'ingrandimento delle strutture mediastiniche"
+      },
+      {
+        "num_domanda": 24,
+        "domanda": "La fluoroscopia non viene utilizzata:",
+        "opzioni": [
+          "in chirurgia ortopedica",
+          "nelle indagini del tratto gastrointestinale",
+          "in angiografia",
+          "nelle radiografie del polso"
+        ],
+        "risposta_corretta": "nelle radiografie del polso"
+      },
+      {
+        "num_domanda": 25,
+        "domanda": "La fluoroscopia non si usa:",
+        "opzioni": [
+          "per centrare i pazienti nelle radiografie della mano",
+          "in emodinamica",
+          "in sala ortopedica",
+          "nell'ercp"
+        ],
+        "risposta_corretta": "per centrare i pazienti nelle radiografie della mano"
+      },
+      {
+        "num_domanda": 26,
+        "domanda": "Quale delle seguenti affermazioni riferite alla tac è falsa?",
+        "opzioni": [
+          "il paziente viene fatto ruotare tramite lettino a rotazione variabile e il tubo radiogeno è fisso",
+          "il tubo radiogeno viene fatto ruotare attorno al paziente",
+          "i raggi x emessi dal corpo sono registrati da detettori",
+          "il computer traduce in immagini i segnali registrati dai detettori"
+        ],
+        "risposta_corretta": "il paziente viene fatto ruotare tramite lettino a rotazione variabile e il tubo radiogeno è fisso"
+      }
+    ]
+  },
+  {
+    "num_page": 4,
+    "items": [
+      {
+        "num_domanda": 27,
+        "domanda": "Non sono radiazioni ionizzanti:",
+        "opzioni": [
+          "nuclei di elio ad alta velocità",
+          "onde elettromagnetiche ad alta energia",
+          "elettroni ad alta velocità",
+          "raggi infrarossi"
+        ],
+        "risposta_corretta": "raggi infrarossi"
+      },
+      {
+        "num_domanda": 28,
+        "domanda": "Raggi x e raggi gamma:",
+        "opzioni": [
+          "i primi sono prodotti da un tubo radiogeno i secondi dal decadimento radioattivo",
+          "solo i raggi x sono radiazioni ionizzanti",
+          "i primi sono prodotti dal decadimento radioattivo i secondi da un tubo radiogeno",
+          "entrambi sono prodotti da un tubo radiogeno"
+        ],
+        "risposta_corretta": "i primi sono prodotti da un tubo radiogeno i secondi dal decadimento radioattivo"
+      },
+      {
+        "num_domanda": 29,
+        "domanda": "Quale di queste affermazioni circa gli effetti stocastici delle radiazioni è falsa?",
+        "opzioni": [
+          "possono essere sia genetici che somatici",
+          "sono tendenzialmente tardivi",
+          "si verificano oltre una dose soglia",
+          "sono legati a mutazioni del DNA"
+        ],
+        "risposta_corretta": "si verificano oltre una dose soglia"
+      },
+      {
+        "num_domanda": 30,
+        "domanda": "Quale di queste affermazioni circa gli effetti deterministici delle radiazioni è vera?",
+        "opzioni": [
+          "sono solo somatici",
+          "sono solo genetici",
+          "possono essere sia genetici che somatici",
+          "non hanno dose soglia"
+        ],
+        "risposta_corretta": "sono solo somatici"
+      },
+      {
+        "num_domanda": 31,
+        "domanda": "Effetti deterministici delle radiazioni:",
+        "opzioni": [
+          "oltre la dose soglia aumentando la dose aumenta la probabilità che si verifichino",
+          "oltre la dose soglia aumentando la dose aumenta la loro gravità",
+          "possono verificarsi anche per le dosi di una radiografia al torace",
+          "non hanno una dose soglia"
+        ],
+        "risposta_corretta": "oltre la dose soglia aumentando la dose aumenta la loro gravità"
+      },
+      {
+        "num_domanda": 32,
+        "domanda": "Cataratta, eritema cutaneo e depilazione, sindrome da radiazioni:",
+        "opzioni": [
+          "sono effetti stocastici",
+          "si verificano anche per una singola radiografia del torace",
+          "sono effetti genetici",
+          "sono effetti deterministici"
+        ],
+        "risposta_corretta": "sono effetti deterministici"
+      },
+      {
+        "num_domanda": 33,
+        "domanda": "Come funziona il tubo radiogeno?",
+        "opzioni": [
+          "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve",
+          "si tratta di un tubo di vetro nel quale c'è un anodo che emette elettroni e un catodo che li riceve",
+          "si tratta di un tubo di tallio che converte i fotoni emergenti dal corpo attraversato in fotoni di luce visibile",
+          "nessuna delle affermazioni precedenti è corretta"
+        ],
+        "risposta_corretta": "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve"
+      },
+      {
+        "num_domanda": 34,
+        "domanda": "La radioprotezione si basa principalmente su due principi:",
+        "opzioni": [
+          "giustificazione ed ottimizzazione",
+          "giustificazione e resa diagnostica",
+          "giustificazione e potenza diagnostica",
+          "ottimizzazione e resa diagnostica"
+        ],
+        "risposta_corretta": "giustificazione ed ottimizzazione"
+      }
+    ]
+  },
+  {
+    "num_page": 5,
+    "items": [
+      {
+        "num_domanda": 35,
+        "domanda": "Tra le apparecchiature di radiodiagnostica contribuisce maggiormente alla dose assorbita dal paziente:",
+        "opzioni": [
+          "l'RX del torace",
+          "la TC addome-pelvi",
+          "la TC dell'encefalo",
+          "l'RX del bacino"
+        ],
+        "risposta_corretta": "la TC addome-pelvi"
+      },
+      {
+        "num_domanda": 36,
+        "domanda": "Le radiazioni elettromagnetiche (raggi X):",
+        "opzioni": [
+          "si propagano con velocità inferiore a quella della luce",
+          "si propagano con la velocità della luce",
+          "si propagano con velocità superiore a quella della luce",
+          "nessuna delle affermazioni precedenti è corretta"
+        ],
+        "risposta_corretta": "si propagano con la velocità della luce"
+      },
+      {
+        "num_domanda": 37,
+        "domanda": "Per gli effetti deterministici delle radiazioni:",
+        "opzioni": [
+          "la gravità è indipendente dalla dose",
+          "la gravità è proporzionale alla dose",
+          "la gravità dipende dalla dose solo nel soggetto pediatrico",
+          "nessuna delle affermazioni precedenti è corretta"
+        ],
+        "risposta_corretta": "la gravità è proporzionale alla dose"
+      },
+      {
+        "num_domanda": 38,
+        "domanda": "Qual è la giusta sequenza in ordine crescente di dose erogata per esame?",
+        "opzioni": [
+          "rx torace-rx lombare-tac torace-angiografia coronarie interventistica",
+          "rx lombare-tac torace-angiografia coronarie interventistica-rx torace",
+          "rx torace-tac torace-angiografia coronarie interventistica-rx lombare",
+          "angiografia coronarie interventistica-tac torace-rx lombare-rx torace"
+        ],
+        "risposta_corretta": "rx torace-rx lombare-tac torace-angiografia coronarie interventistica"
+      },
+      {
+        "num_domanda": 39,
+        "domanda": "I lavoratori di categoria A sono quelli che:",
+        "opzioni": [
+          "possono superare 20 ms/anno di esposizione globale",
+          "possono superare 6 msv/anno di esposizione globale",
+          "non devono in alcun modo superare 6 ms/anno di esposizione globale",
+          "non sono a rischio di esposizione"
+        ],
+        "risposta_corretta": "possono superare 6 msv/anno di esposizione globale"
+      },
+      {
+        "num_domanda": 40,
+        "domanda": "I lavoratori di categoria B:",
+        "opzioni": [
+          "non sono esposti a radiazioni",
+          "non devono superare i limiti stabiliti per i non esposti",
+          "non possono superare 6 msv/anno per esposizione globale",
+          "superano regolarmente 6 ma/anno per esposizione globale"
+        ],
+        "risposta_corretta": "non possono superare 6 msv/anno per esposizione globale"
+      },
+      {
+        "num_domanda": 41,
+        "domanda": "Non è un parametro per stimare la dose in tac multistrato:",
+        "opzioni": [
+          "mip",
+          "ctdi",
+          "dlp",
+          "dose efficale (e)"
+        ],
+        "risposta_corretta": "mip"
+      },
+      {
+        "num_domanda": 42,
+        "domanda": "Quale affermazione è falsa circa la tac multistrato? (...sulla tac multistrato è falsa?)",
+        "opzioni": [
+          "riduco la dose se riduco i kv",
+          "riduco la dose se riduco il tempo di scansione",
+          "riduco la dose se aumento il pitch",
+          "riduco la dose se aumento i ma"
+        ],
+        "risposta_corretta": "riduco la dose se aumento i ma"
+      },
+      {
+        "num_domanda": 43,
+        "domanda": "Non è un principio della radioprotezione:",
+        "opzioni": [
+          "giustificazione",
+          "ottimizzazione",
+          "evitamento",
+          "limitazione delle dosi individuali"
+        ],
+        "risposta_corretta": "evitamento"
+      }
+    ]
+  },
+  {
+    "num_page": 6,
+    "items": [
+      {
+        "num_domanda": 44,
+        "domanda": "Qual è il limite di esposizione globale per i lavoratori non esposti?",
+        "opzioni": [
+          "6 ms/anno",
+          "1 ms/anno",
+          "20 ms/anno",
+          "40 ms/anno"
+        ],
+        "risposta_corretta": "1 ms/anno"
+      },
+      {
+        "num_domanda": 45,
+        "domanda": "Non fa parte degli interventi di prevenzione del rischio da radiazioni ionizzanti:",
+        "opzioni": [
+          "individuazione e studio delle cause e dei fattori di rischio",
+          "controllo degli esposti",
+          "riduzione dei rischi a livello collettivo e individuale",
+          "corso per gli addetti allo spegnimento degli incendi"
+        ],
+        "risposta_corretta": "corso per gli addetti allo spegnimento degli incendi"
+      },
+      {
+        "num_domanda": 46,
+        "domanda": "Non è un algoritmo di ricostruzione delle immagini tac:",
+        "opzioni": [
+          "vrt (volume rendering)",
+          "mip (maximum intensity projection)",
+          "mpr (ricostruzioni multiplanari)",
+          "srl (soft rendering location)"
+        ],
+        "risposta_corretta": "srl (soft rendering location)"
+      },
+      {
+        "num_domanda": 47,
+        "domanda": "Tra queste affermazioni riferite ai raggi x è falsa:",
+        "opzioni": [
+          "sono in grado di penetrare la materia a seconda della sua densità",
+          "impressionano le pellicole fotografiche",
+          "alcuni materiali colpiti dai raggi x emettono fotoni luminosi",
+          "necessitano di aria per propagarsi da un punto ad un altro"
+        ],
+        "risposta_corretta": "necessitano di aria per propagarsi da un punto ad un altro"
+      },
+      {
+        "num_domanda": 48,
+        "domanda": "Le radiazioni ionizzanti in ambito medico sono utilizzate:",
+        "opzioni": [
+          "solo in radiodiagnostica e radioterapia",
+          "solo in medicina nucleare e radioterapia",
+          "in radiodiagnostica, medicina nucleare e radioterapia",
+          "in nessuna delle tre metodiche sopraindicate"
+        ],
+        "risposta_corretta": "in radiodiagnostica, medicina nucleare e radioterapia"
+      },
+      {
+        "num_domanda": 49,
+        "domanda": "Il tubo radiogeno utilizzato in radiodiagnostica:",
+        "opzioni": [
+          "è una barra metallica che emette fotoni",
+          "è una ampolla di vetro sotto vuoto con anodo e catodo",
+          "è un anello metallico con anodo e catodo",
+          "è una barra metallica all'interno di una ampolla di vetro sotto vuoto"
+        ],
+        "risposta_corretta": "è una ampolla di vetro sotto vuoto con anodo e catodo"
+      },
+      {
+        "num_domanda": 50,
+        "domanda": "I raggi X persistono nella sala radiologica, una volta interrotta la esposizione radiante, per:",
+        "opzioni": [
+          "circa 2 secondi",
+          "circa 5 secondi",
+          "circa 10 secondi",
+          "scompaiono immediatamente"
+        ],
+        "risposta_corretta": "scompaiono immediatamente"
+      },
+      {
+        "num_domanda": 51,
+        "domanda": "L'effetto fotoelettrico avviene:",
+        "opzioni": [
+          "interazione elettrone proveniente dall'anodo e metallo del catodo",
+          "interazione tra fotone (X) e elettrone dell'orbitale più interno dell'atomo colpito",
+          "interazione tra fotone ed elettrone dell'orbitale più esterno dell'atomo colpito",
+          "interazione tra elettrone e un fascio luminoso"
+        ],
+        "risposta_corretta": "interazione tra fotone (X) e elettrone dell'orbitale più interno dell'atomo colpito"
+      },
+      {
+        "num_domanda": 52,
+        "domanda": "La dose efficace annua media dipendente dalla radioattiva naturale nell'ambiente terrestre è:",
+        "opzioni": [
+          "solo teorica",
+          "di circa 20 mSv",
+          "di circa 2 mSv",
+          "di circa 10 mSv"
+        ],
+        "risposta_corretta": "di circa 2 mSv"
+      }
+    ]
+  },
+  {
+    "num_page": 7,
+    "items": [
+      {
+        "num_domanda": 53,
+        "domanda": "La dose equivalente è:",
+        "opzioni": [
+          "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
+          "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata",
+          "la dose assorbita moltiplicata per lo spessore di corpo attraversato",
+          "la dose assorbita moltiplicata per l’area esposta"
+        ],
+        "risposta_corretta": "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata"
+      },
+      {
+        "num_domanda": 54,
+        "domanda": "Il decadimento radioattivo:",
+        "opzioni": [
+          "non ha alcun utilizzo nelle applicazioni mediche",
+          "è un fattore importante in medicina nucleare",
+          "è un fattore importante in radiologia diagnostica assieme ai raggi X",
+          "non è utilizzato in radioterapia"
+        ],
+        "risposta_corretta": "è un fattore importante in medicina nucleare"
+      },
+      {
+        "num_domanda": 55,
+        "domanda": "L’effetto stocastico:",
+        "opzioni": [
+          "è soglia dipendente",
+          "non è soglia dipendente",
+          "ha una rappresentazione grafica curvilinea",
+          "non è presente in ambito medico"
+        ],
+        "risposta_corretta": "non è soglia dipendente"
+      },
+      {
+        "num_domanda": 56,
+        "domanda": "L’effetto deterministico:",
+        "opzioni": [
+          "è soglia dipendente",
+          "non è soglia dipendente",
+          "ha una rappresentazione grafica curvilinea",
+          "non è presente in ambito medico"
+        ],
+        "risposta_corretta": "è soglia dipendente"
+      },
+      {
+        "num_domanda": 57,
+        "domanda": "In gravidanza l’utilizzo diagnostico di radiazioni ionizzanti:",
+        "opzioni": [
+          "è sempre giustificato",
+          "non è mai giustificato",
+          "è giustificato solo in caso di effettiva necessità",
+          "può essere eseguito solo con il consenso scritto da parte del ginecologo"
+        ],
+        "risposta_corretta": "è giustificato solo in caso di effettiva necessità"
+      },
+      {
+        "num_domanda": 58,
+        "domanda": "L’utilizzo di camici piombati durante procedure radiodiagnostiche:",
+        "opzioni": [
+          "non ha alcuna efficacia nel proteggere paziente e/o operatore",
+          "ha una moderata efficacia nel proteggere il paziente e/o l’operatore",
+          "ha una elevata efficacia nel proteggere il paziente e/o l’operatore",
+          "può in taluni casi essere addirittura dannoso per l’eccessiva ionizzazione del materiale piombifero a stretto contatto con il corpo del paziente e/o dell’operatore"
+        ],
+        "risposta_corretta": "ha una elevata efficacia nel proteggere il paziente e/o l’operatore"
+      },
+      {
+        "num_domanda": 59,
+        "domanda": "Il danno deterministico:",
+        "opzioni": [
+          "non avviene alle dosi utilizzate in radiologia diagnostica",
+          "avviene anche alle dosi utilizzate in radiologia diagnostica",
+          "non avviene in radioterapia",
+          "è un evento raro in radioterapia"
+        ],
+        "risposta_corretta": "non avviene alle dosi utilizzate in radiologia diagnostica"
+      },
+      {
+        "num_domanda": 60,
+        "domanda": "Il danno cellulare diretto:",
+        "opzioni": [
+          "dipende dai radicali liberi prodotti",
+          "non dipende dai radicali liberi prodotti",
+          "è il tipo di danno prevalente nel corpo umano",
+          "è un danno irreparabile"
+        ],
+        "risposta_corretta": "non dipende dai radicali liberi prodotti"
+      },
+      {
+        "num_domanda": 61,
+        "domanda": "Il danno cellulare indiretto:",
+        "opzioni": [
+          "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+          "non è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+          "avviene solo ad elevate dosi",
+          "è un danno trascurabile"
+        ],
+        "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni"
+      }
+    ]
+  },
+  {
+    "num_page": 8,
+    "items": [
+      {
+        "num_domanda": 62,
+        "domanda": "La dose efficace è:",
+        "opzioni": [
+          "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
+          "la dose equivalente moltiplicata per il solo fattore peso dipendente dal tipo di radiazione utilizzata",
+          "la dose equivalente moltiplicata per lo spessore del corpo attraversato",
+          "la dose equivalente moltiplicata per l’area esposta"
+        ],
+        "risposta_corretta": "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
+      },
+      {
+        "num_domanda": 63,
+        "domanda": "L’attenuazione dei raggi x è direttamente proporzionale:",
+        "opzioni": [
+          "al contenuto di acqua nel corpo attraversato",
+          "al numero atomico medio del corpo attraversato",
+          "alla costante di Plank",
+          "al contenuto in aria del corpo attraversato"
+        ],
+        "risposta_corretta": "al numero atomico medio del corpo attraversato"
+      },
+      {
+        "num_domanda": 64,
+        "domanda": "Quale fra queste affermazioni riferite ai raggi x è falsa:",
+        "opzioni": [
+          "sono in grado di penetrare la materia secondo la sua densità",
+          "impressionano le pellicole fotografiche",
+          "alcuni materiali colpiti dai raggi x emettono fotoni luminosi",
+          "necessitano di aria per propagarsi da un punto a un altro"
+        ],
+        "risposta_corretta": "necessitano di aria per propagarsi da un punto a un altro"
+      },
+      {
+        "num_domanda": 65,
+        "domanda": "Sono radiazioni ionizzanti:",
+        "opzioni": [
+          "ultrasuoni",
+          "raggi infrarossi",
+          "raggi gamma",
+          "onde radio"
+        ],
+        "risposta_corretta": "raggi gamma"
+      },
+      {
+        "num_domanda": 66,
+        "domanda": "Il danno cellulare indiretto:",
+        "opzioni": [
+          "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+          "non è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+          "avviene solo ad elevate dosi",
+          "è un danno trascurabile"
+        ],
+        "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni"
+      },
+      {
+        "num_domanda": 67,
+        "domanda": "Le radiazioni ionizzanti sono caratterizzate:",
+        "opzioni": [
+          "da un livello energetico adeguatamente elevato",
+          "da una unica natura fisica",
+          "da entrambe queste caratteristiche",
+          "da una specifica lunghezza d’onda"
+        ],
+        "risposta_corretta": "da un livello energetico adeguatamente elevato"
+      },
+      {
+        "num_domanda": 68,
+        "domanda": "L’energia delle radiazioni si misura in:",
+        "opzioni": [
+          "kev",
+          "joule",
+          "kcal",
+          "ma/s"
+        ],
+        "risposta_corretta": "kev"
+      },
+      {
+        "num_domanda": 69,
+        "domanda": "L’unità di misura della dose assorbita è:",
+        "opzioni": [
+          "Gray",
+          "kilovolt",
+          "silvert",
+          "ma/s"
+        ],
+        "risposta_corretta": "Gray"
+      },
+      {
+        "num_domanda": 70,
+        "domanda": "Il flusso di corrente nel tubo radiogeno si misura in:",
+        "opzioni": [
+          "kev",
+          "joule",
+          "m/s",
+          "ma/s"
+        ],
+        "risposta_corretta": "ma/s"
+      }
+    ]
+  },
+  {
+    "num_page": 9,
+    "items": [
+      {
+        "num_domanda": 71,
+        "domanda": "Non è un componente del tubo radiogeno:",
+        "opzioni": [
+          "catodo",
+          "anodo",
+          "ampolla",
+          "laser"
+        ],
+        "risposta_corretta": "laser"
+      },
+      {
+        "num_domanda": 72,
+        "domanda": "Un telecomandato è:",
+        "opzioni": [
+          "un tavolo radiologico rotante",
+          "un tavolo radiologico fisso",
+          "un tavolo radiologico mobile a rotelle",
+          "un tavolo radiologico inclinabile"
+        ],
+        "risposta_corretta": "un tavolo radiologico inclinabile"
+      },
+      {
+        "num_domanda": 73,
+        "domanda": "Un telecomandato viene utilizzato per:",
+        "opzioni": [
+          "esami radiologici al tubo digerente",
+          "radiografia della mano per età ossea",
+          "eseguire tac",
+          "eseguire radiografie del torace"
+        ],
+        "risposta_corretta": "esami radiologici al tubo digerente"
+      },
+      {
+        "num_domanda": 74,
+        "domanda": "Quale delle seguenti affermazioni riferite alla TAC è falsa",
+        "opzioni": [
+          "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso",
+          "il tubo radiogeno viene fatto ruotare attorno al paziente",
+          "i raggi x emessi dal corpo sono registrati da detettori",
+          "il computer traduce in immagini i segnali registrati dai detettori"
+        ],
+        "risposta_corretta": "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso"
+      },
+      {
+        "num_domanda": 75,
+        "domanda": "Non è un vantaggio della TAC multistrato:",
+        "opzioni": [
+          "esecuzione esami su due pazienti contemporaneamente",
+          "maggiore copertura di volume esaminato",
+          "applicazioni cliniche avanzate come angiotac",
+          "maggiore risoluzione spaziale longitudinale"
+        ],
+        "risposta_corretta": "esecuzione esami su due pazienti contemporaneamente"
+      },
+      {
+        "num_domanda": 76,
+        "domanda": "Quale delle seguenti affermazioni è corretta riguardo l'esposizione alle radiazioni ionizzanti di pazienti pediatrici:",
+        "opzioni": [
+          "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti",
+          "alcuni organi dei bambini sono meno radiosensibili di quelli degli adulti",
+          "la dose assorbita è il doppio di quella dell'adulto",
+          "la dose assorbita è la metà di quella dell'adulto"
+        ],
+        "risposta_corretta": "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti"
+      },
+      {
+        "num_domanda": 77,
+        "domanda": "Le interazioni fotoni materia biologica non avvengono attraverso",
+        "opzioni": [
+          "effetto Compton",
+          "effetto fotoelettrico",
+          "effetto Johnson",
+          "produzione di coppie"
+        ],
+        "risposta_corretta": "effetto Johnson"
+      },
+      {
+        "num_domanda": 78,
+        "domanda": "Quale di queste affermazioni è vera circa l'effetto Compton",
+        "opzioni": [
+          "determina la produzione di un elettrone secondario",
+          "determina la produzione di positroni",
+          "è causato dall'interazione fra ultrasuoni e materia",
+          "è di tipo di interazione più frequente in radiodiagnostica"
+        ],
+        "risposta_corretta": "determina la produzione di un elettrone secondario"
+      },
+      {
+        "num_domanda": 79,
+        "domanda": "La cessione di energia mediante effetto Fotoelettrico ed effetto Compton si realizza:",
+        "opzioni": [
+          "mediante interazione con elettroni orbitali dell'atomo irradiato",
+          "mediante interazione con il nucleo dell'atomo irradiato",
+          "mediante interazione sia con il nucleo sia con gli elettroni orbitali dell'atomo irradiato",
+          "mediante interazione con il campo magnetico dell'atomo irradiato"
+        ],
+        "risposta_corretta": "mediante interazione con elettroni orbitali dell'atomo irradiato"
+      }
+    ]
+  },
+  {
+    "num_page": 10,
+    "items": [
+      {
+        "num_domanda": 80,
+        "domanda": "In quale di questi effetti la cessione di energia alla materia dipende in modo rilevante dal peso atomico del materiale irradiato",
+        "opzioni": [
+          "effetto fotoelettrico",
+          "effetto Compton",
+          "effetto coppia",
+          "fotodisintegrazione nucleare"
+        ],
+        "risposta_corretta": "effetto fotoelettrico"
+      },
+      {
+        "num_domanda": 81,
+        "domanda": "Il trasferimento lineare di energia (LET) di una radiazione ionizzante:",
+        "opzioni": [
+          "è costante in tutte le radiazioni ionizzanti",
+          "dipende dalle proprietà biologiche del tessuto irradiato",
+          "è tanto maggiore quanto è più penetrante la radiazione",
+          "aumenta con l'aumentare della capacità di ionizzazione della radiazione"
+        ],
+        "risposta_corretta": "aumenta con l'aumentare della capacità di ionizzazione della radiazione"
+      },
+      {
+        "num_domanda": 82,
+        "domanda": "Sono radiazioni a basso LET:",
+        "opzioni": [
+          "protoni",
+          "neutroni",
+          "elettroni",
+          "raggi alfa"
+        ],
+        "risposta_corretta": "elettroni"
+      },
+      {
+        "num_domanda": 83,
+        "domanda": "L'efficacia biologica relativa di una radiazione dipende:",
+        "opzioni": [
+          "dalla natura della radiazione",
+          "dalla energia della radiazione",
+          "dalle caratteristiche biologiche del tessuto irradiato",
+          "dal tasso di ossigeno presente nel tessuto irradiato"
+        ],
+        "risposta_corretta": "dalla natura della radiazione"
+      },
+      {
+        "num_domanda": 84,
+        "domanda": "A livello delle macromolecole organiche le radiazioni ionizzanti provocano:",
+        "opzioni": [
+          "solo danni diretti",
+          "solo danni indiretti tramite la radiolisi dell'acqua",
+          "entrambi i tipi di danno",
+          "nessuno dei due tipi di danno"
+        ],
+        "risposta_corretta": "entrambi i tipi di danno"
+      },
+      {
+        "num_domanda": 85,
+        "domanda": "Fra i danni provocati dalle Radiazioni Ionizzanti al DNA, non sono riparabili:",
+        "opzioni": [
+          "danni letali",
+          "danni potenzialmente letali",
+          "danni subletali",
+          "danni potenzialmente letali e danni subletali"
+        ],
+        "risposta_corretta": "danni letali"
+      },
+      {
+        "num_domanda": 86,
+        "domanda": "Si definisce mortalità cellulare \"da colpo singolo\" quella provocata da:",
+        "opzioni": [
+          "danno letale",
+          "danno potenzialmente letale",
+          "danno letale e danno potenzialmente letale",
+          "danno subletale"
+        ],
+        "risposta_corretta": "danno letale e danno potenzialmente letale"
+      },
+      {
+        "num_domanda": 87,
+        "domanda": "La mortalità cellulare da basse dosi di radiazioni ionizzanti si verifica principalmente per:",
+        "opzioni": [
+          "coagulazione delle proteine",
+          "attivazione della apoptosi",
+          "blocco della mitosi per danni letali al DNA",
+          "mutazioni geniche ed aberrazioni cromosomiche"
+        ],
+        "risposta_corretta": "blocco della mitosi per danni letali al DNA"
+      }
+    ]
+  },
+  {
+    "num_page": 11,
+    "items": [
+      {
+        "num_domanda": 88,
+        "domanda": "Perché l'ossigeno è importante per il manifestarsi dell'effetto biologico delle radiazioni ionizzanti?",
+        "opzioni": [
+          "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche",
+          "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno diretto alle macromolecole organiche",
+          "perché ostacola il recupero del danno sub-letale",
+          "perché aumenta la radiosensibilità intrinseca delle cellule irradiate"
+        ],
+        "risposta_corretta": "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche"
+      },
+      {
+        "num_domanda": 89,
+        "domanda": "Quale di questi fattori non influenza la sopravvivenza cellulare di una popolazione irradiata",
+        "opzioni": [
+          "l'energia della radiazione ionizzante",
+          "il LET della radiazione",
+          "la tensione di ossigeno nel tessuto irradiato",
+          "il frazionamento della dose"
+        ],
+        "risposta_corretta": "l'energia della radiazione ionizzante"
+      },
+      {
+        "num_domanda": 90,
+        "domanda": "La radiosensibilità intrinseca dipende principalmente:",
+        "opzioni": [
+          "energia della radiazione ionizzante",
+          "tensione di ossigeno",
+          "capacità di recupero del danno riparabile",
+          "LET della radiazione ionizzante"
+        ],
+        "risposta_corretta": "capacità di recupero del danno riparabile"
+      },
+      {
+        "num_domanda": 91,
+        "domanda": "Quale di queste affermazioni sul frazionamento della dose è vera?",
+        "opzioni": [
+          "somministrando la dose in modo frazionato aumenta l'effetto di letalità cellulare",
+          "nell'intervallo fra le frazioni si verifica il recupero del danno sub-letale",
+          "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata",
+          "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\""
+        ],
+        "risposta_corretta": "nell'intervallo fra le frazioni si verifica il recupero del danno sub-letale"
+      },
+      {
+        "num_domanda": 92,
+        "domanda": "Quale di queste affermazioni sul frazionamento della dose è vera?",
+        "opzioni": [
+          "somministrando la dose in modo frazionato aumenta l'effetto di letalità cellulare",
+          "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità",
+          "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata",
+          "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\""
+        ],
+        "risposta_corretta": "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità"
+      },
+      {
+        "num_domanda": 93,
+        "domanda": "È un effetto stocastico delle radiazioni ionizzanti:",
+        "opzioni": [
+          "la dermatite da raggi",
+          "l'opacizzazione del cristallino",
+          "la sclerodermia",
+          "la neoplasia radioindotta"
+        ],
+        "risposta_corretta": "la neoplasia radioindotta"
+      },
+      {
+        "num_domanda": 94,
+        "domanda": "Tumori e malformazioni genetiche",
+        "opzioni": [
+          "possono verificarsi anche per una singola radiografia del torace",
+          "sono effetti deterministici",
+          "richiedono il superamento di una dose soglia per verificarsi",
+          "sono causati dai raggi gamma ma non dai raggi x"
+        ],
+        "risposta_corretta": "possono verificarsi anche per una singola radiografia del torace"
+      },
+      {
+        "num_domanda": 95,
+        "domanda": "Gli effetti somatici delle radiazioni ionizzanti",
+        "opzioni": [
+          "colpiscono le generalizzazioni successive dell'individuo irradiato",
+          "colpiscono sia l'individuo irradiato che le generazioni successive",
+          "colpiscono solo i somi delle vertebre lombari",
+          "colpiscono solo l'individuo irradiato"
+        ],
+        "risposta_corretta": "colpiscono solo l'individuo irradiato"
+      }
+    ]
+  },
+  {
+    "num_page": 12,
+    "items": [
+      {
+        "num_domanda": 96,
+        "domanda": "Quando si manifestano i danni tardivi delle radiazioni ionizzanti",
+        "opzioni": [
+          "durante l'irradiazione",
+          "appena conclusa l'irradiazione",
+          "entro tre mesi dall'irradiazione",
+          "molti mesi o anni dopo l'irradiazione"
+        ],
+        "risposta_corretta": "molti mesi o anni dopo l'irradiazione"
+      },
+      {
+        "num_domanda": 97,
+        "domanda": "I danni stocastici da radiazioni ionizzanti:",
+        "opzioni": [
+          "non richiedono un valore soglia della dose",
+          "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose",
+          "di solito si manifestano dopo un periodo di latenza di anni",
+          "tutte le risposte precedenti sono corrette"
+        ],
+        "risposta_corretta": "tutte le risposte precedenti sono corrette"
+      },
+      {
+        "num_domanda": 98,
+        "domanda": "Quale di queste affermazioni sui danni stocastici da radiazioni ionizzanti è falsa:",
+        "opzioni": [
+          "non richiedono un valore soglia della dose",
+          "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose",
+          "si manifestano con intensità graduata, in funzione della dose",
+          "di solito si manifestano dopo un periodo di latenza di anni"
+        ],
+        "risposta_corretta": "si manifestano con intensità graduata, in funzione della dose"
+      },
+      {
+        "num_domanda": 99,
+        "domanda": "I danni deterministici da radiazioni ionizzanti:",
+        "opzioni": [
+          "richiedono un valore soglia della dose nella loro manifestazione clinica",
+          "si manifestano in modo graduato. con intensità correlata alla dose",
+          "di solito si manifestano dopo un periodo di latenza di anni",
+          "tutte le risposte precedenti sono corrette"
+        ],
+        "risposta_corretta": "tutte le risposte precedenti sono corrette"
+      },
+      {
+        "num_domanda": 100,
+        "domanda": "I danni deterministici da radiazioni ionizzanti:",
+        "opzioni": [
+          "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa",
+          "si manifestano soprattutto nei tessuti con popolazioni cellulari a rapida cinetica proliferativa",
+          "si manifestano analogamente in tutti i tessuti, indipendentemente dalla cinetica proliferativa",
+          "non richiedono un valore soglia della dose nella loro manifestazione clinica"
+        ],
+        "risposta_corretta": "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa"
+      },
+      {
+        "num_domanda": 101,
+        "domanda": "Quale di queste affermazioni sui danni deterministici da radiazioni ionizzanti è falsa:",
+        "opzioni": [
+          "richiedono un valore soglia della dose nella loro manifestazione clinica",
+          "possono essere sia genetici che somatici",
+          "si manifestano in modo graduato, con l'intensità correlata alla dose",
+          "di solito si manifestano dopo un periodo di latenza di anni"
+        ],
+        "risposta_corretta": "possono essere sia genetici che somatici"
+      },
+      {
+        "num_domanda": 102,
+        "domanda": "Negli organi con organizzazione strutturale di tipo parallelo la probabilità e l'entità del danno tardivo sono correlati con:",
+        "opzioni": [
+          "la dose totale erogata e il suo frazionamento",
+          "il volume di organo irradiato",
+          "entrambi i fattori",
+          "nessuno dei due fattori"
+        ],
+        "risposta_corretta": "entrambi i fattori"
+      },
+      {
+        "num_domanda": 103,
+        "domanda": "Negli organi con organizzazione strutturale di tipo seriale la probabilità e l'entità del danno tardivo sono correlati con:",
+        "opzioni": [
+          "la dose totale erogata e il suo frazionamento",
+          "il volume di organo irradiato",
+          "entrambi i fattori",
+          "nessuno dei due fattori"
+        ],
+        "risposta_corretta": "la dose totale erogata e il suo frazionamento"
+      },
+      {
+        "num_domanda": 104,
+        "domanda": "Quale di questi organi ha una organizzazione \"seriale\":",
+        "opzioni": [
+          "il midollo spinale",
+          "il polmone",
+          "il fegato",
+          "il rene"
+        ],
+        "risposta_corretta": "il midollo spinale"
+      }
+    ]
+  },
+  {
+    "num_page": 13,
+    "items": [
+      {
+        "num_domanda": 105,
+        "domanda": "Quale di questi organi non ha una organizzazione “seriale”:",
+        "opzioni": [
+          "il midollo spinale",
+          "l’esofago",
+          "il fegato",
+          "l’intestino"
+        ],
+        "risposta_corretta": "il fegato"
+      },
+      {
+        "num_domanda": 106,
+        "domanda": "Quale di questi organi ha una organizzazione “parallela”:",
+        "opzioni": [
+          "il midollo spinale",
+          "l’esofago",
+          "il polmone",
+          "l’intestino"
+        ],
+        "risposta_corretta": "il polmone"
+      },
+      {
+        "num_domanda": 107,
+        "domanda": "Quale di questi organi non ha una organizzazione “parallela”:",
+        "opzioni": [
+          "l’encefalo",
+          "il molmone",
+          "il fegato",
+          "il midollo spinale"
+        ],
+        "risposta_corretta": "il midollo spinale"
+      },
+      {
+        "num_domanda": 108,
+        "domanda": "I danni tardivi deterministici sono la conseguenza di danni a livello:",
+        "opzioni": [
+          "del comportamento staminale delle cellule parenchimali",
+          "della componente stromale del tessuto/organo",
+          "della componente vascolare del tessuto/organo",
+          "di tutte queste strutture"
+        ],
+        "risposta_corretta": "di tutte queste strutture"
+      },
+      {
+        "num_domanda": 109,
+        "domanda": "Quale di questi organi ha maggior rischio di danno tardivo a parità di dose?",
+        "opzioni": [
+          "midollo emopoietico",
+          "midollo spinale",
+          "fegato",
+          "osso nell’adulto"
+        ],
+        "risposta_corretta": "midollo emopoietico"
+      },
+      {
+        "num_domanda": 110,
+        "domanda": "Qual è il periodo più sensibile della gravidanza ai danni da radiazioni ionizzanti?",
+        "opzioni": [
+          "primo trimestre",
+          "secondo trimestre",
+          "terzo trimestre",
+          "la radiosensibilità è sempre uguale"
+        ],
+        "risposta_corretta": "primo trimestre"
+      },
+      {
+        "num_domanda": 111,
+        "domanda": "Non fa parte degli interventi di prevenzione del rischio da radiazioni ionizzanti",
+        "opzioni": [
+          "individuazione e studio delle cause e dei fattori di rischio",
+          "controllo degli esposti",
+          "riduzione dei rischi a livello collettivo e individuale",
+          "frequenza di un corso per addetti allo spegnimento degli incendi"
+        ],
+        "risposta_corretta": "frequenza di un corso per addetti allo spegnimento degli incendi"
+      },
+      {
+        "num_domanda": 112,
+        "domanda": "L’esposizione alle radiazioni ionizzanti può avvenire:",
+        "opzioni": [
+          "per l’attività lavorativa controllata e con rispetto delle norme di radioprotezione",
+          "per scopi sanitari diagnostici e terapeutici secondo il principio della giustificazione",
+          "quotidianamente, per esposizione alla radioattività naturale",
+          "tutte le risposte sono corrette"
+        ],
+        "risposta_corretta": "tutte le risposte sono corrette"
+      },
+      {
+        "num_domanda": 113,
+        "domanda": "Cos'è la contaminazione radioattiva?",
+        "opzioni": [
+          "contatto diretto della sostanza radioattiva con l’individuo",
+          "esposizione al fascio emesso da una sorgente radioattiva",
+          "contaminazione batterica di una sostanza radioattiva",
+          "nessuna delle risposte precedenti è giusta"
+        ],
+        "risposta_corretta": "contatto diretto della sostanza radioattiva con l’individuo"
+      }
+    ]
+  },
+  {
+    "num_page": 14,
+    "items": [
+      {
+        "num_domanda": 114,
+        "domanda": "Se si rispettano i limiti di dose della attuale legislazione (legge 230/95) quali danni sono sicuramente evitabili?",
+        "opzioni": [
+          "i danni stocastici",
+          "i danni deterministici",
+          "nessun danno è totalmente evitabile",
+          "tutti i danni sono evitabili"
+        ],
+        "risposta_corretta": "i danni deterministici"
+      },
+      {
+        "num_domanda": 115,
+        "domanda": "Un’indagine diagnostica con esposizione alle radiazioni ionizzanti",
+        "opzioni": [
+          "può essere eseguita senza alcuna restrizione",
+          "può essere eseguita in donne gravide in programmi di screening",
+          "non comporta rischi in età adulta",
+          "deve essere giustificata in termini di efficacia diagnostica"
+        ],
+        "risposta_corretta": "deve essere giustificata in termini di efficacia diagnostica"
+      },
+      {
+        "num_domanda": 116,
+        "domanda": "Indicare chi classifica i lavoratori e le aree con rischio di esposizione alle radiazioni ionizzanti:",
+        "opzioni": [
+          "l’esperto qualificato",
+          "il fisico sanitario",
+          "il medico autorizzato",
+          "il medico del lavoro"
+        ],
+        "risposta_corretta": "l’esperto qualificato"
+      },
+      {
+        "num_domanda": 117,
+        "domanda": "Indicare chi effettua la sorveglianza medica dei lavoratori professionalmente esposti alle radiazioni ionizzanti di categoria A:",
+        "opzioni": [
+          "l’esperto qualificato",
+          "il medico del lavoro",
+          "il medico autorizzato",
+          "il primario del reparto dove si lavora"
+        ],
+        "risposta_corretta": "il medico autorizzato"
+      },
+      {
+        "num_domanda": 118,
+        "domanda": "Quale di queste non è una figura professionale della radioprotezione",
+        "opzioni": [
+          "esercente",
+          "responsabile dell’impianto radiologico",
+          "medico autorizzato",
+          "fisico medico"
+        ],
+        "risposta_corretta": "fisico medico"
+      },
+      {
+        "num_domanda": 119,
+        "domanda": "Chi è responsabile della verifica periodica dei livelli diagnostici di riferimento (LDR) di un impianto radiologico",
+        "opzioni": [
+          "esercente",
+          "responsabile dell’impianto radiologico",
+          "medico autorizzato",
+          "esperto qualificato"
+        ],
+        "risposta_corretta": "responsabile dell’impianto radiologico"
+      },
+      {
+        "num_domanda": 120,
+        "domanda": "Le radiazioni ionizzanti in ambito medico sono utilizzate:",
+        "opzioni": [
+          "In radiodiagnostica, medicina nucleare e radioterapia"
+        ],
+        "risposta_corretta": "In radiodiagnostica, medicina nucleare e radioterapia"
+      },
+      {
+        "num_domanda": 121,
+        "domanda": "I raggi X persistono nella sala radiologica, una volta interrotta la esposizione radiante, per:",
+        "opzioni": [
+          "Scompaiono immediatamente"
+        ],
+        "risposta_corretta": "Scompaiono immediatamente"
+      },
+      {
+        "num_domanda": 122,
+        "domanda": "L’effetto fotoelettrico avviene:",
+        "opzioni": [
+          "Interazione tra fotone (X) e elettrone dell’orbitale più interno dell’atomo colpito"
+        ],
+        "risposta_corretta": "Interazione tra fotone (X) e elettrone dell’orbitale più interno dell’atomo colpito"
+      },
+      {
+        "num_domanda": 123,
+        "domanda": "La dose equivalente è:",
+        "opzioni": [
+          "La dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata"
+        ],
+        "risposta_corretta": "La dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata"
+      },
+      {
+        "num_domanda": 124,
+        "domanda": "Il decadimento radioattivo:",
+        "opzioni": [
+          "È un fattore importante in medicina nucleare"
+        ],
+        "risposta_corretta": "È un fattore importante in medicina nucleare"
+      },
+      {
+        "num_domanda": 125,
+        "domanda": "L’effetto stocastico:",
+        "opzioni": [
+          "Non è soglia dipendente"
+        ],
+        "risposta_corretta": "Non è soglia dipendente"
+      }
+    ]
+  },
+  {
+    "num_page": 15,
+    "items": [
+      {
+        "num_domanda": 126,
+        "domanda": "L'effetto deterministico:",
+        "opzioni": [
+          "È soglia dipendente"
+        ],
+        "risposta_corretta": "È soglia dipendente"
+      },
+      {
+        "num_domanda": 127,
+        "domanda": "In gravidanza l'utilizzo diagnostico di radiazioni ionizzanti:",
+        "opzioni": [
+          "È giustificato solo in caso di effettiva necessità"
+        ],
+        "risposta_corretta": "È giustificato solo in caso di effettiva necessità"
+      },
+      {
+        "num_domanda": 128,
+        "domanda": "L'utilizzo di camici piombati durante procedure radiodiagnostiche:",
+        "opzioni": [
+          "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore"
+        ],
+        "risposta_corretta": "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore"
+      },
+      {
+        "num_domanda": 129,
+        "domanda": "Il danno deterministico:",
+        "opzioni": [
+          "Non avviene alle dosi utilizzate in radiologia diagnostica"
+        ],
+        "risposta_corretta": "Non avviene alle dosi utilizzate in radiologia diagnostica"
+      },
+      {
+        "num_domanda": 130,
+        "domanda": "Il danno cellulare diretto:",
+        "opzioni": [
+          "Non dipende dai radicali liberi prodotti"
+        ],
+        "risposta_corretta": "Non dipende dai radicali liberi prodotti"
+      },
+      {
+        "num_domanda": 131,
+        "domanda": "Il danno cellulare indiretto:",
+        "opzioni": [
+          "È il danno determinato dai radicali liberi prodotti dalle radiazioni"
+        ],
+        "risposta_corretta": "È il danno determinato dai radicali liberi prodotti dalle radiazioni"
+      },
+      {
+        "num_domanda": 132,
+        "domanda": "La dose efficace è:",
+        "opzioni": [
+          "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
+        ],
+        "risposta_corretta": "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
+      },
+      {
+        "num_domanda": 133,
+        "domanda": "Cosa differenzia le zone controllate dalle zone sorvegliate:",
+        "opzioni": [
+          "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti"
+        ],
+        "risposta_corretta": "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti"
+      },
+      {
+        "num_domanda": 134,
+        "domanda": "Indicare l'organo o tessuto che a parità di classificazione ha il limite di dose annuale più restrittivo:",
+        "opzioni": [
+          "Corpo intero"
+        ],
+        "risposta_corretta": "Corpo intero"
+      },
+      {
+        "num_domanda": 135,
+        "domanda": "Un dosimetro individuale:",
+        "opzioni": [
+          "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione"
+        ],
+        "risposta_corretta": "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione"
+      },
+      {
+        "num_domanda": 136,
+        "domanda": "Quale affermazione è falsa:",
+        "opzioni": [
+          "I radicali liberi sono molto stabili"
+        ],
+        "risposta_corretta": "I radicali liberi sono molto stabili"
+      },
+      {
+        "num_domanda": 137,
+        "domanda": "Radiazioni ad alto LET:",
+        "opzioni": [
+          "Radiazioni corpuscolate"
+        ],
+        "risposta_corretta": "Radiazioni corpuscolate"
+      },
+      {
+        "num_domanda": 138,
+        "domanda": "Molecola bersaglio:",
+        "opzioni": [
+          "DNA"
+        ],
+        "risposta_corretta": "DNA"
+      },
+      {
+        "num_domanda": 139,
+        "domanda": "Fase del ciclo cellulare più radiosensibile",
+        "opzioni": [
+          "M e G2"
+        ],
+        "risposta_corretta": "M e G2"
+      },
+      {
+        "num_domanda": 140,
+        "domanda": "Particelle cariche pesanti (protoni, neutroni, alfa):",
+        "opzioni": [
+          "Hanno alto LET e basso range"
+        ],
+        "risposta_corretta": "Hanno alto LET e basso range"
+      },
+      {
+        "num_domanda": 141,
+        "domanda": "Effetto fotoelettrico",
+        "opzioni": [
+          "Produce una coppia di ioni e radiazione caratteristica"
+        ],
+        "risposta_corretta": "Produce una coppia di ioni e radiazione caratteristica"
+      },
+      {
+        "num_domanda": 142,
+        "domanda": "Fattore di ponderazione della radiazione",
+        "opzioni": [
+          "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento"
+        ],
+        "risposta_corretta": "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento"
+      },
+      {
+        "num_domanda": 143,
+        "domanda": "L'unità di misura gray corrisponde a:",
+        "opzioni": [
+          "Assorbimento di un joule per un kg di materia"
+        ],
+        "risposta_corretta": "Assorbimento di un joule per un kg di materia"
+      },
+      {
+        "num_domanda": 144,
+        "domanda": "Quale affermazione sulle radiazioni ionizzanti è vera?",
+        "opzioni": [
+          "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi"
+        ],
+        "risposta_corretta": "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi"
+      }
+    ]
+  },
+  {
+    "num_page": 16,
+    "items": [      
+      {
+        "num_domanda": 146,
+        "domanda": "Quale malattia è correlata agli effetti stocastici genetici?",
+        "opzioni": [
+          "Neoplasia radioindotta"
+        ],
+        "risposta_corretta": "Neoplasia radioindotta"
+      },
+      {
+        "num_domanda": 147,
+        "domanda": "Quante volte è più grande la dose assorbita nella TC-pelvi che nella RX torace",
+        "opzioni": [
+          "Più di 400 rx torace"
+        ],
+        "risposta_corretta": "Più di 400 rx torace"
+      }
+    ]
+  },
+  {
+    "num_page": 17,
+    "items": [
+      {
+        "num_domanda": 1,
+        "domanda": "A chi spetta la competenza della prescrizione",
+        "opzioni": [
+          "è condivisa tra medico ed infermiere",
+          "è esclusiva del medico",
+          "è esclusiva dell'infermiere",
+          "è condivisa tra i professionisti appartenenti alle professioni sanitarie"
+        ],
+        "risposta_corretta": "è esclusiva del medico"
+      },
+      {
+        "num_domanda": 2,
+        "domanda": "A cosa fa riferimento Joint Commission International quando parla di “Prescrizione verbale/telefonica ripetuta”?",
+        "opzioni": [
+          "quando l'infermiere riceve una prescrizione verbale chiede al medico di ripeterla due volte",
+          "il medico può prescrivere verbalmente o telefonicamente all'infermiere di somministrare ripetutamente il farmaco al paziente",
+          "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile",
+          "quando l'infermiere riceve una prescrizione verbale o telefonica ripete al medico che non può essere considerata valida"
+        ],
+        "risposta_corretta": "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile"
+      },
+      {
+        "num_domanda": 3,
+        "domanda": "L'infermiere si assicura che tutti i farmaci siano conservati:",
+        "opzioni": [
+          "nella loro confezione originale",
+          "rispettando le indicazioni circa la temperatura",
+          "lontano da umidità e fonti di calore",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 4,
+        "domanda": "Gli standard di somministrazione sicura della terapia:",
+        "opzioni": [
+          "prevedono l'applicazione degli standard denominati “sette G” prima dell'assunzione da parte del paziente",
+          "presuppongono un atto unitario, sequenziale e cronologico",
+          "sono azioni mirate a garantire la sicurezza nella pratica assistenziale",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 5,
+        "domanda": "I farmaci ad alto livello di attenzione sono:",
+        "opzioni": [
+          "tutti i farmaci",
+          "farmaci che richiedono particolare attenzione nella gestione da parte della farmacia centrale",
+          "farmaci che richiedono particolare attenzione nella gestione per il costo elevato",
+          "farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni"
+        ],
+        "risposta_corretta": "farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni"
+      },
+      {
+        "num_domanda": 6,
+        "domanda": "A cosa si riferisce l'acronimo “LASA”?",
+        "opzioni": [
+          "ai farmaci ad alto livello di attenzione",
+          "ai farmaci che possono essere scambiati con altri per la somiglianza grafica",
+          "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome",
+          "alla procedura di conservazione/registrazione dei farmaci stupefacenti"
+        ],
+        "risposta_corretta": "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome"
+      },
+      {
+        "num_domanda": 7,
+        "domanda": "Quali sono le sedi elettive per l'esecuzione di un prelievo venoso?",
+        "opzioni": [
+          "vene della fossa cubitale",
+          "vene del cavo popliteo",
+          "vene della mano",
+          "vene degli arti inferiori"
+        ],
+        "risposta_corretta": "vene della fossa cubitale"
+      }
+    ]
+  },
+  {
+    "num_page": 18,
+    "items": [
+      {
+        "num_domanda": 8,
+        "domanda": "Che cosa è un'indagine di laboratorio?",
+        "opzioni": [
+          "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente esclusivamente nel sangue",
+          "è un procedimento analitico volto ad evidenziare la presenza di alterazioni del profilo genetico di un substrato",
+          "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico",
+          "è un procedimento analitico attuato su animali, detti “cavie da laboratorio” per testare i farmaci prima di commercializzarli"
+        ],
+        "risposta_corretta": "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico"
+      },
+      {
+        "num_domanda": 9,
+        "domanda": "Il volume di sangue per emocoltura raccomandato nell'adulto va:",
+        "opzioni": [
+          "da 10 a 20 ml per flacone",
+          "da 10 a 20 ml per set di flaconi",
+          "da 20 a 30 ml per set di flaconi",
+          "da 5 a 10 ml per flacone"
+        ],
+        "risposta_corretta": "da 20 a 30 ml per set di flaconi"
+      },
+      {
+        "num_domanda": 10,
+        "domanda": "Al termine di un'infusione endovenosa il lavaggio dell'ago cannula deve essere effettuato:",
+        "opzioni": [
+          "sempre con soluzione fisiologica 0,9%",
+          "sempre con soluzione eparinata",
+          "mai non è necessario alcun lavaggio",
+          "solo se si è somministrato farmaci irritanti"
+        ],
+        "risposta_corretta": "sempre con soluzione fisiologica 0,9%"
+      },
+      {
+        "num_domanda": 11,
+        "domanda": "Per la somministrazione di iniezioni intramuscolari è considerata più sicura e meno dolorosa:",
+        "opzioni": [
+          "sede retto femorale",
+          "sede dorsoglutea",
+          "sede deltoidea",
+          "sede ventroglutea"
+        ],
+        "risposta_corretta": "sede ventroglutea"
+      },
+      {
+        "num_domanda": 12,
+        "domanda": "Quale arteria è utilizzabile dall'infermiere per il prelievo di sangue arterioso?",
+        "opzioni": [
+          "femorale",
+          "radiale",
+          "entrambe",
+          "nessuna"
+        ],
+        "risposta_corretta": "radiale"
+      },
+      {
+        "num_domanda": 13,
+        "domanda": "Qual è la complicanza più frequente legata alla terapia sottocutanea con eparina a basso peso molecolare?",
+        "opzioni": [
+          "lipodistrofia muscolare",
+          "ematomi locali",
+          "ascesso sterile",
+          "embolia gassosa"
+        ],
+        "risposta_corretta": "ematomi locali"
+      },
+      {
+        "num_domanda": 14,
+        "domanda": "Come viene definito nella letteratura infermieristica l'accordo raggiunto tra operatore sanitario e assistito che rispetti le credenze e i desideri di quest'ultimo sulla gestione dei farmaci?",
+        "opzioni": [
+          "coping",
+          "concordance",
+          "compliance",
+          "aderenza"
+        ],
+        "risposta_corretta": "concordance"
+      },
+      {
+        "num_domanda": 15,
+        "domanda": "Come si misura il diametro di un ago?",
+        "opzioni": [
+          "in millimetri",
+          "in french",
+          "in gauge",
+          "in milliequivalenti"
+        ],
+        "risposta_corretta": "in gauge"
+      }
+    ]
+  },
+  {
+    "num_page": 19,
+    "items": [
+      {
+        "num_domanda": 16,
+        "domanda": "Con la somministrazione dei farmaci attraverso la via sublinguale:",
+        "opzioni": [
+          "si evita l'effetto di primo passaggio epatico",
+          "si curano le lesioni della mucosa del cavo orale",
+          "si può ottenere un assorbimento lento e costante nelle 24 ore",
+          "si possono somministrare farmaci ai bambini di età inferiore ai 18 mesi"
+        ],
+        "risposta_corretta": "si evita l'effetto di primo passaggio epatico"
+      },
+      {
+        "num_domanda": 17,
+        "domanda": "Il registro di carico e scarico di sostanze stupefacenti e psicotrope riguardo alle operazioni di entrata/uscita può essere compilato e firmato da:",
+        "opzioni": [
+          "solo dal coordinatore dell'unità operativa",
+          "dagli infermieri presenti nelle 24 ore successive alla somministrazione del farmaco",
+          "dall'infermiere che somministra il farmaco",
+          "dall'infermiere che somministra il farmaco e/o dall'operatore di supporto presente all'atto"
+        ],
+        "risposta_corretta": "dall'infermiere che somministra il farmaco"
+      },
+      {
+        "num_domanda": 18,
+        "domanda": "Quale affermazione è corretta?",
+        "opzioni": [
+          "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere firmati dal medico che ha la responsabilità del prelievo",
+          "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere eseguiti e firmati dal medico che ha la responsabilità del prelievo",
+          "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e inviati separatamente in laboratorio analisi",
+          "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo"
+        ],
+        "risposta_corretta": "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo"
+      },
+      {
+        "num_domanda": 19,
+        "domanda": "Cosa si intende per \"prescrizione condizionata\"?",
+        "opzioni": [
+          "prescrizione verbale o telefonica",
+          "prescrizione dipendente dal verificarsi di un evento futuro ed incerto (es. prescrizione \"al bisogno\")",
+          "prescrizione che fa riferimento ad un protocollo di reparto condiviso",
+          "prescrizione valida esclusivamente per 24 ore"
+        ],
+        "risposta_corretta": "prescrizione dipendente dal verificarsi di un evento futuro ed incerto (es. prescrizione \"al bisogno\")"
+      },
+      {
+        "num_domanda": 20,
+        "domanda": "Quando è possibile utilizzare una prescrizione verbale?",
+        "opzioni": [
+          "è sempre consentito, purché il prescrittore sia un medico",
+          "non è mai consentito",
+          "è possibile solo in ambito extra ospedaliero",
+          "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile"
+        ],
+        "risposta_corretta": "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile"
+      },
+      {
+        "num_domanda": 21,
+        "domanda": "Come può essere espresso il dosaggio di un farmaco?",
+        "opzioni": [
+          "peso, altezza, volume",
+          "chilocalorie, peso, volume",
+          "peso, volume, unità internazionali, costo della singola confezione",
+          "peso, volume, unità internazionali, milliequivalenti"
+        ],
+        "risposta_corretta": "peso, volume, unità internazionali, milliequivalenti"
+      },
+      {
+        "num_domanda": 22,
+        "domanda": "Quali tra questi sono da considerare farmaci ad alto livello di attenzione?",
+        "opzioni": [
+          "soluzioni concentrate di potassio cloruro (KCI)",
+          "eparina",
+          "anticoagulanti (dicumarolici-warfarin)",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 23,
+        "domanda": "L'infermiere si assicura che tutti i farmaci siano conservati:",
+        "opzioni": [
+          "nella loro confezione originale, lontano da umidità e fonti di luce, rispettando le indicazioni circa la temperatura di conservazione",
+          "lontano da umidità e fonti di luce, a temperatura ambiente",
+          "lontano da umidità, ponendo particolare attenzione ai medicinali antimicotici e polivitaminici",
+          "lontano da umidità e fonti di luce, in frigorifero tra i 2° e 8° C"
+        ],
+        "risposta_corretta": "nella loro confezione originale, lontano da umidità e fonti di luce, rispettando le indicazioni circa la temperatura di conservazione"
+      }
+    ]
+  },
+  {
+    "num_page": 20,
+    "items": [      
+      {
+        "num_domanda": 24,
+        "domanda": "Nei contesti assistenziali in cui sono conservate soluzioni concentrate di potassio cloruro (KCI):",
+        "opzioni": [
+          "devono essere conservate nell'armadio dei farmaci riposte in modo che sia in evidenza il nome del prodotto",
+          "devono essere conservate nell'armadio dei farmaci in uno spazio separato",
+          "devono essere conservate separate dagli altri farmaci in armadi chiusi",
+          "devono essere conservate separate dagli altri farmaci in armadi chiusi, in contenitori che rechino la segnalazione “diluire prima dell'infusione-mortale se infuso non diluito”"
+        ],
+        "risposta_corretta": "devono essere conservate separate dagli altri farmaci in armadi chiusi, in contenitori che rechino la segnalazione “diluire prima dell'infusione-mortale se infuso non diluito”"
+      },
+      {
+        "num_domanda": 25,
+        "domanda": "I segni e i sintomi di un'infiltrazione venosa sono:",
+        "opzioni": [
+          "cute pallida e fredda al tatto, edema, fuoriuscita di pus dal sito d'infusione",
+          "cute edematosa, calda, arrossata, febbre",
+          "cute pallida e fredda al tatto, dolore",
+          "cute pallida e fredda al tatto, edema, presenza o assenza di dolore"
+        ],
+        "risposta_corretta": "cute pallida e fredda al tatto, edema, presenza o assenza di dolore"
+      },
+      {
+        "num_domanda": 26,
+        "domanda": "La somministrazione di farmaci per via endovenosa rappresentata da “introduzione di una dose concentrata di farmaco direttamente nella circolazione sistemica” viene definita come:",
+        "opzioni": [
+          "infusione continua",
+          "infusione intermittente",
+          "bolo endovena",
+          "ipodermoclisi"
+        ],
+        "risposta_corretta": "bolo endovena"
+      },
+      {
+        "num_domanda": 27,
+        "domanda": "In merito all'iniezione intradermica quale affermazione è falsa:",
+        "opzioni": [
+          "ha finalità diagnostica ed effetto locale",
+          "se compare un pomfo significa che è stato penetrato il tessuto ipodermico",
+          "viene effettuata nel derma con inserimento dell'ago con un'angolatura di 10°-15°",
+          "si somministrano generalmente 0,1 ml"
+        ],
+        "risposta_corretta": "se compare un pomfo significa che è stato penetrato il tessuto ipodermico"
+      },
+      {
+        "num_domanda": 28,
+        "domanda": "In una vena periferica non si può infondere:",
+        "opzioni": [
+          "500ml di NaCl 0,9% (soluzione fisiologica)",
+          "sacca da 2000 ml di nutrizione parenterale totale (npt)",
+          "500 ml di soluzione elettrolitica reidratante",
+          "emocomponenti"
+        ],
+        "risposta_corretta": "sacca da 2000 ml di nutrizione parenterale totale (npt)"
+      },
+      {
+        "num_domanda": 29,
+        "domanda": "Da cosa è costituito un sistema chiuso per il prelievo ematico?",
+        "opzioni": [
+          "ago monouso e siringa sterile senza ago",
+          "ago monouso, provette sottovuoto autoaspiranti, contenitore per il trasporto delle provette",
+          "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti",
+          "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette in vetro"
+        ],
+        "risposta_corretta": "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti"
+      },
+      {
+        "num_domanda": 30,
+        "domanda": "Ogni quanto tempo devono essere sostituite le linee infusionali quando si infondono soluzioni a base di lipidi?",
+        "opzioni": [
+          "ogni 12 ore",
+          "ogni 24 ore",
+          "ogni 72 ore",
+          "ogni volta che si sostituisce la fleboclisi"
+        ],
+        "risposta_corretta": "ogni 24 ore"
+      },
+      {
+        "num_domanda": 31,
+        "domanda": "Per evitare che il sangue sia trasfuso a persona sbagliata o trasfuso sangue non compatibile è necessario:",
+        "opzioni": [
+          "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori",
+          "verificare l'identità dell'assistito in modo attivo attraverso il braccialetto identificativo e il braccialetto con codice colore della trasfusione",
+          "verificare l'identità dell'assistito in modo attivo, controllare che il numero della cartella clinica corrisponda a quello del braccialetto identificativo",
+          "verificare l'identità dell'assistito in modo attivo e controllare che in cartella clinica sia presente la richiesta di trasfusione"
+        ],
+        "risposta_corretta": "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori"
+      }
+    ]
+  },
+  {
+    "num_page": 21,
+    "items": [      
+      {
+        "num_domanda": 32,
+        "domanda": "La trasfusione non può durare più di quattro ore perché:",
+        "opzioni": [
+          "il sangue può perdere le sue caratteristiche",
+          "l'anticoagulante contenuto nella sacca può provocare alterazioni dei globuli rossi",
+          "l'assistito tende ad avere ansia e aumento della PA",
+          "il sangue può contaminarsi"
+        ],
+        "risposta_corretta": "il sangue può contaminarsi"
+      },
+      {
+        "num_domanda": 33,
+        "domanda": "Secondo la normativa vigente dove vengono conservati i farmaci stupefacenti nelle unità operative?",
+        "opzioni": [
+          "nell'armadio dei farmaci che ha la possibilità di essere chiuso a chiave",
+          "in un cassetto apposito collocato nello studio del coordinatore responsabile dell'U.O.",
+          "in cassaforte o un armadio farmaceutico chiuso a chiave in luogo separato dagli altri farmaci",
+          "in cassaforte o un armadio farmaceutico chiuso a chiave collocato nello studio del dirigente medico"
+        ],
+        "risposta_corretta": "in cassaforte o un armadio farmaceutico chiuso a chiave in luogo separato dagli altri farmaci"
+      },
+      {
+        "num_domanda": 34,
+        "domanda": "Che cosa si intende per prescrizione farmacologica?",
+        "opzioni": [
+          "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
+          "atto mediante il quale l'infermiere stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
+          "atto mediante il quale l'infermiere allestisce una via venosa per la somministrazione di un farmaco",
+          "atto mediante il quale il medico prepara un trattamento specifico, in genere un farmaco, per un paziente"
+        ],
+        "risposta_corretta": "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente"
+      },
+      {
+        "num_domanda": 35,
+        "domanda": "Quali sono gli elementi per una prescrizione completa?",
+        "opzioni": [
+          "tipo di farmaco, dosaggio, ditta farmaceutica produttrice, via di somministrazione",
+          "dosaggio, tempo di somministrazione, via di somministrazione, ditta farmaceutica produttrice, forma farmaceutica",
+          "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico",
+          "nome del paziente, nome del medico prescrittore, orario di somministrazione"
+        ],
+        "risposta_corretta": "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico"
+      },
+      {
+        "num_domanda": 36,
+        "domanda": "Per applicare lo standard di \"giusto farmaco\" è necessario effettuare il \"triplice controllo\", ovvero:",
+        "opzioni": [
+          "lettura del nome del farmaco dalla scheda di terapia, lettura nella fase di apertura della confezione, lettura nella fase di sistemazione della confezione",
+          "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione",
+          "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione",
+          "nessuna delle precedenti"
+        ],
+        "risposta_corretta": "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione"
+      }
+    ]
+  },
+  {
+    "num_page": 22,
+    "items": [
+      {
+        "num_domanda": 37,
+        "domanda": "\"Farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni\". Si tratta della definizione di:",
+        "opzioni": [
+          "farmaci stupefacenti",
+          "farmaci ad alto livello di attenzione",
+          "antibiotici",
+          "nessuna delle precedenti"
+        ],
+        "risposta_corretta": "farmaci ad alto livello di attenzione"
+      },
+      {
+        "num_domanda": 38,
+        "domanda": "Le soluzioni concentrate di Potassio cloruro (KCI):",
+        "opzioni": [
+          "durante la somministrazione richiedono le precauzioni standard per la somministrazione dei farmaci",
+          "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione",
+          "richiedono il controllo da parte del medico durante la preparazione, etichettatura e somministrazione",
+          "possono essere somministrate esclusivamente dal medico"
+        ],
+        "risposta_corretta": "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione"
+      },
+      {
+        "num_domanda": 39,
+        "domanda": "Se un esame deve essere eseguito in \"condizioni basali\" come deve presentarsi la persona?",
+        "opzioni": [
+          "può assumere sostanze liquide prima di eseguire l'esame (es. latte zuccherato, succhi di frutta, yogurt bianco)",
+          "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui non può assumere neanche acqua",
+          "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità",
+          "non è importante mantenere il digiuno prima dell'esecuzione di un esame"
+        ],
+        "risposta_corretta": "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità"
+      },
+      {
+        "num_domanda": 40,
+        "domanda": "Perché è importante la scelta del calibro dell'ago utilizzato per eseguire un esame ematico?",
+        "opzioni": [
+          "il calibro è indifferente",
+          "l'azienda ospedaliera acquista un quantitativo elevato di aghi dello stesso calibro e questo permette di avere prezzi inferiori",
+          "il calibro deve essere idoneo a permettere un deflusso lento del sangue e favorire così l'emolisi",
+          "il calibro deve essere idoneo a permettere un deflusso rapido del sangue ed evitare così l'emolisi"
+        ],
+        "risposta_corretta": "il calibro deve essere idoneo a permettere un deflusso rapido del sangue ed evitare così l'emolisi"
+      },
+      {
+        "num_domanda": 41,
+        "domanda": "La procedura per la raccolta di un campione di sangue per esame colturale prevede:",
+        "opzioni": [
+          "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili o guanti non sterili",
+          "di riempire i flaconi senza un ordine preciso e di eseguire la manovra con i guanti sterili o non sterili",
+          "di riempire prima il flacone per anaerobi e poi per aerobi e di eseguire la manovra con guanti sterili o guanti non sterili",
+          "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili"
+        ],
+        "risposta_corretta": "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili"
+      },
+      {
+        "num_domanda": 42,
+        "domanda": "Quale tra le seguenti affermazioni è falsa?",
+        "opzioni": [
+          "la manovra di Lesser non è indicata nella terapia sottocutanea",
+          "la manovra di Lesser serve per valutare se l'ago è accidentalmente finito in un vaso",
+          "in presenza di siringhe pre-dosate di eparina a basso peso molecolare, la bolla presente non va rimossa prima della somministrazione del farmaco",
+          "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione"
+        ],
+        "risposta_corretta": "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione"
+      }
+    ]
+  },
+  {
+    "num_page": 23,
+    "items": [
+      {
+        "num_domanda": 43,
+        "domanda": "Per prevenire la lipodistrofia in corso di terapia con insulina è utile:",
+        "opzioni": [
+          "ruotare i punti di iniezione e le sedi",
+          "utilizzare la tecnica del pizzicotto o plica cutanea durante l'iniezione",
+          "effettuare la manovra di Lesser",
+          "effettuare tecnica a Z o Z trak"
+        ],
+        "risposta_corretta": "ruotare i punti di iniezione e le sedi"
+      },
+      {
+        "num_domanda": 44,
+        "domanda": "Un ago cannula posizionato in un accesso periferico deve essere sostituito:",
+        "opzioni": [
+          "mai prima che siano trascorse 72 ore",
+          "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura",
+          "quando il paziente lo desidera",
+          "quando si devono utilizzare soluzioni ipertoniche"
+        ],
+        "risposta_corretta": "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura"
+      },
+      {
+        "num_domanda": 45,
+        "domanda": "Quale affermazione risulta falsa in caso di prelievo per emogasanalisi (arterioso o venoso):",
+        "opzioni": [
+          "serve una siringa da 2,5 ml eparinata",
+          "servono occhiali protettivi o maschera con visiera",
+          "il campione di sangue va conservato a temperatura ambiente",
+          "è una procedura dolorosa"
+        ],
+        "risposta_corretta": "il campione di sangue va conservato a temperatura ambiente"
+      },
+      {
+        "num_domanda": 46,
+        "domanda": "Nel caso si debba somministrare terapia per via orale ad una persona disfagica è indicato:",
+        "opzioni": [
+          "posizionare il farmaco nella parte più tonica della bocca",
+          "consigliare l'uso della cannuccia",
+          "diluire il più possibile il farmaco",
+          "far rimanere la persona supina 30 minuti dopo la somministrazione"
+        ],
+        "risposta_corretta": "posizionare il farmaco nella parte più tonica della bocca"
+      },
+      {
+        "num_domanda": 47,
+        "domanda": "L'ipodermoclisi è un'infusione di liquidi per via:",
+        "opzioni": [
+          "endovenosa",
+          "intramuscolare",
+          "intradermica",
+          "sottocutanea"
+        ],
+        "risposta_corretta": "sottocutanea"
+      },
+      {
+        "num_domanda": 48,
+        "domanda": "Cosa si intende per trasfusione di sangue autologa?",
+        "opzioni": [
+          "infusione di sangue o emoderivati provenienti da una persona appartenente alla stessa famiglia (genitore, fratello, figlio) del ricevente",
+          "infusione di sangue o emoderivati provenienti da donatore volontario",
+          "infusione di sangue o emoderivati ricavati da preparazioni anticipatamente lavate e centrifugate",
+          "reinfusione alla persona del proprio sangue anticipatamente prelevato e predepositato per provvedere a sue specifiche necessità trasfusionali"
+        ],
+        "risposta_corretta": "reinfusione alla persona del proprio sangue anticipatamente prelevato e predepositato per provvedere a sue specifiche necessità trasfusionali"
+      },
+      {
+        "num_domanda": 49,
+        "domanda": "In caso di sospetta reazione avversa durante l'esecuzione di un'emotrasfusione:",
+        "opzioni": [
+          "rallentare la trasfusione, rilevare i parametri vitali e avvertire immediatamente il medico",
+          "sospendere immediatamente la trasfusione, mantenere pervio l'accesso venoso con NaCl 0,9%, avvertire il medico",
+          "sospendere immediatamente la trasfusione, somministrare idrocortisone attraverso la via endovenosa e monitorare la risposta dell'assistito",
+          "rilevare i parametri vitali e monitorare i segni e sintomi presenti nell'assistito"
+        ],
+        "risposta_corretta": "rallentare la trasfusione, rilevare i parametri vitali e avvertire immediatamente il medico"
+      },
+      {
+        "num_domanda": 50,
+        "domanda": "Il consenso informato per trasfondere sangue o emoderivati:",
+        "opzioni": [
+          "è acquisito dal personale dell'unità operativa attraverso adeguate informazioni e firma di un apposito modulo",
+          "è sufficiente il consenso informato presente in cartella clinica riguardante l'accettazione dei trattamenti",
+          "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo"
+        ],
+        "risposta_corretta": "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo"
+      }
+    ]
+  },
+  {
+    "num_page": 24,
+    "items": [
+      {
+        "num_domanda": 51,
+        "domanda": "Secondo la normativa vigente come deve essere compilato il registro di carico e scarico degli stupefacenti?",
+        "opzioni": [
+          "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
+          "Ogni pagina del registro intestata ad un assistito, indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
+          "Ogni pagina del registro può contenere più preparazioni farmacologiche ma registrate in ordine rigorosamente cronologico di somministrazione, senza lacune di trascrizione, senza lasciare spazi vuoti",
+          "Ogni pagina del registro può contenere più preparazioni farmacologiche ma registrate in ordine rigorosamente cronologico di somministrazione, senza lacune di trascrizione, lasciando libera la riga sottostante per eventuali annotazioni"
+        ],
+        "risposta_corretta": "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti"
+      },
+      {
+        "num_domanda": 52,
+        "domanda": "Una prescrizione scritta con grafia poco leggibile è equiparata a una:",
+        "opzioni": [
+          "prescrizione imprecisa",
+          "prescrizione imperfetta",
+          "prescrizione corrente",
+          "prescrizione incompleta"
+        ],
+        "risposta_corretta": "prescrizione incompleta"
+      },
+      {
+        "num_domanda": 53,
+        "domanda": "L'atto di somministrazione della terapia farmacologica è definito:",
+        "opzioni": [
+          "atto medico, sequenziale, documentato",
+          "atto unitario, sequenziale, cronologico",
+          "atto tecnico, unitario, cronologico",
+          "atto infermieristico, tecnico, sequenziale"
+        ],
+        "risposta_corretta": "atto unitario, sequenziale, cronologico"
+      },
+      {
+        "num_domanda": 54,
+        "domanda": "I medicinali di automedicazione sono destinati a:",
+        "opzioni": [
+          "curare disturbi facilmente riconoscibili e risolvibili senza ricorrere all'aiuto di un medico",
+          "curare disturbi determinati da patologie croniche",
+          "curare disturbi diagnosticati dallo specialista",
+          "curare sintomi con effetto placebo"
+        ],
+        "risposta_corretta": "curare disturbi facilmente riconoscibili e risolvibili senza ricorrere all'aiuto di un medico"
+      },
+      {
+        "num_domanda": 55,
+        "domanda": "In quale D.M è siglata la \"Approvazione del registro di carico e scarico delle sostanze stupefacenti e psicotrope per le unità operative\"?",
+        "opzioni": [
+          "15/2/1996",
+          "25/2/1999",
+          "03/08/2001",
+          "14/3/1994"
+        ],
+        "risposta_corretta": "03/08/2001"
+      },
+      {
+        "num_domanda": 56,
+        "domanda": "La Raccomandazione ministeriale che si occupa dei farmaci LASA è:",
+        "opzioni": [
+          "n° 12/08/2010",
+          "n° 7/03/2008",
+          "n° 5/09/2009",
+          "n° 1/03/2008"
+        ],
+        "risposta_corretta": "n° 12/08/2010"
+      },
+      {
+        "num_domanda": 57,
+        "domanda": "Quale delle seguenti competenze rientra tra quelle dell'OSS nella somministrazione di farmaci?",
+        "opzioni": [
+          "aiutare per la corretta somministrazione dei farmaci prescritti",
+          "sorvegliare e sospendere la fleboclisi",
+          "aiutare per la corretta assunzione dei farmaci prescritti"
+        ],
+        "risposta_corretta": "aiutare per la corretta assunzione dei farmaci prescritti"
+      }
+    ]
+  },
+  {
+    "num_page": 25,
+    "items": [
+      {
+        "num_domanda": 58,
+        "domanda": "Quale preparato può essere somministrato per via sublinguale?",
+        "opzioni": [
+          "capsula",
+          "spray",
+          "collutorio",
+          "sciroppo"
+        ],
+        "risposta_corretta": "spray"
+      },
+      {
+        "num_domanda": 59,
+        "domanda": "In quale tratto dell'apparato gastroenterico avviene il maggiore assorbimento del principio attivo dei medicinali assunti per via orale?",
+        "opzioni": [
+          "stomaco",
+          "intestino tenue",
+          "intestino crasso",
+          "intestino cieco"
+        ],
+        "risposta_corretta": "intestino tenue"
+      },
+      {
+        "num_domanda": 60,
+        "domanda": "Quale tra le seguenti vie di somministrazione non si utilizza per ottenere un effetto sistemico?",
+        "opzioni": [
+          "la via rettale",
+          "la via sublinguale",
+          "la via oftalmica",
+          "la via sottocutanea"
+        ],
+        "risposta_corretta": "la via oftalmica"
+      },
+      {
+        "num_domanda": 61,
+        "domanda": "Quale tra le seguenti non è una complicanza locale della somministrazione di farmaci per via endovenosa?",
+        "opzioni": [
+          "lipodistrofia",
+          "stravaso",
+          "tromboflebite",
+          "flebitie"
+        ],
+        "risposta_corretta": "lipodistrofia"
+      },
+      {
+        "num_domanda": 62,
+        "domanda": "Nel set di infusione a microgocce 1 ml corrisponde a:",
+        "opzioni": [
+          "30 gocce",
+          "40 gocce",
+          "60 gocce",
+          "100 gocce"
+        ],
+        "risposta_corretta": "60 gocce"
+      },
+      {
+        "num_domanda": 63,
+        "domanda": "Per ridurre la comparsa di complicanze locali nella sede di inserzione del catetere venoso periferico è necessario somministrare soluzioni con pH:",
+        "opzioni": [
+          "uguale a 7",
+          "tra 4 e 6",
+          "tra 7 e 9",
+          "tra 5 e 9"
+        ],
+        "risposta_corretta": "tra 5 e 9"
+      },
+      {
+        "num_domanda": 64,
+        "domanda": "Quale tra le seguenti affermazioni sulla somministrazione di medicinali per via intramuscolare è falsa?",
+        "opzioni": [
+          "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago"
+        ],
+        "risposta_corretta": "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago"
+      },
+      {
+        "num_domanda": 65,
+        "domanda": "Secondo la National Committee for Clinical Laboratori Standars, 2003, la sequenza di aspirazione prevede:",
+        "opzioni": [
+          "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi."
+        ],
+        "risposta_corretta": "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi."
+      },
+      {
+        "num_domanda": 66,
+        "domanda": "In che categorie di persone esiste la controindicazione assoluta all'esecuzione di prelievi sugli arti inferiori?",
+        "opzioni": [
+          "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie"
+        ],
+        "risposta_corretta": "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie"
+      },
+      {
+        "num_domanda": 67,
+        "domanda": "La prescrizione condizionata è accettabile se:",
+        "opzioni": [
+          "Basata su segni clinici rilevabili oggettivamente"
+        ],
+        "risposta_corretta": "Basata su segni clinici rilevabili oggettivamente"
+      }
+    ]
+  },
+  {
+    "num_page": 26,
+    "items": [
+      {
+        "num_domanda": 68,
+        "domanda": "Quale tra i seguenti non è un segno/sintomo di flebite o tromboflebite?",
+        "opzioni": [
+          "Ipotermia della sede di inserzione del catetere venoso"
+        ],
+        "risposta_corretta": "Ipotermia della sede di inserzione del catetere venoso"
+      },
+      {
+        "num_domanda": 69,
+        "domanda": "Dove si trova la vena cubitale mediana?",
+        "opzioni": [
+          "Al centro dell'avambraccio"
+        ],
+        "risposta_corretta": "Al centro dell'avambraccio"
+      },
+      {
+        "num_domanda": 70,
+        "domanda": "Ten fold error:",
+        "opzioni": [
+          "Approssimare i decimali"
+        ],
+        "risposta_corretta": "Approssimare i decimali"
+      },
+      {
+        "num_domanda": 71,
+        "domanda": "In che caso si utilizza l'ipodermoclisi?",
+        "opzioni": [
+          "In pazienti anziani con disidratazione grave e disfagici"
+        ],
+        "risposta_corretta": "In pazienti anziani con disidratazione grave e disfagici"
+      },
+      {
+        "num_domanda": 72,
+        "domanda": "Per cosa non viene utilizzata la via intradermica?",
+        "opzioni": [
+          "Prova di reazione alla tubercolina",
+          "Test cutanei",
+          "Desensibilizzazione",
+          "Terapia immunosoppressiva"
+        ],
+        "risposta_corretta": "Terapia immunosoppressiva"
+      },
+      {
+        "num_domanda": 73,
+        "domanda": "Quale di questi non è un segno di flebite o tromboflebite?",
+        "opzioni": [
+          "Ipotermia della sede di inserzione del CVP",
+          "Tumefazione",
+          "Palpazione visibile del cordone venoso"
+        ],
+        "risposta_corretta": "Tumefazione"
+      },
+      {
+        "num_domanda": 74,
+        "domanda": "Che guanti vengono usati per prelevare una emocoltura e l'ordine delle provette?",
+        "opzioni": [
+          "Guanti sterili – aerobi ed anaerobi"
+        ],
+        "risposta_corretta": "Guanti sterili – aerobi ed anaerobi"
+      },
+      {
+        "num_domanda": 75,
+        "domanda": "Che tipo di siringa si usa per fare una emogasanalisi?",
+        "opzioni": [
+          "Con eparina e conservazione in ghiaccio"
+        ],
+        "risposta_corretta": "Con eparina e conservazione in ghiaccio"
+      },
+      {
+        "num_domanda": 76,
+        "domanda": "Come è fatto il registro degli stupefacenti?",
+        "opzioni": [
+          "100 pagine, ogni pagina intestata ad una preparazione medicinale"
+        ],
+        "risposta_corretta": "100 pagine, ogni pagina intestata ad una preparazione medicinale"
+      },
+      {
+        "num_domanda": 77,
+        "domanda": "Quali sono le condizioni basali?",
+        "opzioni": [
+          "8-10 ore di digiuno"
+        ],
+        "risposta_corretta": "8-10 ore di digiuno"
+      },
+      {
+        "num_domanda": 78,
+        "domanda": "La ragione per quale si sceglie la dimensione di un ago cannula:",
+        "opzioni": [
+          "Per evitare la emolisi"
+        ],
+        "risposta_corretta": "Per evitare la emolisi"
+      },
+      {
+        "num_domanda": 79,
+        "domanda": "Cos'è il metodo Lesser?",
+        "opzioni": [
+          "Aspirazione"
+        ],
+        "risposta_corretta": "Aspirazione"
+      }      
+    ]
+  },
+  {
+    "num_page": 27,
+    "items": [
+      {
+        "num_domanda": 1,
+        "domanda": "Un paziente riferisce tosse secca e perdita di gusto. Quale farmaco sta assumendo presumibilmente?",
+        "opzioni": [
+          "lisinopril",
+          "lorazepam",
+          "propanolo",
+          "clonidina"
+        ],
+        "risposta_corretta": "lisinopril"
+      },
+      {
+        "num_domanda": 2,
+        "domanda": "Quale di questi farmaci è antipertensivo con effetto diuretico?",
+        "opzioni": [
+          "diazepam",
+          "nitroglicerina",
+          "efedrina",
+          "furosemide"
+        ],
+        "risposta_corretta": "furosemide"
+      },
+      {
+        "num_domanda": 3,
+        "domanda": "Quale dei seguenti farmaci ha effetto inotropo positivo?",
+        "opzioni": [
+          "digitale",
+          "nebivololo",
+          "enalapril",
+          "salbutamolo"
+        ],
+        "risposta_corretta": "digitale"
+      },
+      {
+        "num_domanda": 4,
+        "domanda": "Un paziente riferisce mal di testa. Quale farmaco sta assumendo verosimilmente? (Quale tra questi farmaci potrebbe essere la causa del suo disturbo?)",
+        "opzioni": [
+          "beclometasone",
+          "carvedilolo",
+          "nitroglicerina",
+          "propafenone"
+        ],
+        "risposta_corretta": "nitroglicerina"
+      },
+      {
+        "num_domanda": 5,
+        "domanda": "Quale fra questi farmaci è un antiaritmico di classe III?",
+        "opzioni": [
+          "propafenone",
+          "amiodarone",
+          "lidocaina",
+          "felcainide"
+        ],
+        "risposta_corretta": "amiodarone"
+      },
+      {
+        "num_domanda": 6,
+        "domanda": "Qual è l'antagonista dell'eparina?",
+        "opzioni": [
+          "vitamina K",
+          "protamina solfato",
+          "warfarin",
+          "adrenalina"
+        ],
+        "risposta_corretta": "protamina solfato"
+      },
+      {
+        "num_domanda": 7,
+        "domanda": "Principali effetti dei FANS:",
+        "opzioni": [
+          "solo antinfiammatorio",
+          "solo analgesico",
+          "esclusivamente antipiretico",
+          "antinfiammatorio, analgesico ed antipiretico"
+        ],
+        "risposta_corretta": "antinfiammatorio, analgesico ed antipiretico"
+      },
+      {
+        "num_domanda": 8,
+        "domanda": "Quale tra i seguenti farmaci può dare miopatia?",
+        "opzioni": [
+          "carvedilolo",
+          "nitroglicerina",
+          "fenitoina",
+          "atorvastatina"
+        ],
+        "risposta_corretta": "atorvastatina"
+      }
+    ]
+  },
+  {
+    "num_page": 28,
+    "items": [
+      {
+        "num_domanda": 9,
+        "domanda": "Sono effetti collaterali comuni per corticosteroidi:",
+        "opzioni": [
+          "aumento glicemia",
+          "osteoporosi",
+          "ulcera peptica",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 10,
+        "domanda": "La clonidina è: (La clonidina agisce come:)",
+        "opzioni": [
+          "agonista centrale alfa 2 (un agonista dei recettori α 2 presinaptici del tronco encefalico)",
+          "betabloccante",
+          "betastimolante",
+          "alfalitico"
+        ],
+        "risposta_corretta": "agonista centrale alfa 2 (un agonista dei recettori α 2 presinaptici del tronco encefalico)"
+      },
+      {
+        "num_domanda": 11,
+        "domanda": "Nel paziente scompensato con edema il farmaco d'elezione è: (Nel paziente scompensato con edema quale tra i seguenti farmaci è indicato?)",
+        "opzioni": [
+          "nebivololo",
+          "furosemide",
+          "lidocaina",
+          "amiodarone"
+        ],
+        "risposta_corretta": "furosemide"
+      },
+      {
+        "num_domanda": 12,
+        "domanda": "Quali sono i principali gruppi di farmaci per prevenire e trattare ulcera peptica?",
+        "opzioni": [
+          "inibitori pompa protonica",
+          "ACE-inibitori",
+          "antileucotrieni",
+          "betastimolanti"
+        ],
+        "risposta_corretta": "inibitori pompa protonica"
+      },
+      {
+        "num_domanda": 13,
+        "domanda": "Principali farmaci per osteoporosi: (Sono utilizzabili nella terapia dell'osteoporosi):",
+        "opzioni": [
+          "vitamina D3",
+          "bifosfonati",
+          "sali di calcio",
+          "tutti i precedenti"
+        ],
+        "risposta_corretta": "tutti i precedenti"
+      },
+      {
+        "num_domanda": 14,
+        "domanda": "Nell'attacco acuto d'asma quale dei seguenti gruppi di farmaci è utile?",
+        "opzioni": [
+          "laba",
+          "saba",
+          "corticosteroidi",
+          "antileucotrieni"
+        ],
+        "risposta_corretta": "saba"
+      },
+      {
+        "num_domanda": 15,
+        "domanda": "Il trattamento sintomatico delle riniti allergiche prevede:",
+        "opzioni": [
+          "antistaminico",
+          "salbutamolo",
+          "sotalolo",
+          "acido acetilsalicilico"
+        ],
+        "risposta_corretta": "antistaminico"
+      },
+      {
+        "num_domanda": 16,
+        "domanda": "Quali sono le vie di somministrazione per insulina?",
+        "opzioni": [
+          "solo sc",
+          "solo ev",
+          "per bocca",
+          "ev/im/sc"
+        ],
+        "risposta_corretta": "ev/im/sc"
+      },
+      {
+        "num_domanda": 17,
+        "domanda": "Qual è il principale meccanismo azione dei FANS?",
+        "opzioni": [
+          "stimolano la sintesi delle prostaglandine",
+          "stimolano la sintesi delle prostaglandine e cicloossigenasi",
+          "stimolano l'attività della cicloossigenasi",
+          "inibiscono la sintesi dei leucotrieni"
+        ],
+        "risposta_corretta": "stimolano la sintesi delle prostaglandine e cicloossigenasi"
+      }
+    ]
+  },
+  {
+    "num_page": 29,
+    "items": [
+      {
+        "num_domanda": 18,
+        "domanda": "Se ho depressione del respiro da morfina somministro:",
+        "opzioni": [
+          "fentatienil",
+          "sufentanil",
+          "naloxone",
+          "nitroglicerina"
+        ],
+        "risposta_corretta": "naloxone"
+      },
+      {
+        "num_domanda": 19,
+        "domanda": "Il meccanismo d'azione delle benzodiazepine è:",
+        "opzioni": [
+          "deprimere SNC con perdita coscienza",
+          "e l'attività motoria e sensoriale",
+          "potenziare la trasmissione dopaminergica",
+          "potenziare azione inibitoria del gaba"
+        ],
+        "risposta_corretta": "potenziare azione inibitoria del gaba"
+      },
+      {
+        "num_domanda": 20,
+        "domanda": "Nell'anestesia spinale controllare (che non si manifesti):",
+        "opzioni": [
+          "perdita coscienza",
+          "effetti di dipendenza",
+          "delirio eccitabilità",
+          "mal di testa ed ipotensione"
+        ],
+        "risposta_corretta": "mal di testa ed ipotensione"
+      },
+      {
+        "num_domanda": 21,
+        "domanda": "In Pronto Soccorso un paziente epilettico riceverà:",
+        "opzioni": [
+          "diazepam",
+          "gabapentin",
+          "levetiracetam",
+          "risperidone"
+        ],
+        "risposta_corretta": "diazepam"
+      },
+      {
+        "num_domanda": 22,
+        "domanda": "Un paziente deve ricevere sedazione per un piccolo intervento chirurgico, riceverà:",
+        "opzioni": [
+          "lidocaina",
+          "ketamina",
+          "alotano",
+          "propofol"
+        ],
+        "risposta_corretta": "propofol"
+      },
+      {
+        "num_domanda": 23,
+        "domanda": "Un farmaco antipsicotico agisce:",
+        "opzioni": [
+          "bloccando recettori adrenergici",
+          "aumentando sintesi prostaglandine",
+          "aumentando azione gaba",
+          "bloccando i recettori dopaminergici"
+        ],
+        "risposta_corretta": "bloccando i recettori dopaminergici"
+      },
+      {
+        "num_domanda": 24,
+        "domanda": "Un paziente riceve levodopa-carbidopa. Come controllare nausea e vomito?",
+        "opzioni": [
+          "lansoprazolo",
+          "domperidone",
+          "furosemide",
+          "clorpromazina"
+        ],
+        "risposta_corretta": "domperidone"
+      },
+      {
+        "num_domanda": 25,
+        "domanda": "Quale tra i seguenti è un diuretico risparmiatore di potassio?",
+        "opzioni": [
+          "furosemide",
+          "idroclorotiazide",
+          "spironolattone",
+          "nifedipina"
+        ],
+        "risposta_corretta": "spironolattone"
+      },
+      {
+        "num_domanda": 26,
+        "domanda": "Come agisce l'eparina?",
+        "opzioni": [
+          "inibisce l'aggregazione piastrinica",
+          "riduce la sintesi epatica dei fattori della coagulazione",
+          "aumenta la fibrinolisi",
+          "inibisce la funzione di alcuni fattori della coagulazione mediante un potenziamento dell'attività dell'antrombina III"
+        ],
+        "risposta_corretta": "inibisce la funzione di alcuni fattori della coagulazione mediante un potenziamento dell'attività dell'antrombina III"
+      }
+    ]
+  },
+  {
+    "num_page": 30,
+    "items": [
+      {
+        "num_domanda": 27,
+        "domanda": "Le indicazioni per l'impiego dei sartani sono:",
+        "opzioni": [
+          "trattamento dell'ipertensione arteriosa",
+          "terapia dello scompenso cardiaco congestizio",
+          "trattamento del post-infarto",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 28,
+        "domanda": "Indicare l'affermazione ERRATA: verapamil e diltiazem",
+        "opzioni": [
+          "aumentano l'apporto di ossigeno al miocardio",
+          "aumentano la contrattilità miocardica e la frequenza cardiaca",
+          "riducono il consumo di ossigeno da parte del miocardio",
+          "sono indicati nella terapia della cardiopatia ischemica"
+        ],
+        "risposta_corretta": "aumentano la contrattilità miocardica e la frequenza cardiaca"
+      },
+      {
+        "num_domanda": 29,
+        "domanda": "Il principale effetto collaterale dei farmaci antagonisti dei recettori H1 dell'istamina di I generazione è:",
+        "opzioni": [
+          "ipertensione",
+          "insonnia",
+          "sedazione",
+          "nausea e vomito"
+        ],
+        "risposta_corretta": "sedazione"
+      },
+      {
+        "num_domanda": 30,
+        "domanda": "Le statine:",
+        "opzioni": [
+          "possono provocare miopatie",
+          "non vanno mai utilizzate in associazione a ezetimibe/a resine",
+          "devono essere assunte solo per brevi periodi",
+          "sono controindicate nei pazienti diabetici"
+        ],
+        "risposta_corretta": "possono provocare miopatie"
+      },
+      {
+        "num_domanda": 31,
+        "domanda": "Qual è il principio attivo liberato dal profarmaco isosorbide mononitrato?",
+        "opzioni": [
+          "cicloossigenasi di tipo I",
+          "monossido d'azoto o ossido nitrico (NO)",
+          "AMP ciclico",
+          "nessuno dei precedenti"
+        ],
+        "risposta_corretta": "monossido d'azoto o ossido nitrico (NO)"
+      },
+      {
+        "num_domanda": 32,
+        "domanda": "Un farmaco ACE inibitore è indicato:",
+        "opzioni": [
+          "nel periodo post-infarto miocardico",
+          "nella nefropatia diabetica",
+          "nell'ipertensione arteriosa",
+          "in tutti i casi indicati"
+        ],
+        "risposta_corretta": "in tutti i casi indicati"
+      },
+      {
+        "num_domanda": 33,
+        "domanda": "In pazienti in trattamento con digitale, aritmie cardiache gravi possono essere causate dalla deplezione di:",
+        "opzioni": [
+          "Na+",
+          "K+",
+          "Mg++",
+          "Ca++"
+        ],
+        "risposta_corretta": "K+"
+      },
+      {
+        "num_domanda": 34,
+        "domanda": "L'uso dei beta-bloccanti è controindicato nei pazienti con:",
+        "opzioni": [
+          "asma bronchiale o BPCO",
+          "calcolosi renale",
+          "gastrite cronica",
+          "poliposi intestinale"
+        ],
+        "risposta_corretta": "asma bronchiale o BPCO"
+      },
+      {
+        "num_domanda": 35,
+        "domanda": "La digitale viene utilizzata per la terapia di:",
+        "opzioni": [
+          "vomito",
+          "colica renale",
+          "scompenso cardiaco",
+          "diarrea"
+        ],
+        "risposta_corretta": "scompenso cardiaco"
+      }
+    ]
+  },
+  {
+    "num_page": 31,
+    "items": [
+      {
+        "num_domanda": 36,
+        "domanda": "I farmaci cortisonici:",
+        "opzioni": [
+          "possono aumentare il rischio di sanguinamento gastrointestinale se associati ai FANS",
+          "possono determinare un aumento della glicemia in un paziente diabetico",
+          "possono causare osteoporosi",
+          "tutte le affermazioni sono corrette"
+        ],
+        "risposta_corretta": "tutte le affermazioni sono corrette"
+      },
+      {
+        "num_domanda": 37,
+        "domanda": "Sertralina e citalopram sono SSRI utilizzati principalmente nella terapia della:",
+        "opzioni": [
+          "epilessia",
+          "obesità",
+          "depressione",
+          "schizofrenia"
+        ],
+        "risposta_corretta": "depressione"
+      },
+      {
+        "num_domanda": 38,
+        "domanda": "Quale delle seguenti affermazioni NON è corretta?",
+        "opzioni": [
+          "l'effetto ansiolitico delle benzodiazepine si manifesta in breve tempo",
+          "le benzodiazepine sono indicate per la terapia a breve termine dell'insonnia",
+          "l'effetto antiepilettico delle benzodiazepine va in tolleranza in seguito a uso cronico",
+          "le benzodiazepine esercitano effetti ipnoinducenti ma non ansiolitici"
+        ],
+        "risposta_corretta": "le benzodiazepine esercitano effetti ipnoinducenti ma non ansiolitici"
+      },
+      {
+        "num_domanda": 39,
+        "domanda": "Quale affermazione inerente i seguenti farmaci antiepilettici è errata:",
+        "opzioni": [
+          "l'acido valproico è indicato nella terapia dei disturbi bipolari",
+          "l'acido valproico può alterare la funzionalità epatica",
+          "l'acido valproico ha effetti teratogeni",
+          "l'acido valproico ha limitate applicazioni in terapia antiepilettica"
+        ],
+        "risposta_corretta": "l'acido valproico ha limitate applicazioni in terapia antiepilettica"
+      },
+      {
+        "num_domanda": 40,
+        "domanda": "In caso di shock anafilattico quale tra i seguenti agisce più rapidamente? (Quale dei seguenti interventi è indicato per risolvere rapidamente lo shock anafilattico?)",
+        "opzioni": [
+          "antistaminico",
+          "cortisonico",
+          "adrenalina",
+          "cromoglicato di sodio"
+        ],
+        "risposta_corretta": "adrenalina"
+      },
+      {
+        "num_domanda": 41,
+        "domanda": "Riguardo ai farmaci curarici competitivi tipo vencuronio quale di queste affermazioni è vera?",
+        "opzioni": [
+          "bloccano i recettori nicotinici per l'acetilcolina a livello della placca motoria",
+          "causano depressione respiratoria per effetto inibente il sistema nervoso centrale",
+          "hanno un alto indice terapeutico",
+          "vengono somministrati per inalazione"
+        ],
+        "risposta_corretta": "bloccano i recettori nicotinici per l'acetilcolina a livello della placca motoria"
+      },
+      {
+        "num_domanda": 42,
+        "domanda": "I FANS sono controindicati nei casi seguenti tranne uno, quale?",
+        "opzioni": [
+          "ulcera peptica",
+          "insufficienza epatica o renale grave",
+          "emofilia ed alterazioni della coagulazione",
+          "artrite reumatoide"
+        ],
+        "risposta_corretta": "artrite reumatoide"
+      },
+      {
+        "num_domanda": 43,
+        "domanda": "Gli inibitori della pompa protonica (PPI) sono indicati:",
+        "opzioni": [
+          "per prevenire le gastrolesività dei FANS",
+          "per la terapia del reflusso gastroesofageo",
+          "per la terapia dell'ulcera peptica",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 44,
+        "domanda": "La terapia dell'attacco acuto d'asma bronchiale per risolvere il broncospasmo prevede:",
+        "opzioni": [
+          "beta2 agonisti a breve durata d'azione per via inalatoria",
+          "cromoni",
+          "beta2 agonisti a lunga durata d'azione per via inalatoria",
+          "omalizumab"
+        ],
+        "risposta_corretta": "beta2 agonisti a breve durata d'azione per via inalatoria"
+      }
+    ]
+  },
+  {
+    "num_page": 32,
+    "items": [
+      {
+        "num_domanda": 45,
+        "domanda": "La Metformina è un ipoglicemizzante orale della classe:",
+        "opzioni": [
+          "biguanidi",
+          "sulfaniluree",
+          "glitazoni",
+          "inibitori dell'enzima DDP/IV"
+        ],
+        "risposta_corretta": "biguanidi"
+      },
+      {
+        "num_domanda": 46,
+        "domanda": "Modalità d'azione dei farmaci antistaminici:",
+        "opzioni": [
+          "attività agonista sui recettori per l'istamina",
+          "inibizione della produzione di anticorpi della classe IgE",
+          "attività antagonista sui recettori per l'istamina",
+          "hanno effetto vasocostrittore diretto mediato da NO"
+        ],
+        "risposta_corretta": "attività antagonista sui recettori per l'istamina"
+      },
+      {
+        "num_domanda": 47,
+        "domanda": "Quale tra i seguenti farmaci è un inibitore di pompa protonica?",
+        "opzioni": [
+          "rifampicina",
+          "pantoprazolo",
+          "metoprololo",
+          "ranitidina"
+        ],
+        "risposta_corretta": "pantoprazolo"
+      },
+      {
+        "num_domanda": 48,
+        "domanda": "In quale di queste situazioni cliniche gli steroidi andrebbero, quando possibile, evitati?",
+        "opzioni": [
+          "diabete",
+          "patologie infiammatorie croniche",
+          "malattie allergiche",
+          "tumori"
+        ],
+        "risposta_corretta": "diabete"
+      },
+      {
+        "num_domanda": 49,
+        "domanda": "Qual è l'indicazione alla terapia con litio?",
+        "opzioni": [
+          "disturbo d'ansia",
+          "epilessia",
+          "disturbo bipolare",
+          "schizofrenia"
+        ],
+        "risposta_corretta": "disturbo bipolare"
+      },
+      {
+        "num_domanda": 50,
+        "domanda": "Su quale dei seguenti sistemi agiscono maggiormente gli antipsicotici di prima generazione?",
+        "opzioni": [
+          "dopaminergico",
+          "acetilcolinergico",
+          "noradrenergico",
+          "serotoninergico"
+        ],
+        "risposta_corretta": "dopaminergico"
+      },
+      {
+        "num_domanda": 51,
+        "domanda": "Tutte le seguenti affermazioni rispetto ai sartani sono vere tranne:",
+        "opzioni": [
+          "sono agonisti dei recettori AT1 dell'angiotensina",
+          "sono indicati nella terapia dell'ipertensione e in alcuni casi di scompenso cardiaco",
+          "possono essere utilizzati in pazienti nei quali l'uso di un ace inibitore ha indotto tosse secca",
+          "sono controindicati in gravidanza"
+        ],
+        "risposta_corretta": "sono agonisti dei recettori AT1 dell'angiotensina"
+      },
+      {
+        "num_domanda": 52,
+        "domanda": "L'aspirina può essere impiegata per la prevenzione secondaria delle malattie tromboliche. Qual è il dosaggio in questo caso?",
+        "opzioni": [
+          "3-4 g/die",
+          "500 mg ogni 2 ore",
+          "100 mg x 1/die",
+          "500 mg x 4/die"
+        ],
+        "risposta_corretta": "100 mg x 1/die"
+      },
+      {
+        "num_domanda": 53,
+        "domanda": "La terapia a lungo termine con un cortisonico:",
+        "opzioni": [
+          "può stimolare la funzione corticosurrenalica",
+          "può causare osteoporosi",
+          "è indicata per l'ulcera gastrica",
+          "nessuna delle precedenti"
+        ],
+        "risposta_corretta": "può causare osteoporosi"
+      }
+    ]
+  },
+  {
+    "num_page": 33,
+    "items": [
+      {
+        "num_domanda": 54,
+        "domanda": "L'omeprazolo è un farmaco antiulcera che agisce tramite:",
+        "opzioni": [
+          "produzione di muco protettivo",
+          "stimolazione del recettore delle prostaglandine",
+          "blocco del recettore H2 dell'istamina",
+          "inibizione della pompa protonica H+/K+-ATPasi"
+        ],
+        "risposta_corretta": "inibizione della pompa protonica H+/K+-ATPasi"
+      },
+      {
+        "num_domanda": 55,
+        "domanda": "I bifosfonati impiegati nella terapia dell'osteoporosi:",
+        "opzioni": [
+          "sono molecole poco polari facilmente assorbite a livello intestinale",
+          "aumentano la sopravvivenza degli osteoblasti/osteociti",
+          "si somministrano per os vicino ai pasti",
+          "sono facilmente metabolizzati per via epatica"
+        ],
+        "risposta_corretta": "aumentano la sopravvivenza degli osteoblasti/osteociti"
+      },
+      {
+        "num_domanda": 56,
+        "domanda": "L'ipoglicemia riscontrabile come effetto collaterale della somministrazione di insulina può dipendere da:",
+        "opzioni": [
+          "errori nella dose",
+          "fattori concomitanti che hanno alterato la sensibilità o l'assorbimento dell'insulina",
+          "non corrispondenza tra il picco plasmatico di insulina ed il pasto",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 57,
+        "domanda": "I glucocorticoidi:",
+        "opzioni": [
+          "attivano la proteina Gp",
+          "bloccano i canali per il calcio",
+          "interagiscono con recettori intracellulari",
+          "modificano il potenziale di membrana a riposo nelle cellule bersaglio"
+        ],
+        "risposta_corretta": "interagiscono con recettori intracellulari"
+      },
+      {
+        "num_domanda": 58,
+        "domanda": "Possibili effetti indesiderati in una terapia con L-dopa in pazienti con malattia di Parkinson:",
+        "opzioni": [
+          "tremore",
+          "bradicinesia",
+          "allucinazioni visive",
+          "rigidità muscolare"
+        ],
+        "risposta_corretta": "allucinazioni visive"
+      },
+      {
+        "num_domanda": 59,
+        "domanda": "Uno dei farmaci elencati è un anestetico locale:",
+        "opzioni": [
+          "tetraciclina",
+          "loratidina",
+          "lidocaina",
+          "amlodipina"
+        ],
+        "risposta_corretta": "lidocaina"
+      },
+      {
+        "num_domanda": 60,
+        "domanda": "Il recettore coinvolto nell'azione delle benzodiazepine è:",
+        "opzioni": [
+          "il recettore GABA-A",
+          "il recettore 5-HT2 per la serotonina",
+          "il recettore D1 per la dopamina",
+          "nessuno dei 3"
+        ],
+        "risposta_corretta": "il recettore GABA-A"
+      },
+      {
+        "num_domanda": 61,
+        "domanda": "L'alprazolam può determinare tutti i seguenti effetti eccetto:",
+        "opzioni": [
+          "effetto ansiolitico in breve tempo",
+          "sonnolenza nelle fasi iniziali della terapia",
+          "sindrome parkinsoniana iatrogena",
+          "ridotta coordinazione dei movimenti ad alte dosi"
+        ],
+        "risposta_corretta": "sindrome parkinsoniana iatrogena"
+      },
+      {
+        "num_domanda": 62,
+        "domanda": "I farmaci BETA bloccanti hanno le seguenti indicazioni terapeutiche tranne una. Quale?",
+        "opzioni": [
+          "ipertensione arteriosa",
+          "ischemia miocardica",
+          "tachiaritmie sopraventricolari",
+          "broncopneumopatia cronico ostruttiva"
+        ],
+        "risposta_corretta": "broncopneumopatia cronico ostruttiva"
+      }
+    ]
+  },
+  {
+    "num_page": 34,
+    "items": [
+      {
+        "num_domanda": 63,
+        "domanda": "Quale tra i seguenti diuretici è considerato a media intensità d'azione:",
+        "opzioni": [
+          "spironolattone",
+          "mannitolo",
+          "idroclorotiazide",
+          "furosemide"
+        ],
+        "risposta_corretta": "idroclorotiazide"
+      },
+      {
+        "num_domanda": 64,
+        "domanda": "Quale tra le seguenti affermazioni inerenti i diuretici tiazidici è corretta:",
+        "opzioni": [
+          "sono usati frequentemente in associazione ad altri diuretici per le loro proprietà di risparmio di K+",
+          "agiscono principalmente nel tubulo contorto distale riducendo il riassorbimento di Na+ tramite l'inibizione di un cotrasportatore di Na+/Cl-",
+          "sono indicati per la terapia dell'iperaldosteronismo secondario (insufficienza cardiaca congestizia, cirrosi epatica, sindrome nefrosica)",
+          "devono essere somministrati per via endovenosa"
+        ],
+        "risposta_corretta": "agiscono principalmente nel tubulo contorto distale riducendo il riassorbimento di Na+ tramite l'inibizione di un cotrasportatore di Na+/Cl-"
+      },
+      {
+        "num_domanda": 65,
+        "domanda": "Nella cardiopatia ischemica sono utili i bloccanti del canale del calcio in quanto determinano le seguenti azioni, tranne una. Quale?",
+        "opzioni": [
+          "aumento dell'apporto di ossigeno al miocardio",
+          "vasocostrizione del distretto coronarico",
+          "riduzione del consumo di ossigeno da parte del miocardio",
+          "riduzione del post-carico tramite la vasodilatazione periferica"
+        ],
+        "risposta_corretta": "vasocostrizione del distretto coronarico"
+      },
+      {
+        "num_domanda": 66,
+        "domanda": "Quale tra i seguenti effetti collaterali attribuiti ai bloccanti del canale di calcio, risulta errato?",
+        "opzioni": [
+          "vampate ed edemi periferici",
+          "tachicardia con uso di nifedipina a breve durata d'azione",
+          "ipertensione",
+          "bradicardia provocata da verapamile e diltiazem"
+        ],
+        "risposta_corretta": "ipertensione"
+      },
+      {
+        "num_domanda": 67,
+        "domanda": "Quale tra i seguenti effetti collaterali attribuiti agli ACE-inibitori, risulta errato?",
+        "opzioni": [
+          "ipotensione",
+          "tosse",
+          "teratogenicità",
+          "vampate edemi periferici"
+        ],
+        "risposta_corretta": "vampate edemi periferici"
+      },
+      {
+        "num_domanda": 68,
+        "domanda": "Dal punto di vista dell'efficacia diverse molecole di ACE inibitori sono sovrapponibili. In cosa differiscono tra loro?",
+        "opzioni": [
+          "potenza",
+          "farmaco attivo o profarmaco",
+          "caratteristiche farmacocinetiche",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 69,
+        "domanda": "Quale tra le seguenti affermazioni inerenti ALISKIREN è corretta?",
+        "opzioni": [
+          "è indicato in gravidanza",
+          "è un antagonista competitivo dei recettori AT1",
+          "provoca stipsi come effetto collaterale",
+          "è un inibitore competitivo della renina"
+        ],
+        "risposta_corretta": "è un inibitore competitivo della renina"
+      },
+      {
+        "num_domanda": 70,
+        "domanda": "Quale delle seguenti affermazioni relative alla digitale è errata?",
+        "opzioni": [
+          "la digitale inibisce lo scambio Na+/K+ operato dalla Na+/K-ATPasi della membrana cellulare cardiaca",
+          "ha attività inotropa negativa",
+          "gli effetti collaterali della digitale includono nausea, vomito, dolore addominale",
+          "in caso di tossicità di grado elevato provoca effetti proaritmogeni fino a fibrillazione ventricolare"
+        ],
+        "risposta_corretta": "ha attività inotropa negativa"
+      }
+    ]
+  },
+  {
+    "num_page": 35,
+    "items": [
+      {
+        "num_domanda": 71,
+        "domanda": "Quale tra i seguenti effetti collaterali attribuiti ai NITRATI ORGANICI risulta errato?",
+        "opzioni": [
+          "cefalea",
+          "arrossamento della cute vampate (flushing)",
+          "ipokaliemia",
+          "ipotensione ortostatica"
+        ],
+        "risposta_corretta": "ipokaliemia"
+      },
+      {
+        "num_domanda": 72,
+        "domanda": "L'amiodarone:",
+        "opzioni": [
+          "è un antiaritmico e può portare a ipotiroidismo o ipertiroidismo per la presenza di iodio nella molecola",
+          "è un antiaggregante piastrinico",
+          "è un antidepressivo triciclico",
+          "è un farmaco per la sindrome metabolica in disuso"
+        ],
+        "risposta_corretta": "è un antiaritmico e può portare a ipotiroidismo o ipertiroidismo per la presenza di iodio nella molecola"
+      },
+      {
+        "num_domanda": 73,
+        "domanda": "Gli inibitori della glicoproteina IIb/IIIa:",
+        "opzioni": [
+          "hanno lunga durata d'azione",
+          "non danno il rischio di sanguinamento",
+          "sono selettivi per le piastrine attivate",
+          "sono assunti per via orale"
+        ],
+        "risposta_corretta": "sono selettivi per le piastrine attivate"
+      },
+      {
+        "num_domanda": 74,
+        "domanda": "Quale tra questi anticoagulanti interagisce con il metabolismo della vitamina K:",
+        "opzioni": [
+          "eparina",
+          "Warfarin",
+          "Enoxaparina",
+          "fondaparinux"
+        ],
+        "risposta_corretta": "Warfarin"
+      },
+      {
+        "num_domanda": 75,
+        "domanda": "Le statine:",
+        "opzioni": [
+          "inibiscono l'assorbimento intestinale del colesterolo",
+          "inibiscono la sintesi epatica del colesterolo",
+          "sono sequestranti gli acidi biliari",
+          "attivano PPARα"
+        ],
+        "risposta_corretta": "inibiscono la sintesi epatica del colesterolo"
+      },
+      {
+        "num_domanda": 76,
+        "domanda": "Il fibrato Gemfibrozil ha un alto rischio di dare miopatia se associato a:",
+        "opzioni": [
+          "altri fibrati",
+          "ezetimibe",
+          "statine",
+          "niacina"
+        ],
+        "risposta_corretta": "statine"
+      },
+      {
+        "num_domanda": 77,
+        "domanda": "Quale è la dose di utilizzo dell'ASA acido acetilsalicilico qualora venga impiegato come antiaggregante?",
+        "opzioni": [
+          "dose: 3-4 g/die",
+          "dose: 300-600 mg ogni 6 ore",
+          "dose: ≤ 100 mg/die in singola somministrazione",
+          "dose: 500 mg/die"
+        ],
+        "risposta_corretta": "dose: ≤ 100 mg/die in singola somministrazione"
+      },
+      {
+        "num_domanda": 78,
+        "domanda": "Quando un cortisonico viene somministrato per un periodo prolungato cosa si verifica?",
+        "opzioni": [
+          "soppressione della funzione corticosurrenalica",
+          "osteoporosi",
+          "la sospensione della terapia deve essere effettuata lentamente",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 79,
+        "domanda": "La loratadina è:",
+        "opzioni": [
+          "un bifosfonato usato nella terapia dell'osteoporosi",
+          "un inibitore della pompa protonica usato nella terapia dell'ulcera",
+          "un protagonista del recettore H1 dell'istamina usato nella terapia delle allergie",
+          "un antidepressivo inibitore della ricaptazione della serotonina"
+        ],
+        "risposta_corretta": "un protagonista del recettore H1 dell'istamina usato nella terapia delle allergie"
+      }
+    ]
+  },
+  {
+    "num_page": 36,
+    "items": [
+      {
+        "num_domanda": 80,
+        "domanda": "La metformina è un ipoglicemizzante orale della classe:",
+        "opzioni": [
+          "biguanidi",
+          "sulfaniluree",
+          "glitazoni",
+          "inibitori dell'enzima DDP/IV"
+        ],
+        "risposta_corretta": "biguanidi"
+      },
+      {
+        "num_domanda": 81,
+        "domanda": "Quale tra le seguenti affermazioni circa l'intossicazione acuta da oppioidi errata:",
+        "opzioni": [
+          "i segni sintomi caratteristici sono miosi, depressione respiratoria, depressione del SNC",
+          "per il trattamento dell'intossicazione si somministra naloxone",
+          "l'intossicazione acuta si osserva con il sovradosaggio degli agonisti puri con elevata affinità per i recettori μ",
+          "la terapia dell'intossicazione acuta viene fatta impiegando il naltrexone"
+        ],
+        "risposta_corretta": "la terapia dell'intossicazione acuta viene fatta impiegando il naltrexone"
+      },
+      {
+        "num_domanda": 82,
+        "domanda": "Gli effetti collaterali della terapia a lungo termine con L-dopa nel Parkinson comprendono:",
+        "opzioni": [
+          "anoressia",
+          "nausea e vomito",
+          "ipotensione ortostatica",
+          "fluttuazioni dei sintomi motori tipo effetti \"wearing off\" e \"on/off\""
+        ],
+        "risposta_corretta": "fluttuazioni dei sintomi motori tipo effetti \"wearing off\" e \"on/off\""
+      },
+      {
+        "num_domanda": 83,
+        "domanda": "Si definisce MAC (concentrazione alveolare minima) di un anestetico generale:",
+        "opzioni": [
+          "la concentrazione plasmatica degli anestetici gassosi",
+          "la concentrazione del gas anestetico necessaria per abolire i movimenti nel 50% dei pazienti sottoposti ad incisione cutanea (espresso come % di gas nella miscela necessaria per ottenere l'effetto)",
+          "la concentrazione plasmatica degli anestetici endovenosi",
+          "la pressione parziale del gas nell'alveolo"
+        ],
+        "risposta_corretta": "la concentrazione del gas anestetico necessaria per abolire i movimenti nel 50% dei pazienti sottoposti ad incisione cutanea (espresso come % di gas nella miscela necessaria per ottenere l'effetto)"
+      },
+      {
+        "num_domanda": 84,
+        "domanda": "il Sevoflurano è:",
+        "opzioni": [
+          "un generale inalatorio che da lenta induzione e lento recupero",
+          "un anestetico generale inalatorio che da rapida induzione rapido recupero",
+          "un anestetico generale natatorio che da irritazione alle vie respiratorie e broncocostrizione",
+          "un anestetico locale della classe degli esteri"
+        ],
+        "risposta_corretta": "un anestetico generale inalatorio che da rapida induzione rapido recupero"
+      },
+      {
+        "num_domanda": 85,
+        "domanda": "Il midazolam:",
+        "opzioni": [
+          "è una benzodiazepina emivita lunga e perciò usato nell'insonnia grave",
+          "viene usato indistintamente per varie patologie",
+          "è un antidepressivo triciclico",
+          "è una benzodiazepina a emivita breve e perciò usato per la situazione nelle procedure diagnostiche"
+        ],
+        "risposta_corretta": "è una benzodiazepina a emivita breve e perciò usato per la situazione nelle procedure diagnostiche"
+      },
+      {
+        "num_domanda": 86,
+        "domanda": "Gli antidepressivi SSRI:",
+        "opzioni": [
+          "bloccano la ricaptazione della serotonina",
+          "in cronico portano al potenziamento dell'attività dei recettori post-sinaptici per la serotonina",
+          "in cronico portano ad un aumento del livello del neurotrasmettitore nella fessura sinaptica",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 87,
+        "domanda": "I farmaci BETA bloccanti",
+        "opzioni": [
+          "ipertensione arteriosa",
+          "ischemia miocardica",
+          "tachiaritmie sopraventricolari",
+          "broncopneumopatia cronico ostruttiva"
+        ],
+        "risposta_corretta": "broncopneumopatia cronico ostruttiva"
+      }
+    ]
+  },
+  {
+    "num_page": 37,
+    "items": [
+      {
+        "num_domanda": 88,
+        "domanda": "Il paziente in trattamento con antidepressivi:",
+        "opzioni": [
+          "a lungo termine ha un rischio di suicidio ridotto",
+          "se affetto da depressione grave avrà maggiore beneficio dalla terapia rispetto a un paziente affetto da depressione lieve",
+          "è a rischio di suicidio aumentato nelle prime settimane di terapia e perciò va monitorato attentamente",
+          "tutte le precedenti"
+        ],
+        "risposta_corretta": "tutte le precedenti"
+      },
+      {
+        "num_domanda": 89,
+        "domanda": "Il principale effetto collaterale dei neurolettici atipici è:",
+        "opzioni": [
+          "vomito",
+          "tremori parkinsoniani",
+          "aumento di peso con rischio di sindrome metabolica",
+          "difficoltà respiratorie"
+        ],
+        "risposta_corretta": "aumento di peso con rischio di sindrome metabolica"
+      },
+      {
+        "num_domanda": 90,
+        "domanda": "I sartani sono indicati nei seguenti casi tranne uno:",
+        "opzioni": [
+          "Ipertensione arteriosa",
+          "gravidanza",
+          "scompenso cardiaco congestizio",
+          "trattamento post-infarto"
+        ],
+        "risposta_corretta": "gravidanza"
+      },
+      {
+        "num_domanda": 91,
+        "domanda": "In un paziente con una forte intossicazione da oppiacei cosa somministro?",
+        "opzioni": [
+          "fentatienil",
+          "naloxone EV",
+          "sufentanil",
+          "naloxone SC"
+        ],
+        "risposta_corretta": "naloxone EV"
+      },
+      {
+        "num_domanda": 92,
+        "domanda": "L'azione di un anestetico locale viene prolungata dalla somministrazione contemporanea di:",
+        "opzioni": [
+          "un vasocostrittore",
+          "un vasodilatatore",
+          "una benzodiazepina",
+          "nessuna delle precedenti"
+        ],
+        "risposta_corretta": "una benzodiazepina"
+      },
+      {
+        "num_domanda": 93,
+        "domanda": "Quale delle seguenti classi di farmaci NON ha un ruolo nella terapia delle dislipidemie:",
+        "opzioni": [
+          "inibitori dell'enzima HMG-CoA reduttasi",
+          "sequestranti degli acidi biliari",
+          "attivatori del PPARα",
+          "inibitori della glicoproteina IIb/IIIa"
+        ],
+        "risposta_corretta": "inibitori della glicoproteina IIb/IIIa"
+      },
+      {
+        "num_domanda": 94,
+        "domanda": "L'acido acetilsalicilico è controindicato nei casi seguenti tranne uno, quale?",
+        "opzioni": [
+          "ulcera peptica",
+          "insufficienza epatica o renale grave",
+          "emofilia ed alterazioni della coagulazione",
+          "artrite reumatoide"
+        ],
+        "risposta_corretta": "artrite reumatoide"
+      },
+      {
+        "num_domanda": 95,
+        "domanda": "Quale tra le seguenti farmaci ha più breve emivita?",
+        "opzioni": [
+          "diazepam",
+          "zopiclone",
+          "lorazepam",
+          "non vi sono differenze di emivita tra i farmaci indicati"
+        ],
+        "risposta_corretta": "zopiclone"
+      },
+      {
+        "num_domanda": 96,
+        "domanda": "I farmaci beta 2 agonisti sono indicati nella terapia dell'asma perché:",
+        "opzioni": [
+          "determinano broncodilatazione",
+          "hanno effetto sinergico con i farmaci steroidei",
+          "a è corretta ma b è errata",
+          "a e b sono corrette"
+        ],
+        "risposta_corretta": "a e b sono corrette"
+      }
+    ]
+  },
+  {
+    "num_page": 38,
+    "items": [
+      {
+        "num_domanda": 97,
+        "domanda": "Affermazioni corrette riguardo al paracetamolo:",
+        "opzioni": [
+          "è controindicato nei bambini",
+          "è analgesico e antipiretico",
+          "ha effetti teratogeni",
+          "è analgesico ma non antipiretico"
+        ],
+        "risposta_corretta": "è analgesico e antipiretico"
+      },
+      {
+        "num_domanda": 98,
+        "domanda": "Quale delle seguenti affermazioni è corretta?",
+        "opzioni": [
+          "morfina, ossicodone e fentanil sono oppioidi puri potenti",
+          "la codeina è un antagonista dei recettori per gli oppioidi",
+          "il più comune effetto collaterale degli oppioidi utilizzati nella terapia del dolore è la depressione respiratoria",
+          "la risposta farmacologico agli oppioidi aumenta durante la terapia cronica"
+        ],
+        "risposta_corretta": "morfina, ossicodone e fentanil sono oppioidi puri potenti"
+      },
+      {
+        "num_domanda": 99,
+        "domanda": "In caso di crisi epilettica della durata superiore a 30 minuti:",
+        "opzioni": [
+          "lorazepam per via endovenosa",
+          "ketamina per via rettale",
+          "etosuccimide per via endovenosa",
+          "fenitoina per via orale"
+        ],
+        "risposta_corretta": "lorazepam per via endovenosa"
+      },
+      {
+        "num_domanda": 100,
+        "domanda": "Quale tra i seguenti farmaci non è un antidiabetico per uso orale:",
+        "opzioni": [
+          "metformina",
+          "ketaatrovastatina",
+          "pioglitazone",
+          "liraglutide"
+        ],
+        "risposta_corretta": "liraglutide"
+      },
+      {
+        "num_domanda": 101,
+        "domanda": "Indicare l'affermazione errata:",
+        "opzioni": [
+          "il litio è indicato nel trattamento della sindrome bipolare",
+          "il litio ha un alto indice terapeutico",
+          "è utile dosare i livelli plasmatici di litio",
+          "carbamazepina, valproato o larinotrigina si possono prescrivere in sostituzione del litio"
+        ],
+        "risposta_corretta": "il litio ha un alto indice terapeutico"
+      },
+      {
+        "num_domanda": 102,
+        "domanda": "Qual è l'affermazione corretta:",
+        "opzioni": [
+          "le benzodiazepine hanno azioni analgesiche",
+          "le benzodiazepine sono controindicate in pazienti psicotici",
+          "il sovradosaggio da benzodiazepine è frequentemente letale",
+          "la terapia con benzodiazepine non va sospesa bruscamente"
+        ],
+        "risposta_corretta": "la terapia con benzodiazepine non va sospesa bruscamente"
+      },
+      {
+        "num_domanda": 103,
+        "domanda": "Quale tra questi farmaci utilizzati in ambito cardiovascolare è indicato nel trattamento delle aritmie ipercinetiche sopraventricolari:",
+        "opzioni": [
+          "enalapril",
+          "isosorbide mononitrato",
+          "clonidina",
+          "verapamil"
+        ],
+        "risposta_corretta": "verapamil"
+      },
+      {
+        "num_domanda": 104,
+        "domanda": "Il mannitolo è:",
+        "opzioni": [
+          "un anticoagulante orale",
+          "un diuretico osmolitico",
+          "un calcio antagonista",
+          "un nitrato organico"
+        ],
+        "risposta_corretta": "un diuretico osmolitico"
+      },
+      {
+        "num_domanda": 105,
+        "domanda": "La brusca sospensione della terapia antiipertensiva con beta bloccanti può essere associata a:",
+        "opzioni": [
+          "tachicardia",
+          "ipertensione arteriosa",
+          "tremore",
+          "tutti gli effetti indicati"
+        ],
+        "risposta_corretta": "tutti gli effetti indicati"
+      }
+    ]
+  },
+  {
+    "num_page": 39,
+    "items": [
+      {
+        "num_domanda": 106,
+        "domanda": "Un effetto collaterale molto importante dei diuretici è:",
+        "opzioni": [
+          "ritenzione di liquidi",
+          "ipertensione",
+          "bradicardia",
+          "alterazione degli elettroliti plasmatici"
+        ],
+        "risposta_corretta": "alterazione degli elettroliti plasmatici"
+      },
+      {
+        "num_domanda": 107,
+        "domanda": "La famotidina può essere utilizzata nella terapia dell'ulcera perché è:",
+        "opzioni": [
+          "è un antagonista del recettore colinergico muscarinico",
+          "è una prostaglandina sintetica",
+          "è un inibitore diretto della pompa protonica",
+          "è un antagonista del recettore H2 dell'istamina"
+        ],
+        "risposta_corretta": "è un antagonista del recettore H2 dell'istamina"
+      },
+      {
+        "num_domanda": 108,
+        "domanda": "La potenza di un anestetico è espressa da:",
+        "opzioni": [
+          "minima concentrazione alveolare (MAC)",
+          "coefficiente di riparazione",
+          "solubilità",
+          "emivita"
+        ],
+        "risposta_corretta": "minima concentrazione alveolare (MAC)"
+      },
+      {
+        "num_domanda": 109,
+        "domanda": "Quale farmaco è di prima scelta nei bambini con crisi di assenza:",
+        "opzioni": [
+          "etosuccimide",
+          "fenobarbital",
+          "fenitoina",
+          "nessuno dei tre"
+        ],
+        "risposta_corretta": "etosuccimide"
+      },
+      {
+        "num_domanda": 110,
+        "domanda": "Non è effetto collaterale dell'aloperidolo:",
+        "opzioni": [
+          "parkinsoniano",
+          "iperprolattina",
+          "discinesia tardiva",
+          "agitazione"
+        ],
+        "risposta_corretta": "agitazione"
+      },
+      {
+        "num_domanda": 111,
+        "domanda": "Indicare la frase errata riguardante i farmaci antipsicotici:",
+        "opzioni": [
+          "sono indicati al primo attacco di schizofrenia e per prevenire le recidive",
+          "un riducono l'isolamento sociale ma non le allucinazioni e i deliri",
+          "sono antagonisti dei recettori D2 della dopamina",
+          "possono essere usati negli stati maniacali con delirio"
+        ],
+        "risposta_corretta": "un riducono l'isolamento sociale ma non le allucinazioni e i deliri"
+      },
+      {
+        "num_domanda": 112,
+        "domanda": "Quale tra le seguenti è una caratteristica degli SSRI:",
+        "opzioni": [
+          "sono oggi di seconda scelta rispetto agli antidepressivi triciclici",
+          "sono meglio tollerati degli antidepressivi triciclici",
+          "sono meno efficaci rispetto agli antidepressivi triciclici",
+          "sono più lenti ad agire rispetto agli antidepressivi triciclici"
+        ],
+        "risposta_corretta": "sono meglio tollerati degli antidepressivi triciclici"
+      },
+      {
+        "num_domanda": 113,
+        "domanda": "Quale di queste non è una caratteristica degli antistaminici H1 di seconda generazione:",
+        "opzioni": [
+          "breve emivita",
+          "ampio range di sicurezza",
+          "fortemente selettivi",
+          "scarsi effetti ipnotici"
+        ],
+        "risposta_corretta": "breve emivita"
+      },
+      {
+        "num_domanda": 114,
+        "domanda": "Quale di questi farmaci NON ha effetto analgesico:",
+        "opzioni": [
+          "ketorolac",
+          "paracetamolo",
+          "morfina",
+          "atenololo ?"
+        ],
+        "risposta_corretta": "atenololo ?"
+      }
+    ]
+  },
+  {
+    "num_page": 40,
+    "items": [
+      {
+        "num_domanda": 115,
+        "domanda": "Quale tra i seguenti effetti collaterali attribuiti ai betabloccanti, risulta errato?",
+        "opzioni": [
+          "astenia",
+          "perdita della libido",
+          "ipotensione",
+          "ipertensione"
+        ],
+        "risposta_corretta": "ipertensione"
+      },
+      {
+        "num_domanda": 116,
+        "domanda": "Calcio Antagonista che influenza più la muscolatura cardiaca che quella vascolare:",
+        "opzioni": [
+          "verapamil"
+        ],
+        "risposta_corretta": "verapamil"
+      },
+      {
+        "num_domanda": 117,
+        "domanda": "I bloccanti neuromuscolari (curari):",
+        "opzioni": [
+          "agiscono sui recettori muscarinici dell'acetilcolina"
+        ],
+        "risposta_corretta": "agiscono sui recettori muscarinici dell'acetilcolina"
+      },
+      {
+        "num_domanda": 118,
+        "domanda": "Farmaco per attacco di asma acuto:",
+        "opzioni": [
+          "sulbutamolo"
+        ],
+        "risposta_corretta": "sulbutamolo"
+      },
+      {
+        "num_domanda": 119,
+        "domanda": "Frequenti effetti collaterali della morfina:",
+        "opzioni": [
+          "stipsi, nausea e vomito, sonnolenza"
+        ],
+        "risposta_corretta": "stipsi, nausea e vomito, sonnolenza"
+      },
+      {
+        "num_domanda": 120,
+        "domanda": "Antagonista competitivo dei recettori per l'aldosterone:",
+        "opzioni": [
+          "spironolattone"
+        ],
+        "risposta_corretta": "spironolattone"
+      },
+      {
+        "num_domanda": 121,
+        "domanda": "Farmaci antinfiammatori nella terapia dell'asma:",
+        "opzioni": [
+          "agonisti dei leucotrieni"
+        ],
+        "risposta_corretta": "agonisti dei leucotrieni"
+      },
+      {
+        "num_domanda": 122,
+        "domanda": "Quale tra i seguenti sintomi è più difficilmente controllato dagli antipsicotici in un paziente schizofrenico:",
+        "opzioni": [
+          "deficit di attenzione e di memoria"
+        ],
+        "risposta_corretta": "deficit di attenzione e di memoria"
+      },
+      {
+        "num_domanda": 123,
+        "domanda": "Il propanololo è controindicato in caso di asma, bradicardia e blocco atrioventricolare:",
+        "opzioni": [
+          "è indicato nell'ipertensione arteriosa"
+        ],
+        "risposta_corretta": "è indicato nell'ipertensione arteriosa"
+      },
+      {
+        "num_domanda": 124,
+        "domanda": "Quale dei seguenti principi attivi appartengono alla classe dei nitrati organici:",
+        "opzioni": [
+          "isosorbide dinitrato"
+        ],
+        "risposta_corretta": "isosorbide dinitrato"
+      },
+      {
+        "num_domanda": 125,
+        "domanda": "Un effetto collaterale frequente delle statine è:",
+        "opzioni": [
+          "miopatia"
+        ],
+        "risposta_corretta": "miopatia"
+      },
+      {
+        "num_domanda": 126,
+        "domanda": "Quale dei seguenti farmaci riduce l'aggregazione piastrinica in seguito all'inibizione dell'enzima ciclo ossigenasi?",
+        "opzioni": [
+          "aspirina"
+        ],
+        "risposta_corretta": "aspirina"
+      },
+      {
+        "num_domanda": 127,
+        "domanda": "Un effetto collaterale molto importante dei diuretici è:",
+        "opzioni": [
+          "alterazione degli elettroliti plasmatici"
+        ],
+        "risposta_corretta": "alterazione degli elettroliti plasmatici"
+      },
+      {
+        "num_domanda": 128,
+        "domanda": "Qual è tra quelli elencati uno dei motivi per cui gli SSRI sono oggi preferiti agli antidepressivi triciclici?",
+        "opzioni": [
+          "minore rischio di eventi indesiderati"
+        ],
+        "risposta_corretta": "minore rischio di eventi indesiderati"
+      },
+      {
+        "num_domanda": 129,
+        "domanda": "Nella premedicazione prima di un'anestesia generale quale di questi farmaci viene usato?",
+        "opzioni": [
+          "benzodiazepine"
+        ],
+        "risposta_corretta": "benzodiazepine"
+      },
+      {
+        "num_domanda": 130,
+        "domanda": "Nell'intossicazione acuta da oppioidi:",
+        "opzioni": [
+          "i segni e sintomi caratteristici sono miosi, depressione respiratoria, depressione del snc; per il trattamento dell'intossicazione si somministra naloxone i.v no naltrexone per os; si osserva con il sovradosaggio di agonisti puri con elevata affinità per i recettori μ"
+        ],
+        "risposta_corretta": "i segni e sintomi caratteristici sono miosi, depressione respiratoria, depressione del snc; per il trattamento dell'intossicazione si somministra naloxone i.v no naltrexone per os; si osserva con il sovradosaggio di agonisti puri con elevata affinità per i recettori μ"
+      }
+    ]
+  },
+  {
+    "num_page": 41,
+    "items": [
+      {
+        "num_domanda": 131,
+        "domanda": "Le benzodiazepine a durata d'azione intermedia possono essere indicate in un paziente che lamenta:",
+        "opzioni": [
+          "sindrome ansiosa, frequenti risvegli notturni"
+        ],
+        "risposta_corretta": "sindrome ansiosa, frequenti risvegli notturni"
+      },
+      {
+        "num_domanda": 132,
+        "domanda": "Non è un antipsicotico:",
+        "opzioni": [
+          "zolpidem"
+        ],
+        "risposta_corretta": "zolpidem"
+      },
+      {
+        "num_domanda": 133,
+        "domanda": "Modalità d'azione degli steroidi:",
+        "opzioni": [
+          "si legano a recettori citoplasmatici con successivo passaggio nel nucleo e regolazione della trascrizione genica"
+        ],
+        "risposta_corretta": "si legano a recettori citoplasmatici con successivo passaggio nel nucleo e regolazione della trascrizione genica"
+      },
+      {
+        "num_domanda": 134,
+        "domanda": "Prima di un intervento chirurgico che impone anestesia generale si può somministrare:",
+        "opzioni": [
+          "diazepam"
+        ],
+        "risposta_corretta": "diazepam"
+      },
+      {
+        "num_domanda": 135,
+        "domanda": "L'azione simpatico-adrenergica cosa provoca nei bronchi?",
+        "opzioni": [
+          "broncodilatazione mediata da recettori Beta2"
+        ],
+        "risposta_corretta": "broncodilatazione mediata da recettori Beta2"
+      },
+      {
+        "num_domanda": 136,
+        "domanda": "Che farmaco si utilizza per indurre un'anestesia bilanciata:",
+        "opzioni": [
+          "propofol"
+        ],
+        "risposta_corretta": "propofol"
+      },
+      {
+        "num_domanda": 137,
+        "domanda": "A cosa servono i farmaci Z?",
+        "opzioni": [
+          "per difficolt\nà di addormentamento"
+        ],
+        "risposta_corretta": "per difficolt\nà di addormentamento"
+      },
+      {
+        "num_domanda": 138,
+        "domanda": "Quale farmaco provoca tosse secca e persistente?",
+        "opzioni": [
+          "enalapril (ACE-inibitore)"
+        ],
+        "risposta_corretta": "enalapril (ACE-inibitore)"
+      },
+      {
+        "num_domanda": 139,
+        "domanda": "Quale di questi non è un antipsicotico?",
+        "opzioni": [
+          "lorazepam"
+        ],
+        "risposta_corretta": "lorazepam"
+      },
+      {
+        "num_domanda": 140,
+        "domanda": "Cosa provoca l'inibizione di HMG-CoA reduttasi?",
+        "opzioni": [
+          "impedisce la sintesi epatica di colesterolo e stimola la sintesi dei recettori LDL"
+        ],
+        "risposta_corretta": "impedisce la sintesi epatica di colesterolo e stimola la sintesi dei recettori LDL"
+      },
+      {
+        "num_domanda": 141,
+        "domanda": "Come agiscono gli steroidi?",
+        "opzioni": [
+          "si legano a recettori citoplasmatici, passano nel nucleo e modulano la trascrizione"
+        ],
+        "risposta_corretta": "si legano a recettori citoplasmatici, passano nel nucleo e modulano la trascrizione"
+      },
+      {
+        "num_domanda": 142,
+        "domanda": "Come funziona l'eparina?",
+        "opzioni": [
+          "anticoagulante legato all'antitrombina III (e amplifica l'attivit\nà dell'antitrombina III, ovvero l'effetto principale)"
+        ],
+        "risposta_corretta": "anticoagulante legato all'antitrombina III (e amplifica l'attivit\nà dell'antitrombina III, ovvero l'effetto principale)"
+      },
+      {
+        "num_domanda": 143,
+        "domanda": "Quale di questi farmaci non è usato per il trattamento dell'ipertensione in pz con asma grave...?",
+        "opzioni": [
+          "i B-bloccanti non selettivi"
+        ],
+        "risposta_corretta": "i B-bloccanti non selettivi"
+      },
+      {
+        "num_domanda": 144,
+        "domanda": "Quale sarà la terapia di prima scelta in un paziente affetto da attacchi di panico ricorrenti?",
+        "opzioni": [
+          "benzodiazepina a breve durata d'azione come triazolam (all'inizio fin che non compare dipendenza e sindrome di astinenza) oppure SSRI (sono più utilizzati per gli attacchi di panico ricorrenti e per fobie più importanti come l'agorafobia), mentre i triciclici (TCA) nel caso questi ultimi (SSRI) non fossero efficaci, mentre gli IMAO sono di ultima scelta per via degli effetti collaterali importanti."
+        ],
+        "risposta_corretta": "benzodiazepina a breve durata d'azione come triazolam (all'inizio fin che non compare dipendenza e sindrome di astinenza) oppure SSRI (sono più utilizzati per gli attacchi di panico ricorrenti e per fobie più importanti come l'agorafobia), mentre i triciclici (TCA) nel caso questi ultimi (SSRI) non fossero efficaci, mentre gli IMAO sono di ultima scelta per via degli effetti collaterali importanti."
+      },
+      {
+        "num_domanda": 145,
+        "domanda": "EMA è acronimo di:",
+        "opzioni": [
+          "european medicine agency"
+        ],
+        "risposta_corretta": "european medicine agency"
+      },
+      {
+        "num_domanda": 146,
+        "domanda": "Non è un fattore di influenza dell'assorbimento di un farmaco:",
+        "opzioni": [
+          "dose del farmaco"
+        ],
+        "risposta_corretta": "dose del farmaco"
+      },
+      {
+        "num_domanda": 147,
+        "domanda": "Cosa significa uso topico di un farmaco?",
+        "opzioni": [
+          "Si somministra il farmaco direttamente nel sito d'azione"
+        ],
+        "risposta_corretta": "Si somministra il farmaco direttamente nel sito d'azione"
+      }
+    ]
+  },
+  {
+    "num_page": 42,
+    "items": [
+      {
+        "num_domanda": 148,
+        "domanda": "Qual è il vantaggio dell'associazione di più chemioterapici in un protocollo di trattamento?",
+        "opzioni": [
+          "(A e B corrette) sfruttare il sinergismo d'azione e superare le resistenze farmacologiche,",
+          "utilizzare dosaggi più bassi per ogni singolo farmaco"
+        ],
+        "risposta_corretta": "(A e B corrette) sfruttare il sinergismo d'azione e superare le resistenze farmacologiche,"
+      },
+      {
+        "num_domanda": 149,
+        "domanda": "Qual è la risposta corretta:",
+        "opzioni": [
+          "un farmaco biotecnologico viene prodotto sfruttando le acquisizioni ottenute nel campo dell'ingegneria genetica"
+        ],
+        "risposta_corretta": "un farmaco biotecnologico viene prodotto sfruttando le acquisizioni ottenute nel campo dell'ingegneria genetica"
+      },
+      {
+        "num_domanda": 150,
+        "domanda": "La biodisponibilità:",
+        "opzioni": [
+          "è la frazione di dose del farmaco somministrato che raggiunge non modificata la",
+          "circolazione sistemica"
+        ],
+        "risposta_corretta": "è la frazione di dose del farmaco somministrato che raggiunge non modificata lacircolazione sistemica"
+      },
+      {
+        "num_domanda": 151,
+        "domanda": "Le interazioni tra farmaci di tipo farmacocinetico:",
+        "opzioni": [
+          "possono alterare l'emivita del farmaco"
+        ],
+        "risposta_corretta": "possono alterare l'emivita del farmaco"
+      },
+      {
+        "num_domanda": 152,
+        "domanda": "Qual è valida per un antagonista competitivo?",
+        "opzioni": [
+          "è dotato solo di affinità specifica per il suo recettore"
+        ],
+        "risposta_corretta": "è dotato solo di affinità specifica per il suo recettore"
+      },
+      {
+        "num_domanda": 153,
+        "domanda": "Indice terapeutico:",
+        "opzioni": [
+          "è il rapporto tra la dose del farmaco che induce un effetto tossico e quella che induce un",
+          "effetto terapeutico"
+        ],
+        "risposta_corretta": "è il rapporto tra la dose del farmaco che induce un effetto tossico e quella che induce uneffetto terapeutico"
+      },
+      {
+        "num_domanda": 154,
+        "domanda": "L'agente antineoplastico più frequentemente associato a cardiotossicità è:",
+        "opzioni": [
+          "doxorubicina"
+        ],
+        "risposta_corretta": "doxorubicina"
+      },
+      {
+        "num_domanda": 155,
+        "domanda": "Con definizione \"antibiotico ad ampio spettro d'azione\" a cosa si fa riferimento?",
+        "opzioni": [
+          "antibiotico che agisce su una elevata varietà di agenti patogeni"
+        ],
+        "risposta_corretta": "antibiotico che agisce su una elevata varietà di agenti patogeni"
+      },
+      {
+        "num_domanda": 156,
+        "domanda": "Qual è errata?",
+        "opzioni": [
+          "Aciclovir è utilizzato esclusivamente per uso topico, in crema"
+        ],
+        "risposta_corretta": "Aciclovir è utilizzato esclusivamente per uso topico, in crema"
+      },
+      {
+        "num_domanda": 157,
+        "domanda": "Chi può effettuare la segnalazione di una reazione avversa ad un farmaco?",
+        "opzioni": [
+          "ogni paziente o operatore della salute"
+        ],
+        "risposta_corretta": "ogni paziente o operatore della salute"
+      },
+      {
+        "num_domanda": 158,
+        "domanda": "In uno studio in doppio cieco:",
+        "opzioni": [
+          "né paziente né medico conoscono il trattamento farmacologico"
+        ],
+        "risposta_corretta": "né paziente né medico conoscono il trattamento farmacologico"
+      },
+      {
+        "num_domanda": 159,
+        "domanda": "Emivita di un farmaco:",
+        "opzioni": [
+          "tempo necessario perché la concentrazione plasmatica di un farmaco si dimezzi"
+        ],
+        "risposta_corretta": "tempo necessario perché la concentrazione plasmatica di un farmaco si dimezzi"
+      },
+      {
+        "num_domanda": 160,
+        "domanda": "Nel corso di somministrazione cronica la frequenza di somministrazione:",
+        "opzioni": [
+          "tutte le corrette (dipende principalmente dall'emivita del farmaco, dipende",
+          "principalmente dalla gravità della patologia, dipende principalmente dal costo del",
+          "farmaco)"
+        ],
+        "risposta_corretta": "tutte le corrette (dipende principalmente dall'emivita del farmaco, dipendedalla gravità della patologia, dipende principalmente dal costo delfarmaco)"
+      },
+      {
+        "num_domanda": 161,
+        "domanda": "Il fenomeno di ipersensitività recettoriale (upregulation):",
+        "opzioni": [
+          "si può verificare in seguito al trattamento cronico con un antagonista"
+        ],
+        "risposta_corretta": "si può verificare in seguito al trattamento cronico con un antagonista"
+      },
+      {
+        "num_domanda": 162,
+        "domanda": "I glucocorticoidi sono ormoni di natura steroidea che interagiscono con:",
+        "opzioni": [
+          "recettori intracellulari"
+        ],
+        "risposta_corretta": "recettori intracellulari"
+      },
+      {
+        "num_domanda": 163,
+        "domanda": "Qual è l'evento avverso più frequentemente osservato nella terapia con aminoglicosidi?",
+        "opzioni": [
+          "nefrotossicità"
+        ],
+        "risposta_corretta": "nefrotossicità"
+      },
+      {
+        "num_domanda": 164,
+        "domanda": "AIFA è l'acronimo di:",
+        "opzioni": [
+          "associazione italiana del farmaco"
+        ],
+        "risposta_corretta": "associazione italiana del farmaco"
+      }
+    ]
+  },
+  {
+    "num_page": 43,
+    "items": [
+      {
+        "num_domanda": 165,
+        "domanda": "L'assorbimento di un farmaco:",
+        "opzioni": [
+          "è un processo mediante il quale un farmaco passa dal sito di somministrazione al plasma"
+        ],
+        "risposta_corretta": "è un processo mediante il quale un farmaco passa dal sito di somministrazione al plasma"
+      },
+      {
+        "num_domanda": 166,
+        "domanda": "Un farmaco è un antagonista quando:",
+        "opzioni": [
+          "legandosi a un recettore impedisce l'interazione con l'agonista"
+        ],
+        "risposta_corretta": "legandosi a un recettore impedisce l'interazione con l'agonista"
+      },
+      {
+        "num_domanda": 167,
+        "domanda": "Capacità di metabolizzare a livello epatico:",
+        "opzioni": [
+          "(tutte) può essere indotta o inibita da specifici alimenti o da altri farmaci, può variare tra pazienti anche in base genetica"
+        ],
+        "risposta_corretta": "(tutte) può essere indotta o inibita da specifici alimenti o da altri farmaci, può variare tra pazienti anche in base genetica"
+      },
+      {
+        "num_domanda": 168,
+        "domanda": "Qual è errata sulla tolleranza?",
+        "opzioni": [
+          "non si manifesta mai con farmaci ad azione recettoriale"
+        ],
+        "risposta_corretta": "non si manifesta mai con farmaci ad azione recettoriale"
+      },
+      {
+        "num_domanda": 169,
+        "domanda": "I recettori-Canale:",
+        "opzioni": [
+          "sono complessi multi proteici situati nella membrana cellulare"
+        ],
+        "risposta_corretta": "sono complessi multi proteici situati nella membrana cellulare"
+      },
+      {
+        "num_domanda": 170,
+        "domanda": "Qual è lo scopo della terapia palliativa?",
+        "opzioni": [
+          "alleviare i sintomi e migliorare qualità di vita"
+        ],
+        "risposta_corretta": "alleviare i sintomi e migliorare qualità di vita"
+      },
+      {
+        "num_domanda": 171,
+        "domanda": "Qual è vero su l'acido clavulanico?",
+        "opzioni": [
+          "è un inibitore della beta-lattamasi"
+        ],
+        "risposta_corretta": "è un inibitore della beta-lattamasi"
+      },
+      {
+        "num_domanda": 172,
+        "domanda": "Un farmaco che agisce con meccanismo recettoriale può avere diversi effetti collaterali in aggiunta all'effetto principale terapeutico nei seguenti casi:",
+        "opzioni": [
+          "risposte corrette entrambe (il recettore del farmaco è presente anche in tessuti che non sono coinvolti nella risposta terapeutica)"
+        ],
+        "risposta_corretta": "risposte corrette entrambe (il recettore del farmaco è presente anche in tessuti che non sono coinvolti nella risposta terapeutica)"
+      },
+      {
+        "num_domanda": 173,
+        "domanda": "I protocolli di chemioterapia antiblastica sono solitamente programmati a cicli intermittenti:",
+        "opzioni": [
+          "per permettere il recupero ai tessuti normali colpiti dei farmaci"
+        ],
+        "risposta_corretta": "per permettere il recupero ai tessuti normali colpiti dei farmaci"
+      },
+      {
+        "num_domanda": 174,
+        "domanda": "Tra gli effetti indesiderati delle penicilline qual è il più rilevante unicamente?",
+        "opzioni": [
+          "manifestazioni allergiche"
+        ],
+        "risposta_corretta": "manifestazioni allergiche"
+      },
+      {
+        "num_domanda": 175,
+        "domanda": "Nella terapia dell'infezione da HIV la Zidovudina (AZT):",
+        "opzioni": [
+          "impedisce l'attacco del virus alle cellula. (non sono sicura sia corretta perché l'AZT è un inibitore nucleosidico della trascrittasi inversa, quindi agisce sul retrovirus inibendo alcuni enzimi virali come la trascrittasi inversa, non so se sia corretto ritenere che impedisca l'attacco del virus alla cellula)"
+        ],
+        "risposta_corretta": "impedisce l'attacco del virus alle cellula. (non sono sicura sia corretta perché l'AZT è un inibitore nucleosidico della trascrittasi inversa, quindi agisce sul retrovirus inibendo alcuni enzimi virali come la trascrittasi inversa, non so se sia corretto ritenere che impedisca l'attacco del virus alla cellula)"
+      },
+      {
+        "num_domanda": 176,
+        "domanda": "Quale sulla farmacovigilanza è sbagliata:",
+        "opzioni": [
+          "la farmacovigilanza su un farmaco termina cinque anni dopo la sua commercializzazione"
+        ],
+        "risposta_corretta": "la farmacovigilanza su un farmaco termina cinque anni dopo la sua commercializzazione"
+      },
+      {
+        "num_domanda": 177,
+        "domanda": "La biotrasformazione di un farmaco negli epatociti:",
+        "opzioni": [
+          "può generare metaboliti attivi"
+        ],
+        "risposta_corretta": "può generare metaboliti attivi"
+      },
+      {
+        "num_domanda": 178,
+        "domanda": "Quale affermazione inerente al processo di eliminazione dei farmaci è errata?",
+        "opzioni": [
+          "per eliminazione intendiamo una corretta procedura di smaltimento di farmaci in deposito e non utilizzabili"
+        ],
+        "risposta_corretta": "per eliminazione intendiamo una corretta procedura di smaltimento di farmaci in deposito e non utilizzabili"
+      },
+      {
+        "num_domanda": 179,
+        "domanda": "La relazione tra la dose del farmaco che può indurre uno stato tossico e quella necessaria a produrre l'effetto terapeutico è definita:",
+        "opzioni": [
+          "indice terapeutico"
+        ],
+        "risposta_corretta": "indice terapeutico"
+      },
+      {
+        "num_domanda": 180,
+        "domanda": "I recettori accoppiati a proteine G:",
+        "opzioni": [
+          "sono recettori a sette domini transmembrana"
+        ],
+        "risposta_corretta": "sono recettori a sette domini transmembrana"
+      },
+      {
+        "num_domanda": 181,
+        "domanda": "Il Tamoxifene è:",
+        "opzioni": [
+          "un antagonista degli estrogeni"
+        ],
+        "risposta_corretta": "un antagonista degli estrogeni"
+      }
+    ]
+  },
+  {
+    "num_page": 44,
+    "items": [
+      {
+        "num_domanda": 182,
+        "domanda": "Quale dei seguenti farmaci è una cefalosporina:",
+        "opzioni": [
+          "cefoxitina"
+        ],
+        "risposta_corretta": "cefoxitina"
+      },
+      {
+        "num_domanda": 183,
+        "domanda": "Qual è sbagliata:",
+        "opzioni": [
+          "inibitori delle proteasi dell'HIV sono farmaci molto maneggevoli e senza grossi effetti collaterali"
+        ],
+        "risposta_corretta": "inibitori delle proteasi dell'HIV sono farmaci molto maneggevoli e senza grossi effetti collaterali"
+      },
+      {
+        "num_domanda": 184,
+        "domanda": "Quale tra questi è l'evento avverso più frequentemente osservato nella terapia con aminoglicosidi:",
+        "opzioni": [
+          "nefrotossicità"
+        ],
+        "risposta_corretta": "nefrotossicità"
+      },
+      {
+        "num_domanda": 185,
+        "domanda": "Quale affermazione sull'eliminazione renale di farmaci è corretta:",
+        "opzioni": [
+          "una ridotta funzionalità renale può rendere necessaria la modifica di un dosaggio di un farmaco eliminato principalmente per via renale"
+        ],
+        "risposta_corretta": "una ridotta funzionalità renale può rendere necessaria la modifica di un dosaggio di un farmaco eliminato principalmente per via renale"
+      },
+      {
+        "num_domanda": 186,
+        "domanda": "La terapia dell'infezione di HIV definita “highly active antiretroviral therapy” comprende:",
+        "opzioni": [
+          "almeno tre diversi farmaci per tutta la durata del trattamento"
+        ],
+        "risposta_corretta": "almeno tre diversi farmaci per tutta la durata del trattamento"
+      },
+      {
+        "num_domanda": 187,
+        "domanda": "I compiti dell'AIFA includono:",
+        "opzioni": [
+          "tutti i precedenti (autorizzazione immissione in commercio, farmacovigilanza, sperimentazione clinica)"
+        ],
+        "risposta_corretta": "tutti i precedenti (autorizzazione immissione in commercio, farmacovigilanza, sperimentazione clinica)"
+      },
+      {
+        "num_domanda": 188,
+        "domanda": "Qual è corretta:",
+        "opzioni": [
+          "tutte corrette (effetto placebo, effetto nocebo)"
+        ],
+        "risposta_corretta": "tutte corrette (effetto placebo, effetto nocebo)"
+      },
+      {
+        "num_domanda": 189,
+        "domanda": "Quale delle seguenti vie è caratterizzata da un minore effetto di primo passaggio:",
+        "opzioni": [
+          "sublinguale"
+        ],
+        "risposta_corretta": "sublinguale"
+      },      
+      {
+        "num_domanda": 191,
+        "domanda": "La tolleranza è:",
+        "opzioni": [
+          "necessità di aumentare progressivamente le dosi per ottenere risposta terapeutica"
+        ],
+        "risposta_corretta": "necessità di aumentare progressivamente le dosi per ottenere risposta terapeutica"
+      },
+      {
+        "num_domanda": 192,
+        "domanda": "Lo studio dei meccanismi d'azione dei farmaci si definisce:",
+        "opzioni": [
+          "farmacodinamica"
+        ],
+        "risposta_corretta": "farmacodinamica"
+      },
+      {
+        "num_domanda": 194,
+        "domanda": "Quale delle seguenti su resistenza batterica gli antibiotici è falsa?",
+        "opzioni": [
+          "la resistenza naturale si identifica con la produzione di esobetalattatasi"
+        ],
+        "risposta_corretta": "la resistenza naturale si identifica con la produzione di esobetalattatasi"
+      },
+      {
+        "num_domanda": 195,
+        "domanda": "La terapia farmacologica dell'epatite C si effettuata con:",
+        "opzioni": [
+          "interferone alfa-PEG + ribavirina"
+        ],
+        "risposta_corretta": "interferone alfa-PEG + ribavirina"
+      },
+      {
+        "num_domanda": 196,
+        "domanda": "Qual è sbagliata:",
+        "opzioni": [
+          "l'operatore viene sanzionato con una multa in denaro se non segnala una reazione avversa"
+        ],
+        "risposta_corretta": "l'operatore viene sanzionato con una multa in denaro se non segnala una reazione avversa"
+      },
+      {
+        "num_domanda": 197,
+        "domanda": "Il recettore nicotinico per l'Acetilcolina è:",
+        "opzioni": [
+          "quindi un recettore-canale"
+        ],
+        "risposta_corretta": "quindi un recettore-canale"
+      },
+      {
+        "num_domanda": 198,
+        "domanda": "Quale delle seguenti affermazioni è sbagliata a proposito dello sviluppo clinico di un farmaco:",
+        "opzioni": [
+          "può durare pochi mesi e poi farmaco può essere messo in commercio"
+        ],
+        "risposta_corretta": "può durare pochi mesi e poi farmaco può essere messo in commercio"
+      }
+    ]
+  },
+  {
+    "num_page": 45,
+    "items": [
+      {
+        "num_domanda": 199,
+        "domanda": "Quale delle seguenti affermazioni è sbagliata:",
+        "opzioni": [
+          "l'aciclovir è attivo contro il virus della varicella. (non sono sicura, sulla dispensa c'è scritto che l'aciclovir può essere utilizzato per via sistemica anche nelle infezioni da VZV, con effetti collaterali quali insufficienza renale)"
+        ],
+        "risposta_corretta": "l'aciclovir è attivo contro il virus della varicella. (non sono sicura, sulla dispensa c'è scritto che l'aciclovir può essere utilizzato per via sistemica anche nelle infezioni da VZV, con effetti collaterali quali insufficienza renale)"
+      },
+      {
+        "num_domanda": 200,
+        "domanda": "Nel corso di una somministrazione cronica a intervalli regolari, la singola dose di farmaco e la frequenza di somministrazione:",
+        "opzioni": [
+          "vengono stabilite al fine di ottenere una concentrazione plasmatica di farmaco all'interno della finestra terapeutica, senza eccessive fluttuazioni nel tempo"
+        ],
+        "risposta_corretta": "vengono stabilite al fine di ottenere una concentrazione plasmatica di farmaco all'interno della finestra terapeutica, senza eccessive fluttuazioni nel tempo"
+      }
+    ]
+  }
+]
