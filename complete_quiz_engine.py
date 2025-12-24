@@ -45,42 +45,36 @@ class CompleteQuizEngine:
         
     def get_all_questions(self) -> List[Dict[str, Any]]:
         """
-        Restituisce tutte le domande con un ID univoco
+        Restituisce tutte le domande
         
         Returns:
-            Lista di domande con campo 'question_id' aggiunto
+            Lista di domande
         """
-        questions_with_id = []
-        for idx, question in enumerate(self.questions):
-            q = question.copy()
-            q["question_id"] = idx
-            questions_with_id.append(q)
-        return questions_with_id
+        
+        return self.questions
     
-    def save_answer(self, question_id: int, answer: str):
+    def save_answer(self, cod_domanda: str, answer: str):
         """
         Salva la risposta dell'utente per una domanda
         
         Args:
-            question_id: ID della domanda
+            cod_domanda: codice della domanda
             answer: risposta selezionata dall'utente
-        """
-        if question_id < 0 or question_id >= len(self.questions):
-            raise ValueError(f"Invalid question_id: {question_id}")
+        """        
         
-        self.user_answers[question_id] = answer
+        self.user_answers[cod_domanda] = answer
     
-    def get_saved_answer(self, question_id: int) -> Optional[str]:
+    def get_saved_answer(self, cod_domanda: str) -> Optional[str]:
         """
         Recupera la risposta salvata per una domanda
         
         Args:
-            question_id: ID della domanda
+            cod_domanda: codice della domanda
             
         Returns:
             Risposta salvata o None se non presente
         """
-        return self.user_answers.get(question_id)
+        return self.user_answers.get(cod_domanda)
     
     def evaluate(self) -> CompleteQuizResult:
         """
@@ -94,11 +88,14 @@ class CompleteQuizEngine:
         question_results = []
         
         for idx, question in enumerate(self.questions):
-            user_answer = self.user_answers.get(idx, "")
+            user_answer = self.user_answers.get(question["cod_domanda"])
             correct_answer = question["risposta_corretta"]
             
-            # Confronto case-insensitive con strip
-            is_correct = user_answer.strip().lower() == correct_answer.strip().lower()
+            # Confronto case-insensitive con strip (gestisce None)
+            if user_answer is None or user_answer == "":
+                is_correct = False
+            else:
+                is_correct = user_answer.strip().lower() == correct_answer.strip().lower()
             
             if is_correct:
                 correct += 1
@@ -106,9 +103,9 @@ class CompleteQuizEngine:
                 wrong += 1
             
             question_results.append({
-                "question_id": idx,
+                "cod_domanda": question["cod_domanda"],
                 "domanda": question["domanda"],
-                "user_answer": user_answer,
+                "user_answer": user_answer if user_answer is not None else "(Non hai risposto)",
                 "correct_answer": correct_answer,
                 "is_correct": is_correct
             })

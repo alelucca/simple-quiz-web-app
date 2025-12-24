@@ -61,8 +61,8 @@ class ExamModuleEngine:
         # Seleziona 15 domande random
         self.questions = random.sample(questions, self.QUESTIONS_PER_MODULE)
         
-        # Risposte dell'utente (key: indice, value: risposta)
-        self.user_answers: Dict[int, str] = {}
+        # Risposte dell'utente (key: cod_domanda, value: risposta)
+        self.user_answers: Dict[str, str] = {}
         
         # Timer
         self.start_time: Optional[float] = None
@@ -74,6 +74,8 @@ class ExamModuleEngine:
     def start_timer(self):
         """Avvia il timer del modulo"""
         self.start_time = time.time()
+        self.end_time = None  # Reset end_time quando si riavvia il timer
+        print(f"[DEBUG ExamEngine] Timer started for module {self.module_name} at {self.start_time}")
     
     def get_elapsed_seconds(self) -> int:
         """
@@ -116,7 +118,7 @@ class ExamModuleEngine:
             return None
         
         question = self.questions[self.current_question_idx].copy()
-        question["question_id"] = self.current_question_idx
+        # Preserva cod_domanda dal JSON, non sovrascriverlo
         question["question_number"] = self.current_question_idx + 1
         question["total_questions"] = len(self.questions)
         
@@ -129,7 +131,11 @@ class ExamModuleEngine:
         Args:
             answer: risposta selezionata dall'utente
         """
-        self.user_answers[self.current_question_idx] = answer
+        current_question = self.questions[self.current_question_idx]
+        cod_domanda = current_question.get("cod_domanda", str(self.current_question_idx))
+        print(f"[DEBUG ExamEngine] Saving answer for cod_domanda={cod_domanda}, answer={answer}")
+        self.user_answers[cod_domanda] = answer
+        print(f"[DEBUG ExamEngine] Total answers saved: {len(self.user_answers)}")
     
     def next_question(self) -> bool:
         """
@@ -166,8 +172,12 @@ class ExamModuleEngine:
             self.current_question_idx = question_idx
     
     def get_saved_answer(self, question_idx: int) -> Optional[str]:
-        """Recupera la risposta salvata per una domanda specifica"""
-        return self.user_answers.get(question_idx)
+        """Recupera la risposta salvata per una domanda specifica (usa idx per compatibilità UI)"""
+        if question_idx < len(self.questions):
+            question = self.questions[question_idx]
+            cod_domanda = question.get("cod_domanda", str(question_idx))
+            return self.user_answers.get(cod_domanda)
+        return None
     
     def get_answered_count(self) -> int:
         """Numero di domande a cui è stata data una risposta"""
@@ -183,12 +193,27 @@ class ExamModuleEngine:
         if self.end_time is None:
             self.end_time = time.time()
         
+        print(f"[DEBUG ExamEngine] finish_module called - Total questions: {len(self.questions)}")
+        print(f"[DEBUG ExamEngine] Total user answers: {len(self.user_answers)}")
+        print(f"[DEBUG ExamEngine] User answers: {self.user_answers}")
+        
         correct = 0
         for idx, question in enumerate(self.questions):
-            user_answer = self.user_answers.get(idx, "")
+            cod_domanda = question.get("cod_domanda", str(idx))
+            user_answer = self.user_answers.get(cod_domanda)
             correct_answer = question["risposta_corretta"]
             
-            if user_answer.strip().lower() == correct_answer.strip().lower():
+            print(f"[DEBUG ExamEngine] Q{idx+1} cod={cod_domanda}, user={user_answer}, correct={correct_answer}")
+            
+            # Gestisce None nelle risposte
+            if user_answer is None or user_answer == "":
+                is_correct = False
+            else:
+                is_correct = user_answer.strip().lower() == correct_answer.strip().lower()
+            
+            print(f"[DEBUG ExamEngine] Q{idx+1} is_correct={is_correct}")
+            
+            if is_correct:
                 correct += 1
         
         score_percentage = (correct / len(self.questions) * 100) if len(self.questions) > 0 else 0

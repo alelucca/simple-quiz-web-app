@@ -112,7 +112,7 @@ def show_home_page():
     
     with col1:
         st.markdown("### 🎯 Quiz Singolo")
-        st.write("Rispondi domanda per domanda con possibilità di riprovare")
+        st.write("Domanda per domanda con feedback immediato")
         if st.button("Inizia", key="btn_single", use_container_width=True):
             st.session_state.app_mode = "single_question_setup"
             st.rerun()
@@ -138,10 +138,21 @@ def show_home_page():
         stats = st.session_state.quiz_logger.get_user_stats(user.username)
         
         col1, col2, col3 = st.columns(3)
-        col1.metric("Domande risposte", stats["total_questions_answered"])
+        col1.metric("Totale domande a cui hai risposto: ", stats["total_questions_answered"])
         col2.metric("Percentuale corrette", f"{stats['correct_rate']:.1f}%")
-        col3.metric("Moduli praticati", len(stats["modules_practiced"]))
-
+        col3.metric("Moduli affrontati", len(stats["modules_practiced"]))
+        
+        # Mostra statistiche per modulo
+        if stats["modules_stats"]:
+            st.markdown("---")
+            st.subheader("📚 Statistiche per Modulo")
+            
+            for module_name, module_stats in stats["modules_stats"].items():
+                with st.expander(f"📖 {module_name}"):
+                    col1, col2, col3 = st.columns(3)
+                    col1.metric("Domande totali", module_stats["total_questions"])
+                    col2.metric("Risposte corrette", module_stats["correct_answers"])
+                    col3.metric("Percentuale corrette", f"{module_stats['correct_rate']:.1f}%")
 
 # ============================================================================
 # MODALITÀ 1: QUIZ DOMANDA PER DOMANDA
@@ -161,17 +172,19 @@ def show_single_question_setup():
             st.rerun()
         return
     
-    selected_files = st.multiselect(
-        "Seleziona i moduli:",
-        options=[q["file"] for q in available_quizzes],
-        format_func=lambda x: next(q["name"] for q in available_quizzes if q["file"] == x)
-    )
+    st.markdown("**Seleziona uno o più moduli:**")
+    selected_files = []
+    
+    # Mostra checkbox per ogni quiz disponibile
+    for quiz in available_quizzes:
+        if st.checkbox(quiz["name"], key=f"quiz_select_{quiz['file']}"):
+            selected_files.append(quiz["file"])
     
     col1, col2 = st.columns(2)
     
     with col1:
         if st.button("Inizia Quiz", disabled=len(selected_files) == 0):
-            # Carica e unisci i quiz
+            # Carica e unisci i quiz selezionati
             questions = st.session_state.quiz_loader.merge_quizzes(selected_files)
             st.session_state.active_engine = SingleQuestionQuizEngine(questions)
             st.session_state.app_mode = "single_question_quiz"
@@ -202,13 +215,21 @@ def show_single_question_quiz():
     st.progress(answered / total if total > 0 else 0)
     st.caption(f"Domande completate: {answered}/{total}")
     
+    # Variabile per tracciare se stiamo mostrando una risposta
+    if "showing_answer" not in st.session_state:
+        st.session_state.showing_answer = False
+    
     # Ottieni domanda corrente o prossima
-    if not engine.is_current_question_completed():
+    if st.session_state.showing_answer:
+        # Se stiamo mostrando la risposta, rimaniamo sulla domanda corrente
+        question = engine.questions[engine.current_question_idx] if engine.current_question_idx is not None else None
+    elif not engine.is_current_question_completed():
         question = engine.questions[engine.current_question_idx] if engine.current_question_idx is not None else None
         if question is None:
             question = engine.get_next_question()
     else:
         question = engine.get_next_question()
+        st.session_state.showing_answer = False
     
     if question is None:
         # Quiz terminato
@@ -224,8 +245,9 @@ def show_single_question_quiz():
     # Radio button per le opzioni
     answer = st.radio(
         "Seleziona la tua risposta:",
+        index=None,
         options=question["opzioni"],
-        key=f"answer_{question['question_id']}"
+        disabled=st.session_state.showing_answer
     )
     
     # Feedback message
@@ -241,7 +263,7 @@ def show_single_question_quiz():
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        if st.button("✔️ Invia Risposta", use_container_width=True):
+        if st.button("✔️ Invia Risposta", use_container_width=True, disabled=st.session_state.showing_answer):
             is_correct, correct_answer = engine.check_answer(answer)
             
             # Log risposta
@@ -252,7 +274,7 @@ def show_single_question_quiz():
                     username=user.username,
                     quiz_mode="single_question",
                     module_name=question.get("source_quiz", "unknown"),
-                    question_id=question["num_domanda"],
+                    question_id=question.get("cod_domanda","unknown"),
                     user_answer=answer,
                     correct_answer=correct_answer,
                     is_correct=is_correct,
@@ -262,26 +284,32 @@ def show_single_question_quiz():
             
             if is_correct:
                 st.session_state.feedback_message = f"✅ Corretto! Risposta: {correct_answer}"
+                st.session_state.showing_answer = True
             else:
                 st.session_state.feedback_message = f"❌ Errato. Riprova!"
             
             st.rerun()
     
     with col2:
-        if st.button("⏭️ Salta Domanda", use_container_width=True):
-            engine.skip_question()
+        button_label = "➡️ Domanda Successiva" if st.session_state.showing_answer else "⏭️ Salta Domanda"
+        if st.button(button_label, use_container_width=True):
+            if not st.session_state.showing_answer:
+                engine.skip_question()
             st.session_state.feedback_message = None
+            st.session_state.showing_answer = False
             st.rerun()
     
     with col3:
-        if st.button("👁️ Mostra Risposta", use_container_width=True):
+        if st.button("👁️ Mostra Risposta", use_container_width=True, disabled=st.session_state.showing_answer):
             correct = engine.show_answer()
             st.session_state.feedback_message = f"💡 La risposta corretta è: {correct}"
+            st.session_state.showing_answer = True
             st.rerun()
     
     with col4:
         if st.button("🛑 Termina Quiz", use_container_width=True):
             st.session_state.app_mode = "single_question_results"
+            st.session_state.showing_answer = False
             st.rerun()
 
 
@@ -371,11 +399,10 @@ def show_complete_quiz_setup():
             st.rerun()
         return
     
-    selected_file = st.selectbox(
-        "Seleziona il modulo:",
-        options=[q["file"] for q in available_quizzes],
-        format_func=lambda x: next(q["name"] for q in available_quizzes if q["file"] == x)
-    )
+    # Mostra checkbox per ogni quiz disponibile    
+    for quiz in available_quizzes:
+        if st.checkbox(quiz["name"], key=f"quiz_select_{quiz['file']}"):
+            selected_file = quiz["file"]
     
     col1, col2 = st.columns(2)
     
@@ -414,18 +441,17 @@ def show_complete_quiz():
         st.write(question["domanda"])
         
         # Recupera risposta salvata se presente
-        saved_answer = engine.get_saved_answer(question["question_id"])
+        saved_answer = engine.get_saved_answer(question["cod_domanda"])
         default_idx = question["opzioni"].index(saved_answer) if saved_answer in question["opzioni"] else 0
         
         answer = st.radio(
             "Seleziona la risposta:",
-            options=question["opzioni"],
-            key=f"complete_q_{question['question_id']}",
-            index=default_idx if saved_answer else None
+            options=question["opzioni"],            
+            index=None
         )
         
         # Salva la risposta
-        engine.save_answer(question["question_id"], answer)
+        engine.save_answer(question["cod_domanda"], answer)
         
         st.markdown("---")
     
@@ -480,7 +506,7 @@ def show_complete_quiz_results():
                     username=user.username,
                     quiz_mode="complete",
                     module_name=st.session_state.get("selected_quiz_file", "unknown"),
-                    question_id=q_result['question_id'],
+                    question_id=q_result['cod_domanda'],
                     user_answer=q_result['user_answer'],
                     correct_answer=q_result['correct_answer'],
                     is_correct=q_result['is_correct'],
@@ -536,11 +562,11 @@ def show_exam_setup():
             st.rerun()
         return
     
-    selected_files = st.multiselect(
-        "Seleziona i moduli per l'esame:",
-        options=[q["file"] for q in available_quizzes],
-        format_func=lambda x: next(q["name"] for q in available_quizzes if q["file"] == x)
-    )
+    # Mostra checkbox per ogni quiz disponibile
+    selected_files=[]
+    for quiz in available_quizzes:
+        if st.checkbox(quiz["name"], key=f"quiz_select_{quiz['file']}"):
+            selected_files.append(quiz["file"])
     
     if selected_files:
         st.info(f"Saranno estratte 15 domande per {len(selected_files)} modulo/i = {15 * len(selected_files)} domande totali")
@@ -596,7 +622,9 @@ def show_exam_quiz():
     timer_col1, timer_col2 = st.columns([3, 1])
     
     with timer_col1:
-        st.progress(1 - (remaining_seconds / module_engine.TIME_LIMIT_SECONDS))
+        # Clampa il valore tra 0 e 1 per evitare errori
+        progress_value = max(0.0, min(1.0, 1 - (remaining_seconds / module_engine.TIME_LIMIT_SECONDS)))
+        st.progress(progress_value)
     
     with timer_col2:
         if remaining_seconds > 60:
@@ -629,6 +657,31 @@ def show_exam_quiz():
         col1.metric("Risposte corrette", f"{result.correct_answers}/{result.total_questions}")
         col2.metric("Percentuale", f"{result.score_percentage:.1f}%")
         
+        # Mostra dettaglio risposte
+        st.markdown("---")
+        st.subheader("📋 Dettaglio Risposte")
+        
+        for idx, question in enumerate(module_engine.questions):
+            cod_domanda = question.get("cod_domanda", str(idx))
+            user_answer = module_engine.user_answers.get(cod_domanda)
+            correct_answer = question["risposta_corretta"]
+            
+            if user_answer is None or user_answer == "":
+                is_correct = False
+                user_answer_display = "(Non hai risposto)"
+            else:
+                is_correct = user_answer.strip().lower() == correct_answer.strip().lower()
+                user_answer_display = user_answer
+            
+            icon = "✅" if is_correct else "❌"
+            status = "Corretto" if is_correct else "Errato"
+            
+            with st.expander(f"Domanda {idx + 1} - {icon} {status}"):
+                st.write(f"**Domanda:** {question['domanda']}")
+                st.write(f"**La tua risposta:** {user_answer_display}")
+                st.write(f"**Risposta corretta:** {correct_answer}")
+        
+        st.markdown("---")
         has_next = exam_engine.next_module()
         
         col1, col2 = st.columns(2)
@@ -661,56 +714,59 @@ def show_exam_quiz():
     
     answer = st.radio(
         "Seleziona la risposta:",
-        options=question["opzioni"],
-        key=f"exam_q_{question['question_id']}",
-        index=question["opzioni"].index(saved_answer) if saved_answer in question["opzioni"] else 0
+        options=question["opzioni"],       
+        index=None
     )
     
     # Pulsanti navigazione
-    col1, col2, col3 = st.columns([1, 1, 1])
+    is_first_question = module_engine.current_question_idx == 0
+    is_last_question = module_engine.current_question_idx == len(module_engine.questions) - 1
     
-    with col1:
-        if module_engine.current_question_idx > 0:
+    # Layout colonne: 2 colonne se prima domanda, 3 se domanda intermedia
+    if is_first_question:
+        col1, col2 = st.columns([1, 1])
+    else:
+        col1, col2, col3 = st.columns([1, 1, 1])
+    
+    # Bottone Precedente solo se NON è la prima domanda
+    if not is_first_question:
+        with col1:
             if st.button("⬅️ Precedente", use_container_width=True):
                 module_engine.previous_question()
                 st.rerun()
     
-    with col2:
-        if st.button("💾 Salva", use_container_width=True):
+    # Bottone Invia: col1 se prima domanda, col2 altrimenti
+    button_col = col1 if is_first_question else col2
+    
+    with button_col:
+        if st.button("✔️ Invia", use_container_width=True, key="btn_invia_risposta"):
             module_engine.save_current_answer(answer)
             
             # Log risposta
             if is_authenticated(st.session_state):
                 user = get_current_user(st.session_state)
-                is_correct = answer.strip().lower() == question["risposta_corretta"].strip().lower()
+                # Gestisce None nelle risposte
+                if answer is None or answer == "":
+                    is_correct = False
+                else:
+                    is_correct = answer.strip().lower() == question["risposta_corretta"].strip().lower()
+                
                 st.session_state.quiz_logger.log_answer(
                     username=user.username,
                     quiz_mode="exam",
                     module_name=module_engine.module_name,
-                    question_id=question["num_domanda"],
-                    user_answer=answer,
+                    question_id=question["cod_domanda"],
+                    user_answer=answer if answer is not None else "(Non hai risposto)",
                     correct_answer=question["risposta_corretta"],
                     is_correct=is_correct,
                     session_id=st.session_state.session_id
                 )
             
-            st.success("Risposta salvata!")
-            time.sleep(0.3)
-            st.rerun()
-    
-    with col3:
-        has_next = module_engine.current_question_idx < len(module_engine.questions) - 1
-        
-        if has_next:
-            if st.button("➡️ Successiva", use_container_width=True):
-                module_engine.save_current_answer(answer)
+            # Passa automaticamente alla domanda successiva
+            has_next = module_engine.current_question_idx < len(module_engine.questions) - 1
+            if has_next:
                 module_engine.next_question()
-                st.rerun()
-        else:
-            if st.button("✅ Termina Modulo", use_container_width=True, type="primary"):
-                module_engine.save_current_answer(answer)
-                result = exam_engine.finish_current_module()
-                st.rerun()
+            st.rerun()
     
     # Mappa domande
     st.markdown("---")
@@ -730,9 +786,118 @@ def show_exam_quiz():
                 module_engine.go_to_question(i)
                 st.rerun()
     
-    # Auto-refresh per aggiornare timer
+    # Bottone Termina Modulo solo all'ultima domanda: col2 se prima domanda, col3 altrimenti
+    if is_last_question:
+        last_button_col = col2 if is_first_question else col3
+        
+        with last_button_col:
+            if st.button("✅ Termina Modulo", use_container_width=True, type="primary", key="btn_termina_modulo"):
+                print(f"[DEBUG] Termina Modulo clicked - Saving answer: {answer}")
+                module_engine.save_current_answer(answer)
+                
+                print(f"[DEBUG] Finishing current module...")
+                result = exam_engine.finish_current_module()
+                print(f"[DEBUG] Module finished - Score: {result.score_percentage:.1f}%")
+                
+                # Salva il risultato in session state per mostrarlo
+                st.session_state.last_module_result = result
+                st.session_state.last_module_engine = module_engine
+                
+                # Log modulo completato
+                if is_authenticated(st.session_state):
+                    user = get_current_user(st.session_state)
+                    st.session_state.quiz_logger.log_session_summary(
+                        username=user.username,
+                        quiz_mode="exam",
+                        session_id=st.session_state.session_id,
+                        summary_data={
+                            "module": result.module_name,
+                            "score": result.score_percentage,
+                            "completed": True
+                        }
+                    )
+                
+                # Mostra i risultati del modulo
+                st.session_state.app_mode = "exam_module_results"
+                st.rerun()
+        return
+    
+    # Auto-refresh per aggiornare timer (solo se non siamo all'ultima domanda)
     time.sleep(1)
     st.rerun()
+
+
+def show_exam_module_results():
+    """Mostra i risultati del modulo appena completato"""
+    exam_engine = st.session_state.active_engine
+    result = st.session_state.get("last_module_result")
+    module_engine = st.session_state.get("last_module_engine")
+    
+    if result is None or module_engine is None:
+        st.error("Errore: dati del modulo non trovati")
+        st.session_state.app_mode = "exam_quiz"
+        st.rerun()
+        return
+    
+    st.title(f"📊 Risultato Modulo: {result.module_name}")
+    
+    st.markdown("---")
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Risposte corrette", f"{result.correct_answers}/{result.total_questions}")
+    col2.metric("Percentuale", f"{result.score_percentage:.1f}%")
+    minutes = result.time_spent_seconds // 60
+    seconds = result.time_spent_seconds % 60
+    col3.metric("Tempo impiegato", f"{minutes}:{seconds:02d}")
+    
+    # Mostra dettaglio risposte
+    st.markdown("---")
+    st.subheader("📋 Dettaglio Risposte")
+    
+    for idx, question in enumerate(module_engine.questions):
+        cod_domanda = question.get("cod_domanda", str(idx))
+        user_answer = module_engine.user_answers.get(cod_domanda)
+        correct_answer = question["risposta_corretta"]
+        
+        if user_answer is None or user_answer == "":
+            is_correct = False
+            user_answer_display = "(Non hai risposto)"
+        else:
+            is_correct = user_answer.strip().lower() == correct_answer.strip().lower()
+            user_answer_display = user_answer
+        
+        icon = "✅" if is_correct else "❌"
+        status = "Corretto" if is_correct else "Errato"
+        
+        with st.expander(f"Domanda {idx + 1} - {icon} {status}"):
+            st.write(f"**Domanda:** {question['domanda']}")
+            st.write(f"**La tua risposta:** {user_answer_display}")
+            if not is_correct:
+                st.write(f"**Risposta corretta:** {correct_answer}")
+    
+    st.markdown("---")
+    
+    # Verifica se ci sono altri moduli (l'indice è ancora sul modulo appena completato)
+    has_next = exam_engine.current_module_idx < len(exam_engine.module_engines) - 1
+    
+    col1, col2 = st.columns(2)
+    
+    if has_next:
+        with col1:
+            if st.button("▶️ Prossimo Modulo", use_container_width=True, type="primary"):
+                # Incrementa l'indice per passare al modulo successivo
+                exam_engine.next_module()
+                # Avvia il timer del prossimo modulo
+                exam_engine.start_current_module()
+                # Pulisci i risultati temporanei
+                st.session_state.last_module_result = None
+                st.session_state.last_module_engine = None
+                st.session_state.app_mode = "exam_quiz"
+                st.rerun()
+    
+    with col2 if has_next else col1:
+        if st.button("🛑 Termina Esame", use_container_width=True):
+            st.session_state.app_mode = "exam_final_results"
+            st.rerun()
 
 
 def show_exam_results():
@@ -865,6 +1030,9 @@ def main():
     
     elif st.session_state.app_mode == "exam_quiz":
         show_exam_quiz()
+    
+    elif st.session_state.app_mode == "exam_module_results":
+        show_exam_module_results()
     
     elif st.session_state.app_mode == "exam_final_results":
         show_exam_final_results()

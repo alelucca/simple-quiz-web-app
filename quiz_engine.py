@@ -102,7 +102,9 @@ class SingleQuestionQuizEngine:
             )
         
         question_data = self.questions[self.current_question_idx].copy()
-        question_data["question_id"] = self.current_question_idx
+        # Usa cod_domanda esistente nel JSON, se non presente usa l'indice come fallback
+        if "cod_domanda" not in question_data:
+            question_data["cod_domanda"] = self.current_question_idx
         
         return question_data
     

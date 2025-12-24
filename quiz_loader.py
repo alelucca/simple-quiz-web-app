@@ -132,7 +132,7 @@ class QuizLoader:
         Raises:
             ValueError: se mancano campi obbligatori o sono invalidi
         """
-        required_fields = ["num_domanda", "domanda", "opzioni", "risposta_corretta"]
+        required_fields = ["num_domanda", "domanda", "opzioni", "risposta_corretta", "cod_domanda"]
         
         for field in required_fields:
             if field not in question:
@@ -152,7 +152,8 @@ class QuizLoader:
             "domanda": question["domanda"].strip(),
             "opzioni": [opt.strip() for opt in question["opzioni"]],
             "risposta_corretta": question["risposta_corretta"].strip(),
-            "source_quiz": source_file
+            "source_quiz": source_file,
+            "cod_domanda": question["cod_domanda"]
         }
 
 

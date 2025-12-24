@@ -1,4 +1,6 @@
 import json
+import secrets
+import string
 
 def normalize_question(question, source_file):
         """
@@ -34,7 +36,8 @@ def normalize_question(question, source_file):
             "domanda": question["domanda"].strip(),
             "opzioni": [opt.strip() for opt in question["opzioni"]],
             "risposta_corretta": question["risposta_corretta"].strip(),
-            "source_quiz": source_file
+            "source_quiz": source_file,
+            "cod_domanda": question["cod_domanda"]
         }
 
 def validate_quiz(quiz_file: str) -> None:
@@ -68,11 +71,53 @@ def validate_quiz(quiz_file: str) -> None:
     
     # return normalized_questions
 
+def assign_unique_question_id(quiz_file: str):
+    """
+    Assegna un codice univoco a ogni domanda nel quiz
+    
+    Args:
+        quiz_file: nome del file JSON da caricare
+        
+    Returns:
+        Lista di domande con campo 'cod_domanda' aggiunto
+    """
+    file_path = f"QUIZ_CLEAN/JSON/{quiz_file}"
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    # Genera codici univoci per ogni domanda
+    used_codes = set()
+    
+    for question in data:
+        # Genera un codice univoco di 8 caratteri alfanumerici
+        while True:
+            cod_domanda = ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(8))
+            if cod_domanda not in used_codes:
+                used_codes.add(cod_domanda)
+                break
+        
+        question["cod_domanda"] = cod_domanda
+    
+    return data
+
+
 def main():
     files = ["farmacologia_final.json", "ptda_final.json", "radioprotezione_final.json"]
 
     for f in files:
+        print(f"\nProcessing {f}...")
         validate_quiz(f)
+        # updated_questions = assign_unique_question_id(f)
+        
+        # # Sovrascrivi il file con le domande aggiornate
+        # file_path = f"QUIZ_CLEAN/JSON/{f}"
+        # with open(file_path, 'w', encoding='utf-8') as file:
+        #     json.dump(updated_questions, file, ensure_ascii=False, indent=2)
+        
+        # print(f"✓ {f} updated with unique question IDs") 
+
+
 
 if __name__=="__main__":
     main()

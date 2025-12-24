@@ -261,18 +261,33 @@ class QuizLogger:
             return {
                 "total_questions_answered": 0,
                 "correct_rate": 0.0,
-                "modules_practiced": []
+                "modules_practiced": [],
+                "modules_stats": {}
             }
         
-        total = len(answer_logs)
+        total = sum(1 for log in answer_logs if log.get("user_answer", "")!="(Non hai risposto)")
         correct = sum(1 for log in answer_logs if log.get("is_correct", False))
         modules = list(set(log.get("module_name") for log in answer_logs if log.get("module_name")))
+        
+        # Statistiche per modulo
+        modules_stats = {}
+        for module in modules:
+            module_logs = [log for log in answer_logs if log.get("module_name") == module]
+            module_total = sum(1 for log in answer_logs if log.get("user_answer", "")!="(Non hai risposto)")
+            module_correct = sum(1 for log in module_logs if log.get("is_correct", False))
+            
+            modules_stats[module] = {
+                "total_questions": module_total,
+                "correct_answers": module_correct,
+                "correct_rate": (module_correct / module_total * 100) if module_total > 0 else 0.0
+            }
         
         return {
             "total_questions_answered": total,
             "correct_answers": correct,
             "correct_rate": (correct / total * 100) if total > 0 else 0.0,
-            "modules_practiced": modules
+            "modules_practiced": modules,
+            "modules_stats": modules_stats
         }
 
 
