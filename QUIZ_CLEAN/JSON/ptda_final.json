@@ -8,7 +8,8 @@
       "è condivisa tra medico ed infermiere",
       "è esclusiva dell'infermiere"
     ],
-    "risposta_corretta": "è esclusiva del medico"
+    "risposta_corretta": "è esclusiva del medico",
+    "cod_domanda": "eZzUimgy"
   },
   {
     "num_domanda": 2,
@@ -19,7 +20,8 @@
       "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile",
       "quando l'infermiere riceve una prescrizione verbale chiede al medico di ripeterla due volte"
     ],
-    "risposta_corretta": "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile"
+    "risposta_corretta": "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile",
+    "cod_domanda": "eomZCndF"
   },
   {
     "num_domanda": 3,
@@ -30,7 +32,8 @@
       "nella loro confezione originale",
       "rispettando le indicazioni circa la temperatura"
     ],
-    "risposta_corretta": "tutte le precedenti"
+    "risposta_corretta": "tutte le precedenti",
+    "cod_domanda": "yuuUbNPC"
   },
   {
     "num_domanda": 4,
@@ -41,7 +44,8 @@
       "tutte le precedenti",
       "sono azioni mirate a garantire la sicurezza nella pratica assistenziale"
     ],
-    "risposta_corretta": "tutte le precedenti"
+    "risposta_corretta": "tutte le precedenti",
+    "cod_domanda": "L6TMS04J"
   },
   {
     "num_domanda": 5,
@@ -52,7 +56,8 @@
       "farmaci che richiedono particolare attenzione nella gestione per il costo elevato",
       "tutti i farmaci"
     ],
-    "risposta_corretta": "farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni"
+    "risposta_corretta": "farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni",
+    "cod_domanda": "7m9nAhVU"
   },
   {
     "num_domanda": 6,
@@ -63,7 +68,8 @@
       "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome",
       "alla procedura di conservazione/registrazione dei farmaci stupefacenti"
     ],
-    "risposta_corretta": "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome"
+    "risposta_corretta": "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome",
+    "cod_domanda": "Rfo76XeA"
   },
   {
     "num_domanda": 7,
@@ -74,7 +80,8 @@
       "vene del cavo popliteo",
       "vene degli arti inferiori"
     ],
-    "risposta_corretta": "vene della fossa cubitale"
+    "risposta_corretta": "vene della fossa cubitale",
+    "cod_domanda": "8qBG33Uj"
   },
   {
     "num_domanda": 8,
@@ -85,7 +92,8 @@
       "è un procedimento analitico attuato su animali, detti “cavie da laboratorio” per testare i farmaci prima di commercializzarli",
       "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente esclusivamente nel sangue"
     ],
-    "risposta_corretta": "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico"
+    "risposta_corretta": "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico",
+    "cod_domanda": "gjlWkks8"
   },
   {
     "num_domanda": 9,
@@ -96,7 +104,8 @@
       "da 20 a 30 ml per set di flaconi",
       "da 10 a 20 ml per set di flaconi"
     ],
-    "risposta_corretta": "da 20 a 30 ml per set di flaconi"
+    "risposta_corretta": "da 20 a 30 ml per set di flaconi",
+    "cod_domanda": "pmI48kcu"
   },
   {
     "num_domanda": 10,
@@ -107,7 +116,8 @@
       "sempre con soluzione fisiologica 0,9%",
       "sempre con soluzione eparinata"
     ],
-    "risposta_corretta": "sempre con soluzione fisiologica 0,9%"
+    "risposta_corretta": "sempre con soluzione fisiologica 0,9%",
+    "cod_domanda": "hNjcWJMu"
   },
   {
     "num_domanda": 11,
@@ -118,7 +128,8 @@
       "sede ventroglutea",
       "sede retto femorale"
     ],
-    "risposta_corretta": "sede ventroglutea"
+    "risposta_corretta": "sede ventroglutea",
+    "cod_domanda": "lsB2YGcu"
   },
   {
     "num_domanda": 12,
@@ -129,7 +140,8 @@
       "femorale",
       "radiale"
     ],
-    "risposta_corretta": "radiale"
+    "risposta_corretta": "radiale",
+    "cod_domanda": "59dk5rkI"
   },
   {
     "num_domanda": 13,
@@ -140,7 +152,8 @@
       "lipodistrofia muscolare",
       "ematomi locali"
     ],
-    "risposta_corretta": "ematomi locali"
+    "risposta_corretta": "ematomi locali",
+    "cod_domanda": "LIPfOXeQ"
   },
   {
     "num_domanda": 14,
@@ -151,7 +164,8 @@
       "aderenza",
       "compliance"
     ],
-    "risposta_corretta": "concordance"
+    "risposta_corretta": "concordance",
+    "cod_domanda": "nFdIfdY8"
   },
   {
     "num_domanda": 15,
@@ -162,7 +176,8 @@
       "in gauge",
       "in french"
     ],
-    "risposta_corretta": "in gauge"
+    "risposta_corretta": "in gauge",
+    "cod_domanda": "972ax3IG"
   },
   {
     "num_domanda": 16,
@@ -173,7 +188,8 @@
       "si può ottenere un assorbimento lento e costante nelle 24 ore",
       "si evita l'effetto di primo passaggio epatico"
     ],
-    "risposta_corretta": "si evita l'effetto di primo passaggio epatico"
+    "risposta_corretta": "si evita l'effetto di primo passaggio epatico",
+    "cod_domanda": "homHQMSG"
   },
   {
     "num_domanda": 17,
@@ -184,7 +200,8 @@
       "solo dal coordinatore dell'unità operativa",
       "dall'infermiere che somministra il farmaco"
     ],
-    "risposta_corretta": "dall'infermiere che somministra il farmaco"
+    "risposta_corretta": "dall'infermiere che somministra il farmaco",
+    "cod_domanda": "ZqyNos9j"
   },
   {
     "num_domanda": 18,
@@ -195,7 +212,8 @@
       "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere firmati dal medico che ha la responsabilità del prelievo",
       "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere eseguiti e firmati dal medico che ha la responsabilità del prelievo"
     ],
-    "risposta_corretta": "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo"
+    "risposta_corretta": "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo",
+    "cod_domanda": "fo0lzPdZ"
   },
   {
     "num_domanda": 19,
@@ -206,7 +224,8 @@
       "prescrizione verbale o telefonica",
       "prescrizione che fa riferimento ad un protocollo di reparto condiviso"
     ],
-    "risposta_corretta": "prescrizione dipendente dal verificarsi di un evento futuro ed incerto (es. prescrizione \"al bisogno\")"
+    "risposta_corretta": "prescrizione dipendente dal verificarsi di un evento futuro ed incerto (es. prescrizione \"al bisogno\")",
+    "cod_domanda": "U1qhWYUb"
   },
   {
     "num_domanda": 20,
@@ -217,7 +236,8 @@
       "è possibile solo in ambito extra ospedaliero",
       "non è mai consentito"
     ],
-    "risposta_corretta": "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile"
+    "risposta_corretta": "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile",
+    "cod_domanda": "zWb34Ltu"
   },
   {
     "num_domanda": 21,
@@ -228,7 +248,8 @@
       "peso, volume, unità internazionali, costo della singola confezione",
       "peso, altezza, volume"
     ],
-    "risposta_corretta": "peso, volume, unità internazionali, milliequivalenti"
+    "risposta_corretta": "peso, volume, unità internazionali, milliequivalenti",
+    "cod_domanda": "SW5isOLV"
   },
   {
     "num_domanda": 22,
@@ -239,7 +260,8 @@
       "tutte le precedenti",
       "soluzioni concentrate di potassio cloruro (KCI)"
     ],
-    "risposta_corretta": "tutte le precedenti"
+    "risposta_corretta": "tutte le precedenti",
+    "cod_domanda": "MbHVriF1"
   },
   {
     "num_domanda": 23,
@@ -250,7 +272,8 @@
       "lontano da umidità e fonti di luce, a temperatura ambiente",
       "lontano da umidità, ponendo particolare attenzione ai medicinali antimicotici e polivitaminici"
     ],
-    "risposta_corretta": "nella loro confezione originale, lontano da umidità e fonti di luce, rispettando le indicazioni circa la temperatura di conservazione"
+    "risposta_corretta": "nella loro confezione originale, lontano da umidità e fonti di luce, rispettando le indicazioni circa la temperatura di conservazione",
+    "cod_domanda": "JDxQqEo5"
   },
   {
     "num_domanda": 24,
@@ -261,7 +284,8 @@
       "devono essere conservate separate dagli altri farmaci in armadi chiusi",
       "devono essere conservate nell'armadio dei farmaci in uno spazio separato"
     ],
-    "risposta_corretta": "devono essere conservate separate dagli altri farmaci in armadi chiusi, in contenitori che rechino la segnalazione “diluire prima dell'infusione-mortale se infuso non diluito”"
+    "risposta_corretta": "devono essere conservate separate dagli altri farmaci in armadi chiusi, in contenitori che rechino la segnalazione “diluire prima dell'infusione-mortale se infuso non diluito”",
+    "cod_domanda": "SvG0NwYC"
   },
   {
     "num_domanda": 25,
@@ -272,7 +296,8 @@
       "cute pallida e fredda al tatto, edema, fuoriuscita di pus dal sito d'infusione",
       "cute pallida e fredda al tatto, dolore"
     ],
-    "risposta_corretta": "cute pallida e fredda al tatto, edema, presenza o assenza di dolore"
+    "risposta_corretta": "cute pallida e fredda al tatto, edema, presenza o assenza di dolore",
+    "cod_domanda": "ceRRA2jV"
   },
   {
     "num_domanda": 26,
@@ -283,7 +308,8 @@
       "infusione continua",
       "ipodermoclisi"
     ],
-    "risposta_corretta": "bolo endovena"
+    "risposta_corretta": "bolo endovena",
+    "cod_domanda": "uNWCYqGu"
   },
   {
     "num_domanda": 27,
@@ -294,7 +320,8 @@
       "viene effettuata nel derma con inserimento dell'ago con un'angolatura di 10°-15°",
       "se compare un pomfo significa che è stato penetrato il tessuto ipodermico"
     ],
-    "risposta_corretta": "se compare un pomfo significa che è stato penetrato il tessuto ipodermico"
+    "risposta_corretta": "se compare un pomfo significa che è stato penetrato il tessuto ipodermico",
+    "cod_domanda": "0frVI9Yv"
   },
   {
     "num_domanda": 28,
@@ -305,7 +332,8 @@
       "500 ml di soluzione elettrolitica reidratante",
       "500ml di NaCl 0,9% (soluzione fisiologica)"
     ],
-    "risposta_corretta": "sacca da 2000 ml di nutrizione parenterale totale (npt)"
+    "risposta_corretta": "sacca da 2000 ml di nutrizione parenterale totale (npt)",
+    "cod_domanda": "sVV1Fex6"
   },
   {
     "num_domanda": 29,
@@ -316,7 +344,8 @@
       "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti",
       "ago monouso e siringa sterile senza ago"
     ],
-    "risposta_corretta": "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti"
+    "risposta_corretta": "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti",
+    "cod_domanda": "MhVHDqBU"
   },
   {
     "num_domanda": 30,
@@ -327,7 +356,8 @@
       "ogni 24 ore",
       "ogni volta che si sostituisce la fleboclisi"
     ],
-    "risposta_corretta": "ogni 24 ore"
+    "risposta_corretta": "ogni 24 ore",
+    "cod_domanda": "AYNUPtRE"
   },
   {
     "num_domanda": 31,
@@ -338,7 +368,8 @@
       "verificare l'identità dell'assistito in modo attivo, controllare che il numero della cartella clinica corrisponda a quello del braccialetto identificativo",
       "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori"
     ],
-    "risposta_corretta": "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori"
+    "risposta_corretta": "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori",
+    "cod_domanda": "IfkMoqKW"
   },
   {
     "num_domanda": 32,
@@ -349,7 +380,8 @@
       "il sangue può perdere le sue caratteristiche",
       "l'anticoagulante contenuto nella sacca può provocare alterazioni dei globuli rossi"
     ],
-    "risposta_corretta": "il sangue può contaminarsi"
+    "risposta_corretta": "il sangue può contaminarsi",
+    "cod_domanda": "gmsYRWWj"
   },
   {
     "num_domanda": 33,
@@ -360,7 +392,8 @@
       "in un cassetto apposito collocato nello studio del coordinatore responsabile dell'U.O.",
       "nell'armadio dei farmaci che ha la possibilità di essere chiuso a chiave"
     ],
-    "risposta_corretta": "in cassaforte o un armadio farmaceutico chiuso a chiave in luogo separato dagli altri farmaci"
+    "risposta_corretta": "in cassaforte o un armadio farmaceutico chiuso a chiave in luogo separato dagli altri farmaci",
+    "cod_domanda": "RwfJOAvn"
   },
   {
     "num_domanda": 34,
@@ -371,7 +404,8 @@
       "atto mediante il quale l'infermiere stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
       "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente"
     ],
-    "risposta_corretta": "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente"
+    "risposta_corretta": "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
+    "cod_domanda": "G3Y2gtMr"
   },
   {
     "num_domanda": 35,
@@ -382,7 +416,8 @@
       "dosaggio, tempo di somministrazione, via di somministrazione, ditta farmaceutica produttrice, forma farmaceutica",
       "nome del paziente, nome del medico prescrittore, orario di somministrazione"
     ],
-    "risposta_corretta": "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico"
+    "risposta_corretta": "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico",
+    "cod_domanda": "Wh2XRwk5"
   },
   {
     "num_domanda": 36,
@@ -393,7 +428,8 @@
       "nessuna delle precedenti",
       "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione"
     ],
-    "risposta_corretta": "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione"
+    "risposta_corretta": "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione",
+    "cod_domanda": "89qPo7T2"
   },
   {
     "num_domanda": 37,
@@ -404,7 +440,8 @@
       "farmaci ad alto livello di attenzione",
       "antibiotici"
     ],
-    "risposta_corretta": "farmaci ad alto livello di attenzione"
+    "risposta_corretta": "farmaci ad alto livello di attenzione",
+    "cod_domanda": "Q5aUzqkz"
   },
   {
     "num_domanda": 38,
@@ -415,7 +452,8 @@
       "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione",
       "richiedono il controllo da parte del medico durante la preparazione, etichettatura e somministrazione"
     ],
-    "risposta_corretta": "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione"
+    "risposta_corretta": "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione",
+    "cod_domanda": "007FJasy"
   },
   {
     "num_domanda": 39,
@@ -426,7 +464,8 @@
       "non è importante mantenere il digiuno prima dell'esecuzione di un esame",
       "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità"
     ],
-    "risposta_corretta": "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità"
+    "risposta_corretta": "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità",
+    "cod_domanda": "dF5WzIAn"
   },
   {
     "num_domanda": 40,
@@ -437,7 +476,8 @@
       "il calibro deve essere idoneo a permettere un deflusso lento del sangue e favorire così l'emolisi",
       "il calibro è indifferente"
     ],
-    "risposta_corretta": "il calibro deve essere idoneo a permettere un deflusso rapido del sangue ed evitare così l'emolisi"
+    "risposta_corretta": "il calibro deve essere idoneo a permettere un deflusso rapido del sangue ed evitare così l'emolisi",
+    "cod_domanda": "V7q1p9oa"
   },
   {
     "num_domanda": 41,
@@ -448,7 +488,8 @@
       "di riempire i flaconi senza un ordine preciso e di eseguire la manovra con i guanti sterili o non sterili",
       "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili"
     ],
-    "risposta_corretta": "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili"
+    "risposta_corretta": "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili",
+    "cod_domanda": "JR4yMPEB"
   },
   {
     "num_domanda": 42,
@@ -459,7 +500,8 @@
       "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione",
       "la manovra di Lesser non è indicata nella terapia sottocutanea"
     ],
-    "risposta_corretta": "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione"
+    "risposta_corretta": "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione",
+    "cod_domanda": "Z3RRSnVt"
   },
   {
     "num_domanda": 43,
@@ -470,7 +512,8 @@
       "effettuare la manovra di Lesser",
       "ruotare i punti di iniezione e le sedi"
     ],
-    "risposta_corretta": "ruotare i punti di iniezione e le sedi"
+    "risposta_corretta": "ruotare i punti di iniezione e le sedi",
+    "cod_domanda": "Xn36bfbl"
   },
   {
     "num_domanda": 44,
@@ -481,7 +524,8 @@
       "mai prima che siano trascorse 72 ore",
       "quando il paziente lo desidera"
     ],
-    "risposta_corretta": "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura"
+    "risposta_corretta": "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura",
+    "cod_domanda": "K5lVVaV7"
   },
   {
     "num_domanda": 45,
@@ -492,7 +536,8 @@
       "serve una siringa da 2,5 ml eparinata",
       "il campione di sangue va conservato a temperatura ambiente"
     ],
-    "risposta_corretta": "il campione di sangue va conservato a temperatura ambiente"
+    "risposta_corretta": "il campione di sangue va conservato a temperatura ambiente",
+    "cod_domanda": "L4zu0z35"
   },
   {
     "num_domanda": 46,
@@ -503,7 +548,8 @@
       "consigliare l'uso della cannuccia",
       "diluire il più possibile il farmaco"
     ],
-    "risposta_corretta": "posizionare il farmaco nella parte più tonica della bocca"
+    "risposta_corretta": "posizionare il farmaco nella parte più tonica della bocca",
+    "cod_domanda": "Uz3x7YI7"
   },
   {
     "num_domanda": 47,
@@ -514,7 +560,8 @@
       "sottocutanea",
       "endovenosa"
     ],
-    "risposta_corretta": "sottocutanea"
+    "risposta_corretta": "sottocutanea",
+    "cod_domanda": "9bjxl3RV"
   },
   {
     "num_domanda": 48,
@@ -525,7 +572,8 @@
       "infusione di sangue o emoderivati ricavati da preparazioni anticipatamente lavate e centrifugate",
       "infusione di sangue o emoderivati provenienti da donatore volontario"
     ],
-    "risposta_corretta": "reinfusione alla persona del proprio sangue anticipatamente prelevato e predepositato per provvedere a sue specifiche necessità trasfusionali"
+    "risposta_corretta": "reinfusione alla persona del proprio sangue anticipatamente prelevato e predepositato per provvedere a sue specifiche necessità trasfusionali",
+    "cod_domanda": "pY5eo0rZ"
   },
   {
     "num_domanda": 49,
@@ -536,7 +584,8 @@
       "rilevare i parametri vitali e monitorare i segni e sintomi presenti nell'assistito",
       "rallentare la trasfusione, rilevare i parametri vitali e avvertire immediatamente il medico"
     ],
-    "risposta_corretta": "rallentare la trasfusione, rilevare i parametri vitali e avvertire immediatamente il medico"
+    "risposta_corretta": "rallentare la trasfusione, rilevare i parametri vitali e avvertire immediatamente il medico",
+    "cod_domanda": "6J0xAmaX"
   },
   {
     "num_domanda": 50,
@@ -547,7 +596,8 @@
       "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo",
       "può essere acquisito verbalmente dall’infermiere in situazioni di routine assistenziale"
     ],
-    "risposta_corretta": "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo"
+    "risposta_corretta": "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo",
+    "cod_domanda": "3G0as1Jy"
   },
   {
     "num_domanda": 51,
@@ -558,7 +608,8 @@
       "Ogni pagina del registro intestata ad un assistito, indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
       "Ogni pagina del registro può contenere più preparazioni farmacologiche ma registrate in ordine rigorosamente cronologico di somministrazione, senza lacune di trascrizione, senza lasciare spazi vuoti"
     ],
-    "risposta_corretta": "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti"
+    "risposta_corretta": "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
+    "cod_domanda": "oeLqcsmd"
   },
   {
     "num_domanda": 52,
@@ -569,7 +620,8 @@
       "prescrizione imperfetta",
       "prescrizione incompleta"
     ],
-    "risposta_corretta": "prescrizione incompleta"
+    "risposta_corretta": "prescrizione incompleta",
+    "cod_domanda": "sGVpOVQ3"
   },
   {
     "num_domanda": 53,
@@ -580,7 +632,8 @@
       "atto infermieristico, tecnico, sequenziale",
       "atto tecnico, unitario, cronologico"
     ],
-    "risposta_corretta": "atto unitario, sequenziale, cronologico"
+    "risposta_corretta": "atto unitario, sequenziale, cronologico",
+    "cod_domanda": "6B9pl3jC"
   },
   {
     "num_domanda": 54,
@@ -591,7 +644,8 @@
       "curare disturbi determinati da patologie croniche",
       "curare sintomi con effetto placebo"
     ],
-    "risposta_corretta": "curare disturbi facilmente riconoscibili e risolvibili senza ricorrere all'aiuto di un medico"
+    "risposta_corretta": "curare disturbi facilmente riconoscibili e risolvibili senza ricorrere all'aiuto di un medico",
+    "cod_domanda": "hzBYU9Xo"
   },
   {
     "num_domanda": 55,
@@ -602,7 +656,8 @@
       "03/08/2001",
       "15/2/1996"
     ],
-    "risposta_corretta": "03/08/2001"
+    "risposta_corretta": "03/08/2001",
+    "cod_domanda": "Abz9FyAi"
   },
   {
     "num_domanda": 56,
@@ -613,7 +668,8 @@
       "n° 12/08/2010",
       "n° 7/03/2008"
     ],
-    "risposta_corretta": "n° 12/08/2010"
+    "risposta_corretta": "n° 12/08/2010",
+    "cod_domanda": "vwyhtipC"
   },
   {
     "num_domanda": 57,
@@ -624,7 +680,8 @@
       "aiutare per la corretta assunzione dei farmaci prescritti",
       "aiutare per la corretta somministrazione dei farmaci prescritti"
     ],
-    "risposta_corretta": "aiutare per la corretta assunzione dei farmaci prescritti"
+    "risposta_corretta": "aiutare per la corretta assunzione dei farmaci prescritti",
+    "cod_domanda": "SPFKryxc"
   },
   {
     "num_domanda": 58,
@@ -635,7 +692,8 @@
       "collutorio",
       "capsula"
     ],
-    "risposta_corretta": "spray"
+    "risposta_corretta": "spray",
+    "cod_domanda": "DLLRsBOK"
   },
   {
     "num_domanda": 59,
@@ -646,7 +704,8 @@
       "intestino crasso",
       "stomaco"
     ],
-    "risposta_corretta": "intestino tenue"
+    "risposta_corretta": "intestino tenue",
+    "cod_domanda": "Qq8Q5XgC"
   },
   {
     "num_domanda": 60,
@@ -657,7 +716,8 @@
       "la via sottocutanea",
       "la via oftalmica"
     ],
-    "risposta_corretta": "la via oftalmica"
+    "risposta_corretta": "la via oftalmica",
+    "cod_domanda": "hNjwoOI8"
   },
   {
     "num_domanda": 61,
@@ -668,7 +728,8 @@
       "stravaso",
       "lipodistrofia"
     ],
-    "risposta_corretta": "lipodistrofia"
+    "risposta_corretta": "lipodistrofia",
+    "cod_domanda": "ZNjYPhAk"
   },
   {
     "num_domanda": 62,
@@ -679,7 +740,8 @@
       "40 gocce",
       "60 gocce"
     ],
-    "risposta_corretta": "60 gocce"
+    "risposta_corretta": "60 gocce",
+    "cod_domanda": "MxReRooK"
   },
   {
     "num_domanda": 63,
@@ -690,7 +752,8 @@
       "uguale a 7",
       "tra 4 e 6"
     ],
-    "risposta_corretta": "tra 5 e 9"
+    "risposta_corretta": "tra 5 e 9",
+    "cod_domanda": "8gB1CxSy"
   },
   {
     "num_domanda": 64,
@@ -701,7 +764,8 @@
       "È preferibile utilizzare il sito deltoide per volumi superiori a 1 ml",
       "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago"
     ],
-    "risposta_corretta": "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago"
+    "risposta_corretta": "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago",
+    "cod_domanda": "8K01Wk1d"
   },
   {
     "num_domanda": 65,
@@ -712,7 +776,8 @@
       "Provette contenenti altri anticoagulanti o additivi, provette per coagulazione, provette con esami sul siero, raccolta di sangue per emocultura",
       "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi."
     ],
-    "risposta_corretta": "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi."
+    "risposta_corretta": "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi.",
+    "cod_domanda": "wlji7cMX"
   },
   {
     "num_domanda": 66,
@@ -723,7 +788,8 @@
       "Pazienti con obesità lieve",
       "Pazienti con anemia da carenza di ferro stabile"
     ],
-    "risposta_corretta": "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie"
+    "risposta_corretta": "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie",
+    "cod_domanda": "TIy8iKo5"
   },
   {
     "num_domanda": 67,
@@ -734,7 +800,8 @@
       "Basata su segni clinici rilevabili oggettivamente",
       "Basata sulla sensazione soggettiva del paziente"
     ],
-    "risposta_corretta": "Basata su segni clinici rilevabili oggettivamente"
+    "risposta_corretta": "Basata su segni clinici rilevabili oggettivamente",
+    "cod_domanda": "lOujNyk3"
   },
   {
     "num_domanda": 68,
@@ -745,7 +812,8 @@
       "Edema distale all'inserzione del catetere",
       "Ipotermia della sede di inserzione del catetere venoso"
     ],
-    "risposta_corretta": "Ipotermia della sede di inserzione del catetere venoso"
+    "risposta_corretta": "Ipotermia della sede di inserzione del catetere venoso",
+    "cod_domanda": "J9ZbOffO"
   },
   {
     "num_domanda": 69,
@@ -756,7 +824,8 @@
       "All'interno del polso",
       "Vicino all'articolazione della spalla"
     ],
-    "risposta_corretta": "Al centro dell'avambraccio"
+    "risposta_corretta": "Al centro dell'avambraccio",
+    "cod_domanda": "iCpDLYPB"
   },
   {
     "num_domanda": 70,
@@ -767,7 +836,8 @@
       "Arrotondare i decimali",
       "Approssimare i decimali"
     ],
-    "risposta_corretta": "Approssimare i decimali"
+    "risposta_corretta": "Approssimare i decimali",
+    "cod_domanda": "q7ZAbITH"
   },
   {
     "num_domanda": 71,
@@ -778,7 +848,8 @@
       "In pazienti anziani con disidratazione grave e disfagici",
       "In pazienti con iperglicemia e chetoacidosi diabetica"
     ],
-    "risposta_corretta": "In pazienti anziani con disidratazione grave e disfagici"
+    "risposta_corretta": "In pazienti anziani con disidratazione grave e disfagici",
+    "cod_domanda": "C5L7OxpW"
   },
   {
     "num_domanda": 72,
@@ -789,7 +860,8 @@
       "Test cutanei",
       "Terapia immunosoppressiva"
     ],
-    "risposta_corretta": "Terapia immunosoppressiva"
+    "risposta_corretta": "Terapia immunosoppressiva",
+    "cod_domanda": "vm63ZodF"
   },
   {
     "num_domanda": 73,
@@ -800,7 +872,8 @@
       "Ipotermia della sede di inserzione del CVP",
       "Eritema e aumento della temperatura cutanea nella sede di inserzione del CVP"
     ],
-    "risposta_corretta": "Tumefazione"
+    "risposta_corretta": "Tumefazione",
+    "cod_domanda": "ET3gufqt"
   },
   {
     "num_domanda": 74,
@@ -811,7 +884,8 @@
       "Guanti non sterili – aerobi ed anaerobi",
       "Guanti sterili – aerobi ed anaerobi"
     ],
-    "risposta_corretta": "Guanti sterili – aerobi ed anaerobi"
+    "risposta_corretta": "Guanti sterili – aerobi ed anaerobi",
+    "cod_domanda": "M0hUIDj9"
   },
   {
     "num_domanda": 75,
@@ -822,7 +896,8 @@
       "Siringa pre-eparinizzata a secco",
       "Siringa standard"
     ],
-    "risposta_corretta": "Con eparina e conservazione in ghiaccio"
+    "risposta_corretta": "Con eparina e conservazione in ghiaccio",
+    "cod_domanda": "YRhaLdPc"
   },
   {
     "num_domanda": 76,
@@ -833,7 +908,8 @@
       "100 pagine, ogni pagina intestata ad una preparazione medicinale",
       "10 pagine, ogni pagina intestata ad una sostanza psicotropa"
     ],
-    "risposta_corretta": "100 pagine, ogni pagina intestata ad una preparazione medicinale"
+    "risposta_corretta": "100 pagine, ogni pagina intestata ad una preparazione medicinale",
+    "cod_domanda": "sGkUdz3V"
   },
   {
     "num_domanda": 77,
@@ -844,7 +920,8 @@
       "12-14 ore di digiuno",
       "2-4 ore di digiuno"
     ],
-    "risposta_corretta": "8-10 ore di digiuno"
+    "risposta_corretta": "8-10 ore di digiuno",
+    "cod_domanda": "0YKaQsHl"
   },
   {
     "num_domanda": 78,
@@ -855,7 +932,8 @@
       "Per minimizzare il dolore del paziente",
       "Per garantire un flusso ottimale del farmaco in base alla viscosità"
     ],
-    "risposta_corretta": "Per evitare la emolisi"
+    "risposta_corretta": "Per evitare la emolisi",
+    "cod_domanda": "xdnNZCEP"
   },
   {
     "num_domanda": 79,
@@ -866,6 +944,7 @@
       "Aspirazione",
       "Diluizione"
     ],
-    "risposta_corretta": "Aspirazione"
+    "risposta_corretta": "Aspirazione",
+    "cod_domanda": "SAFzrvZO"
   }
 ]

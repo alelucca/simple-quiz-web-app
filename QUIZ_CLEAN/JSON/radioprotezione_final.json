@@ -8,7 +8,8 @@
       "alla velocità della luce",
       "alla loro frequenza"
     ],
-    "risposta_corretta": "alla loro frequenza"
+    "risposta_corretta": "alla loro frequenza",
+    "cod_domanda": "CsdWA4Hi"
   },
   {
     "num_domanda": 2,
@@ -19,7 +20,8 @@
       "un algoritmo di ricostruzione delle immagini in tac",
       "un detettore che registra sulla propria superficie l'energia dei fotoni x"
     ],
-    "risposta_corretta": "un detettore che registra sulla propria superficie l'energia dei fotoni x"
+    "risposta_corretta": "un detettore che registra sulla propria superficie l'energia dei fotoni x",
+    "cod_domanda": "EhZlbyR6"
   },
   {
     "num_domanda": 3,
@@ -30,7 +32,8 @@
       "Jpg",
       "Raf"
     ],
-    "risposta_corretta": "Dicom"
+    "risposta_corretta": "Dicom",
+    "cod_domanda": "OYqb2h5c"
   },
   {
     "num_domanda": 4,
@@ -41,7 +44,8 @@
       "prodotti commerciali",
       "irradiazione interna da sorgenti terrestri (radon)"
     ],
-    "risposta_corretta": "irradiazione interna da sorgenti terrestri (radon)"
+    "risposta_corretta": "irradiazione interna da sorgenti terrestri (radon)",
+    "cod_domanda": "UalSENMF"
   },
   {
     "num_domanda": 5,
@@ -52,7 +56,8 @@
       "esiste un valore di dose soglia al di sotto del quale l'effetto si verifica sempre",
       "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è possibile"
     ],
-    "risposta_corretta": "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo"
+    "risposta_corretta": "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo",
+    "cod_domanda": "VP1dnJxC"
   },
   {
     "num_domanda": 6,
@@ -63,7 +68,8 @@
       "genetici e deterministici",
       "somatici tardivi e genetici"
     ],
-    "risposta_corretta": "somatici tardivi e genetici"
+    "risposta_corretta": "somatici tardivi e genetici",
+    "cod_domanda": "4t1oWEbi"
   },
   {
     "num_domanda": 7,
@@ -74,7 +80,8 @@
       "alcuni organi sono più radiosensibili di quelli degli adulti",
       "alcuni organi sono meno radiosensibili di quelli degli adulti"
     ],
-    "risposta_corretta": "alcuni organi sono più radiosensibili di quelli degli adulti"
+    "risposta_corretta": "alcuni organi sono più radiosensibili di quelli degli adulti",
+    "cod_domanda": "mnef6SPH"
   },
   {
     "num_domanda": 8,
@@ -85,7 +92,8 @@
       "ha energia elevata, tale da attraversare il corpo",
       "tutte le precedenti"
     ],
-    "risposta_corretta": "tutte le precedenti"
+    "risposta_corretta": "tutte le precedenti",
+    "cod_domanda": "OwI5LWwd"
   },
   {
     "num_domanda": 9,
@@ -96,7 +104,8 @@
       "150 cm",
       "270 cm"
     ],
-    "risposta_corretta": "180 cm"
+    "risposta_corretta": "180 cm",
+    "cod_domanda": "qQbjBZM3"
   },
   {
     "num_domanda": 10,
@@ -107,7 +116,8 @@
       "cercare corpi estranei fluorescenti",
       "ottenere immagini radiologiche in tempo reale"
     ],
-    "risposta_corretta": "ottenere immagini radiologiche in tempo reale"
+    "risposta_corretta": "ottenere immagini radiologiche in tempo reale",
+    "cod_domanda": "9LL661vM"
   },
   {
     "num_domanda": 11,
@@ -118,7 +128,8 @@
       "il radon",
       "il kerma in aria"
     ],
-    "risposta_corretta": "il grey"
+    "risposta_corretta": "il grey",
+    "cod_domanda": "yc9ySJ9X"
   },
   {
     "num_domanda": 12,
@@ -129,7 +140,8 @@
       "il DAP",
       "l'ESD"
     ],
-    "risposta_corretta": "il CTDI e il DLP"
+    "risposta_corretta": "il CTDI e il DLP",
+    "cod_domanda": "8ZRIhlxe"
   },
   {
     "num_domanda": 13,
@@ -140,7 +152,8 @@
       "livelli diagnostici di riferimento",
       "limiti diagnostici di radioprotezione"
     ],
-    "risposta_corretta": "livelli diagnostici di riferimento"
+    "risposta_corretta": "livelli diagnostici di riferimento",
+    "cod_domanda": "CX1LbURt"
   },
   {
     "num_domanda": 14,
@@ -151,7 +164,8 @@
       "D. Lgs 237/00",
       "D. Lgs 241/00"
     ],
-    "risposta_corretta": "D. Lgs 187/00"
+    "risposta_corretta": "D. Lgs 187/00",
+    "cod_domanda": "NMIX626g"
   },
   {
     "num_domanda": 15,
@@ -162,7 +176,8 @@
       "colpiscono l'individuo irradiato",
       "colpiscono le cellule dello stroma ovarico e testicolare"
     ],
-    "risposta_corretta": "colpiscono le generazioni successive dell'individuo irradiato"
+    "risposta_corretta": "colpiscono le generazioni successive dell'individuo irradiato",
+    "cod_domanda": "ckz0pRP7"
   },
   {
     "num_domanda": 16,
@@ -173,7 +188,8 @@
       "rad",
       "j/kg"
     ],
-    "risposta_corretta": "ma/s"
+    "risposta_corretta": "ma/s",
+    "cod_domanda": "N0E6lyJR"
   },
   {
     "num_domanda": 17,
@@ -184,7 +200,8 @@
       "dipende dal tessuto-organo irradiato",
       "dipende dal tipo di radiazione considerate"
     ],
-    "risposta_corretta": "dipende dal tessuto-organo irradiato"
+    "risposta_corretta": "dipende dal tessuto-organo irradiato",
+    "cod_domanda": "s9gYWUtW"
   },
   {
     "num_domanda": 18,
@@ -195,7 +212,8 @@
       "prende in considerazione gli effetti stocastici",
       "si misura in sievert"
     ],
-    "risposta_corretta": "non dipende dalla dose equivalente"
+    "risposta_corretta": "non dipende dalla dose equivalente",
+    "cod_domanda": "xbBg6Vgc"
   },
   {
     "num_domanda": 19,
@@ -206,7 +224,8 @@
       "bisogna usare alti kv per mantenere bassa la dose",
       "maggiore è la distanza del tubo dal paziente minore è la dose"
     ],
-    "risposta_corretta": "bisogna usare bassi kv per mantenere bassa la dose"
+    "risposta_corretta": "bisogna usare bassi kv per mantenere bassa la dose",
+    "cod_domanda": "fohJsqob"
   },
   {
     "num_domanda": 20,
@@ -217,7 +236,8 @@
       "in titanio",
       "in argento"
     ],
-    "risposta_corretta": "in alluminio"
+    "risposta_corretta": "in alluminio",
+    "cod_domanda": "JOUIBSjh"
   },
   {
     "num_domanda": 21,
@@ -228,7 +248,8 @@
       "la sottoesposizione da un'immagine rumorosa",
       "la sovraesposizione può non essere riconosciuta"
     ],
-    "risposta_corretta": "i sistemi digitali richiedono una perfetta esposizione"
+    "risposta_corretta": "i sistemi digitali richiedono una perfetta esposizione",
+    "cod_domanda": "tUNLtbHj"
   },
   {
     "num_domanda": 22,
@@ -239,7 +260,8 @@
       "mantenere il paziente alla massima distanza dalla sorgente",
       "ridurre il tempo di scopia"
     ],
-    "risposta_corretta": "aumentare il numero di immagini/secondo e la risoluzione di contrasto"
+    "risposta_corretta": "aumentare il numero di immagini/secondo e la risoluzione di contrasto",
+    "cod_domanda": "rTfyghLQ"
   },
   {
     "num_domanda": 23,
@@ -250,7 +272,8 @@
       "ingrandire le immagini dei polmoni",
       "ridurre l'ingrandimento delle strutture mediastiniche"
     ],
-    "risposta_corretta": "ridurre l'ingrandimento delle strutture mediastiniche"
+    "risposta_corretta": "ridurre l'ingrandimento delle strutture mediastiniche",
+    "cod_domanda": "Sw8FdjB4"
   },
   {
     "num_domanda": 24,
@@ -261,7 +284,8 @@
       "nelle indagini del tratto gastrointestinale",
       "nelle radiografie del polso"
     ],
-    "risposta_corretta": "nelle radiografie del polso"
+    "risposta_corretta": "nelle radiografie del polso",
+    "cod_domanda": "6wiCBHyg"
   },
   {
     "num_domanda": 25,
@@ -272,7 +296,8 @@
       "per centrare i pazienti nelle radiografie della mano",
       "nell'ercp"
     ],
-    "risposta_corretta": "per centrare i pazienti nelle radiografie della mano"
+    "risposta_corretta": "per centrare i pazienti nelle radiografie della mano",
+    "cod_domanda": "r467WUS8"
   },
   {
     "num_domanda": 26,
@@ -283,7 +308,8 @@
       "il computer traduce in immagini i segnali registrati dai detettori",
       "il paziente viene fatto ruotare tramite lettino a rotazione variabile e il tubo radiogeno è fisso"
     ],
-    "risposta_corretta": "il paziente viene fatto ruotare tramite lettino a rotazione variabile e il tubo radiogeno è fisso"
+    "risposta_corretta": "il paziente viene fatto ruotare tramite lettino a rotazione variabile e il tubo radiogeno è fisso",
+    "cod_domanda": "QcGeQ49N"
   },
   {
     "num_domanda": 27,
@@ -294,7 +320,8 @@
       "onde elettromagnetiche ad alta energia",
       "elettroni ad alta velocità"
     ],
-    "risposta_corretta": "raggi infrarossi"
+    "risposta_corretta": "raggi infrarossi",
+    "cod_domanda": "6bFU4ADN"
   },
   {
     "num_domanda": 28,
@@ -305,7 +332,8 @@
       "solo i raggi x sono radiazioni ionizzanti",
       "entrambi sono prodotti da un tubo radiogeno"
     ],
-    "risposta_corretta": "i primi sono prodotti da un tubo radiogeno i secondi dal decadimento radioattivo"
+    "risposta_corretta": "i primi sono prodotti da un tubo radiogeno i secondi dal decadimento radioattivo",
+    "cod_domanda": "UGTGhYBS"
   },
   {
     "num_domanda": 29,
@@ -316,7 +344,8 @@
       "si verificano oltre una dose soglia",
       "sono tendenzialmente tardivi"
     ],
-    "risposta_corretta": "si verificano oltre una dose soglia"
+    "risposta_corretta": "si verificano oltre una dose soglia",
+    "cod_domanda": "Z8Pi58vo"
   },
   {
     "num_domanda": 30,
@@ -327,7 +356,8 @@
       "sono solo somatici",
       "sono solo genetici"
     ],
-    "risposta_corretta": "sono solo somatici"
+    "risposta_corretta": "sono solo somatici",
+    "cod_domanda": "8TzjAIXS"
   },
   {
     "num_domanda": 31,
@@ -338,7 +368,8 @@
       "oltre la dose soglia aumentando la dose aumenta la probabilità che si verifichino",
       "oltre la dose soglia aumentando la dose aumenta la loro gravità"
     ],
-    "risposta_corretta": "oltre la dose soglia aumentando la dose aumenta la loro gravità"
+    "risposta_corretta": "oltre la dose soglia aumentando la dose aumenta la loro gravità",
+    "cod_domanda": "f55R1Db9"
   },
   {
     "num_domanda": 32,
@@ -349,7 +380,8 @@
       "sono effetti genetici",
       "sono effetti stocastici"
     ],
-    "risposta_corretta": "sono effetti deterministici"
+    "risposta_corretta": "sono effetti deterministici",
+    "cod_domanda": "Qv2rAN41"
   },
   {
     "num_domanda": 33,
@@ -360,7 +392,8 @@
       "si tratta di un tubo di tallio che converte i fotoni emergenti dal corpo attraversato in fotoni di luce visibile",
       "nessuna delle affermazioni precedenti è corretta"
     ],
-    "risposta_corretta": "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve"
+    "risposta_corretta": "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve",
+    "cod_domanda": "hyn77sVT"
   },
   {
     "num_domanda": 34,
@@ -371,7 +404,8 @@
       "giustificazione e potenza diagnostica",
       "giustificazione e resa diagnostica"
     ],
-    "risposta_corretta": "giustificazione ed ottimizzazione"
+    "risposta_corretta": "giustificazione ed ottimizzazione",
+    "cod_domanda": "ZfImBDql"
   },
   {
     "num_domanda": 35,
@@ -382,7 +416,8 @@
       "la TC dell'encefalo",
       "l'RX del bacino"
     ],
-    "risposta_corretta": "la TC addome-pelvi"
+    "risposta_corretta": "la TC addome-pelvi",
+    "cod_domanda": "SMPIst2K"
   },
   {
     "num_domanda": 36,
@@ -393,7 +428,8 @@
       "si propagano con velocità superiore a quella della luce",
       "nessuna delle affermazioni precedenti è corretta"
     ],
-    "risposta_corretta": "si propagano con la velocità della luce"
+    "risposta_corretta": "si propagano con la velocità della luce",
+    "cod_domanda": "rJritTh0"
   },
   {
     "num_domanda": 37,
@@ -404,7 +440,8 @@
       "la gravità è indipendente dalla dose",
       "nessuna delle affermazioni precedenti è corretta"
     ],
-    "risposta_corretta": "la gravità è proporzionale alla dose"
+    "risposta_corretta": "la gravità è proporzionale alla dose",
+    "cod_domanda": "p1OgowDO"
   },
   {
     "num_domanda": 38,
@@ -415,7 +452,8 @@
       "rx lombare-tac torace-angiografia coronarie interventistica-rx torace",
       "rx torace-rx lombare-tac torace-angiografia coronarie interventistica"
     ],
-    "risposta_corretta": "rx torace-rx lombare-tac torace-angiografia coronarie interventistica"
+    "risposta_corretta": "rx torace-rx lombare-tac torace-angiografia coronarie interventistica",
+    "cod_domanda": "0IeUSSgm"
   },
   {
     "num_domanda": 39,
@@ -426,7 +464,8 @@
       "non devono in alcun modo superare 6 ms/anno di esposizione globale",
       "possono superare 20 ms/anno di esposizione globale"
     ],
-    "risposta_corretta": "possono superare 6 msv/anno di esposizione globale"
+    "risposta_corretta": "possono superare 6 msv/anno di esposizione globale",
+    "cod_domanda": "jucxZ7EG"
   },
   {
     "num_domanda": 40,
@@ -437,7 +476,8 @@
       "non possono superare 6 msv/anno per esposizione globale",
       "non devono superare i limiti stabiliti per i non esposti"
     ],
-    "risposta_corretta": "non possono superare 6 msv/anno per esposizione globale"
+    "risposta_corretta": "non possono superare 6 msv/anno per esposizione globale",
+    "cod_domanda": "wuivl0Ax"
   },
   {
     "num_domanda": 41,
@@ -448,7 +488,8 @@
       "dlp",
       "ctdi"
     ],
-    "risposta_corretta": "mip"
+    "risposta_corretta": "mip",
+    "cod_domanda": "PvVLOdVO"
   },
   {
     "num_domanda": 42,
@@ -459,7 +500,8 @@
       "riduco la dose se riduco i kv",
       "riduco la dose se riduco il tempo di scansione"
     ],
-    "risposta_corretta": "riduco la dose se aumento i ma"
+    "risposta_corretta": "riduco la dose se aumento i ma",
+    "cod_domanda": "JPlG5UWx"
   },
   {
     "num_domanda": 43,
@@ -470,7 +512,8 @@
       "evitamento",
       "ottimizzazione"
     ],
-    "risposta_corretta": "evitamento"
+    "risposta_corretta": "evitamento",
+    "cod_domanda": "VtGf4UqB"
   },
   {
     "num_domanda": 44,
@@ -481,7 +524,8 @@
       "1 ms/anno",
       "6 ms/anno"
     ],
-    "risposta_corretta": "1 ms/anno"
+    "risposta_corretta": "1 ms/anno",
+    "cod_domanda": "32BSeunw"
   },
   {
     "num_domanda": 45,
@@ -492,7 +536,8 @@
       "corso per gli addetti allo spegnimento degli incendi",
       "individuazione e studio delle cause e dei fattori di rischio"
     ],
-    "risposta_corretta": "corso per gli addetti allo spegnimento degli incendi"
+    "risposta_corretta": "corso per gli addetti allo spegnimento degli incendi",
+    "cod_domanda": "66djh47r"
   },
   {
     "num_domanda": 46,
@@ -503,7 +548,8 @@
       "mpr (ricostruzioni multiplanari)",
       "mip (maximum intensity projection)"
     ],
-    "risposta_corretta": "srl (soft rendering location)"
+    "risposta_corretta": "srl (soft rendering location)",
+    "cod_domanda": "wHRwdD23"
   },
   {
     "num_domanda": 47,
@@ -514,7 +560,8 @@
       "necessitano di aria per propagarsi da un punto ad un altro",
       "impressionano le pellicole fotografiche"
     ],
-    "risposta_corretta": "necessitano di aria per propagarsi da un punto ad un altro"
+    "risposta_corretta": "necessitano di aria per propagarsi da un punto ad un altro",
+    "cod_domanda": "msP8jdNo"
   },
   {
     "num_domanda": 48,
@@ -525,7 +572,8 @@
       "in nessuna delle tre metodiche sopraindicate",
       "in radiodiagnostica, medicina nucleare e radioterapia"
     ],
-    "risposta_corretta": "in radiodiagnostica, medicina nucleare e radioterapia"
+    "risposta_corretta": "in radiodiagnostica, medicina nucleare e radioterapia",
+    "cod_domanda": "7rWC6Iy2"
   },
   {
     "num_domanda": 49,
@@ -536,7 +584,8 @@
       "è un anello metallico con anodo e catodo",
       "è una barra metallica che emette fotoni"
     ],
-    "risposta_corretta": "è una ampolla di vetro sotto vuoto con anodo e catodo"
+    "risposta_corretta": "è una ampolla di vetro sotto vuoto con anodo e catodo",
+    "cod_domanda": "kzxT16sX"
   },
   {
     "num_domanda": 50,
@@ -547,7 +596,8 @@
       "circa 10 secondi",
       "scompaiono immediatamente"
     ],
-    "risposta_corretta": "scompaiono immediatamente"
+    "risposta_corretta": "scompaiono immediatamente",
+    "cod_domanda": "qNWU1B0Q"
   },
   {
     "num_domanda": 51,
@@ -558,7 +608,8 @@
       "interazione elettrone proveniente dall'anodo e metallo del catodo",
       "interazione tra elettrone e un fascio luminoso"
     ],
-    "risposta_corretta": "interazione tra fotone (X) e elettrone dell'orbitale più interno dell'atomo colpito"
+    "risposta_corretta": "interazione tra fotone (X) e elettrone dell'orbitale più interno dell'atomo colpito",
+    "cod_domanda": "qljC3PPF"
   },
   {
     "num_domanda": 52,
@@ -569,7 +620,8 @@
       "di circa 20 mSv",
       "di circa 2 mSv"
     ],
-    "risposta_corretta": "di circa 2 mSv"
+    "risposta_corretta": "di circa 2 mSv",
+    "cod_domanda": "0DNHAseh"
   },
   {
     "num_domanda": 53,
@@ -580,7 +632,8 @@
       "la dose assorbita moltiplicata per l’area esposta",
       "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
     ],
-    "risposta_corretta": "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata"
+    "risposta_corretta": "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata",
+    "cod_domanda": "xXrEeA7e"
   },
   {
     "num_domanda": 54,
@@ -591,7 +644,8 @@
       "non è utilizzato in radioterapia",
       "è un fattore importante in radiologia diagnostica assieme ai raggi X"
     ],
-    "risposta_corretta": "è un fattore importante in medicina nucleare"
+    "risposta_corretta": "è un fattore importante in medicina nucleare",
+    "cod_domanda": "qwfU9y6v"
   },
   {
     "num_domanda": 55,
@@ -602,7 +656,8 @@
       "non è presente in ambito medico",
       "non è soglia dipendente"
     ],
-    "risposta_corretta": "non è soglia dipendente"
+    "risposta_corretta": "non è soglia dipendente",
+    "cod_domanda": "IxV0FPe2"
   },
   {
     "num_domanda": 56,
@@ -613,7 +668,8 @@
       "è soglia dipendente",
       "non è soglia dipendente"
     ],
-    "risposta_corretta": "è soglia dipendente"
+    "risposta_corretta": "è soglia dipendente",
+    "cod_domanda": "67ZhT8qJ"
   },
   {
     "num_domanda": 57,
@@ -624,7 +680,8 @@
       "è giustificato solo in caso di effettiva necessità",
       "è sempre giustificato"
     ],
-    "risposta_corretta": "è giustificato solo in caso di effettiva necessità"
+    "risposta_corretta": "è giustificato solo in caso di effettiva necessità",
+    "cod_domanda": "tzZffgry"
   },
   {
     "num_domanda": 58,
@@ -635,7 +692,8 @@
       "può in taluni casi essere addirittura dannoso per l’eccessiva ionizzazione del materiale piombifero a stretto contatto con il corpo del paziente e/o dell’operatore",
       "ha una moderata efficacia nel proteggere il paziente e/o l’operatore"
     ],
-    "risposta_corretta": "ha una elevata efficacia nel proteggere il paziente e/o l’operatore"
+    "risposta_corretta": "ha una elevata efficacia nel proteggere il paziente e/o l’operatore",
+    "cod_domanda": "FXlzKj9U"
   },
   {
     "num_domanda": 59,
@@ -646,7 +704,8 @@
       "non avviene alle dosi utilizzate in radiologia diagnostica",
       "è un evento raro in radioterapia"
     ],
-    "risposta_corretta": "non avviene alle dosi utilizzate in radiologia diagnostica"
+    "risposta_corretta": "non avviene alle dosi utilizzate in radiologia diagnostica",
+    "cod_domanda": "hX0Jad9L"
   },
   {
     "num_domanda": 60,
@@ -657,7 +716,8 @@
       "dipende dai radicali liberi prodotti",
       "è un danno irreparabile"
     ],
-    "risposta_corretta": "non dipende dai radicali liberi prodotti"
+    "risposta_corretta": "non dipende dai radicali liberi prodotti",
+    "cod_domanda": "G0h7Qc8W"
   },
   {
     "num_domanda": 61,
@@ -668,7 +728,8 @@
       "è un danno trascurabile",
       "è il danno determinato dai radicali liberi prodotti dalle radiazioni"
     ],
-    "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni"
+    "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+    "cod_domanda": "ySLRJv4v"
   },
   {
     "num_domanda": 62,
@@ -679,7 +740,8 @@
       "la dose equivalente moltiplicata per lo spessore del corpo attraversato",
       "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
     ],
-    "risposta_corretta": "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
+    "risposta_corretta": "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
+    "cod_domanda": "DjoyLwIw"
   },
   {
     "num_domanda": 63,
@@ -690,7 +752,8 @@
       "al numero atomico medio del corpo attraversato",
       "alla costante di Plank"
     ],
-    "risposta_corretta": "al numero atomico medio del corpo attraversato"
+    "risposta_corretta": "al numero atomico medio del corpo attraversato",
+    "cod_domanda": "gMvC3HP5"
   },
   {
     "num_domanda": 64,
@@ -701,7 +764,8 @@
       "sono in grado di penetrare la materia secondo la sua densità",
       "necessitano di aria per propagarsi da un punto a un altro"
     ],
-    "risposta_corretta": "necessitano di aria per propagarsi da un punto a un altro"
+    "risposta_corretta": "necessitano di aria per propagarsi da un punto a un altro",
+    "cod_domanda": "dfCaR3uG"
   },
   {
     "num_domanda": 65,
@@ -712,7 +776,8 @@
       "raggi infrarossi",
       "ultrasuoni"
     ],
-    "risposta_corretta": "raggi gamma"
+    "risposta_corretta": "raggi gamma",
+    "cod_domanda": "hPZFbuAz"
   },
   {
     "num_domanda": 66,
@@ -723,7 +788,8 @@
       "non è il danno determinato dai radicali liberi prodotti dalle radiazioni",
       "è il danno determinato dai radicali liberi prodotti dalle radiazioni"
     ],
-    "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni"
+    "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+    "cod_domanda": "AWLiAsy3"
   },
   {
     "num_domanda": 67,
@@ -734,7 +800,8 @@
       "da una specifica lunghezza d’onda",
       "da una unica natura fisica"
     ],
-    "risposta_corretta": "da un livello energetico adeguatamente elevato"
+    "risposta_corretta": "da un livello energetico adeguatamente elevato",
+    "cod_domanda": "ps3IWYz8"
   },
   {
     "num_domanda": 68,
@@ -745,7 +812,8 @@
       "joule",
       "kcal"
     ],
-    "risposta_corretta": "kev"
+    "risposta_corretta": "kev",
+    "cod_domanda": "oX6nkIXP"
   },
   {
     "num_domanda": 69,
@@ -756,7 +824,8 @@
       "kilovolt",
       "Gray"
     ],
-    "risposta_corretta": "Gray"
+    "risposta_corretta": "Gray",
+    "cod_domanda": "FhC0u1gB"
   },
   {
     "num_domanda": 70,
@@ -767,7 +836,8 @@
       "ma/s",
       "joule"
     ],
-    "risposta_corretta": "ma/s"
+    "risposta_corretta": "ma/s",
+    "cod_domanda": "pFAKDoJp"
   },
   {
     "num_domanda": 71,
@@ -778,7 +848,8 @@
       "laser",
       "anodo"
     ],
-    "risposta_corretta": "laser"
+    "risposta_corretta": "laser",
+    "cod_domanda": "piZ5wlFQ"
   },
   {
     "num_domanda": 72,
@@ -789,7 +860,8 @@
       "un tavolo radiologico rotante",
       "un tavolo radiologico fisso"
     ],
-    "risposta_corretta": "un tavolo radiologico inclinabile"
+    "risposta_corretta": "un tavolo radiologico inclinabile",
+    "cod_domanda": "YfXxEwUg"
   },
   {
     "num_domanda": 73,
@@ -800,7 +872,8 @@
       "eseguire tac",
       "radiografia della mano per età ossea"
     ],
-    "risposta_corretta": "esami radiologici al tubo digerente"
+    "risposta_corretta": "esami radiologici al tubo digerente",
+    "cod_domanda": "0yvMp6at"
   },
   {
     "num_domanda": 74,
@@ -811,7 +884,8 @@
       "i raggi x emessi dal corpo sono registrati da detettori",
       "il computer traduce in immagini i segnali registrati dai detettori"
     ],
-    "risposta_corretta": "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso"
+    "risposta_corretta": "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso",
+    "cod_domanda": "7BmaQAeR"
   },
   {
     "num_domanda": 75,
@@ -822,7 +896,8 @@
       "applicazioni cliniche avanzate come angiotac",
       "maggiore risoluzione spaziale longitudinale"
     ],
-    "risposta_corretta": "esecuzione esami su due pazienti contemporaneamente"
+    "risposta_corretta": "esecuzione esami su due pazienti contemporaneamente",
+    "cod_domanda": "i1WbVQam"
   },
   {
     "num_domanda": 76,
@@ -833,7 +908,8 @@
       "la dose assorbita è la metà di quella dell'adulto",
       "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti"
     ],
-    "risposta_corretta": "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti"
+    "risposta_corretta": "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti",
+    "cod_domanda": "2eTrWRP1"
   },
   {
     "num_domanda": 77,
@@ -844,7 +920,8 @@
       "effetto Johnson",
       "produzione di coppie"
     ],
-    "risposta_corretta": "effetto Johnson"
+    "risposta_corretta": "effetto Johnson",
+    "cod_domanda": "7M1ixqTt"
   },
   {
     "num_domanda": 78,
@@ -855,7 +932,8 @@
       "determina la produzione di un elettrone secondario",
       "è di tipo di interazione più frequente in radiodiagnostica"
     ],
-    "risposta_corretta": "determina la produzione di un elettrone secondario"
+    "risposta_corretta": "determina la produzione di un elettrone secondario",
+    "cod_domanda": "y0vLIO86"
   },
   {
     "num_domanda": 79,
@@ -866,7 +944,8 @@
       "mediante interazione sia con il nucleo sia con gli elettroni orbitali dell'atomo irradiato",
       "mediante interazione con elettroni orbitali dell'atomo irradiato"
     ],
-    "risposta_corretta": "mediante interazione con elettroni orbitali dell'atomo irradiato"
+    "risposta_corretta": "mediante interazione con elettroni orbitali dell'atomo irradiato",
+    "cod_domanda": "w9DnGepr"
   },
   {
     "num_domanda": 80,
@@ -877,7 +956,8 @@
       "effetto coppia",
       "effetto Compton"
     ],
-    "risposta_corretta": "effetto fotoelettrico"
+    "risposta_corretta": "effetto fotoelettrico",
+    "cod_domanda": "vCuzZLnv"
   },
   {
     "num_domanda": 81,
@@ -888,7 +968,8 @@
       "dipende dalle proprietà biologiche del tessuto irradiato",
       "aumenta con l'aumentare della capacità di ionizzazione della radiazione"
     ],
-    "risposta_corretta": "aumenta con l'aumentare della capacità di ionizzazione della radiazione"
+    "risposta_corretta": "aumenta con l'aumentare della capacità di ionizzazione della radiazione",
+    "cod_domanda": "zkEsmW2c"
   },
   {
     "num_domanda": 82,
@@ -899,7 +980,8 @@
       "protoni",
       "elettroni"
     ],
-    "risposta_corretta": "elettroni"
+    "risposta_corretta": "elettroni",
+    "cod_domanda": "nN2eOSSJ"
   },
   {
     "num_domanda": 83,
@@ -910,7 +992,8 @@
       "dalla natura della radiazione",
       "dalla energia della radiazione"
     ],
-    "risposta_corretta": "dalla natura della radiazione"
+    "risposta_corretta": "dalla natura della radiazione",
+    "cod_domanda": "fh3Cddoj"
   },
   {
     "num_domanda": 84,
@@ -921,7 +1004,8 @@
       "solo danni indiretti tramite la radiolisi dell'acqua",
       "nessuno dei due tipi di danno"
     ],
-    "risposta_corretta": "entrambi i tipi di danno"
+    "risposta_corretta": "entrambi i tipi di danno",
+    "cod_domanda": "5C0puU7R"
   },
   {
     "num_domanda": 85,
@@ -932,7 +1016,8 @@
       "danni letali",
       "danni potenzialmente letali e danni subletali"
     ],
-    "risposta_corretta": "danni letali"
+    "risposta_corretta": "danni letali",
+    "cod_domanda": "ia3kIeBW"
   },
   {
     "num_domanda": 86,
@@ -943,7 +1028,8 @@
       "danno potenzialmente letale",
       "danno letale e danno potenzialmente letale"
     ],
-    "risposta_corretta": "danno letale e danno potenzialmente letale"
+    "risposta_corretta": "danno letale e danno potenzialmente letale",
+    "cod_domanda": "E88Lzs06"
   },
   {
     "num_domanda": 87,
@@ -954,7 +1040,8 @@
       "blocco della mitosi per danni letali al DNA",
       "attivazione della apoptosi"
     ],
-    "risposta_corretta": "blocco della mitosi per danni letali al DNA"
+    "risposta_corretta": "blocco della mitosi per danni letali al DNA",
+    "cod_domanda": "pSUhZSdO"
   },
   {
     "num_domanda": 88,
@@ -965,7 +1052,8 @@
       "perché ostacola il recupero del danno sub-letale",
       "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche"
     ],
-    "risposta_corretta": "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche"
+    "risposta_corretta": "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche",
+    "cod_domanda": "79UJzjfD"
   },
   {
     "num_domanda": 89,
@@ -976,7 +1064,8 @@
       "la tensione di ossigeno nel tessuto irradiato",
       "l'energia della radiazione ionizzante"
     ],
-    "risposta_corretta": "l'energia della radiazione ionizzante"
+    "risposta_corretta": "l'energia della radiazione ionizzante",
+    "cod_domanda": "NiPXVDlV"
   },
   {
     "num_domanda": 90,
@@ -987,7 +1076,8 @@
       "LET della radiazione ionizzante",
       "tensione di ossigeno"
     ],
-    "risposta_corretta": "capacità di recupero del danno riparabile"
+    "risposta_corretta": "capacità di recupero del danno riparabile",
+    "cod_domanda": "2hHZADdh"
   },
   {
     "num_domanda": 91,
@@ -998,7 +1088,8 @@
       "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\"",
       "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata"
     ],
-    "risposta_corretta": "nell'intervallo fra le frazioni si verifica il recupero del danno sub-letale"
+    "risposta_corretta": "nell'intervallo fra le frazioni si verifica il recupero del danno sub-letale",
+    "cod_domanda": "ITuWcyoY"
   },
   {
     "num_domanda": 92,
@@ -1009,7 +1100,8 @@
       "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata",
       "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità"
     ],
-    "risposta_corretta": "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità"
+    "risposta_corretta": "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità",
+    "cod_domanda": "H7Wf4Wpm"
   },
   {
     "num_domanda": 93,
@@ -1020,7 +1112,8 @@
       "la sclerodermia",
       "l'opacizzazione del cristallino"
     ],
-    "risposta_corretta": "la neoplasia radioindotta"
+    "risposta_corretta": "la neoplasia radioindotta",
+    "cod_domanda": "Cn5tsonF"
   },
   {
     "num_domanda": 94,
@@ -1031,7 +1124,8 @@
       "sono causati dai raggi gamma ma non dai raggi x",
       "possono verificarsi anche per una singola radiografia del torace"
     ],
-    "risposta_corretta": "possono verificarsi anche per una singola radiografia del torace"
+    "risposta_corretta": "possono verificarsi anche per una singola radiografia del torace",
+    "cod_domanda": "9TyNa4o5"
   },
   {
     "num_domanda": 95,
@@ -1042,7 +1136,8 @@
       "colpiscono solo i somi delle vertebre lombari",
       "colpiscono le generalizzazioni successive dell'individuo irradiato"
     ],
-    "risposta_corretta": "colpiscono solo l'individuo irradiato"
+    "risposta_corretta": "colpiscono solo l'individuo irradiato",
+    "cod_domanda": "hYcK6T7p"
   },
   {
     "num_domanda": 96,
@@ -1053,18 +1148,20 @@
       "molti mesi o anni dopo l'irradiazione",
       "appena conclusa l'irradiazione"
     ],
-    "risposta_corretta": "molti mesi o anni dopo l'irradiazione"
+    "risposta_corretta": "molti mesi o anni dopo l'irradiazione",
+    "cod_domanda": "UyaoBvET"
   },
   {
     "num_domanda": 97,
     "domanda": "I danni stocastici da radiazioni ionizzanti:",
     "opzioni": [
-      "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose",      
+      "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose",
       "di solito si manifestano dopo un periodo di latenza di anni",
       "non richiedono un valore soglia della dose",
       "tutte le risposte precedenti sono corrette"
     ],
-    "risposta_corretta": "tutte le risposte precedenti sono corrette"
+    "risposta_corretta": "tutte le risposte precedenti sono corrette",
+    "cod_domanda": "ZovFJvZV"
   },
   {
     "num_domanda": 98,
@@ -1075,18 +1172,20 @@
       "si manifestano con intensità graduata, in funzione della dose",
       "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose"
     ],
-    "risposta_corretta": "si manifestano con intensità graduata, in funzione della dose"
+    "risposta_corretta": "si manifestano con intensità graduata, in funzione della dose",
+    "cod_domanda": "84eYm1hc"
   },
   {
     "num_domanda": 99,
     "domanda": "I danni deterministici da radiazioni ionizzanti:",
-    "opzioni": [      
+    "opzioni": [
       "di solito si manifestano dopo un periodo di latenza di anni",
       "si manifestano in modo graduato. con intensità correlata alla dose",
       "richiedono un valore soglia della dose nella loro manifestazione clinica",
       "tutte le risposte precedenti sono corrette"
     ],
-    "risposta_corretta": "tutte le risposte precedenti sono corrette"
+    "risposta_corretta": "tutte le risposte precedenti sono corrette",
+    "cod_domanda": "t4JWogey"
   },
   {
     "num_domanda": 100,
@@ -1097,7 +1196,8 @@
       "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa",
       "si manifestano soprattutto nei tessuti con popolazioni cellulari a rapida cinetica proliferativa"
     ],
-    "risposta_corretta": "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa"
+    "risposta_corretta": "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa",
+    "cod_domanda": "jYf57dYz"
   },
   {
     "num_domanda": 101,
@@ -1108,7 +1208,8 @@
       "si manifestano in modo graduato, con l'intensità correlata alla dose",
       "possono essere sia genetici che somatici"
     ],
-    "risposta_corretta": "possono essere sia genetici che somatici"
+    "risposta_corretta": "possono essere sia genetici che somatici",
+    "cod_domanda": "nOxlW0SK"
   },
   {
     "num_domanda": 102,
@@ -1119,7 +1220,8 @@
       "nessuno dei due fattori",
       "la dose totale erogata e il suo frazionamento"
     ],
-    "risposta_corretta": "entrambi i fattori"
+    "risposta_corretta": "entrambi i fattori",
+    "cod_domanda": "h2yu3hi9"
   },
   {
     "num_domanda": 103,
@@ -1130,7 +1232,8 @@
       "il volume di organo irradiato",
       "entrambi i fattori"
     ],
-    "risposta_corretta": "la dose totale erogata e il suo frazionamento"
+    "risposta_corretta": "la dose totale erogata e il suo frazionamento",
+    "cod_domanda": "NKVF2N2c"
   },
   {
     "num_domanda": 104,
@@ -1141,7 +1244,8 @@
       "il midollo spinale",
       "il fegato"
     ],
-    "risposta_corretta": "il midollo spinale"
+    "risposta_corretta": "il midollo spinale",
+    "cod_domanda": "PZISaokF"
   },
   {
     "num_domanda": 105,
@@ -1152,7 +1256,8 @@
       "il midollo spinale",
       "l’esofago"
     ],
-    "risposta_corretta": "il fegato"
+    "risposta_corretta": "il fegato",
+    "cod_domanda": "p8PmqjYc"
   },
   {
     "num_domanda": 106,
@@ -1163,7 +1268,8 @@
       "il polmone",
       "l’intestino"
     ],
-    "risposta_corretta": "il polmone"
+    "risposta_corretta": "il polmone",
+    "cod_domanda": "dkTqTQOh"
   },
   {
     "num_domanda": 107,
@@ -1174,7 +1280,8 @@
       "il molmone",
       "il fegato"
     ],
-    "risposta_corretta": "il midollo spinale"
+    "risposta_corretta": "il midollo spinale",
+    "cod_domanda": "G72FOP1s"
   },
   {
     "num_domanda": 108,
@@ -1185,7 +1292,8 @@
       "del comportamento staminale delle cellule parenchimali",
       "della componente vascolare del tessuto/organo"
     ],
-    "risposta_corretta": "di tutte queste strutture"
+    "risposta_corretta": "di tutte queste strutture",
+    "cod_domanda": "O2Qp9Bmv"
   },
   {
     "num_domanda": 109,
@@ -1196,7 +1304,8 @@
       "midollo emopoietico",
       "fegato"
     ],
-    "risposta_corretta": "midollo emopoietico"
+    "risposta_corretta": "midollo emopoietico",
+    "cod_domanda": "nELvyaLm"
   },
   {
     "num_domanda": 110,
@@ -1207,7 +1316,8 @@
       "terzo trimestre",
       "secondo trimestre"
     ],
-    "risposta_corretta": "primo trimestre"
+    "risposta_corretta": "primo trimestre",
+    "cod_domanda": "nWoeEdlI"
   },
   {
     "num_domanda": 111,
@@ -1218,7 +1328,8 @@
       "individuazione e studio delle cause e dei fattori di rischio",
       "controllo degli esposti"
     ],
-    "risposta_corretta": "frequenza di un corso per addetti allo spegnimento degli incendi"
+    "risposta_corretta": "frequenza di un corso per addetti allo spegnimento degli incendi",
+    "cod_domanda": "4zXZCHnh"
   },
   {
     "num_domanda": 112,
@@ -1229,7 +1340,8 @@
       "tutte le risposte sono corrette",
       "per scopi sanitari diagnostici e terapeutici secondo il principio della giustificazione"
     ],
-    "risposta_corretta": "tutte le risposte sono corrette"
+    "risposta_corretta": "tutte le risposte sono corrette",
+    "cod_domanda": "WS7k01D6"
   },
   {
     "num_domanda": 113,
@@ -1240,7 +1352,8 @@
       "nessuna delle risposte precedenti è giusta",
       "contatto diretto della sostanza radioattiva con l’individuo"
     ],
-    "risposta_corretta": "contatto diretto della sostanza radioattiva con l’individuo"
+    "risposta_corretta": "contatto diretto della sostanza radioattiva con l’individuo",
+    "cod_domanda": "7n33iGhM"
   },
   {
     "num_domanda": 114,
@@ -1251,7 +1364,8 @@
       "tutti i danni sono evitabili",
       "nessun danno è totalmente evitabile"
     ],
-    "risposta_corretta": "i danni deterministici"
+    "risposta_corretta": "i danni deterministici",
+    "cod_domanda": "puR2uuA7"
   },
   {
     "num_domanda": 115,
@@ -1262,7 +1376,8 @@
       "può essere eseguita in donne gravide in programmi di screening",
       "può essere eseguita senza alcuna restrizione"
     ],
-    "risposta_corretta": "deve essere giustificata in termini di efficacia diagnostica"
+    "risposta_corretta": "deve essere giustificata in termini di efficacia diagnostica",
+    "cod_domanda": "zJMKRuoa"
   },
   {
     "num_domanda": 116,
@@ -1273,7 +1388,8 @@
       "il fisico sanitario",
       "il medico autorizzato"
     ],
-    "risposta_corretta": "l’esperto qualificato"
+    "risposta_corretta": "l’esperto qualificato",
+    "cod_domanda": "qdBrHWxA"
   },
   {
     "num_domanda": 117,
@@ -1284,7 +1400,8 @@
       "il medico del lavoro",
       "l’esperto qualificato"
     ],
-    "risposta_corretta": "il medico autorizzato"
+    "risposta_corretta": "il medico autorizzato",
+    "cod_domanda": "08wEDZA0"
   },
   {
     "num_domanda": 118,
@@ -1295,7 +1412,8 @@
       "esercente",
       "fisico medico"
     ],
-    "risposta_corretta": "fisico medico"
+    "risposta_corretta": "fisico medico",
+    "cod_domanda": "N6mmtNQC"
   },
   {
     "num_domanda": 119,
@@ -1306,7 +1424,8 @@
       "esercente",
       "medico autorizzato"
     ],
-    "risposta_corretta": "responsabile dell’impianto radiologico"
+    "risposta_corretta": "responsabile dell’impianto radiologico",
+    "cod_domanda": "AI8NkBnO"
   },
   {
     "num_domanda": 120,
@@ -1317,7 +1436,8 @@
       "Nell'illuminazione pubblica, nella produzione di energia e nella conservazione degli alimenti",
       "Per la sterilizzazione di alimenti e cosmetici, la datazione archeologica e la ricerca scientifica"
     ],
-    "risposta_corretta": "In radiodiagnostica, medicina nucleare e radioterapia"
+    "risposta_corretta": "In radiodiagnostica, medicina nucleare e radioterapia",
+    "cod_domanda": "TrnB1Ewk"
   },
   {
     "num_domanda": 121,
@@ -1328,7 +1448,8 @@
       "Persistono per diversi minuti",
       "Rimangono per alcuni secondi"
     ],
-    "risposta_corretta": "Scompaiono immediatamente"
+    "risposta_corretta": "Scompaiono immediatamente",
+    "cod_domanda": "ltc6XW6k"
   },
   {
     "num_domanda": 122,
@@ -1339,7 +1460,8 @@
       "Emissione di elettroni dalla superficie di un metallo a causa dell'assorbimento di calore",
       "Interazione tra fotone (X) e elettrone dell’orbitale più interno dell’atomo colpito"
     ],
-    "risposta_corretta": "Interazione tra fotone (X) e elettrone dell’orbitale più interno dell’atomo colpito"
+    "risposta_corretta": "Interazione tra fotone (X) e elettrone dell’orbitale più interno dell’atomo colpito",
+    "cod_domanda": "1LusCcoK"
   },
   {
     "num_domanda": 123,
@@ -1350,7 +1472,8 @@
       "La dose efficace moltiplicata per il fattore di sensibilità tissutale",
       "La dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata"
     ],
-    "risposta_corretta": "La dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata"
+    "risposta_corretta": "La dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata",
+    "cod_domanda": "wyAMsSgN"
   },
   {
     "num_domanda": 124,
@@ -1361,7 +1484,8 @@
       "Non ha applicazioni pratiche al di fuori della fisica",
       "È un processo che aumenta la stabilità del nucleo"
     ],
-    "risposta_corretta": "È un fattore importante in medicina nucleare"
+    "risposta_corretta": "È un fattore importante in medicina nucleare",
+    "cod_domanda": "n6FhaE7V"
   },
   {
     "num_domanda": 125,
@@ -1372,7 +1496,8 @@
       "È sempre reversibile",
       "Si manifesta solo al superamento di una soglia"
     ],
-    "risposta_corretta": "Non è soglia dipendente"
+    "risposta_corretta": "Non è soglia dipendente",
+    "cod_domanda": "jNRbqMbK"
   },
   {
     "num_domanda": 126,
@@ -1383,7 +1508,8 @@
       "È proporzionale alla dose",
       "È soglia dipendente"
     ],
-    "risposta_corretta": "È soglia dipendente"
+    "risposta_corretta": "È soglia dipendente",
+    "cod_domanda": "DtvGe9zY"
   },
   {
     "num_domanda": 127,
@@ -1394,7 +1520,8 @@
       "Può essere eseguito liberamente fino al primo trimestre",
       "È sempre sconsigliato, indipendentemente dalla situazione clinica"
     ],
-    "risposta_corretta": "È giustificato solo in caso di effettiva necessità"
+    "risposta_corretta": "È giustificato solo in caso di effettiva necessità",
+    "cod_domanda": "hy6Jd3kU"
   },
   {
     "num_domanda": 128,
@@ -1405,7 +1532,8 @@
       "Aumentano l'assorbimento delle radiazioni, intensificando l'immagine radiografica",
       "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore"
     ],
-    "risposta_corretta": "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore"
+    "risposta_corretta": "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore",
+    "cod_domanda": "qW2IjnyP"
   },
   {
     "num_domanda": 129,
@@ -1416,7 +1544,8 @@
       "Non avviene alle dosi utilizzate in radiologia diagnostica",
       "Si manifesta anche a basse dosi di radiazioni"
     ],
-    "risposta_corretta": "Non avviene alle dosi utilizzate in radiologia diagnostica"
+    "risposta_corretta": "Non avviene alle dosi utilizzate in radiologia diagnostica",
+    "cod_domanda": "lTezralg"
   },
   {
     "num_domanda": 130,
@@ -1427,7 +1556,8 @@
       "Coinvolge principalmente la denaturazione proteica",
       "Non dipende dai radicali liberi prodotti"
     ],
-    "risposta_corretta": "Non dipende dai radicali liberi prodotti"
+    "risposta_corretta": "Non dipende dai radicali liberi prodotti",
+    "cod_domanda": "LvSXyESN"
   },
   {
     "num_domanda": 131,
@@ -1438,7 +1568,8 @@
       "È il danno causato dall'aumento della temperatura cellulare",
       "È il danno determinato dai radicali liberi prodotti dalle radiazioni"
     ],
-    "risposta_corretta": "È il danno determinato dai radicali liberi prodotti dalle radiazioni"
+    "risposta_corretta": "È il danno determinato dai radicali liberi prodotti dalle radiazioni",
+    "cod_domanda": "mYmae9ho"
   },
   {
     "num_domanda": 132,
@@ -1449,7 +1580,8 @@
       "La dose assorbita moltiplicata per il fattore di qualità",
       "La dose equivalente moltiplicata per il fattore di qualità"
     ],
-    "risposta_corretta": "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
+    "risposta_corretta": "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
+    "cod_domanda": "yay5wQPa"
   },
   {
     "num_domanda": 133,
@@ -1460,7 +1592,8 @@
       "Diversa tipologia di attività svolta",
       "Diversa necessità di schermatura"
     ],
-    "risposta_corretta": "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti"
+    "risposta_corretta": "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti",
+    "cod_domanda": "289moG07"
   },
   {
     "num_domanda": 134,
@@ -1471,7 +1604,8 @@
       "Cristallino",
       "Corpo intero"
     ],
-    "risposta_corretta": "Corpo intero"
+    "risposta_corretta": "Corpo intero",
+    "cod_domanda": "LS8aewEV"
   },
   {
     "num_domanda": 135,
@@ -1482,7 +1616,8 @@
       "Può essere indossato in qualsiasi parte del corpo",
       "Fornisce una misura della dose assorbita dagli organi interni"
     ],
-    "risposta_corretta": "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione"
+    "risposta_corretta": "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione",
+    "cod_domanda": "HPG9SKUo"
   },
   {
     "num_domanda": 136,
@@ -1493,7 +1628,8 @@
       "I radicali liberi hanno un elettrone spaiato",
       "I radicali liberi sono molto stabili"
     ],
-    "risposta_corretta": "I radicali liberi sono molto stabili"
+    "risposta_corretta": "I radicali liberi sono molto stabili",
+    "cod_domanda": "ySGK6WuR"
   },
   {
     "num_domanda": 137,
@@ -1504,7 +1640,8 @@
       "Radiazioni elettromagnetiche",
       "Raggi X"
     ],
-    "risposta_corretta": "Radiazioni corpuscolate"
+    "risposta_corretta": "Radiazioni corpuscolate",
+    "cod_domanda": "tyqQt9CF"
   },
   {
     "num_domanda": 138,
@@ -1515,7 +1652,8 @@
       "Lipidi",
       "RNA"
     ],
-    "risposta_corretta": "DNA"
+    "risposta_corretta": "DNA",
+    "cod_domanda": "UrHX4ssh"
   },
   {
     "num_domanda": 139,
@@ -1526,7 +1664,8 @@
       "G1 e S",
       "S e G1"
     ],
-    "risposta_corretta": "M e G2"
+    "risposta_corretta": "M e G2",
+    "cod_domanda": "RuwhD0i0"
   },
   {
     "num_domanda": 140,
@@ -1537,7 +1676,8 @@
       "Hanno basso LET e alto range",
       "Hanno basso LET e basso range"
     ],
-    "risposta_corretta": "Hanno alto LET e basso range"
+    "risposta_corretta": "Hanno alto LET e basso range",
+    "cod_domanda": "YjSsHzxs"
   },
   {
     "num_domanda": 141,
@@ -1548,7 +1688,8 @@
       "Diminuisce la frequenza della radiazione incidente",
       "Produce una coppia di ioni e radiazione caratteristica"
     ],
-    "risposta_corretta": "Produce una coppia di ioni e radiazione caratteristica"
+    "risposta_corretta": "Produce una coppia di ioni e radiazione caratteristica",
+    "cod_domanda": "6kfrbAMM"
   },
   {
     "num_domanda": 142,
@@ -1559,7 +1700,8 @@
       "Unità di misura della dose equivalente",
       "Misura dell'energia assorbita dal tessuto"
     ],
-    "risposta_corretta": "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento"
+    "risposta_corretta": "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento",
+    "cod_domanda": "PVkjEqny"
   },
   {
     "num_domanda": 143,
@@ -1570,7 +1712,8 @@
       "Assorbimento di un joule per un kg di materia",
       "Dose equivalente biologica"
     ],
-    "risposta_corretta": "Assorbimento di un joule per un kg di materia"
+    "risposta_corretta": "Assorbimento di un joule per un kg di materia",
+    "cod_domanda": "9X9wTb7s"
   },
   {
     "num_domanda": 144,
@@ -1581,7 +1724,8 @@
       "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi",
       "Sono innocue a basse dosi"
     ],
-    "risposta_corretta": "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi"
+    "risposta_corretta": "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi",
+    "cod_domanda": "Gy3blXx3"
   },
   {
     "num_domanda": 146,
@@ -1592,7 +1736,8 @@
       "Ustioni cutanee",
       "Sterilità"
     ],
-    "risposta_corretta": "Neoplasia radioindotta"
+    "risposta_corretta": "Neoplasia radioindotta",
+    "cod_domanda": "ceBO9Czf"
   },
   {
     "num_domanda": 147,
@@ -1603,6 +1748,7 @@
       "Più di 400 rx torace",
       "Circa 10 rx torace"
     ],
-    "risposta_corretta": "Più di 400 rx torace"
+    "risposta_corretta": "Più di 400 rx torace",
+    "cod_domanda": "NlZu5twI"
   }
 ]
