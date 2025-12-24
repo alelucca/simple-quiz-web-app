@@ -1,8 +1,8 @@
 """
 Engine per la gestione della simulazione d'esame.
 Gestisce:
-- Selezione di 15 domande random per modulo
-- Timer di 15 minuti per modulo
+- Selezione di X domande random per modulo
+- Timer di X minuti per modulo
 - Navigazione tra domande
 - Calcolo punteggio finale
 """
@@ -36,10 +36,10 @@ class ExamResult:
 class ExamModuleEngine:
     """
     Engine per un singolo modulo dell'esame.
-    Gestisce 15 domande con timer di 15 minuti.
+    Gestisce QUESTIONS_PER_MODULE domande con timer di TIME_LIMIT_SECONDS minuti.
     """
     
-    QUESTIONS_PER_MODULE = 15
+    QUESTIONS_PER_MODULE = 3
     TIME_LIMIT_SECONDS = 15 * 60  # 15 minuti
     
     def __init__(self, module_name: str, questions: List[Dict[str, Any]]):
@@ -58,7 +58,7 @@ class ExamModuleEngine:
         
         self.module_name = module_name
         
-        # Seleziona 15 domande random
+        # Seleziona QUESTION_PER_MODULE domande random
         self.questions = random.sample(questions, self.QUESTIONS_PER_MODULE)
         
         # Risposte dell'utente (key: cod_domanda, value: risposta)
