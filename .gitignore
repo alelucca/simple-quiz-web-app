@@ -3,3 +3,19 @@ QUIZ_CLEAN/WORD
 raw_input_files
 .env
 QUIZ_CLEAN/JSON/backup
+
+# Streamlit secrets (contiene credenziali sensibili)
+.streamlit/
+
+# Google Cloud credentials
+
+!metadata_answers_gemini.json
+!answers_gemini_final.json
+
+# User data
+users.json
+quiz_logs.json
+
+venv/
+
+GOOGLE_SHEETS_SETUP.md
