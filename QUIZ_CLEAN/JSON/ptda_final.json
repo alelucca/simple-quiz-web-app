@@ -831,12 +831,12 @@
     "num_domanda": 70,
     "domanda": "Ten fold error:",
     "opzioni": [
-      "Troncare i decimali",
-      "Domanda: Ten fold error: Risposta corretta: Approssimare i decimali  1",
-      "Arrotondare i decimali",
-      "Approssimare i decimali"
+      "troncare i decimali durante un calcolo",
+      "errore di calcolo che comporta una dose dieci volte superiore o inferiore a quella corretta",
+      "arrotondare i decimali per eccesso o difetto",
+      "approssimare i decimali senza criteri standard"
     ],
-    "risposta_corretta": "Approssimare i decimali",
+    "risposta_corretta": "errore di calcolo che comporta una dose dieci volte superiore o inferiore a quella corretta",
     "cod_domanda": "q7ZAbITH"
   },
   {
