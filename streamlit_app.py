@@ -3,7 +3,7 @@ Quiz App - Applicazione Streamlit per la fruizione di quiz interattivi
 Supporta tre modalità:
 1. Quiz domanda per domanda (con retry e tracking)
 2. Quiz completo (tutte le domande insieme)
-3. Simulazione esame (15 domande per modulo con timer)
+3. Simulazione esame (X domande per modulo con timer)
 
 Con autenticazione e logging opzionali.
 """
@@ -72,24 +72,85 @@ def init_session_state():
 # ============================================================================
 
 def show_login_page():
-    """Mostra la pagina di login"""
-    st.title("🔐 Login")
+    """Mostra la pagina di login e registrazione"""
+    st.title("🔐 Accesso")
     
-    st.info("**Utenti demo:**\n- Username: `demo` / Password: `demo123`\n- Username: `admin` / Password: `admin123`")
+    # Tabs per login e registrazione
+    tab1, tab2 = st.tabs(["Login", "Registrazione"])
     
-    with st.form("login_form"):
-        username = st.text_input("Username")
-        password = st.text_input("Password", type="password")
-        submit = st.form_submit_button("Accedi")
+    with tab1:
+        st.subheader("Accedi con le tue credenziali")
+        st.info("**Utenti demo:**\n- Username: `demo` / Password: `demo123`\n- Username: `admin` / Password: `admin123`")
         
-        if submit:
-            user = st.session_state.auth_manager.authenticate(username, password)
-            if user:
-                login_user(st.session_state, user)
-                st.success(f"Benvenuto, {user.display_name}!")
-                st.rerun()
-            else:
-                st.error("Credenziali non valide")
+        # Form con attributi HTML per autocomplete del browser
+        with st.form("login_form"):
+            username = st.text_input("Username", key="login_username", autocomplete="username")
+            password = st.text_input("Password", type="password", key="login_password", autocomplete="current-password")
+            submit = st.form_submit_button("Accedi")
+            
+            if submit:
+                if not username or not password:
+                    st.error("Inserisci username e password")
+                else:
+                    user = st.session_state.auth_manager.authenticate(username, password)
+                    if user:
+                        login_user(st.session_state, user)
+                        st.success(f"Benvenuto, {user.display_name}!")
+                        st.rerun()
+                    else:
+                        st.error("Credenziali non valide")
+    
+    with tab2:
+        st.subheader("Crea un nuovo account")
+        st.info("La password verrà salvata in modo sicuro (hash bcrypt)")
+        
+        with st.form("register_form"):
+            new_username = st.text_input(
+                "Username", 
+                key="register_username",
+                help="Minimo 3 caratteri, solo lettere, numeri, underscore e trattino",
+                autocomplete="username"
+            )
+            new_display_name = st.text_input(
+                "Nome da visualizzare (opzionale)", 
+                key="register_display_name",
+                autocomplete="name"
+            )
+            new_password = st.text_input(
+                "Password", 
+                type="password", 
+                key="register_password",
+                help="Minimo 6 caratteri",
+                autocomplete="new-password"
+            )
+            confirm_password = st.text_input(
+                "Conferma Password", 
+                type="password", 
+                key="register_confirm_password",
+                autocomplete="new-password"
+            )
+            register_submit = st.form_submit_button("Registrati")
+            
+            if register_submit:
+                # Validazione
+                if not new_username or not new_password:
+                    st.error("Username e password sono obbligatori")
+                elif new_password != confirm_password:
+                    st.error("Le password non corrispondono")
+                else:
+                    # Registra utente
+                    success, message = st.session_state.auth_manager.register_user(
+                        new_username, 
+                        new_password, 
+                        new_display_name or new_username
+                    )
+                    
+                    if success:
+                        st.success(message)
+                        st.info("Ora puoi effettuare il login con le tue credenziali!")
+                        st.balloons()
+                    else:
+                        st.error(message)
 
 
 # ============================================================================
