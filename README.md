@@ -5,6 +5,15 @@ Applicazione web per la fruizione di quiz con tre modalità:
 2. **Quiz completo** - tutte le domande insieme con feedback finale
 3. **Simulazione esame** - 15 domande per modulo con timer 15 minuti
 
+## ✨ Funzionalità Principali
+
+- 🔐 **Autenticazione utenti** con registrazione e login
+- 🔒 **Password sicure** hashate con bcrypt
+- 📊 **Logging avanzato** su Google Sheets (con fallback locale)
+- 💾 **Salvataggio credenziali** nel browser
+- 📈 **Statistiche utente** personalizzate
+- 🎯 **Tre modalità di quiz** distinte
+
 ## 🏗️ Architettura
 
 L'applicazione è progettata con una **separazione netta tra logica e UI**:
@@ -13,23 +22,41 @@ L'applicazione è progettata con una **separazione netta tra logica e UI**:
 - `quiz_engine.py` - Logica modalità 1 (quiz singolo)
 - `complete_quiz_engine.py` - Logica modalità 2 (quiz completo)
 - `exam_engine.py` - Logica modalità 3 (simulazione esame)
-- `auth.py` - Sistema autenticazione (opzionale)
-- `logger.py` - Logging risposte utente (opzionale)
+- `auth.py` - Sistema autenticazione con bcrypt e validazione anti-SQL injection
+- `logger.py` - Logging risposte su Google Sheets (con fallback JSON)
 - `streamlit_app.py` - UI principale
 
 ## 📋 Requisiti
 
 - Python 3.8+
 - Streamlit 1.30+
+- bcrypt 4.0+
+- gspread 5.12+ (opzionale, per Google Sheets)
+- oauth2client 4.1+ (opzionale, per Google Sheets)
 
 ## 🚀 Installazione
 
-1. Installa le dipendenze:
+1. Clona o scarica il repository
+
+2. Installa le dipendenze:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Verifica che la cartella `QUIZ_CLEAN/JSON` contenga i file quiz nel formato corretto:
+3. Inizializza il file secrets con gli utenti demo:
+```bash
+python init_secrets.py
+```
+   Questo creerà il file `.streamlit/secrets.toml` con:
+   - Utente demo: `demo` / `demo123`
+   - Utente admin: `admin` / `admin123`
+
+4. (Opzionale) Configura Google Sheets per il logging:
+   - Segui le istruzioni in [GOOGLE_SHEETS_SETUP.md](GOOGLE_SHEETS_SETUP.md)
+   - Aggiungi le credenziali GCP al file `.streamlit/secrets.toml`
+   - Se non configuri Google Sheets, l'app userà un file JSON locale
+
+5. Verifica che la cartella `QUIZ_CLEAN/JSON` contenga i file quiz nel formato corretto:
 ```json
 [
   {
@@ -49,6 +76,19 @@ streamlit run streamlit_app.py
 ```
 
 L'app si aprirà nel browser all'indirizzo `http://localhost:8501`
+
+### 🔐 Primo Accesso
+
+1. L'app si aprirà sulla schermata di login
+2. Puoi usare gli account demo:
+   - Username: `demo` / Password: `demo123`
+   - Username: `admin` / Password: `admin123`
+3. Oppure registrati creando un nuovo account:
+   - Clicca sulla tab "Registrazione"
+   - Inserisci username (min 3 caratteri, solo lettere/numeri/underscore/trattino)
+   - Inserisci password (min 6 caratteri)
+   - Le credenziali vengono salvate in modo sicuro (bcrypt hash)
+   - Il browser può salvare le credenziali per accessi futuri
 
 ## 📚 Modalità Quiz
 
@@ -84,21 +124,55 @@ L'app si aprirà nel browser all'indirizzo `http://localhost:8501`
 - Mappa visuale delle domande risposte
 - Risultato per ogni modulo + punteggio complessivo
 
-## 🔐 Autenticazione (Opzionale)
+## 🔒 Sicurezza
 
-L'autenticazione è **disabilitata di default**.
+### Password
+- Le password sono hashate usando **bcrypt** con salt automatico
+- Gli hash vengono salvati in `.streamlit/secrets.toml`
+- Non è possibile recuperare la password originale dall'hash
+- Validazione input per prevenire SQL injection
 
-Per **abilitarla**, modifica [streamlit_app.py](streamlit_app.py) nella funzione `main()`:
+### Validazione Username
+- Minimo 3 caratteri, massimo 50
+- Solo caratteri alfanumerici, underscore e trattino
+- Case-sensitive (ma previene duplicati case-insensitive)
 
-```python
-# Decommentare queste righe:
-if not is_authenticated(st.session_state):
-    show_login_page()
-    return
-```
+### File Sensibili
+Il file `.streamlit/secrets.toml` contiene:
+- Hash delle password utente
+- Credenziali Google Cloud (se configurato)
+- **NON committare mai questo file su repository pubblici**
 
-**Credenziali demo** (definite in `users.json` auto-generato):
-- Username: `demo` / Password: `demo123`
+## 📊 Logging e Statistiche
+
+### Sistemi di Logging
+
+L'app supporta due modalità di logging:
+
+#### 1. Google Sheets (Consigliato)
+- Dati salvati in un foglio Google privato "log_streamlit"
+- Due fogli separati:
+  - `answers`: log di ogni singola risposta
+  - `sessions`: riassunti delle sessioni di quiz
+- Accessibile da qualsiasi dispositivo
+- Backup automatico by Google
+- Configurazione: vedi [GOOGLE_SHEETS_SETUP.md](GOOGLE_SHEETS_SETUP.md)
+
+#### 2. File JSON Locale (Fallback)
+- Se Google Sheets non è configurato, usa `quiz_logs.json`
+- Salvato localmente nella directory del progetto
+
+### Statistiche Disponibili
+
+Per ogni utente autenticato:
+- Totale domande risposte
+- Percentuale di risposte corrette
+- Moduli affrontati
+- Statistiche dettagliate per modulo
+
+## 🔐 Autenticazione
+
+L'autenticazione è **abilitata di default**.
 - Username: `admin` / Password: `admin123`
 
 ## 📊 Logging (Opzionale)
