@@ -23,19 +23,19 @@ Struttura log:
 import json
 import csv
 import io
+import pandas as pd
 import streamlit as st
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass, asdict
 
-# Google Sheets imports
+# Google Sheets imports (usando connettore ufficiale Streamlit)
 try:
-    import gspread
-    from oauth2client.service_account import ServiceAccountCredentials
-    GSPREAD_AVAILABLE = True
+    from streamlit_gsheets import GSheetsConnection
+    GSHEETS_AVAILABLE = True
 except ImportError:
-    GSPREAD_AVAILABLE = False
+    GSHEETS_AVAILABLE = False
 
 
 @dataclass
@@ -59,7 +59,7 @@ class QuizLogger:
     Salva su Google Sheets (con fallback a JSON locale).
     """
     
-    def __init__(self, log_file: str = "quiz_logs.json", use_google_sheets: bool = True):
+    def __init__(self, spreadsheet_name="log_streamlit", log_file: str = "quiz_logs.json", use_google_sheets: bool = True):
         """
         Inizializza il logger
         
@@ -68,13 +68,9 @@ class QuizLogger:
             use_google_sheets: se True, usa Google Sheets
         """
         self.log_file = Path(log_file)
-        self.use_google_sheets = use_google_sheets and GSPREAD_AVAILABLE
-        self.gsheet_client = None
-        self.spreadsheet = None
-        
-        # Worksheets
-        self.answers_sheet = None
-        self.sessions_sheet = None
+        self.use_google_sheets = use_google_sheets and GSHEETS_AVAILABLE
+        self.spreadsheet_name=spreadsheet_name
+        self.conn = None
         
         if self.use_google_sheets:
             self._init_google_sheets()
@@ -82,78 +78,21 @@ class QuizLogger:
             self._ensure_log_file()
     
     def _init_google_sheets(self):
-        """Inizializza la connessione a Google Sheets"""
+        """Inizializza la connessione a Google Sheets usando il connettore ufficiale Streamlit"""
         try:
-            # Prova a caricare credenziali da streamlit secrets
-            if hasattr(st, 'secrets') and 'gcp_service_account' in st.secrets:
-                credentials_dict = dict(st.secrets['gcp_service_account'])
-                scope = [
-                    'https://spreadsheets.google.com/feeds',
-                    'https://www.googleapis.com/auth/drive'
-                ]
-                credentials = ServiceAccountCredentials.from_json_keyfile_dict(
-                    credentials_dict, scope
-                )
-                self.gsheet_client = gspread.authorize(credentials)
-                
-                # Apri o crea spreadsheet
-                try:
-                    self.spreadsheet = self.gsheet_client.open("log_streamlit")
-                except gspread.SpreadsheetNotFound:
-                    # Crea nuovo spreadsheet
-                    self.spreadsheet = self.gsheet_client.create("log_streamlit")
-                    self.spreadsheet.share('', perm_type='anyone', role='reader')
-                
-                # Inizializza worksheets
-                self._ensure_worksheets()
-                
-            else:
-                # Fallback a JSON
-                self.use_google_sheets = False
-                self._ensure_log_file()
+            # Usa il connettore ufficiale Streamlit
+            self.conn = st.connection("gsheets", type=GSheetsConnection)
+            
+            # Verifica che la connessione funzioni leggendo i fogli esistenti
+            try:
+                # Prova a leggere il foglio answers
+                df = self.conn.read(worksheet="answers", ttl=0)
+            except Exception:
+                # Se non esiste, lo creeremo al primo salvataggio
+                pass
                 
         except Exception as e:
             print(f"Errore inizializzazione Google Sheets: {e}")
-            self.use_google_sheets = False
-            self._ensure_log_file()
-    
-    def _ensure_worksheets(self):
-        """Assicura che esistano i due fogli necessari"""
-        if not self.spreadsheet:
-            return
-        
-        try:
-            # Foglio per risposte individuali
-            try:
-                self.answers_sheet = self.spreadsheet.worksheet("answers")
-            except gspread.WorksheetNotFound:
-                self.answers_sheet = self.spreadsheet.add_worksheet(
-                    title="answers", rows=1000, cols=10
-                )
-                # Aggiungi header
-                headers = [
-                    "timestamp", "username", "quiz_mode", "module_name",
-                    "question_id", "user_answer", "correct_answer",
-                    "is_correct", "attempt_number", "session_id"
-                ]
-                self.answers_sheet.append_row(headers)
-            
-            # Foglio per riassunti sessioni
-            try:
-                self.sessions_sheet = self.spreadsheet.worksheet("sessions")
-            except gspread.WorksheetNotFound:
-                self.sessions_sheet = self.spreadsheet.add_worksheet(
-                    title="sessions", rows=1000, cols=10
-                )
-                # Aggiungi header
-                headers = [
-                    "timestamp", "username", "quiz_mode", "session_id",
-                    "type", "summary_json"
-                ]
-                self.sessions_sheet.append_row(headers)
-                
-        except Exception as e:
-            print(f"Errore creazione worksheets: {e}")
             self.use_google_sheets = False
             self._ensure_log_file()
     
@@ -169,16 +108,21 @@ class QuizLogger:
         Returns:
             Lista di log entries
         """
-        if not self.use_google_sheets or not self.answers_sheet:
+        if not self.use_google_sheets or not self.conn:
             return []
         
         try:
-            # Leggi tutte le righe (escluso header)
-            records = self.answers_sheet.get_all_records()
+            # Leggi il foglio answers
+            df = self.conn.read(worksheet="answers", ttl=0)
             
-            # Converti in formato JSON standard
-            logs = []
-            for record in records:
+            if df.empty:
+                return []
+            
+            # Converti DataFrame in lista di dizionari
+            logs = df.to_dict('records')
+            
+            # Converti tipi di dati
+            for record in logs:
                 # Converti is_correct da stringa a booleano
                 if 'is_correct' in record:
                     record['is_correct'] = str(record['is_correct']).lower() == 'true'
@@ -193,7 +137,6 @@ class QuizLogger:
                         record['attempt_number'] = int(record['attempt_number'])
                     except (ValueError, TypeError):
                         record['attempt_number'] = 1
-                logs.append(record)
             
             return logs
         except Exception as e:
@@ -207,20 +150,25 @@ class QuizLogger:
         Returns:
             Lista di session entries
         """
-        if not self.use_google_sheets or not self.sessions_sheet:
+        if not self.use_google_sheets or not self.conn:
             return []
         
         try:
-            records = self.sessions_sheet.get_all_records()
-            sessions = []
-            for record in records:
+            df = self.conn.read(worksheet="sessions", ttl=0)
+            
+            if df.empty:
+                return []
+            
+            sessions = df.to_dict('records')
+            
+            for record in sessions:
                 # Deserializza il JSON summary
                 if 'summary_json' in record and record['summary_json']:
                     try:
                         record['summary'] = json.loads(record['summary_json'])
                     except json.JSONDecodeError:
                         record['summary'] = {}
-                sessions.append(record)
+            
             return sessions
         except Exception as e:
             print(f"Errore caricamento sessioni da Sheets: {e}")
@@ -257,44 +205,56 @@ class QuizLogger:
     
     def _save_to_sheets(self, entry: Dict[str, Any], is_session: bool = False):
         """
-        Salva una entry su Google Sheets
+        Salva una entry su Google Sheets usando il connettore Streamlit
         
         Args:
             entry: dizionario con i dati
             is_session: True se è un session summary, False se è una risposta
         """
-        if not self.use_google_sheets:
+        if not self.use_google_sheets or not self.conn:
             return
         
         try:
+            worksheet_name = "sessions" if is_session else "answers"
+            
+            # Crea DataFrame da una singola riga
             if is_session:
-                # Salva su sessions sheet
-                if self.sessions_sheet:
-                    row = [
-                        entry.get('timestamp', ''),
-                        entry.get('username', ''),
-                        entry.get('quiz_mode', ''),
-                        entry.get('session_id', ''),
-                        entry.get('type', 'session_summary'),
-                        json.dumps(entry.get('summary', {}), ensure_ascii=False)
-                    ]
-                    self.sessions_sheet.append_row(row)
+                data = {
+                    'timestamp': [entry.get('timestamp', '')],
+                    'username': [entry.get('username', '')],
+                    'quiz_mode': [entry.get('quiz_mode', '')],
+                    'session_id': [entry.get('session_id', '')],
+                    'type': [entry.get('type', 'session_summary')],
+                    'summary_json': [json.dumps(entry.get('summary', {}), ensure_ascii=False)]
+                }
             else:
-                # Salva su answers sheet
-                if self.answers_sheet:
-                    row = [
-                        entry.get('timestamp', ''),
-                        entry.get('username', ''),
-                        entry.get('quiz_mode', ''),
-                        entry.get('module_name', ''),
-                        entry.get('question_id', 0),
-                        entry.get('user_answer', ''),
-                        entry.get('correct_answer', ''),
-                        str(entry.get('is_correct', False)),
-                        entry.get('attempt_number', 1),
-                        entry.get('session_id', '')
-                    ]
-                    self.answers_sheet.append_row(row)
+                data = {
+                    'timestamp': [entry.get('timestamp', '')],
+                    'username': [entry.get('username', '')],
+                    'quiz_mode': [entry.get('quiz_mode', '')],
+                    'module_name': [entry.get('module_name', '')],
+                    'question_id': [entry.get('question_id', 0)],
+                    'user_answer': [entry.get('user_answer', '')],
+                    'correct_answer': [entry.get('correct_answer', '')],
+                    'is_correct': [str(entry.get('is_correct', False))],
+                    'attempt_number': [entry.get('attempt_number', 1)],
+                    'session_id': [entry.get('session_id', '')]
+                }
+            
+            df_new = pd.DataFrame(data)
+            
+            # Leggi il foglio esistente
+            try:
+                df_existing = self.conn.read(worksheet=worksheet_name, ttl=0)
+                # Aggiungi la nuova riga
+                df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+            except Exception:
+                # Se il foglio non esiste, usa solo i nuovi dati
+                df_combined = df_new
+            
+            # Scrivi il DataFrame aggiornato
+            self.conn.update(spreadsheet=self.spreadsheet_name, worksheet=worksheet_name, data=df_combined)
+            
         except Exception as e:
             print(f"Errore salvataggio su Sheets: {e}")
             # Fallback a file JSON
