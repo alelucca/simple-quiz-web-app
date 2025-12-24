@@ -1,0 +1,12 @@
+{
+  "demo": {
+    "password": "demo123",
+    "display_name": "Utente Demo",
+    "role": "student"
+  },
+  "admin": {
+    "password": "admin123",
+    "display_name": "Amministratore",
+    "role": "admin"
+  }
+}
