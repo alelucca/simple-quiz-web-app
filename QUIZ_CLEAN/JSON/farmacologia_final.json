@@ -1705,10 +1705,10 @@
   },
   {
     "num_domanda": 143,
-    "domanda": "Quale di questi farmaci non è usato per il trattamento dell'ipertensione in pz con asma grave...?",
+    "domanda": "Quale di questi farmaci non è usato per il trattamento dell'ipertensione in pz con asma grave?",
     "opzioni": [
       "i B-bloccanti non selettivi",
-      "Domanda: Quale di questi farmaci non è usato per il trattamento dell'ipertensione in pazienti con asma grave? Risposta corretta: I B-bloccanti non selettivi Opzioni generate: Gli ACE-inibitori",
+      "ACE-inibitori",
       "I calcio-antagonisti",
       "I diuretici tiazidici"
     ],
