@@ -387,11 +387,11 @@ def show_single_question_results():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.metric("Totale domande", stats.total_questions)
+        st.metric("Totale domande lette", stats.total_attempted)
         st.metric("Risposte corrette", stats.get_total_correct())
     
     with col2:
-        percentage = (stats.get_total_correct() / stats.total_questions * 100) if stats.total_questions > 0 else 0
+        percentage = (stats.get_total_correct() / stats.total_attempted * 100) if stats.total_questions > 0 else 0
         st.metric("Percentuale", f"{percentage:.1f}%")
     
     st.markdown("---")
@@ -417,7 +417,7 @@ def show_single_question_results():
             quiz_mode="single_question",
             session_id=st.session_state.session_id,
             summary_data={
-                "total_questions": stats.total_questions,
+                "total_attempted": stats.total_attempted,
                 "correct": stats.get_total_correct(),
                 "percentage": percentage
             }
