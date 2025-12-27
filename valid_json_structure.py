@@ -101,6 +101,26 @@ def assign_unique_question_id(quiz_file: str):
     
     return data
 
+def split_farmacologia(file_path: str):
+    farm = json.load(open(file_path,"r", encoding="utf-8"))
+    farm_generale = []
+    farm_clinica = []
+    i=j=1
+
+    for f in farm:
+        if f["num_domanda"]<145:
+            item = f
+            item['num_domanda']=i
+            i+=1
+            farm_clinica.append(item)
+        else:
+            item = f          
+            item["num_domanda"]=j
+            j+=1
+            farm_generale.append(item)
+
+    return farm_generale, farm_clinica
+
 
 def main():
     files = ["farmacologia_final.json", "ptda_final.json", "radioprotezione_final.json"]
@@ -115,9 +135,21 @@ def main():
         # with open(file_path, 'w', encoding='utf-8') as file:
         #     json.dump(updated_questions, file, ensure_ascii=False, indent=2)
         
-        # print(f"✓ {f} updated with unique question IDs") 
+        # print(f"✓ {f} updated with unique question IDs")  
 
+    # farm_generale, farm_clinica = split_farmacologia("QUIZ_CLEAN/JSON/farmacologia_final.json")
+    # with open("QUIZ_CLEAN/JSON/farmacologia_generale_final.json", 'w', encoding='utf-8') as f:
+    #     json.dump(farm_generale, f, ensure_ascii=False, indent=2)
+        
+    # with open("QUIZ_CLEAN/JSON/farmacologia_clinica_final.json", 'w', encoding='utf-8') as f:
+    #     json.dump(farm_clinica, f, ensure_ascii=False, indent=2)
+        
+    # print("✓ Farmacologia split into generale and clinica files")
 
+    new_doc = assign_unique_question_id("farmacologia_generale_final.json")
+
+    with open("QUIZ_CLEAN/JSON/farmacologia_generale_final.json", 'w', encoding='utf-8') as f:
+        json.dump(new_doc, f, ensure_ascii=False, indent=2)
 
 if __name__=="__main__":
     main()
