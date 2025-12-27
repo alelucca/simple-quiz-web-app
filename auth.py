@@ -3,7 +3,7 @@ Modulo per l'autenticazione degli utenti.
 Gestisce:
 - Registrazione con username e password
 - Login con credenziali hashate (bcrypt)
-- Verifica credenziali da streamlit secrets.toml
+- Salvataggio utenti in Google Sheets
 - Sessione utente
 - Validazione input per prevenire SQL injection
 """
@@ -12,6 +12,7 @@ import json
 import re
 import bcrypt
 import streamlit as st
+import pandas as pd
 from pathlib import Path
 from typing import Optional, Dict, Any, Tuple
 from dataclasses import dataclass
@@ -22,18 +23,16 @@ class User:
     """Rappresenta un utente autenticato"""
     username: str
     display_name: str
-    role: str = "student"  # Possibili ruoli: student, admin
-
 
 class AuthManager:
     """
     Gestisce l'autenticazione degli utenti.
-    Le credenziali sono salvate in .streamlit/secrets.toml con password hashate.
+    Le credenziali sono salvate in Google Sheets con password hashate.
     """
     
     def __init__(self):
         """Inizializza il gestore autenticazione"""
-        pass
+        self.worksheet_name = "users"
     
     @staticmethod
     def _validate_username(username: str) -> Tuple[bool, str]:
@@ -112,80 +111,87 @@ class AuthManager:
         """
         return bcrypt.checkpw(password.encode('utf-8'), hashed.encode('utf-8'))
     
-    def _get_users_from_secrets(self) -> Dict[str, Dict[str, Any]]:
+    def _get_connection(self):
         """
-        Carica utenti da streamlit secrets
+        Ottiene la connessione a Google Sheets
         
         Returns:
-            Dizionario {username: {password_hash, display_name, role}}
+            Connessione a Google Sheets
+        """
+        return st.connection("gsheets", type="gsheets")
+    
+    def _get_users_from_sheet(self) -> Dict[str, Dict[str, Any]]:
+        """
+        Carica utenti da Google Sheets
+        
+        Returns:
+            Dizionario {username: {password_hash, display_name}}
         """
         try:
-            if hasattr(st, 'secrets') and 'users' in st.secrets:
-                users = {}
-                for username, user_data in st.secrets['users'].items():
+            conn = self._get_connection()
+            df = conn.read(worksheet=self.worksheet_name, ttl=0)
+            
+            if df.empty:
+                return {}
+            
+            users = {}
+            for _, row in df.iterrows():
+                username = row.get('username', '')
+                if username:
                     users[username] = {
-                        'password_hash': user_data.get('password_hash', ''),
-                        'display_name': user_data.get('display_name', username),
-                        'role': user_data.get('role', 'student')
+                        'password_hash': row.get('password_hash', ''),
+                        'display_name': row.get('display_name', username)
                     }
-                return users
-        except Exception:
-            pass
-        
-        # Utenti di default se non ci sono secrets
-        return {
-            "demo": {
-                "password_hash": self._hash_password("demo123"),
-                "display_name": "Utente Demo",
-                "role": "student"
-            },
-            "admin": {
-                "password_hash": self._hash_password("admin123"),
-                "display_name": "Amministratore",
-                "role": "admin"
-            }
-        }
+            return users
+        except Exception as e:
+            st.error(f"Errore caricamento utenti da Google Sheets: {str(e)}")
+            return {}
     
-    def _save_user_to_secrets(self, username: str, password_hash: str, display_name: str, role: str = "student") -> bool:
+    def _save_user_to_sheet(self, username: str, password_hash: str, display_name: str) -> bool:
         """
-        Salva un nuovo utente nel file secrets.toml
+        Salva un nuovo utente in Google Sheets
         
         Args:
             username: nome utente
             password_hash: password hashata
             display_name: nome visualizzato
-            role: ruolo utente
             
         Returns:
             True se salvato correttamente
         """
-        secrets_dir = Path(".streamlit")
-        secrets_dir.mkdir(exist_ok=True)
-        
-        secrets_file = secrets_dir / "secrets.toml"
-        
-        # Leggi file esistente o crea nuovo
-        content = ""
-        if secrets_file.exists():
-            content = secrets_file.read_text(encoding='utf-8')
-        
-        # Aggiungi nuova sezione utente
-        user_section = f'''
-[users.{username}]
-password_hash = "{password_hash}"
-display_name = "{display_name}"
-role = "{role}"
-'''
-        
-        # Se non esiste già la sezione [users], aggiungila
-        if '[users' not in content:
-            content += '\n# User credentials\n'
-        
-        content += user_section
-        
-        # Salva file
-        secrets_file.write_text(content, encoding='utf-8')
-        return True
+        try:
+            conn = self._get_connection()
+            
+            # Aggiungi nuova riga
+            query = f"""
+            INSERT INTO "{self.worksheet_name}" (username, password_hash, display_name)
+            VALUES ('{username}', '{password_hash}', '{display_name}')
+            """
+            
+            # Usa update per appendere i dati
+            df = conn.read(worksheet=self.worksheet_name, ttl=0)
+            
+            # Crea nuovo dataframe con il nuovo utente
+            import pandas as pd
+            new_row = pd.DataFrame([{
+                'username': username,
+                'password_hash': password_hash,
+                'display_name': display_name
+            }])
+            
+            # Appendi al dataframe esistente
+            if df.empty:
+                updated_df = new_row
+            else:
+                updated_df = pd.concat([df, new_row], ignore_index=True)
+            
+            # Aggiorna il foglio
+            conn.update(worksheet=self.worksheet_name, data=updated_df)
+            
+            return True
+        except Exception as e:
+            st.error(f"Errore salvataggio utente: {str(e)}")
+            return False
     
     def register_user(self, username: str, password: str, display_name: str = "") -> Tuple[bool, str]:
         """
@@ -210,7 +216,7 @@ role = "{role}"
             return False, error
         
         # Verifica se utente già esistente
-        existing_users = self._get_users_from_secrets()
+        existing_users = self._get_users_from_sheet()
         if username.lower() in [u.lower() for u in existing_users.keys()]:
             return False, "Username già esistente"
         
@@ -221,10 +227,12 @@ role = "{role}"
         if not display_name:
             display_name = username
         
-        # Salva in secrets.toml
+        # Salva in Google Sheets
         try:
-            self._save_user_to_secrets(username, password_hash, display_name, "student")
-            return True, "Registrazione completata con successo!"
+            if self._save_user_to_sheet(username, password_hash, display_name):
+                return True, "Registrazione completata con successo!"
+            else:
+                return False, "Errore durante il salvataggio"
         except Exception as e:
             return False, f"Errore durante il salvataggio: {str(e)}"
     
@@ -239,7 +247,7 @@ role = "{role}"
         Returns:
             Oggetto User se autenticazione riuscita, None altrimenti
         """
-        users = self._get_users_from_secrets()
+        users = self._get_users_from_sheet()
         
         if username not in users:
             return None
@@ -252,8 +260,7 @@ role = "{role}"
         
         return User(
             username=username,
-            display_name=user_info.get('display_name', username),
-            role=user_info.get('role', 'student')
+            display_name=user_info.get('display_name', username)
         )
     
     def get_all_users(self) -> Dict[str, Dict[str, Any]]:
@@ -263,12 +270,11 @@ role = "{role}"
         Returns:
             Dizionario con info utenti (esclusa password)
         """
-        users = self._get_users_from_secrets()
+        users = self._get_users_from_sheet()
         users_safe = {}
         for username, info in users.items():
             users_safe[username] = {
-                "display_name": info.get("display_name", username),
-                "role": info.get("role", "student")
+                "display_name": info.get("display_name", username)
             }
         return users_safe
 
