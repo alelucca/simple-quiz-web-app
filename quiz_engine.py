@@ -38,6 +38,7 @@ class QuestionAttempt:
 class QuizStats:
     """Statistiche finali del quiz"""
     total_questions: int
+    total_attempted: int = 0    
     correct_first_try: int = 0
     correct_second_try: int = 0
     correct_third_try: int = 0
@@ -191,10 +192,13 @@ class SingleQuestionQuizEngine:
                     stats.correct_fourth_try += 1
                 else:
                     stats.correct_more_tries += 1
+                stats.total_attempted+=1
             elif attempt.status == QuestionStatus.SKIPPED:
                 stats.skipped += 1
+                stats.total_attempted+=1
             elif attempt.status == QuestionStatus.SHOWN:
                 stats.shown += 1
+                stats.total_attempted+=1
         
         return stats
     
