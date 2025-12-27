@@ -84,12 +84,12 @@ class QuizLogger:
             self.conn = st.connection("gsheets", type=GSheetsConnection)
             
             # Verifica che la connessione funzioni leggendo i fogli esistenti
-            try:
-                # Prova a leggere il foglio answers
-                df = self.conn.read(worksheet="answers", ttl=0)
-            except Exception:
-                # Se non esiste, lo creeremo al primo salvataggio
-                pass
+            # try:
+            #     # Prova a leggere il foglio answers
+            #     df = self.conn.read(worksheet="answers", ttl=0)
+            # except Exception:
+            #     # Se non esiste, lo creeremo al primo salvataggio
+            #     pass
                 
         except Exception as e:
             print(f"Errore inizializzazione Google Sheets: {e}")
@@ -243,20 +243,21 @@ class QuizLogger:
             
             df_new = pd.DataFrame(data)
             
-            # Leggi il foglio esistente
-            try:
-                df_existing = self.conn.read(worksheet=worksheet_name, ttl=0)
-                # Aggiungi la nuova riga
-                df_combined = pd.concat([df_existing, df_new], ignore_index=True)
-            except Exception:
-                # Se il foglio non esiste, usa solo i nuovi dati
-                df_combined = df_new
-            
-            # Scrivi il DataFrame aggiornato
-            self.conn.update(spreadsheet=self.spreadsheet_name, worksheet=worksheet_name, data=df_combined)
+            # Append diretto senza leggere i dati esistenti (molto più veloce)
+            try:                
+                # Se arriviamo qui, il foglio esiste - usa append
+                print("Saving with append mode")
+                self.conn.update(
+                    spreadsheet=self.spreadsheet_name,
+                    worksheet=worksheet_name,
+                    data=df_new,
+                    # Append mode - aggiunge alla fine senza leggere tutto
+                )
+            except Exception as e:
+                print(f"Direct append failed: {str(e)}")
             
         except Exception as e:
-            print(f"Errore salvataggio su Sheets: {e}")
+            print(f"Errore salvataggio su Sheets, fallback a JSON locale: {e}")
             # Fallback a file JSON
             logs = self._load_logs()
             logs.append(entry)
@@ -352,8 +353,39 @@ class QuizLogger:
         Returns:
             Lista di log entries dell'utente
         """
-        logs = self._load_logs()
-        return [log for log in logs if log.get("username") == username]
+        if self.use_google_sheets and self.conn:
+            try:
+                # Query diretta sul foglio answers
+                query = f'SELECT * WHERE B = "{username}"'  # Colonna B = username
+                df_answers = self.conn.query(worksheet="answers", sql=query, ttl=0)
+                
+                # Query diretta sul foglio sessions
+                df_sessions = self.conn.query(worksheet="sessions", sql=query, ttl=0)
+                
+                # Combina i risultati
+                logs = []
+                if not df_answers.empty:
+                    logs.extend(df_answers.to_dict('records'))
+                if not df_sessions.empty:
+                    sessions = df_sessions.to_dict('records')
+                    # Deserializza summary_json per sessions
+                    for record in sessions:
+                        if 'summary_json' in record and record['summary_json']:
+                            try:
+                                record['summary'] = json.loads(record['summary_json'])
+                            except json.JSONDecodeError:
+                                record['summary'] = {}
+                    logs.extend(sessions)
+                
+                return logs
+            except Exception as e:
+                print(f"Errore query Google Sheets: {e}")
+                # Fallback al metodo tradizionale
+                logs = self._load_logs()
+                return [log for log in logs if log.get("username") == username]
+        else:
+            logs = self._load_logs()
+            return [log for log in logs if log.get("username") == username]
     
     def get_question_stats(self, module_name: str, question_id: int) -> Dict[str, Any]:
         """
@@ -366,6 +398,37 @@ class QuizLogger:
         Returns:
             Dizionario con statistiche (total_attempts, correct_rate, ecc.)
         """
+        if self.use_google_sheets and self.conn:
+            try:
+                # Query diretta: filtra per module_name e question_id
+                # Colonna D = module_name, Colonna E = question_id
+                query = f'SELECT * WHERE D = "{module_name}" AND E = {question_id}'
+                df = self.conn.query(worksheet="answers", sql=query, ttl=0)
+                
+                if df.empty:
+                    return {
+                        "total_attempts": 0,
+                        "correct_attempts": 0,
+                        "correct_rate": 0.0
+                    }
+                
+                question_logs = df.to_dict('records')
+                total = len(question_logs)
+                correct = sum(1 for log in question_logs if str(log.get("is_correct", "false")).lower() == "true")
+                unique_users = df['username'].nunique() if 'username' in df.columns else 0
+                
+                return {
+                    "total_attempts": total,
+                    "correct_attempts": correct,
+                    "correct_rate": (correct / total * 100) if total > 0 else 0.0,
+                    "unique_users": unique_users
+                }
+            except Exception as e:
+                print(f"Errore query Google Sheets: {e}")
+                # Fallback
+                pass
+        
+        # Fallback al metodo tradizionale
         logs = self._load_logs()
         
         question_logs = [
@@ -402,6 +465,36 @@ class QuizLogger:
         Returns:
             Dizionario con statistiche aggregate
         """
+        if self.use_google_sheets and self.conn:
+            try:
+                # Query diretta: filtra per module_name (Colonna D)
+                query = f'SELECT * WHERE D = "{module_name}"'
+                df = self.conn.query(worksheet="answers", sql=query, ttl=0)
+                
+                if df.empty:
+                    return {
+                        "total_attempts": 0,
+                        "correct_rate": 0.0,
+                        "unique_users": 0
+                    }
+                
+                module_logs = df.to_dict('records')
+                total = len(module_logs)
+                correct = sum(1 for log in module_logs if str(log.get("is_correct", "false")).lower() == "true")
+                unique_users = df['username'].nunique() if 'username' in df.columns else 0
+                
+                return {
+                    "total_attempts": total,
+                    "correct_attempts": correct,
+                    "correct_rate": (correct / total * 100) if total > 0 else 0.0,
+                    "unique_users": unique_users
+                }
+            except Exception as e:
+                print(f"Errore query Google Sheets: {e}")
+                # Fallback
+                pass
+        
+        # Fallback al metodo tradizionale
         logs = self._load_logs()
         
         module_logs = [
