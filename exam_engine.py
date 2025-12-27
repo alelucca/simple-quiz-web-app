@@ -40,7 +40,7 @@ class ExamModuleEngine:
     Gestisce QUESTIONS_PER_MODULE domande con timer di TIME_LIMIT_SECONDS minuti.
     """
     
-    QUESTIONS_PER_MODULE = 3
+    QUESTIONS_PER_MODULE = 15
     TIME_LIMIT_SECONDS = 15 * 60  # 15 minuti
     
     def __init__(self, module_name: str, questions: List[Dict[str, Any]]):
