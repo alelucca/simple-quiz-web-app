@@ -15,3 +15,5 @@ quiz_logs.json
 venv/
 
 GOOGLE_SHEETS_SETUP.md
+
+valid_json_structure.py
