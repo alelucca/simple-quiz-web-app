@@ -80,8 +80,7 @@ def show_login_page():
     
     with tab1:
         st.subheader("Accedi con le tue credenziali")
-        st.info("**Utenti demo:**\n- Username: `demo` / Password: `demo123`\n- Username: `admin` / Password: `admin123`")
-        
+
         # Form con attributi HTML per autocomplete del browser
         with st.form("login_form"):
             username = st.text_input("Username", key="login_username", autocomplete="username")
@@ -347,7 +346,7 @@ def show_single_question_quiz():
                 st.session_state.feedback_message = f"✅ Corretto! Risposta: {correct_answer}"
                 st.session_state.showing_answer = True
             else:
-                st.session_state.feedback_message = f"❌ Errato. Riprova!"
+                st.session_state.feedback_message = f"❌ La risposta: {answer} è sbagliata. Riprova!"
             
             st.rerun()
     
@@ -460,15 +459,21 @@ def show_complete_quiz_setup():
             st.rerun()
         return
     
-    # Mostra checkbox per ogni quiz disponibile    
-    for quiz in available_quizzes:
-        if st.checkbox(quiz["name"], key=f"quiz_select_{quiz['file']}"):
-            selected_file = quiz["file"]
+    # Usa radio buttons per permettere solo una selezione
+    quiz_names = [quiz["name"] for quiz in available_quizzes]
+    quiz_files = {quiz["name"]: quiz["file"] for quiz in available_quizzes}
+    
+    selected_quiz_name = st.radio(
+        "Seleziona il modulo:",
+        options=quiz_names,
+        index=None
+    )
     
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button("Inizia Quiz"):
+        if st.button("Inizia Quiz", disabled=selected_quiz_name is None):
+            selected_file = quiz_files[selected_quiz_name]
             questions = st.session_state.quiz_loader.load_quiz(selected_file)
             st.session_state.active_engine = CompleteQuizEngine(questions)
             st.session_state.selected_quiz_file = selected_file
@@ -503,16 +508,18 @@ def show_complete_quiz():
         
         # Recupera risposta salvata se presente
         saved_answer = engine.get_saved_answer(question["cod_domanda"])
-        default_idx = question["opzioni"].index(saved_answer) if saved_answer in question["opzioni"] else 0
+        default_idx = question["opzioni"].index(saved_answer) if saved_answer in question["opzioni"] else None
         
         answer = st.radio(
             "Seleziona la risposta:",
-            options=question["opzioni"],            
-            index=None
+            options=question["opzioni"],
+            index=default_idx,
+            key=f"complete_quiz_q_{question['cod_domanda']}"
         )
         
-        # Salva la risposta
-        engine.save_answer(question["cod_domanda"], answer)
+        # Salva la risposta solo se non è None
+        if answer is not None:
+            engine.save_answer(question["cod_domanda"], answer)
         
         st.markdown("---")
     
@@ -663,6 +670,12 @@ def show_exam_quiz():
         st.error("Errore: engine non inizializzato")
         return
     
+    # Pulisci i risultati del modulo precedente all'inizio del quiz
+    if "last_module_result" in st.session_state:
+        st.session_state.last_module_result = None
+    if "last_module_engine" in st.session_state:
+        st.session_state.last_module_engine = None
+    
     module_engine = exam_engine.get_current_module()
     
     if module_engine is None:
@@ -680,7 +693,8 @@ def show_exam_quiz():
     minutes = remaining_seconds // 60
     seconds = remaining_seconds % 60
     
-    timer_col1, timer_col2 = st.columns([3, 1])
+    # Usa 3 colonne per sovrascrivere completamente i componenti della pagina precedente
+    timer_col1, timer_col2, timer_col3 = st.columns([3, 1, 1])
     
     with timer_col1:
         # Clampa il valore tra 0 e 1 per evitare errori
@@ -692,6 +706,10 @@ def show_exam_quiz():
             st.metric("⏱️ Tempo", f"{minutes}:{seconds:02d}")
         else:
             st.error(f"⏱️ {minutes}:{seconds:02d}")
+    
+    with timer_col3:
+        # Colonna vuota per sovrascrivere eventuali componenti residui
+        st.empty()
     
     # Verifica scadenza tempo
     if module_engine.is_time_expired():
@@ -853,12 +871,12 @@ def show_exam_quiz():
         
         with last_button_col:
             if st.button("✅ Termina Modulo", use_container_width=True, type="primary", key="btn_termina_modulo"):
-                print(f"[DEBUG] Termina Modulo clicked - Saving answer: {answer}")
+                # print(f"[DEBUG] Termina Modulo clicked - Saving answer: {answer}")
                 module_engine.save_current_answer(answer)
                 
-                print(f"[DEBUG] Finishing current module...")
+                # print(f"[DEBUG] Finishing current module...")
                 result = exam_engine.finish_current_module()
-                print(f"[DEBUG] Module finished - Score: {result.score_percentage:.1f}%")
+                # print(f"[DEBUG] Module finished - Score: {result.score_percentage:.1f}%")
                 
                 # Salva il risultato in session state per mostrarlo
                 st.session_state.last_module_result = result
@@ -978,7 +996,7 @@ def show_exam_final_results():
     
     # Risultati generali
     col1, col2 = st.columns(2)
-    col1.metric("Punteggio medio", f"{final_results.total_score_percentage:.1f}%")
+    col1.metric("Risposte esatte su totale:", f"{final_results.total_correct} su {final_results.total_questions}")
     
     total_minutes = final_results.total_time_spent_seconds // 60
     col2.metric("Tempo totale", f"{total_minutes} minuti")

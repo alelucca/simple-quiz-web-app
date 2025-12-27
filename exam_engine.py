@@ -29,7 +29,8 @@ class ModuleResult:
 class ExamResult:
     """Risultato complessivo dell'esame"""
     module_results: List[ModuleResult]
-    total_score_percentage: float
+    total_correct: int
+    total_questions: int
     total_time_spent_seconds: int
 
 
@@ -75,7 +76,7 @@ class ExamModuleEngine:
         """Avvia il timer del modulo"""
         self.start_time = time.time()
         self.end_time = None  # Reset end_time quando si riavvia il timer
-        print(f"[DEBUG ExamEngine] Timer started for module {self.module_name} at {self.start_time}")
+         # print(f"[Debug ExamEngine] Timer started for module {self.module_name} at {self.start_time}")
     
     def get_elapsed_seconds(self) -> int:
         """
@@ -133,9 +134,9 @@ class ExamModuleEngine:
         """
         current_question = self.questions[self.current_question_idx]
         cod_domanda = current_question.get("cod_domanda", str(self.current_question_idx))
-        print(f"[DEBUG ExamEngine] Saving answer for cod_domanda={cod_domanda}, answer={answer}")
+         # print(f"[Debug ExamEngine] Saving answer for cod_domanda={cod_domanda}, answer={answer}")
         self.user_answers[cod_domanda] = answer
-        print(f"[DEBUG ExamEngine] Total answers saved: {len(self.user_answers)}")
+         # print(f"[Debug ExamEngine] Total answers saved: {len(self.user_answers)}")
     
     def next_question(self) -> bool:
         """
@@ -193,9 +194,9 @@ class ExamModuleEngine:
         if self.end_time is None:
             self.end_time = time.time()
         
-        print(f"[DEBUG ExamEngine] finish_module called - Total questions: {len(self.questions)}")
-        print(f"[DEBUG ExamEngine] Total user answers: {len(self.user_answers)}")
-        print(f"[DEBUG ExamEngine] User answers: {self.user_answers}")
+         # print(f"[Debug ExamEngine] finish_module called - Total questions: {len(self.questions)}")
+         # print(f"[Debug ExamEngine] Total user answers: {len(self.user_answers)}")
+         # print(f"[Debug ExamEngine] User answers: {self.user_answers}")
         
         correct = 0
         for idx, question in enumerate(self.questions):
@@ -203,7 +204,7 @@ class ExamModuleEngine:
             user_answer = self.user_answers.get(cod_domanda)
             correct_answer = question["risposta_corretta"]
             
-            print(f"[DEBUG ExamEngine] Q{idx+1} cod={cod_domanda}, user={user_answer}, correct={correct_answer}")
+             # print(f"[Debug ExamEngine] Q{idx+1} cod={cod_domanda}, user={user_answer}, correct={correct_answer}")
             
             # Gestisce None nelle risposte
             if user_answer is None or user_answer == "":
@@ -211,7 +212,7 @@ class ExamModuleEngine:
             else:
                 is_correct = user_answer.strip().lower() == correct_answer.strip().lower()
             
-            print(f"[DEBUG ExamEngine] Q{idx+1} is_correct={is_correct}")
+             # print(f"[Debug ExamEngine] Q{idx+1} is_correct={is_correct}")
             
             if is_correct:
                 correct += 1
@@ -326,13 +327,14 @@ class ExamEngine:
         Returns:
             Oggetto ExamResult con tutti i risultati
         """
-        total_score = sum(r.score_percentage for r in self.module_results)
-        avg_score = total_score / len(self.module_results) if self.module_results else 0
+        total_correct = sum(r.correct_answers for r in self.module_results)
+        total_questions = sum(r.total_questions for r in self.module_results)
         
         total_time = sum(r.time_spent_seconds for r in self.module_results)
         
         return ExamResult(
             module_results=self.module_results,
-            total_score_percentage=avg_score,
+            total_correct=total_correct,
+            total_questions=total_questions,
             total_time_spent_seconds=total_time
         )
