@@ -1,0 +1,794 @@
+[
+  {
+    "num_domanda": 1,
+    "domanda": "EMA è acronimo di:",
+    "opzioni": [
+      "Emergency Medical Assistance",
+      "european medicine agency",
+      "Economic Medicines Authority",
+      "European Medical Association"
+    ],
+    "risposta_corretta": "european medicine agency",
+    "cod_domanda": "tpVDaoFt"
+  },
+  {
+    "num_domanda": 2,
+    "domanda": "Non è un fattore di influenza dell'assorbimento di un farmaco:",
+    "opzioni": [
+      "dose del farmaco",
+      "flusso sanguigno",
+      "superficie di assorbimento",
+      "motilità gastrointestinale"
+    ],
+    "risposta_corretta": "dose del farmaco",
+    "cod_domanda": "2m2PN2dZ"
+  },
+  {
+    "num_domanda": 3,
+    "domanda": "Cosa significa uso topico di un farmaco?",
+    "opzioni": [
+      "Il farmaco viene somministrato per via orale",
+      "Il farmaco agisce su tutto il corpo",
+      "Il farmaco viene assorbito rapidamente nel flusso sanguigno",
+      "Si somministra il farmaco direttamente nel sito d'azione"
+    ],
+    "risposta_corretta": "Si somministra il farmaco direttamente nel sito d'azione",
+    "cod_domanda": "ieFoACSP"
+  },
+  {
+    "num_domanda": 4,
+    "domanda": "Qual è la risposta corretta:",
+    "opzioni": [
+      "un farmaco biotecnologico viene prodotto sfruttando le acquisizioni ottenute nel campo dell'ingegneria genetica",
+      "un farmaco biotecnologico viene prodotto tramite sintesi chimica in laboratorio",
+      "un farmaco biotecnologico viene prodotto attraverso processi di fermentazione non controllata",
+      "un farmaco biotecnologico viene estratto direttamente da fonti naturali come piante o animali"
+    ],
+    "risposta_corretta": "un farmaco biotecnologico viene prodotto sfruttando le acquisizioni ottenute nel campo dell'ingegneria genetica",
+    "cod_domanda": "7OFqdqcG"
+  },
+  {
+    "num_domanda": 5,
+    "domanda": "La biodisponibilità:",
+    "opzioni": [
+      "è la velocità con cui il farmaco viene assorbito dal sito di somministrazione",
+      "è la frazione di dose del farmaco somministrato che raggiunge non modificata la circolazione sistemica",
+      "rappresenta la quantità totale di farmaco eliminata dall’organismo in un determinato intervallo di tempo",
+      "indica la percentuale di farmaco che si lega alle proteine plasmatiche dopo l’assorbimento"
+    ],
+    "risposta_corretta": "è la frazione di dose del farmaco somministrato che raggiunge non modificata la circolazione sistemica",
+    "cod_domanda": "fU2N1UoU"
+  },
+  {
+    "num_domanda": 6,
+    "domanda": "Le interazioni tra farmaci di tipo farmacocinetico:",
+    "opzioni": [
+      "non hanno alcun effetto sulla concentrazione plasmatica del farmaco",
+      "influenzano esclusivamente il meccanismo d'azione del farmaco",
+      "possono alterare l'emivita del farmaco",
+      "aumentano sempre la biodisponibilità del farmaco"
+    ],
+    "risposta_corretta": "possono alterare l'emivita del farmaco",
+    "cod_domanda": "vOkybILs"
+  },
+  {
+    "num_domanda": 7,
+    "domanda": "Qual è valida per un antagonista competitivo?",
+    "opzioni": [
+      "diminuisce la concentrazione del recettore",
+      "è dotato solo di affinità specifica per il suo recettore",
+      "si lega al sito allosterico",
+      "aumenta l'efficacia del recettore"
+    ],
+    "risposta_corretta": "è dotato solo di affinità specifica per il suo recettore",
+    "cod_domanda": "vFvHLNy9"
+  },
+  {
+    "num_domanda": 8,
+    "domanda": "Indice terapeutico:",
+    "opzioni": [
+      "è il rapporto tra la dose del farmaco che induce un effetto tossico e quella che induce un effetto terapeutico",
+      "è la dose minima di farmaco necessaria per ottenere un effetto terapeutico clinicamente rilevante",
+      "rappresenta l’intervallo di concentrazioni plasmatiche entro cui il farmaco è efficace",
+      "indica la percentuale di pazienti che risponde al trattamento senza sviluppare effetti avversi"
+    ],
+    "risposta_corretta": "è il rapporto tra la dose del farmaco che induce un effetto tossico e quella che induce un effetto terapeutico",
+    "cod_domanda": "RLAC61pQ"
+  },
+  {
+    "num_domanda": 9,
+    "domanda": "L'agente antineoplastico più frequentemente associato a cardiotossicità è:",
+    "opzioni": [
+      "doxorubicina",
+      "cisplatino",
+      "fluorouracile",
+      "metotrexato"
+    ],
+    "risposta_corretta": "doxorubicina",
+    "cod_domanda": "emdO9tsZ"
+  },
+  {
+    "num_domanda": 10,
+    "domanda": "Con definizione \"antibiotico ad ampio spettro d'azione\" a cosa si fa riferimento?",
+    "opzioni": [
+      "antibiotico che agisce su una elevata varietà di agenti patogeni",
+      "antibiotico che agisce solo su virus",
+      "antibiotico che agisce solo su funghi",
+      "antibiotico che agisce solo su batteri Gram-positivi"
+    ],
+    "risposta_corretta": "antibiotico che agisce su una elevata varietà di agenti patogeni",
+    "cod_domanda": "tKHwrT8r"
+  },
+  {
+    "num_domanda": 11,
+    "domanda": "Qual è errata?",
+    "opzioni": [
+      "Aciclovir è un antivirale efficace contro il virus dell'herpes simplex",
+      "Aciclovir è utilizzato esclusivamente per uso topico, in crema",
+      "Aciclovir è disponibile anche in formulazioni orali e intravenose",
+      "Aciclovir agisce inibendo la DNA polimerasi virale"
+    ],
+    "risposta_corretta": "Aciclovir è utilizzato esclusivamente per uso topico, in crema",
+    "cod_domanda": "DZ3PU4nk"
+  },
+  {
+    "num_domanda": 12,
+    "domanda": "Chi può effettuare la segnalazione di una reazione avversa ad un farmaco?",
+    "opzioni": [
+      "ogni paziente o operatore della salute",
+      "solo il farmacista",
+      "solo l'Agenzia Italiana del Farmaco (AIFA)",
+      "solo il medico curante"
+    ],
+    "risposta_corretta": "ogni paziente o operatore della salute",
+    "cod_domanda": "1uLheIdy"
+  },
+  {
+    "num_domanda": 13,
+    "domanda": "In uno studio in doppio cieco:",
+    "opzioni": [
+      "solo il medico conosce il trattamento farmacologico",
+      "entrambi, paziente e medico, conoscono il trattamento farmacologico",
+      "né paziente né medico conoscono il trattamento farmacologico",
+      "solo il paziente conosce il trattamento farmacologico"
+    ],
+    "risposta_corretta": "né paziente né medico conoscono il trattamento farmacologico",
+    "cod_domanda": "jL89Uvw8"
+  },
+  {
+    "num_domanda": 14,
+    "domanda": "Emivita di un farmaco:",
+    "opzioni": [
+      "tempo necessario perché la concentrazione plasmatica di un farmaco si dimezzi",
+      "tempo necessario perché la concentrazione plasmatica di un farmaco si raddoppi",
+      "tempo necessario perché il farmaco venga completamente eliminato dall'organismo",
+      "tempo necessario perché la concentrazione plasmatica di un farmaco raggiunga il picco"
+    ],
+    "risposta_corretta": "tempo necessario perché la concentrazione plasmatica di un farmaco si dimezzi",
+    "cod_domanda": "nCVKLnEg"
+  },
+  {
+    "num_domanda": 15,
+    "domanda": "Nel corso di somministrazione cronica la frequenza di somministrazione:",
+    "opzioni": [
+      "dipende principalmente dall'emivita del farmaco",
+      "dipende principalmente dalla gravità della patologia",
+      "dipende principalmente dal costo del farmaco",
+      "tutte corrette"
+    ],
+    "risposta_corretta": "tutte corrette",
+    "cod_domanda": "oEc7AMkn"
+  },
+  {
+    "num_domanda": 16,
+    "domanda": "Il fenomeno di ipersensitività recettoriale (upregulation):",
+    "opzioni": [
+      "è causato da una down-regulation dei recettori",
+      "si può verificare in seguito al trattamento cronico con un antagonista",
+      "si verifica in seguito al trattamento acuto con un agonista",
+      "è un fenomeno che diminuisce la risposta al farmaco"
+    ],
+    "risposta_corretta": "si può verificare in seguito al trattamento cronico con un antagonista",
+    "cod_domanda": "YX9feHkj"
+  },
+  {
+    "num_domanda": 17,
+    "domanda": "I glucocorticoidi sono ormoni di natura steroidea che interagiscono con:",
+    "opzioni": [
+      "recettori di membrana",
+      "canali ionici",
+      "recettori intracellulari",
+      "enzimi extracellulari"
+    ],
+    "risposta_corretta": "recettori intracellulari",
+    "cod_domanda": "I6E59D97"
+  },
+  {
+    "num_domanda": 18,
+    "domanda": "Qual è l'evento avverso più frequentemente osservato nella terapia con aminoglicosidi?",
+    "opzioni": [
+      "neurotossicità",
+      "mielosoppressione",
+      "nefrotossicità",
+      "ototossicità"
+    ],
+    "risposta_corretta": "nefrotossicità",
+    "cod_domanda": "u9Z3XP6C"
+  },
+  {
+    "num_domanda": 19,
+    "domanda": "AIFA è l'acronimo di:",
+    "opzioni": [
+      "autorità italiana del farmaco",
+      "associazione internazionale del farmaco",
+      "associazione italiana del farmaco",
+      "agenzia italiana del farmaco"
+    ],
+    "risposta_corretta": "associazione italiana del farmaco",
+    "cod_domanda": "pdRUdUgR"
+  },
+  {
+    "num_domanda": 20,
+    "domanda": "L'assorbimento di un farmaco:",
+    "opzioni": [
+      "è un processo mediante il quale un farmaco passa dal sito di somministrazione al plasma",
+      "un processo di eliminazione del farmaco dall'organismo",
+      "la modifica chimica del farmaco nel fegato",
+      "la distribuzione del farmaco dai tessuti al plasma"
+    ],
+    "risposta_corretta": "è un processo mediante il quale un farmaco passa dal sito di somministrazione al plasma",
+    "cod_domanda": "BJESHabq"
+  },
+  {
+    "num_domanda": 21,
+    "domanda": "Un farmaco è un antagonista quando:",
+    "opzioni": [
+      "facilitando l'ingresso dell'agonista nella cellula",
+      "aumentando la sintesi dell'agonista endogeno",
+      "legandosi a un recettore impedisce l'interazione con l'agonista",
+      "legandosi a un recettore attiva direttamente una risposta biologica"
+    ],
+    "risposta_corretta": "legandosi a un recettore impedisce l'interazione con l'agonista",
+    "cod_domanda": "hsumMk7D"
+  },
+  {
+    "num_domanda": 22,
+    "domanda": "Capacità di metabolizzare a livello epatico:",
+    "opzioni": [
+      "(tutte) può essere indotta o inibita da specifici alimenti o da altri farmaci, può variare tra pazienti anche in base genetica",
+      "è determinata esclusivamente dalla funzionalità renale",
+      "è uguale in tutti gli individui indipendentemente da età e sesso",
+      "è costante nel tempo e indipendente da fattori esterni"
+    ],
+    "risposta_corretta": "(tutte) può essere indotta o inibita da specifici alimenti o da altri farmaci, può variare tra pazienti anche in base genetica",
+    "cod_domanda": "rv9tNry0"
+  },
+  {
+    "num_domanda": 23,
+    "domanda": "Qual è errata sulla tolleranza?",
+    "opzioni": [
+      "si manifesta solo con farmaci ad azione non specifica",
+      "non si manifesta mai con farmaci ad azione recettoriale",
+      "implica sempre un aumento del dosaggio necessario per ottenere l'effetto desiderato",
+      "è sempre reversibile con l'interruzione del farmaco"
+    ],
+    "risposta_corretta": "non si manifesta mai con farmaci ad azione recettoriale",
+    "cod_domanda": "vDJoz0FH"
+  },
+  {
+    "num_domanda": 24,
+    "domanda": "I recettori-Canale:",
+    "opzioni": [
+      "sono complessi multi proteici situati nella membrana cellulare",
+      "semplici molecole di lipidi",
+      "proteine solubili nel citoplasma",
+      "canali ionici costituiti da un singolo tipo di proteina"
+    ],
+    "risposta_corretta": "sono complessi multi proteici situati nella membrana cellulare",
+    "cod_domanda": "rzHVq3aw"
+  },
+  {
+    "num_domanda": 25,
+    "domanda": "Qual è lo scopo della terapia palliativa?",
+    "opzioni": [
+      "Curare la malattia",
+      "alleviare i sintomi e migliorare qualità di vita",
+      "Rallentare la progressione della malattia",
+      "Sostituire le cure tradizionali"
+    ],
+    "risposta_corretta": "alleviare i sintomi e migliorare qualità di vita",
+    "cod_domanda": "8Yp2vOUv"
+  },
+  {
+    "num_domanda": 26,
+    "domanda": "Qual è vero su l'acido clavulanico?",
+    "opzioni": [
+      "un antibiotico ad ampio spettro",
+      "un bloccante del trasporto peptidoglicano",
+      "è un inibitore della beta-lattamasi",
+      "un precursore della penicillina"
+    ],
+    "risposta_corretta": "è un inibitore della beta-lattamasi",
+    "cod_domanda": "e4H8O5Ib"
+  },
+  {
+    "num_domanda": 27,
+    "domanda": "Un farmaco che agisce con meccanismo recettoriale può avere diversi effetti collaterali in aggiunta all'effetto principale terapeutico nei seguenti casi:",
+    "opzioni": [
+      "il recettore bersaglio è espresso anche in tessuti non coinvolti nell’effetto terapeutico",
+      "il farmaco è somministrato per via endovenosa",
+      "il farmaco viene metabolizzato molto rapidamente",
+      "il farmaco ha un'alta affinità per il suo recettore"
+    ],
+    "risposta_corretta": "il recettore bersaglio è espresso anche in tessuti non coinvolti nell’effetto terapeutico",
+    "cod_domanda": "OUOodITW"
+  },
+  {
+    "num_domanda": 28,
+    "domanda": "I protocolli di chemioterapia antiblastica sono solitamente programmati a cicli intermittenti:",
+    "opzioni": [
+      "per evitare lo sviluppo di resistenza da parte delle cellule tumorali",
+      "per permettere il recupero ai tessuti normali colpiti dei farmaci",
+      "per ridurre il costo complessivo del trattamento",
+      "per massimizzare l'esposizione delle cellule tumorali al farmaco"
+    ],
+    "risposta_corretta": "per permettere il recupero ai tessuti normali colpiti dei farmaci",
+    "cod_domanda": "HyJNjHSN"
+  },
+  {
+    "num_domanda": 29,
+    "domanda": "Tra gli effetti indesiderati delle penicilline qual è il più rilevante unicamente?",
+    "opzioni": [
+      "disturbi gastrointestinali",
+      "manifestazioni allergiche",
+      "alterazioni della flora batterica intestinale",
+      "nefrotossicità"
+    ],
+    "risposta_corretta": "manifestazioni allergiche",
+    "cod_domanda": "pq1R9KUS"
+  },
+  {
+    "num_domanda": 30,
+    "domanda": "Nella terapia dell'infezione da HIV la Zidovudina (AZT):",
+    "opzioni": [
+      "inibisce la proteasi virale",
+      "stimola il sistema immunitario a riconoscere il virus",
+      "blocca la fusione del virus con la membrana cellulare",
+      "impedisce l'attacco del virus alle cellula. (non sono sicura sia corretta perché l'AZT è un inibitore nucleosidico della trascrittasi inversa, quindi agisce sul retrovirus inibendo alcuni enzimi virali come la trascrittasi inversa, non so se sia corretto ritenere che impedisca l'attacco del virus alla cellula)"
+    ],
+    "risposta_corretta": "impedisce l'attacco del virus alle cellula. (non sono sicura sia corretta perché l'AZT è un inibitore nucleosidico della trascrittasi inversa, quindi agisce sul retrovirus inibendo alcuni enzimi virali come la trascrittasi inversa, non so se sia corretto ritenere che impedisca l'attacco del virus alla cellula)",
+    "cod_domanda": "gcZFpII2"
+  },
+  {
+    "num_domanda": 31,
+    "domanda": "Quale sulla farmacovigilanza è sbagliata:",
+    "opzioni": [
+      "la farmacovigilanza coinvolge la segnalazione spontanea da parte di professionisti sanitari e pazienti",
+      "la farmacovigilanza su un farmaco termina cinque anni dopo la sua commercializzazione",
+      "la farmacovigilanza mira a identificare nuovi rischi associati ai farmaci già in uso",
+      "la farmacovigilanza si concentra solo sugli effetti collaterali gravi"
+    ],
+    "risposta_corretta": "la farmacovigilanza su un farmaco termina cinque anni dopo la sua commercializzazione",
+    "cod_domanda": "L85qBpqo"
+  },
+  {
+    "num_domanda": 32,
+    "domanda": "La biotrasformazione di un farmaco negli epatociti:",
+    "opzioni": [
+      "può generare metaboliti attivi",
+      "aumenta la biodisponibilità del farmaco originale",
+      "avviene esclusivamente per idrolisi",
+      "inattiva sempre il farmaco"
+    ],
+    "risposta_corretta": "può generare metaboliti attivi",
+    "cod_domanda": "XDbCdUUf"
+  },
+  {
+    "num_domanda": 33,
+    "domanda": "Quale affermazione inerente al processo di eliminazione dei farmaci è errata?",
+    "opzioni": [
+      "L'eliminazione renale è influenzata dal pH urinario",
+      "per eliminazione intendiamo una corretta procedura di smaltimento di farmaci in deposito e non utilizzabili",
+      "I farmaci scaduti possono essere tranquillamente donati a enti di beneficenza",
+      "L'eliminazione dei farmaci avviene principalmente attraverso il fegato"
+    ],
+    "risposta_corretta": "per eliminazione intendiamo una corretta procedura di smaltimento di farmaci in deposito e non utilizzabili",
+    "cod_domanda": "CkqcIsx8"
+  },
+  {
+    "num_domanda": 34,
+    "domanda": "La relazione tra la dose del farmaco che può indurre uno stato tossico e quella necessaria a produrre l'effetto terapeutico è definita:",
+    "opzioni": [
+      "biodisponibilità",
+      "indice terapeutico",
+      "dose letale 50",
+      "dose efficace 50"
+    ],
+    "risposta_corretta": "indice terapeutico",
+    "cod_domanda": "uhwEebeS"
+  },
+  {
+    "num_domanda": 35,
+    "domanda": "I recettori accoppiati a proteine G:",
+    "opzioni": [
+      "sono recettori a sette domini transmembrana",
+      "recettori con dominio tirosin-chinasico",
+      "canali ionici ligando-dipendenti",
+      "recettori nucleari"
+    ],
+    "risposta_corretta": "sono recettori a sette domini transmembrana",
+    "cod_domanda": "xVpa9Fmw"
+  },
+  {
+    "num_domanda": 36,
+    "domanda": "Il Tamoxifene è:",
+    "opzioni": [
+      "un agonista degli estrogeni",
+      "un inibitore della sintesi degli estrogeni",
+      "un metabolita degli estrogeni",
+      "un antagonista degli estrogeni"
+    ],
+    "risposta_corretta": "un antagonista degli estrogeni",
+    "cod_domanda": "9F1jmhRP"
+  },
+  {
+    "num_domanda": 37,
+    "domanda": "Quale dei seguenti farmaci è una cefalosporina:",
+    "opzioni": [
+      "penicillina",
+      "eritromicina",
+      "vancomicina",
+      "cefoxitina"
+    ],
+    "risposta_corretta": "cefoxitina",
+    "cod_domanda": "z8EsxWjz"
+  },
+  {
+    "num_domanda": 38,
+    "domanda": "Qual è sbagliata:",
+    "opzioni": [
+      "gli inibitori delle proteasi dell'HIV sono spesso associati a disturbi metabolici come iperlipidemia e insulino-resistenza",
+      "gli inibitori delle proteasi dell'HIV sono generalmente ben tollerati e raramente causano interazioni farmacologiche significative",
+      "inibitori delle proteasi dell'HIV sono farmaci molto maneggevoli e senza grossi effetti collaterali",
+      "gli inibitori delle proteasi dell'HIV agiscono bloccando l'enzima proteasi dell'HIV, essenziale per la maturazione del virus"
+    ],
+    "risposta_corretta": "inibitori delle proteasi dell'HIV sono farmaci molto maneggevoli e senza grossi effetti collaterali",
+    "cod_domanda": "rLOIn5XS"
+  },
+  {
+    "num_domanda": 39,
+    "domanda": "Quale tra questi è l'evento avverso più frequentemente osservato nella terapia con aminoglicosidi:",
+    "opzioni": [
+      "mielosoppressione",
+      "neurotossicità",
+      "ototossicità",
+      "nefrotossicità"
+    ],
+    "risposta_corretta": "nefrotossicità",
+    "cod_domanda": "ltVHHpYf"
+  },
+  {
+    "num_domanda": 40,
+    "domanda": "Quale affermazione sull'eliminazione renale di farmaci è corretta:",
+    "opzioni": [
+      "una ridotta funzionalità renale può rendere necessaria la modifica di un dosaggio di un farmaco eliminato principalmente per via renale",
+      "I farmaci legati alle proteine plasmatiche vengono eliminati rapidamente dai reni",
+      "L'eliminazione renale è significativa solo per farmaci idrofobici",
+      "L'eliminazione renale non è influenzata dal pH urinario"
+    ],
+    "risposta_corretta": "una ridotta funzionalità renale può rendere necessaria la modifica di un dosaggio di un farmaco eliminato principalmente per via renale",
+    "cod_domanda": "NGJtlQk6"
+  },
+  {
+    "num_domanda": 41,
+    "domanda": "La terapia dell'infezione di HIV definita “highly active antiretroviral therapy” comprende:",
+    "opzioni": [
+      "due farmaci della stessa classe per tutta la durata del trattamento",
+      "un singolo farmaco ad alte dosi per un breve periodo",
+      "almeno tre diversi farmaci per tutta la durata del trattamento",
+      "un farmaco per ogni stadio dell'infezione, alternati nel tempo"
+    ],
+    "risposta_corretta": "almeno tre diversi farmaci per tutta la durata del trattamento",
+    "cod_domanda": "saS5lI6b"
+  },
+  {
+    "num_domanda": 42,
+    "domanda": "I compiti dell'AIFA includono:",
+    "opzioni": [
+      "produzione diretta di farmaci generici",
+      "solo farmacovigilanza e sperimentazione clinica",
+      "tutti i precedenti (autorizzazione immissione in commercio, farmacovigilanza, sperimentazione clinica)",
+      "solo autorizzazione immissione in commercio"
+    ],
+    "risposta_corretta": "tutti i precedenti (autorizzazione immissione in commercio, farmacovigilanza, sperimentazione clinica)",
+    "cod_domanda": "mRijZprG"
+  },
+  {
+    "num_domanda": 43,
+    "domanda": "Quale delle seguenti vie è caratterizzata da un minore effetto di primo passaggio:",
+    "opzioni": [
+      "orale",
+      "intramuscolare",
+      "sublinguale",
+      "rettale"
+    ],
+    "risposta_corretta": "sublinguale",
+    "cod_domanda": "MMsPfPhH"
+  },
+  {
+    "num_domanda": 44,
+    "domanda": "La tolleranza è:",
+    "opzioni": [
+      "diminuzione dell'effetto farmacologico con dosi costanti",
+      "necessità di aumentare progressivamente le dosi per ottenere risposta terapeutica",
+      "assenza di risposta farmacologica alla prima somministrazione",
+      "risposta farmacologica esagerata anche a basse dosi"
+    ],
+    "risposta_corretta": "necessità di aumentare progressivamente le dosi per ottenere risposta terapeutica",
+    "cod_domanda": "3ztAAx5A"
+  },
+  {
+    "num_domanda": 45,
+    "domanda": "Lo studio dei meccanismi d'azione dei farmaci si definisce:",
+    "opzioni": [
+      "farmacodinamica",
+      "farmacognosia",
+      "farmacocinetica",
+      "tossicologia"
+    ],
+    "risposta_corretta": "farmacodinamica",
+    "cod_domanda": "4KDlWMZO"
+  },
+  {
+    "num_domanda": 46,
+    "domanda": "Quale delle seguenti su resistenza batterica gli antibiotici è falsa?",
+    "opzioni": [
+      "la resistenza crociata si verifica quando un antibiotico seleziona batteri resistenti ad altri antibiotici strutturalmente simili",
+      "la resistenza acquisita avviene tramite mutazioni spontanee",
+      "la resistenza naturale si identifica con la produzione di esobetalattatasi",
+      "la permeabilità ridotta della membrana batterica non contribuisce alla resistenza agli antibiotici"
+    ],
+    "risposta_corretta": "la resistenza naturale si identifica con la produzione di esobetalattatasi",
+    "cod_domanda": "h4Beacvo"
+  },
+  {
+    "num_domanda": 47,
+    "domanda": "La terapia farmacologica dell'epatite C si effettuata con:",
+    "opzioni": [
+      "vaccino anti-HAV + immunoglobuline",
+      "amoxicillina + acido clavulanico",
+      "interferone alfa-PEG + ribavirina",
+      "cortisone + immunosoppressori"
+    ],
+    "risposta_corretta": "interferone alfa-PEG + ribavirina",
+    "cod_domanda": "SZgTgTAw"
+  },
+  {
+    "num_domanda": 48,
+    "domanda": "Qual è sbagliata:",
+    "opzioni": [
+      "l'operatore viene sanzionato con una multa in denaro se non segnala una reazione avversa",
+      "la segnalazione di una reazione avversa è responsabilità esclusiva del medico",
+      "la segnalazione di una reazione avversa contribuisce alla farmacovigilanza",
+      "la mancata segnalazione di una reazione avversa può compromettere la sicurezza del paziente"
+    ],
+    "risposta_corretta": "l'operatore viene sanzionato con una multa in denaro se non segnala una reazione avversa",
+    "cod_domanda": "wg6PO0st"
+  },
+  {
+    "num_domanda": 49,
+    "domanda": "Il recettore nicotinico per l'Acetilcolina è:",
+    "opzioni": [
+      "un recettore accoppiato a proteine G",
+      "quindi un recettore-canale",
+      "un recettore intracellulare",
+      "un recettore tirosin-chinasico"
+    ],
+    "risposta_corretta": "quindi un recettore-canale",
+    "cod_domanda": "etfOYQq7"
+  },
+  {
+    "num_domanda": 50,
+    "domanda": "Quale delle seguenti affermazioni è sbagliata a proposito dello sviluppo clinico di un farmaco:",
+    "opzioni": [
+      "lo sviluppo clinico è suddiviso in fasi ben definite (I, II, III)",
+      "i trial clinici coinvolgono un numero limitato di volontari sani nella fase iniziale",
+      "le fasi cliniche mirano a valutare sicurezza, efficacia e dosaggio ottimale",
+      "può durare pochi mesi e poi farmaco può essere messo in commercio"
+    ],
+    "risposta_corretta": "può durare pochi mesi e poi farmaco può essere messo in commercio",
+    "cod_domanda": "VczPHPG1"
+  },
+  {
+    "num_domanda": 51,
+    "domanda": "Quale delle seguenti affermazioni è sbagliata:",
+    "opzioni": [
+      "L'aciclovir è un farmaco ad ampio spettro efficace contro tutti i virus a DNA",
+      "L'aciclovir inibisce la DNA polimerasi virale",
+      "l'aciclovir è attivo contro il virus della varicella. (non sono sicura, sulla dispensa c'è scritto che l'aciclovir può essere utilizzato per via sistemica anche nelle infezioni da VZV, con effetti collaterali quali insufficienza renale)",
+      "L'aciclovir è inefficace nel trattamento dell'herpes simplex virus."
+    ],
+    "risposta_corretta": "l'aciclovir è attivo contro il virus della varicella. (non sono sicura, sulla dispensa c'è scritto che l'aciclovir può essere utilizzato per via sistemica anche nelle infezioni da VZV, con effetti collaterali quali insufficienza renale)",
+    "cod_domanda": "m6ecx6QQ"
+  },
+  {
+    "num_domanda": 52,
+    "domanda": "Nel corso di una somministrazione cronica a intervalli regolari, la singola dose di farmaco e la frequenza di somministrazione:",
+    "opzioni": [
+      "vengono stabilite al fine di ottenere una concentrazione plasmatica di farmaco all'interno della finestra terapeutica, senza eccessive fluttuazioni nel tempo",
+      "vengono stabilite in base al peso corporeo del paziente, indipendentemente dalla farmacocinetica",
+      "vengono stabilite solo in base alla via di somministrazione, senza considerare la frequenza",
+      "vengono stabilite casualmente per valutare la tollerabilità del farmaco"
+    ],
+    "risposta_corretta": "vengono stabilite al fine di ottenere una concentrazione plasmatica di farmaco all'interno della finestra terapeutica, senza eccessive fluttuazioni nel tempo",
+    "cod_domanda": "1XZcwmLC"
+  },
+  {
+    "num_domanda": 53,
+    "domanda": "In corso di stimolazione cronica con un agonista:",
+    "opzioni": [
+      "Si può determinare una aumentata responsività del farmaco nel tempo",
+      "Si deve ridurre progressivamente la dose per ottenere lo stesso effetto farmacologico",
+      "Il fenomeno della desensitizzazione può essere alla base dei meccanismi di tolleranza farmacologica",
+      "I recettori non subiscono modifiche né meccanismi di adattamento"
+    ],
+    "risposta_corretta": "Il fenomeno della desensitizzazione può essere alla base dei meccanismi di tolleranza farmacologica",
+    "cod_domanda": "x9FMJVun"
+  },
+  {
+    "num_domanda": 54,
+    "domanda": "Gli antibiotici macrolidi:",
+    "opzioni": [
+      "Non possono essere somministrati per os",
+      "Non sono causa di interazioni metaboliche con altri farmaci",
+      "Comprendono eritromicina, claritromicina, azitromicina",
+      "Sono antibiotici raramente prescritti e a spettro d’azione assai limitato"
+    ],
+    "risposta_corretta": "Comprendono eritromicina, claritromicina, azitromicina",
+    "cod_domanda": "X7hcLNRo"
+  },
+  {
+    "num_domanda": 55,
+    "domanda": "Indicare l’affermazione errata:",
+    "opzioni": [
+      "La dose efficace media (ED50) è la dose di farmaco che produce una risposta pari al 50% della risposta minima",
+      "L’affinità di legame farmaco-recettore è un indice della potenza di un farmaco",
+      "La costante di dissociazione (KD) è un indice dell’affinità del farmaco per il recettore",
+      "Un valore di KD basso indica una forte affinità tra il farmaco e il recettore"
+    ],
+    "risposta_corretta": "La dose efficace media (ED50) è la dose di farmaco che produce una risposta pari al 50% della risposta minima",
+    "cod_domanda": "mGL41Qrj"
+  },
+  {
+    "num_domanda": 56,
+    "domanda": "Quale delle seguenti affermazioni è corretta?",
+    "opzioni": [
+      "I farmaci attivi contro il virus dell’influenza sono somministrabili solo per via endovenosa",
+      "I farmaci attivi contro il virus dell’influenza devono essere somministrati a tutti i pz con l’influenza",
+      "I farmaci attivi contro il virus dell’influenza inibiscono le neuroamidasi e l’emoagglutinina",
+      "I farmaci attivi contro il virus dell’influenza inibiscono la replicazione virale"
+    ],
+    "risposta_corretta": "I farmaci attivi contro il virus dell’influenza inibiscono le neuroamidasi e l’emoagglutinina",
+    "cod_domanda": "EdDxDLvJ"
+  },
+  {
+    "num_domanda": 57,
+    "domanda": "L’indice terapeutico:",
+    "opzioni": [
+      "È la differenza tra la dose efficace e la dose tossica",
+      "Tutte le affermazioni precedenti sono errate",
+      "Equivale alla dose minima efficace",
+      "È un parametro farmacodinamico utile a indicare il grado di sicurezza del farmaco"
+    ],
+    "risposta_corretta": "È un parametro farmacodinamico utile a indicare il grado di sicurezza del farmaco",
+    "cod_domanda": "Fx6nUXdX"
+  },
+  {
+    "num_domanda": 58,
+    "domanda": "L’effetto placebo di un farmaco:",
+    "opzioni": [
+      "Non incide per nulla sulla risposta terapeutica del pz",
+      "È un effetto collaterale del farmaco",
+      "Riduce l’efficacia terapeutica del farmaco",
+      "È un effetto terapeutico del farmaco che dipende da aspetti psicologici"
+    ],
+    "risposta_corretta": "È un effetto terapeutico del farmaco che dipende da aspetti psicologici",
+    "cod_domanda": "m2OWSkRT"
+  },
+  {
+    "num_domanda": 59,
+    "domanda": "La biodisponibilità è massima per un farmaco somministrato per via:",
+    "opzioni": [
+      "Intramuscolare",
+      "Endovena",
+      "Orale",
+      "Transdermica"
+    ],
+    "risposta_corretta": "Endovena",
+    "cod_domanda": "oNfpqhRp"
+  },
+  {
+    "num_domanda": 60,
+    "domanda": "Quale dei seguenti farmaci NON è un agente alchilante:",
+    "opzioni": [
+      "Busulfano",
+      "Prednisone",
+      "Cloranbucile",
+      "Ciclofosfamide"
+    ],
+    "risposta_corretta": "Prednisone",
+    "cod_domanda": "NO9ZZOP9"
+  },
+  {
+    "num_domanda": 61,
+    "domanda": "Cosa significa uso topico di un farmaco?",
+    "opzioni": [
+      "Si somministra il farmaco direttamente nel sito d’azione",
+      "L’uso topico consiste esclusivamente nella somministrazione endovenosa",
+      "Per uso topico si intende la principale applicazione terapeutica per quel farmaco",
+      "Uso topico è sinonimo di uso cronico"
+    ],
+    "risposta_corretta": "Si somministra il farmaco direttamente nel sito d’azione",
+    "cod_domanda": "IMHwyaus"
+  },
+  {
+    "num_domanda": 62,
+    "domanda": "Frequenti effetti collaterali dei farmaci antineoplastici sono (indica la risposta ERRATA):",
+    "opzioni": [
+      "Stitichezza",
+      "Nausea",
+      "Alopecia",
+      "Sterilità"
+    ],
+    "risposta_corretta": "Stitichezza",
+    "cod_domanda": "NtQPOCYf"
+  },
+  {
+    "num_domanda": 63,
+    "domanda": "Quando due farmaci interagiscono con lo stesso recettore:",
+    "opzioni": [
+      "Prevale l’effetto del farmaco che è somministrato per prima",
+      "Si può verificare un fenomeno di competizione",
+      "L’effetto prevalente dipende dalla via di somministrazione",
+      "L’effetto si manifesta solo per il farmaco che ha un legame covalente"
+    ],
+    "risposta_corretta": "Si può verificare un fenomeno di competizione",
+    "cod_domanda": "L6G2oMNq"
+  },
+  {
+    "num_domanda": 64,
+    "domanda": "Riguardo i farmaci antagonisti:",
+    "opzioni": [
+      "Gli antagonisti competitivi si legano reversibilmente allo stesso sito cui si lega l’agonista",
+      "Tutti gli antagonisti agiscono in modo non competitivo con l’agonista",
+      "Gli antagonisti non competitivi si legano reversibilmente allo stesso sito cui si lega l’agonista",
+      "Tutti gli antagonisti agiscono in modo competitivo con l’agonista"
+    ],
+    "risposta_corretta": "Gli antagonisti competitivi si legano reversibilmente allo stesso sito cui si lega l’agonista",
+    "cod_domanda": "YLVoXJHj"
+  },
+  {
+    "num_domanda": 65,
+    "domanda": "Gli effetti collaterali di un farmaco:",
+    "opzioni": [
+      "Non si verificano nei farmaci fitoterapici",
+      "Sono sempre prevedibili",
+      "Si manifestano solamente a dosi eccessive",
+      "Sono effetti non ricercati e non utili"
+    ],
+    "risposta_corretta": "Sono effetti non ricercati e non utili",
+    "cod_domanda": "eXetK48Q"
+  },
+  {
+    "num_domanda": 66,
+    "domanda": "Indicare l’affermazione corretta:",
+    "opzioni": [
+      "L’effetto farmacologico di un antagonista è dovuto alla sua proprietà di potenziare l’effetto dell’agonista endogeno",
+      "Un agonista parziale genera una risposta massimale minore di quella prodotta da un agonista pieno",
+      "Un antagonista è un farmaco che non si lega ad un recettore pur essendo dotato di attività intrinseca",
+      "Un farmaco agonista si lega ad un recettore e genera una risposta biologica assai superiore a quella del ligando endogeno"
+    ],
+    "risposta_corretta": "Un agonista parziale genera una risposta massimale minore di quella prodotta da un agonista pieno",
+    "cod_domanda": "0hLJUACg"
+  }
+]
