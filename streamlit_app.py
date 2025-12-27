@@ -193,27 +193,27 @@ def show_home_page():
             st.rerun()
     
     # Stats utente (se autenticato)
-    if user:
-        st.markdown("---")
-        st.subheader("📊 Le tue statistiche")
-        stats = st.session_state.quiz_logger.get_user_stats(user.username)
+    # if user:
+    #     st.markdown("---")
+    #     st.subheader("📊 Le tue statistiche")
+    #     stats = st.session_state.quiz_logger.get_user_stats(user.username)
         
-        col1, col2, col3 = st.columns(3)
-        col1.metric("Totale domande a cui hai risposto: ", stats["total_questions_answered"])
-        col2.metric("Percentuale corrette", f"{stats['correct_rate']:.1f}%")
-        col3.metric("Moduli affrontati", len(stats["modules_practiced"]))
+    #     col1, col2, col3 = st.columns(3)
+    #     col1.metric("Totale domande a cui hai risposto: ", stats["total_questions_answered"])
+    #     col2.metric("Percentuale corrette", f"{stats['correct_rate']:.1f}%")
+    #     col3.metric("Moduli affrontati", len(stats["modules_practiced"]))
         
-        # Mostra statistiche per modulo
-        if stats["modules_stats"]:
-            st.markdown("---")
-            st.subheader("📚 Statistiche per Modulo")
+    #     # Mostra statistiche per modulo
+    #     if stats["modules_stats"]:
+    #         st.markdown("---")
+    #         st.subheader("📚 Statistiche per Modulo")
             
-            for module_name, module_stats in stats["modules_stats"].items():
-                with st.expander(f"📖 {module_name}"):
-                    col1, col2, col3 = st.columns(3)
-                    col1.metric("Domande totali", module_stats["total_questions"])
-                    col2.metric("Risposte corrette", module_stats["correct_answers"])
-                    col3.metric("Percentuale corrette", f"{module_stats['correct_rate']:.1f}%")
+    #         for module_name, module_stats in stats["modules_stats"].items():
+    #             with st.expander(f"📖 {module_name}"):
+    #                 col1, col2, col3 = st.columns(3)
+    #                 col1.metric("Domande totali", module_stats["total_questions"])
+    #                 col2.metric("Risposte corrette", module_stats["correct_answers"])
+    #                 col3.metric("Percentuale corrette", f"{module_stats['correct_rate']:.1f}%")
 
 # ============================================================================
 # MODALITÀ 1: QUIZ DOMANDA PER DOMANDA
@@ -328,20 +328,20 @@ def show_single_question_quiz():
             is_correct, correct_answer = engine.check_answer(answer)
             
             # Log risposta
-            if is_authenticated(st.session_state):
-                user = get_current_user(st.session_state)
-                attempt_num = engine.attempts[engine.current_question_idx].num_attempts
-                st.session_state.quiz_logger.log_answer(
-                    username=user.username,
-                    quiz_mode="single_question",
-                    module_name=question.get("source_quiz", "unknown"),
-                    question_id=question.get("cod_domanda","unknown"),
-                    user_answer=answer,
-                    correct_answer=correct_answer,
-                    is_correct=is_correct,
-                    attempt_number=attempt_num,
-                    session_id=st.session_state.session_id
-                )
+            # if is_authenticated(st.session_state):
+            #     user = get_current_user(st.session_state)
+            #     attempt_num = engine.attempts[engine.current_question_idx].num_attempts
+            #     st.session_state.quiz_logger.log_answer(
+            #         username=user.username,
+            #         quiz_mode="single_question",
+            #         module_name=question.get("source_quiz", "unknown"),
+            #         question_id=question.get("cod_domanda","unknown"),
+            #         user_answer=answer,
+            #         correct_answer=correct_answer,
+            #         is_correct=is_correct,
+            #         attempt_number=attempt_num,
+            #         session_id=st.session_state.session_id
+            #     )
             
             if is_correct:
                 st.session_state.feedback_message = f"✅ Corretto! Risposta: {correct_answer}"
@@ -410,18 +410,18 @@ def show_single_question_results():
     col2.metric("Risposte mostrate", stats.shown)
     
     # Log session summary
-    if is_authenticated(st.session_state):
-        user = get_current_user(st.session_state)
-        st.session_state.quiz_logger.log_session_summary(
-            username=user.username,
-            quiz_mode="single_question",
-            session_id=st.session_state.session_id,
-            summary_data={
-                "total_attempted": stats.total_attempted,
-                "correct": stats.get_total_correct(),
-                "percentage": percentage
-            }
-        )
+    # if is_authenticated(st.session_state):
+    #     user = get_current_user(st.session_state)
+    #     st.session_state.quiz_logger.log_session_summary(
+    #         username=user.username,
+    #         quiz_mode="single_question",
+    #         session_id=st.session_state.session_id,
+    #         summary_data={
+    #             "total_attempted": stats.total_attempted,
+    #             "correct": stats.get_total_correct(),
+    #             "percentage": percentage
+    #         }
+    #     )
     
     st.markdown("---")
     col1, col2 = st.columns(2)
@@ -561,32 +561,32 @@ def show_complete_quiz_results():
                 st.write(f"**Risposta corretta:** {q_result['correct_answer']}")
             
             # Log risposta
-            if is_authenticated(st.session_state):
-                user = get_current_user(st.session_state)
-                st.session_state.quiz_logger.log_answer(
-                    username=user.username,
-                    quiz_mode="complete",
-                    module_name=st.session_state.get("selected_quiz_file", "unknown"),
-                    question_id=q_result['cod_domanda'],
-                    user_answer=q_result['user_answer'],
-                    correct_answer=q_result['correct_answer'],
-                    is_correct=q_result['is_correct'],
-                    session_id=st.session_state.session_id
-                )
+            # if is_authenticated(st.session_state):
+            #     user = get_current_user(st.session_state)
+            #     st.session_state.quiz_logger.log_answer(
+            #         username=user.username,
+            #         quiz_mode="complete",
+            #         module_name=st.session_state.get("selected_quiz_file", "unknown"),
+            #         question_id=q_result['cod_domanda'],
+            #         user_answer=q_result['user_answer'],
+            #         correct_answer=q_result['correct_answer'],
+            #         is_correct=q_result['is_correct'],
+            #         session_id=st.session_state.session_id
+            #     )
     
     # Log session summary
-    if is_authenticated(st.session_state):
-        user = get_current_user(st.session_state)
-        st.session_state.quiz_logger.log_session_summary(
-            username=user.username,
-            quiz_mode="complete",
-            session_id=st.session_state.session_id,
-            summary_data={
-                "total_questions": result.total_questions,
-                "correct": result.correct_answers,
-                "percentage": result.score_percentage
-            }
-        )
+    # if is_authenticated(st.session_state):
+    #     user = get_current_user(st.session_state)
+    #     st.session_state.quiz_logger.log_session_summary(
+    #         username=user.username,
+    #         quiz_mode="complete",
+    #         session_id=st.session_state.session_id,
+    #         summary_data={
+    #             "total_questions": result.total_questions,
+    #             "correct": result.correct_answers,
+    #             "percentage": result.score_percentage
+    #         }
+    #     )
     
     st.markdown("---")
     col1, col2 = st.columns(2)
@@ -699,18 +699,18 @@ def show_exam_quiz():
         result = exam_engine.finish_current_module()
         
         # Log
-        if is_authenticated(st.session_state):
-            user = get_current_user(st.session_state)
-            st.session_state.quiz_logger.log_session_summary(
-                username=user.username,
-                quiz_mode="exam",
-                session_id=st.session_state.session_id,
-                summary_data={
-                    "module": result.module_name,
-                    "score": result.score_percentage,
-                    "time_expired": True
-                }
-            )
+        # if is_authenticated(st.session_state):
+        #     user = get_current_user(st.session_state)
+        #     st.session_state.quiz_logger.log_session_summary(
+        #         username=user.username,
+        #         quiz_mode="exam",
+        #         session_id=st.session_state.session_id,
+        #         summary_data={
+        #             "module": result.module_name,
+        #             "score": result.score_percentage,
+        #             "time_expired": True
+        #         }
+        #     )
         
         st.markdown("---")
         st.subheader("📊 Risultato Modulo")
@@ -812,16 +812,16 @@ def show_exam_quiz():
                 else:
                     is_correct = answer.strip().lower() == question["risposta_corretta"].strip().lower()
                 
-                st.session_state.quiz_logger.log_answer(
-                    username=user.username,
-                    quiz_mode="exam",
-                    module_name=module_engine.module_name,
-                    question_id=question["cod_domanda"],
-                    user_answer=answer if answer is not None else "(Non hai risposto)",
-                    correct_answer=question["risposta_corretta"],
-                    is_correct=is_correct,
-                    session_id=st.session_state.session_id
-                )
+                # st.session_state.quiz_logger.log_answer(
+                #     username=user.username,
+                #     quiz_mode="exam",
+                #     module_name=module_engine.module_name,
+                #     question_id=question["cod_domanda"],
+                #     user_answer=answer if answer is not None else "(Non hai risposto)",
+                #     correct_answer=question["risposta_corretta"],
+                #     is_correct=is_correct,
+                #     session_id=st.session_state.session_id
+                # )
             
             # Passa automaticamente alla domanda successiva
             has_next = module_engine.current_question_idx < len(module_engine.questions) - 1
@@ -865,18 +865,18 @@ def show_exam_quiz():
                 st.session_state.last_module_engine = module_engine
                 
                 # Log modulo completato
-                if is_authenticated(st.session_state):
-                    user = get_current_user(st.session_state)
-                    st.session_state.quiz_logger.log_session_summary(
-                        username=user.username,
-                        quiz_mode="exam",
-                        session_id=st.session_state.session_id,
-                        summary_data={
-                            "module": result.module_name,
-                            "score": result.score_percentage,
-                            "completed": True
-                        }
-                    )
+                # if is_authenticated(st.session_state):
+                #     user = get_current_user(st.session_state)
+                #     st.session_state.quiz_logger.log_session_summary(
+                #         username=user.username,
+                #         quiz_mode="exam",
+                #         session_id=st.session_state.session_id,
+                #         summary_data={
+                #             "module": result.module_name,
+                #             "score": result.score_percentage,
+                #             "completed": True
+                #         }
+                #     )
                 
                 # Mostra i risultati del modulo
                 st.session_state.app_mode = "exam_module_results"
@@ -995,20 +995,20 @@ def show_exam_final_results():
             col3.metric("Tempo", f"{minutes} min")
     
     # Log final summary
-    if is_authenticated(st.session_state):
-        user = get_current_user(st.session_state)
-        st.session_state.quiz_logger.log_session_summary(
-            username=user.username,
-            quiz_mode="exam",
-            session_id=st.session_state.session_id,
-            summary_data={
-                "total_score": final_results.total_score_percentage,
-                "modules": [
-                    {"name": r.module_name, "score": r.score_percentage}
-                    for r in final_results.module_results
-                ]
-            }
-        )
+    # if is_authenticated(st.session_state):
+    #     user = get_current_user(st.session_state)
+    #     st.session_state.quiz_logger.log_session_summary(
+    #         username=user.username,
+    #         quiz_mode="exam",
+    #         session_id=st.session_state.session_id,
+    #         summary_data={
+    #             "total_score": final_results.total_score_percentage,
+    #             "modules": [
+    #                 {"name": r.module_name, "score": r.score_percentage}
+    #                 for r in final_results.module_results
+    #             ]
+    #         }
+    #     )
     
     st.markdown("---")
     
