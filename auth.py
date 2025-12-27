@@ -16,6 +16,8 @@ import pandas as pd
 from pathlib import Path
 from typing import Optional, Dict, Any, Tuple
 from dataclasses import dataclass
+from datetime import datetime
+from streamlit_gsheets import GSheetsConnection
 
 
 @dataclass
@@ -118,7 +120,7 @@ class AuthManager:
         Returns:
             Connessione a Google Sheets
         """
-        return st.connection("gsheets", type="gsheets")
+        return st.connection("gsheets", type=GSheetsConnection)
     
     def _get_users_from_sheet(self) -> Dict[str, Dict[str, Any]]:
         """
@@ -161,23 +163,18 @@ class AuthManager:
         """
         try:
             conn = self._get_connection()
-            
-            # Aggiungi nuova riga
-            query = f"""
-            INSERT INTO "{self.worksheet_name}" (username, password_hash, display_name)
-            VALUES ('{username}', '{password_hash}', '{display_name}')
-            """
-            
-            # Usa update per appendere i dati
             df = conn.read(worksheet=self.worksheet_name, ttl=0)
             
-            # Crea nuovo dataframe con il nuovo utente
-            import pandas as pd
+            # Data corrente
+            registration_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            
+            # Crea dataframe con il nuovo utente
             new_row = pd.DataFrame([{
                 'username': username,
                 'password_hash': password_hash,
-                'display_name': display_name
-            }])
+                'display_name': display_name,
+                'registration_date': registration_date
+            }])            
             
             # Appendi al dataframe esistente
             if df.empty:
