@@ -1072,6 +1072,10 @@ def main():
             st.session_state.app_mode = "home"
             st.session_state.active_engine = None
             st.rerun()
+        
+        st.markdown("---")
+        st.markdown("Sviluppata da Alessandro Lucca & Claude Sonnet 4.5")
+        st.markdown("Contattami su [LinkedIn](https://www.linkedin.com/in/alessandro-lucca-1b110b214/)")
     
     # Routing basato su app_mode
     if not is_authenticated(st.session_state):
