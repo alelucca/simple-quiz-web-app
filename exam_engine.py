@@ -37,11 +37,15 @@ class ExamResult:
 class ExamModuleEngine:
     """
     Engine per un singolo modulo dell'esame.
-    Gestisce QUESTIONS_PER_MODULE domande con timer di TIME_LIMIT_SECONDS minuti.
+    Gestisce QUESTIONS_AND_TIMES_PER_MODULE domande con timer di un minuto per domanda.
     """
     
-    QUESTIONS_PER_MODULE = 15
-    TIME_LIMIT_SECONDS = 15 * 60  # 15 minuti
+    QUESTIONS_AND_TIMES_PER_MODULE = {
+        "Farmacologia clinica": 30,
+        "Farmacologia generale": 30,
+        "Ptda": 15,
+        "Radioprotezione": 15
+    }
     
     def __init__(self, module_name: str, questions: List[Dict[str, Any]]):
         """
@@ -51,16 +55,16 @@ class ExamModuleEngine:
             module_name: nome del modulo
             questions: pool completo di domande del modulo
         """
-        if len(questions) < self.QUESTIONS_PER_MODULE:
+        if len(questions) < self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]:
             raise ValueError(
                 f"Not enough questions for exam module. "
-                f"Required: {self.QUESTIONS_PER_MODULE}, available: {len(questions)}"
+                f"Required: {self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]}, available: {len(questions)}"
             )
         
         self.module_name = module_name
         
-        # Seleziona QUESTION_PER_MODULE domande random
-        self.questions = random.sample(questions, self.QUESTIONS_PER_MODULE)
+        # Seleziona QUESTIONS_AND_TIMES_PER_MODULE domande random
+        self.questions = random.sample(questions, self.QUESTIONS_AND_TIMES_PER_MODULE[module_name])
         
         # Risposte dell'utente (key: cod_domanda, value: risposta)
         self.user_answers: Dict[str, str] = {}
@@ -93,7 +97,7 @@ class ExamModuleEngine:
         
         return int(time.time() - self.start_time)
     
-    def get_remaining_seconds(self) -> int:
+    def get_remaining_seconds(self, module_name) -> int:
         """
         Calcola i secondi rimanenti
         
@@ -101,7 +105,7 @@ class ExamModuleEngine:
             Secondi rimanenti (0 se il tempo è scaduto)
         """
         elapsed = self.get_elapsed_seconds()
-        remaining = self.TIME_LIMIT_SECONDS - elapsed
+        remaining = self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]*60 - elapsed
         return max(0, remaining)
     
     def is_time_expired(self) -> bool:

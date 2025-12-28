@@ -694,7 +694,7 @@ def show_exam_quiz():
     st.subheader(f"📚 {module_engine.module_name}")
     
     # Timer
-    remaining_seconds = module_engine.get_remaining_seconds()
+    remaining_seconds = module_engine.get_remaining_seconds(module_engine.module_name)
     minutes = remaining_seconds // 60
     seconds = remaining_seconds % 60
     
