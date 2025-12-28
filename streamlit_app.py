@@ -191,7 +191,7 @@ def show_home_page():
     
     with col3:
         st.markdown("### ⏱️ Simula Esame")
-        st.write("15 domande per modulo con timer di 15 minuti")
+        st.write("Come se fossi in sede d'esame")
         if st.button("Inizia", key="btn_exam", use_container_width=True):
             st.session_state.app_mode = "exam_setup"
             st.rerun()
@@ -639,10 +639,7 @@ def show_exam_setup():
     selected_files=[]
     for quiz in available_quizzes:
         if st.checkbox(quiz["name"], key=f"quiz_select_{quiz['file']}"):
-            selected_files.append(quiz["file"])
-    
-    if selected_files:
-        st.info(f"Saranno estratte 15 domande per {len(selected_files)} modulo/i = {15 * len(selected_files)} domande totali")
+            selected_files.append(quiz["file"])    
     
     col1, col2 = st.columns(2)
     
@@ -703,7 +700,7 @@ def show_exam_quiz():
     
     with timer_col1:
         # Clampa il valore tra 0 e 1 per evitare errori
-        progress_value = max(0.0, min(1.0, 1 - (remaining_seconds / module_engine.TIME_LIMIT_SECONDS)))
+        progress_value = max(0.0, min(1.0, 1 - (remaining_seconds / (module_engine.QUESTIONS_AND_TIMES_PER_MODULE[module_engine.module_name]*60))))
         st.progress(progress_value)
     
     with timer_col2:
@@ -717,7 +714,7 @@ def show_exam_quiz():
         st.empty()
     
     # Verifica scadenza tempo
-    if module_engine.is_time_expired():
+    if module_engine.is_time_expired(module_engine.module_name):
         st.error("⏰ Tempo scaduto!")
         result = exam_engine.finish_current_module()
         

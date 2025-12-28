@@ -41,9 +41,9 @@ class ExamModuleEngine:
     """
     
     QUESTIONS_AND_TIMES_PER_MODULE = {
-        "Farmacologia clinica": 30,
-        "Farmacologia generale": 30,
-        "Ptda": 15,
+        "Farmacologia Clinica": 30,
+        "Farmacologia Generale": 30,
+        "Aptd": 15,
         "Radioprotezione": 15
     }
     
@@ -54,7 +54,7 @@ class ExamModuleEngine:
         Args:
             module_name: nome del modulo
             questions: pool completo di domande del modulo
-        """
+        """        
         if len(questions) < self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]:
             raise ValueError(
                 f"Not enough questions for exam module. "
@@ -108,9 +108,9 @@ class ExamModuleEngine:
         remaining = self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]*60 - elapsed
         return max(0, remaining)
     
-    def is_time_expired(self) -> bool:
+    def is_time_expired(self, module_name) -> bool:
         """Verifica se il tempo è scaduto"""
-        return self.get_remaining_seconds() == 0
+        return self.get_remaining_seconds(module_name) == 0
     
     def get_current_question(self) -> Optional[Dict[str, Any]]:
         """
@@ -258,6 +258,7 @@ class ExamEngine:
             try:
                 # Estrae un nome leggibile dal filename
                 display_name = module_name.replace("_final.json", "").replace("_", " ").title()
+                #print(f"This is the display name: {display_name}")
                 engine = ExamModuleEngine(display_name, questions)
                 self.module_engines.append(engine)
             except ValueError as e:
