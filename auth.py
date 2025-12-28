@@ -149,6 +149,33 @@ class AuthManager:
             st.error(f"Errore caricamento utenti da Google Sheets: {str(e)}")
             return {}
     
+    def get_user(self, username: str) -> Dict[str, Dict[str, Any]] | None:
+        """Ottiene un singolo utente dal foglio Google Sheets usando query SQL"""
+        # Valida username per prevenire SQL injection
+        valid, error = self._validate_username(username)
+        if not valid:
+            st.error(f"Username non valido: {error}")
+            return None
+        
+        try:
+            conn = self._get_connection()
+            query = f"""SELECT username, password_hash, display_name FROM {self.worksheet_name} WHERE username='{username}'"""
+            df = conn.query(sql=query, worksheet=self.worksheet_name, ttl=0)
+            
+            if df.empty:
+                return None
+            
+            row = df.iloc[0]
+            return {
+                username: {
+                    'password_hash': row.get('password_hash', ''),
+                    'display_name': row.get('display_name', username)
+                }
+            }
+        except Exception as e:
+            st.error(f"Errore caricamento utente da Google Sheets: {str(e)}")
+            return None
+    
     def _save_user_to_sheet(self, username: str, password_hash: str, display_name: str) -> bool:
         """
         Salva un nuovo utente in Google Sheets
@@ -163,28 +190,24 @@ class AuthManager:
         """
         try:
             conn = self._get_connection()
-            df = conn.read(worksheet=self.worksheet_name, ttl=0)
-            
-            # Data corrente
             registration_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
-            # Crea dataframe con il nuovo utente
+            # Crea un dataframe con il nuovo utente e usa update in modalità append
             new_row = pd.DataFrame([{
                 'username': username,
                 'password_hash': password_hash,
                 'display_name': display_name,
                 'registration_date': registration_date
-            }])            
+            }])
             
-            # Appendi al dataframe esistente
-            if df.empty:
+            # Leggi i dati esistenti e appendi
+            existing_df = conn.read(worksheet=self.worksheet_name, ttl=0)
+            if existing_df.empty:
                 updated_df = new_row
             else:
-                updated_df = pd.concat([df, new_row], ignore_index=True)
+                updated_df = pd.concat([existing_df, new_row], ignore_index=True)
             
-            # Aggiorna il foglio
             conn.update(worksheet=self.worksheet_name, data=updated_df)
-            
             return True
         except Exception as e:
             st.error(f"Errore salvataggio utente: {str(e)}")
@@ -212,9 +235,9 @@ class AuthManager:
         if not valid:
             return False, error
         
-        # Verifica se utente già esistente
-        existing_users = self._get_users_from_sheet()
-        if username.lower() in [u.lower() for u in existing_users.keys()]:
+        # Verifica se utente già esistente usando query
+        existing_user = self.get_user(username)
+        if existing_user is not None:
             return False, "Username già esistente"
         
         # Hash password
@@ -244,12 +267,12 @@ class AuthManager:
         Returns:
             Oggetto User se autenticazione riuscita, None altrimenti
         """
-        users = self._get_users_from_sheet()
+        user_data = self.get_user(username=username)
         
-        if username not in users:
+        if user_data is None or username not in user_data:
             return None
         
-        user_info = users[username]
+        user_info = user_data[username]
         
         # Verifica password hashata
         if not self._verify_password(password, user_info['password_hash']):
@@ -262,18 +285,27 @@ class AuthManager:
     
     def get_all_users(self) -> Dict[str, Dict[str, Any]]:
         """
-        Restituisce tutti gli utenti (senza password)
+        Restituisce tutti gli utenti (senza password) usando query SQL
         
         Returns:
             Dizionario con info utenti (esclusa password)
         """
-        users = self._get_users_from_sheet()
-        users_safe = {}
-        for username, info in users.items():
-            users_safe[username] = {
-                "display_name": info.get("display_name", username)
-            }
-        return users_safe
+        try:
+            conn = self._get_connection()
+            query = f"""SELECT username, display_name FROM {self.worksheet_name}"""
+            df = conn.query(sql=query, worksheet=self.worksheet_name, ttl=0)
+            
+            users_safe = {}
+            for _, row in df.iterrows():
+                username = row.get('username', '')
+                if username:
+                    users_safe[username] = {
+                        "display_name": row.get("display_name", username)
+                    }
+            return users_safe
+        except Exception as e:
+            st.error(f"Errore caricamento utenti: {str(e)}")
+            return {}
 
 
 def get_auth_manager() -> AuthManager:
