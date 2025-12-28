@@ -75,11 +75,21 @@ def show_login_page():
     """Mostra la pagina di login e registrazione"""
     st.title("🔐 Accesso")
     
+    # Flag per evitare duplicazione durante autenticazione
+    if "is_authenticating" not in st.session_state:
+        st.session_state.is_authenticating = False
+    
     # Tabs per login e registrazione
     tab1, tab2 = st.tabs(["Login", "Registrazione"])
     
     with tab1:
         st.subheader("Accedi con le tue credenziali")
+        
+        # Mostra spinner durante autenticazione
+        if st.session_state.is_authenticating:
+            with st.spinner("Autenticazione in corso..."):
+                pass
+            return
 
         # Form con attributi HTML per autocomplete del browser
         with st.form("login_form"):
@@ -91,17 +101,12 @@ def show_login_page():
                 if not username or not password:
                     st.error("Inserisci username e password")
                 else:
-                    user = st.session_state.auth_manager.authenticate(username, password)
-                    if user:
-                        login_user(st.session_state, user)
-                        st.success(f"Benvenuto, {user.display_name}!")
-                        st.rerun()
-                    else:
-                        st.error("Credenziali non valide")
+                    # Imposta flag per evitare duplicazione
+                    st.session_state.is_authenticating = True
+                    st.rerun()
     
     with tab2:
-        st.subheader("Crea un nuovo account")
-        st.info("La password verrà salvata in modo sicuro (hash bcrypt)")
+        st.subheader("Crea un nuovo account")        
         
         with st.form("register_form"):
             new_username = st.text_input(
@@ -1073,9 +1078,32 @@ def main():
             st.session_state.active_engine = None
             st.rerun()
         
+        st.markdown("---")        
+        st.markdown("Segnala errori con [questo modulo](https://docs.google.com/forms/d/e/1FAIpQLSdD4ulcR7G87GMbYjEv4EsXgGX-aZvtYHsf_z3B0SxOOtaZlA/viewform?usp=dialog)")
+    
         st.markdown("---")
-        st.markdown("Sviluppata da Alessandro Lucca & Claude Sonnet 4.5")
+        st.markdown("Sviluppata da Alessandro Lucca & Claude Sonnet")
         st.markdown("Contattami su [LinkedIn](https://www.linkedin.com/in/alessandro-lucca-1b110b214/)")
+    
+    # Gestione autenticazione in background
+    if st.session_state.get("is_authenticating", False):
+        # Esegui l'autenticazione
+        if "login_username" in st.session_state and "login_password" in st.session_state:
+            username = st.session_state.login_username
+            password = st.session_state.login_password
+            
+            with st.spinner("Autenticazione in corso..."):
+                user = st.session_state.auth_manager.authenticate(username, password)
+                
+            st.session_state.is_authenticating = False
+            
+            if user:
+                login_user(st.session_state, user)
+                st.success(f"Benvenuto, {user.display_name}!")
+                st.rerun()
+            else:
+                st.error("Credenziali non valide")
+                st.rerun()
     
     # Routing basato su app_mode
     if not is_authenticated(st.session_state):
