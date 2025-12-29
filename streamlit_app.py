@@ -296,14 +296,18 @@ def show_single_question_quiz():
         question = engine.get_next_question()
         st.session_state.showing_answer = False
     
+    print("Question: ", question)
+    
     if question is None:
         # Quiz terminato
         show_single_question_results()
         return
     
-    # Mostra domanda
+    # Mostra domanda e provenienza
+    source = question["source_quiz"].replace("_final.json","")
+
     st.markdown("### Domanda")
-    st.write(question["domanda"])
+    st.write(f"[{source}] - ", question["domanda"])
     
     st.markdown("### Opzioni")
     
@@ -385,33 +389,54 @@ def show_single_question_results():
     
     st.title("📊 Risultati Quiz")
     
+    # Riepilogo generale
     st.markdown("---")
-    st.subheader("Riepilogo")
+    st.subheader("Riepilogo Generale")
     
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
+    
+    total_attempted = stats.get_total_attempted()
+    total_correct = stats.get_total_correct()
     
     with col1:
-        st.metric("Totale domande lette", stats.total_attempted)
-        st.metric("Risposte corrette", stats.get_total_correct())
+        st.metric("Totale domande lette", total_attempted)
     
     with col2:
-        percentage = (stats.get_total_correct() / stats.total_attempted * 100) if stats.total_questions > 0 else 0
+        st.metric("Risposte corrette", total_correct)
+    
+    with col3:
+        percentage = (total_correct / total_attempted * 100) if total_attempted > 0 else 0
         st.metric("Percentuale", f"{percentage:.1f}%")
     
+    # Statistiche per modulo
     st.markdown("---")
-    st.subheader("Dettaglio tentativi")
+    st.subheader("Statistiche per Modulo")
     
-    col1, col2, col3, col4, col5 = st.columns(5)
-    col1.metric("1° tentativo", stats.correct_first_try)
-    col2.metric("2° tentativo", stats.correct_second_try)
-    col3.metric("3° tentativo", stats.correct_third_try)
-    col4.metric("4° tentativo", stats.correct_fourth_try)
-    col5.metric("5+ tentativi", stats.correct_more_tries)
-    
-    st.markdown("---")
-    col1, col2 = st.columns(2)
-    col1.metric("Domande saltate", stats.skipped)
-    col2.metric("Risposte mostrate", stats.shown)
+    if not stats.modules:
+        st.info("Nessuna domanda completata")
+    else:
+        for module_name, module_stats in stats.modules.items():
+            with st.expander(f"📖 {module_name}", expanded=True):
+                # Metriche generali
+                col1, col2, col3 = st.columns(3)
+                col1.metric("Domande lette", module_stats.total_attempted)
+                col2.metric("Risposte corrette", module_stats.get_total_correct())
+                
+                module_percentage = (module_stats.get_total_correct() / module_stats.total_attempted * 100) if module_stats.total_attempted > 0 else 0
+                col3.metric("Percentuale", f"{module_percentage:.1f}%")
+                
+                # Dettaglio tentativi
+                st.markdown("**Dettaglio tentativi:**")
+                col1, col2 = st.columns(2)
+                col1.metric("✅ Primo tentativo", module_stats.correct_first_try)
+                col2.metric("🔄 Più tentativi", module_stats.correct_multiple_tries)
+                
+                # Altre info
+                if module_stats.skipped > 0 or module_stats.shown > 0:
+                    st.markdown("**Altro:**")
+                    col1, col2 = st.columns(2)
+                    col1.metric("⏭️ Domande saltate", module_stats.skipped)
+                    col2.metric("👁️ Risposte mostrate", module_stats.shown)
     
     # Log session summary
     # if is_authenticated(st.session_state):
@@ -421,8 +446,8 @@ def show_single_question_results():
     #         quiz_mode="single_question",
     #         session_id=st.session_state.session_id,
     #         summary_data={
-    #             "total_attempted": stats.total_attempted,
-    #             "correct": stats.get_total_correct(),
+    #             "total_attempted": total_attempted,
+    #             "correct": total_correct,
     #             "percentage": percentage
     #         }
     #     )

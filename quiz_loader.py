@@ -7,6 +7,7 @@ Responsabile di:
 """
 
 import json
+import random
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
@@ -116,7 +117,10 @@ class QuizLoader:
                 question["source_quiz"] = quiz_file
                 all_questions.append(question)
         
-        return all_questions
+        # randomize question order also between various modules
+        shuffled_questions = random.shuffle(all_questions)
+        
+        return shuffled_questions
     
     def _normalize_question(self, question: Dict[str, Any], source_file: str) -> Dict[str, Any]:
         """

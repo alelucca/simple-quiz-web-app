@@ -35,23 +35,33 @@ class QuestionAttempt:
 
 
 @dataclass
-class QuizStats:
-    """Statistiche finali del quiz"""
-    total_questions: int
-    total_attempted: int = 0    
+class ModuleStats:
+    """Statistiche per un singolo modulo"""
+    module_name: str
+    total_attempted: int = 0
     correct_first_try: int = 0
-    correct_second_try: int = 0
-    correct_third_try: int = 0
-    correct_fourth_try: int = 0
-    correct_more_tries: int = 0
+    correct_multiple_tries: int = 0  # 2+ tentativi
     skipped: int = 0
     shown: int = 0
     
     def get_total_correct(self) -> int:
         """Totale risposte corrette"""
-        return (self.correct_first_try + self.correct_second_try + 
-                self.correct_third_try + self.correct_fourth_try + 
-                self.correct_more_tries)
+        return self.correct_first_try + self.correct_multiple_tries
+
+
+@dataclass
+class QuizStats:
+    """Statistiche finali del quiz divise per modulo"""
+    total_questions: int
+    modules: Dict[str, ModuleStats] = field(default_factory=dict)
+    
+    def get_total_attempted(self) -> int:
+        """Totale domande tentate su tutti i moduli"""
+        return sum(m.total_attempted for m in self.modules.values())
+    
+    def get_total_correct(self) -> int:
+        """Totale risposte corrette su tutti i moduli"""
+        return sum(m.get_total_correct() for m in self.modules.values())
 
 
 class SingleQuestionQuizEngine:
@@ -171,36 +181,7 @@ class SingleQuestionQuizEngine:
         """Numero di domande rimanenti non ancora mostrate"""
         return len(self.remaining_questions)
     
-    def get_stats(self) -> QuizStats:
-        """
-        Calcola le statistiche finali del quiz
-        
-        Returns:
-            Oggetto QuizStats con le statistiche
-        """
-        stats = QuizStats(total_questions=self.total_questions)
-        
-        for attempt in self.attempts.values():
-            if attempt.status == QuestionStatus.CORRECT:
-                if attempt.correct_at_attempt == 1:
-                    stats.correct_first_try += 1
-                elif attempt.correct_at_attempt == 2:
-                    stats.correct_second_try += 1
-                elif attempt.correct_at_attempt == 3:
-                    stats.correct_third_try += 1
-                elif attempt.correct_at_attempt == 4:
-                    stats.correct_fourth_try += 1
-                else:
-                    stats.correct_more_tries += 1
-                stats.total_attempted+=1
-            elif attempt.status == QuestionStatus.SKIPPED:
-                stats.skipped += 1
-                stats.total_attempted+=1
-            elif attempt.status == QuestionStatus.SHOWN:
-                stats.shown += 1
-                stats.total_attempted+=1
-        
-        return stats
+    
     
     def reset(self):
         """Resetta il quiz per ricominciare da capo"""
@@ -208,3 +189,39 @@ class SingleQuestionQuizEngine:
         random.shuffle(self.remaining_questions)
         self.attempts = {}
         self.current_question_idx = None
+    
+    def get_stats(self) -> QuizStats:
+        """
+        Calcola le statistiche finali del quiz divise per modulo
+        
+        Returns:
+            Oggetto QuizStats con le statistiche per modulo
+        """
+        stats = QuizStats(total_questions=self.total_questions)
+        
+        for question_idx, attempt in self.attempts.items():
+            # Ottieni il modulo dalla domanda
+            question = self.questions[question_idx]
+            module_name = question.get("source_quiz", "unknown").replace("_final.json", "")
+            
+            # Inizializza stats per questo modulo se non esiste
+            if module_name not in stats.modules:
+                stats.modules[module_name] = ModuleStats(module_name=module_name)
+            
+            module_stats = stats.modules[module_name]
+            
+            # Aggiorna le statistiche del modulo
+            if attempt.status == QuestionStatus.CORRECT:
+                if attempt.correct_at_attempt == 1:
+                    module_stats.correct_first_try += 1
+                else:  # 2+ tentativi
+                    module_stats.correct_multiple_tries += 1
+                module_stats.total_attempted += 1
+            elif attempt.status == QuestionStatus.SKIPPED:
+                module_stats.skipped += 1
+                module_stats.total_attempted += 1
+            elif attempt.status == QuestionStatus.SHOWN:
+                module_stats.shown += 1
+                module_stats.total_attempted += 1
+        
+        return stats
