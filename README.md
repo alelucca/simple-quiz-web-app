@@ -9,7 +9,7 @@ I quiz caricati al momento riguardano un corso di laurea di infermieristica.
 
 ## Se vuoi usare l'applicazione Streamlit con i quiz pre-inseriti
 
-1. Vai al link 
+1. Vai a [questo link](https://simple-quiz-web-app-hxt7cvzfd2nk63bys9zgg5.streamlit.app/) 
 2. Registrati
 3. Fai il login
 4. Prova una modalità
