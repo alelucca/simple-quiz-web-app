@@ -296,7 +296,7 @@ def show_single_question_quiz():
         question = engine.get_next_question()
         st.session_state.showing_answer = False
     
-    print("Question: ", question)
+    #print("Question: ", question)
     
     if question is None:
         # Quiz terminato
