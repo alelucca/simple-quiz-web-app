@@ -15,7 +15,7 @@ from typing import List, Dict, Any, Optional
 class QuizLoader:
     """Gestisce il caricamento dei quiz da file JSON"""
     
-    def __init__(self, quiz_folder: str = "QUIZ_CLEAN/JSON"):
+    def __init__(self, quiz_folder: Path):
         """
         Inizializza il loader con il percorso della cartella quiz
         
@@ -23,11 +23,11 @@ class QuizLoader:
             quiz_folder: percorso relativo o assoluto alla cartella contenente i JSON
         """
         # Risolve il path relativo alla posizione di questo file, non alla working directory
-        if not Path(quiz_folder).is_absolute():
-            base_path = Path(__file__).parent
-            self.quiz_folder = base_path / quiz_folder
-        else:
-            self.quiz_folder = Path(quiz_folder)
+        self.quiz_folder = quiz_folder
+
+        print("QUIZ FOLDER:", self.quiz_folder)
+        print("EXISTS:", self.quiz_folder.exists())
+        print("FILES:", list(self.quiz_folder.glob("*.json")))
         
     def get_available_quizzes(self) -> List[Dict[str, str]]:
         """
@@ -36,6 +36,7 @@ class QuizLoader:
         Returns:
             Lista di dizionari con 'name' (nome visualizzato) e 'file' (nome file)
         """
+        print("QUIZ folder in get_available_quizzes:", self.quiz_folder)
         if not self.quiz_folder.exists():
             return []
         
@@ -66,6 +67,8 @@ class QuizLoader:
             ValueError: se la struttura non è valida
         """
         file_path = self.quiz_folder / quiz_file
+
+        print("File path in load_quiz: ", file_path)
         
         if not file_path.exists():
             raise FileNotFoundError(f"Quiz file not found: {file_path}")
@@ -123,9 +126,9 @@ class QuizLoader:
                 all_questions.append(question)
         
         # randomize question order also between various modules
-        shuffled_questions = random.shuffle(all_questions)
+        random.shuffle(all_questions)
 
-        return shuffled_questions
+        return all_questions
     
     def _normalize_question(self, question: Dict[str, Any], source_file: str) -> Dict[str, Any]:
         """
@@ -166,9 +169,12 @@ class QuizLoader:
         }
 
 
-def get_quiz_loader() -> QuizLoader:
+def get_quiz_loader(quiz_folder: Path = None) -> QuizLoader:
     """
     Factory function per ottenere un'istanza del QuizLoader
     Utile per dependency injection e testing
     """
-    return QuizLoader()
+    if quiz_folder is None:
+        # Default: path relativo alla posizione di questo file
+        quiz_folder = Path(__file__).parent / "QUIZ_CLEAN" / "JSON"
+    return QuizLoader(quiz_folder)

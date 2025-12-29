@@ -8,6 +8,7 @@ Supporta tre modalità:
 Con autenticazione e logging opzionali.
 """
 
+from pathlib import Path
 import streamlit as st
 from datetime import datetime
 import time
@@ -27,6 +28,8 @@ from logger import QuizLogger, generate_session_id
 # ============================================================================
 # CONFIGURAZIONE E INIZIALIZZAZIONE
 # ============================================================================
+BASE_DIR = Path(__file__).parent
+QUIZ_DIR = BASE_DIR / "QUIZ_CLEAN" / "JSON"
 
 def init_session_state():
     """Inizializza tutte le variabili di sessione necessarie"""
@@ -40,7 +43,7 @@ def init_session_state():
     
     # Quiz loader
     if "quiz_loader" not in st.session_state:
-        st.session_state.quiz_loader = QuizLoader()
+        st.session_state.quiz_loader = QuizLoader(QUIZ_DIR)
     
     # Auth manager
     if "auth_manager" not in st.session_state:
