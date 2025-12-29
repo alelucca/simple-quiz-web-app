@@ -25,9 +25,9 @@ class QuizLoader:
         # Risolve il path relativo alla posizione di questo file, non alla working directory
         self.quiz_folder = quiz_folder
 
-        print("QUIZ FOLDER:", self.quiz_folder)
-        print("EXISTS:", self.quiz_folder.exists())
-        print("FILES:", list(self.quiz_folder.glob("*.json")))
+        # print("QUIZ FOLDER:", self.quiz_folder)
+        # print("EXISTS:", self.quiz_folder.exists())
+        # print("FILES:", list(self.quiz_folder.glob("*.json")))
         
     def get_available_quizzes(self) -> List[Dict[str, str]]:
         """
@@ -36,7 +36,7 @@ class QuizLoader:
         Returns:
             Lista di dizionari con 'name' (nome visualizzato) e 'file' (nome file)
         """
-        print("QUIZ folder in get_available_quizzes:", self.quiz_folder)
+        # print("QUIZ folder in get_available_quizzes:", self.quiz_folder)
         if not self.quiz_folder.exists():
             return []
         
