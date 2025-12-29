@@ -1,40 +1,20 @@
 # Quiz App - Applicazione Streamlit per Quiz Interattivi
 
 Applicazione web per la fruizione di quiz con tre modalità:
-1. **Quiz domanda per domanda** - con retry e tracking tentativi
-2. **Quiz completo** - tutte le domande insieme con feedback finale
-3. **Simulazione esame** - 15 domande per modulo con timer 15 minuti
+1. **Quiz domanda per domanda**
+2. **Quiz completo**
+3. **Simulazione esame**
 
-## ✨ Funzionalità Principali
+I quiz caricati al momento riguardano un corso di laurea di infermieristica.
 
-- 🔐 **Autenticazione utenti** con registrazione e login
-- 🔒 **Password sicure** hashate con bcrypt
-- 📊 **Logging avanzato** su Google Sheets (con fallback locale)
-- 💾 **Salvataggio credenziali** nel browser
-- 📈 **Statistiche utente** personalizzate
-- 🎯 **Tre modalità di quiz** distinte
+## Se vuoi usare l'applicazione Streamlit 
 
-## 🏗️ Architettura
+1. Vai al link 
+2. Registrati
+3. Fai il login
+4. Prova una modalità
 
-L'applicazione è progettata con una **separazione netta tra logica e UI**:
-
-- `quiz_loader.py` - Caricamento e normalizzazione JSON
-- `quiz_engine.py` - Logica modalità 1 (quiz singolo)
-- `complete_quiz_engine.py` - Logica modalità 2 (quiz completo)
-- `exam_engine.py` - Logica modalità 3 (simulazione esame)
-- `auth.py` - Sistema autenticazione con bcrypt e validazione anti-SQL injection
-- `logger.py` - Logging risposte su Google Sheets (con fallback JSON)
-- `streamlit_app.py` - UI principale
-
-## 📋 Requisiti
-
-- Python 3.8+
-- Streamlit 1.30+
-- bcrypt 4.0+
-- gspread 5.12+ (opzionale, per Google Sheets)
-- oauth2client 4.1+ (opzionale, per Google Sheets)
-
-## 🚀 Installazione
+## Se ti piace l'idea ma vuoi personalizzarla con i tuoi quiz
 
 1. Clona o scarica il repository
 
@@ -43,20 +23,25 @@ L'applicazione è progettata con una **separazione netta tra logica e UI**:
 pip install -r requirements.txt
 ```
 
-1. Configura Google Sheets per il logging:  
-   - Aggiungi le credenziali GCP al file `.streamlit/secrets.toml`
+3. Configura le credenziali per il logging delle registrazioni in `.streamlit/secrets.toml`. Puoi seguire [questa guida](https://docs.streamlit.io/develop/tutorials/databases/private-gsheet) per eventuali dubbi.
 
-2. Verifica che la cartella `QUIZ_CLEAN/JSON` contenga i file quiz nel formato corretto:
-```json
-[
-  {
-    "num_domanda": 1,
-    "domanda": "...",
-    "opzioni": ["...", "...", "...", "..."],
-    "risposta_corretta": "..."
-  }
-]
-```
+4. Carica i tuoi quiz nella cartella `QUIZ_CLEAN/JSON`
+   Regole per caricare i quiz: 
+   - Il file .json deve chiamarsi *_final.json
+   - Il file di quiz deve avere questo formato
+      ```json
+      [
+        {
+          "num_domanda": 1,
+          "domanda": "...",
+          "opzioni": ["...", "...", "...", "..."],
+          "risposta_corretta": "..."
+        }
+      ]
+      ```
+
+5. Verifica che la cartella `QUIZ_CLEAN/JSON` contenga i file quiz nel formato corretto:
+
 
 ## 🎮 Utilizzo
 
