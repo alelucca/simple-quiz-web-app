@@ -46,6 +46,7 @@ class ExamModuleEngine:
         "Aptd": 15,
         "Radioprotezione": 15
     }
+    DEFAULT_VALUE = 15
     
     def __init__(self, module_name: str, questions: List[Dict[str, Any]]):
         """
@@ -55,7 +56,7 @@ class ExamModuleEngine:
             module_name: nome del modulo
             questions: pool completo di domande del modulo
         """        
-        if len(questions) < self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]:
+        if len(questions) < self.QUESTIONS_AND_TIMES_PER_MODULE.get(module_name, self.DEFAULT_VALUE):
             raise ValueError(
                 f"Not enough questions for exam module. "
                 f"Required: {self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]}, available: {len(questions)}"
@@ -64,7 +65,7 @@ class ExamModuleEngine:
         self.module_name = module_name
         
         # Seleziona QUESTIONS_AND_TIMES_PER_MODULE domande random
-        self.questions = random.sample(questions, self.QUESTIONS_AND_TIMES_PER_MODULE[module_name])
+        self.questions = random.sample(questions, self.QUESTIONS_AND_TIMES_PER_MODULE.get(module_name, self.DEFAULT_VALUE))
         
         # Risposte dell'utente (key: cod_domanda, value: risposta)
         self.user_answers: Dict[str, str] = {}
@@ -105,7 +106,7 @@ class ExamModuleEngine:
             Secondi rimanenti (0 se il tempo è scaduto)
         """
         elapsed = self.get_elapsed_seconds()
-        remaining = self.QUESTIONS_AND_TIMES_PER_MODULE[module_name]*60 - elapsed
+        remaining = self.QUESTIONS_AND_TIMES_PER_MODULE.get(module_name, self.DEFAULT_VALUE)*60 - elapsed
         return max(0, remaining)
     
     def is_time_expired(self, module_name) -> bool:

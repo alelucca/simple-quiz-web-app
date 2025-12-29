@@ -725,7 +725,7 @@ def show_exam_quiz():
     
     with timer_col1:
         # Clampa il valore tra 0 e 1 per evitare errori
-        progress_value = max(0.0, min(1.0, 1 - (remaining_seconds / (module_engine.QUESTIONS_AND_TIMES_PER_MODULE[module_engine.module_name]*60))))
+        progress_value = max(0.0, min(1.0, 1 - (remaining_seconds / (module_engine.QUESTIONS_AND_TIMES_PER_MODULE.get(module_engine.module_name, module_engine.DEFAULT_VALUE)*60))))
         st.progress(progress_value)
     
     with timer_col2:
