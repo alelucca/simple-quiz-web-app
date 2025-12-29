@@ -178,21 +178,21 @@ def show_home_page():
     with col1:
         st.markdown("### 🎯 Quiz Singolo")
         st.write("Domanda per domanda con feedback immediato")
-        if st.button("Inizia", key="btn_single", use_container_width=True):
+        if st.button("Inizia", key="btn_single", width="stretch"):
             st.session_state.app_mode = "single_question_setup"
             st.rerun()
     
     with col2:
         st.markdown("### 📝 Quiz Completo")
         st.write("Rispondi a tutte le domande e ricevi il risultato finale")
-        if st.button("Inizia", key="btn_complete", use_container_width=True):
+        if st.button("Inizia", key="btn_complete", width="stretch"):
             st.session_state.app_mode = "complete_setup"
             st.rerun()
     
     with col3:
         st.markdown("### ⏱️ Simula Esame")
         st.write("Come se fossi in sede d'esame")
-        if st.button("Inizia", key="btn_exam", use_container_width=True):
+        if st.button("Inizia", key="btn_exam", width="stretch"):
             st.session_state.app_mode = "exam_setup"
             st.rerun()
     
@@ -328,7 +328,7 @@ def show_single_question_quiz():
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        if st.button("✔️ Invia Risposta", use_container_width=True, disabled=st.session_state.showing_answer):
+        if st.button("✔️ Invia Risposta", width="stretch", disabled=st.session_state.showing_answer):
             is_correct, correct_answer = engine.check_answer(answer)
             
             # Log risposta
@@ -357,7 +357,7 @@ def show_single_question_quiz():
     
     with col2:
         button_label = "➡️ Domanda Successiva" if st.session_state.showing_answer else "⏭️ Salta Domanda"
-        if st.button(button_label, use_container_width=True):
+        if st.button(button_label, width="stretch"):
             if not st.session_state.showing_answer:
                 engine.skip_question()
             st.session_state.feedback_message = None
@@ -365,14 +365,14 @@ def show_single_question_quiz():
             st.rerun()
     
     with col3:
-        if st.button("👁️ Mostra Risposta", use_container_width=True, disabled=st.session_state.showing_answer):
+        if st.button("👁️ Mostra Risposta", width="stretch", disabled=st.session_state.showing_answer):
             correct = engine.show_answer()
             st.session_state.feedback_message = f"💡 La risposta corretta è: {correct}"
             st.session_state.showing_answer = True
             st.rerun()
     
     with col4:
-        if st.button("🛑 Termina Quiz", use_container_width=True):
+        if st.button("🛑 Termina Quiz", width="stretch"):
             st.session_state.app_mode = "single_question_results"
             st.session_state.showing_answer = False
             st.rerun()
@@ -431,7 +431,7 @@ def show_single_question_results():
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button("🔄 Ricomincia da capo", use_container_width=True):
+        if st.button("🔄 Ricomincia da capo", width="stretch"):
             engine.reset()
             st.session_state.feedback_message = None
             st.session_state.session_id = generate_session_id()
@@ -439,7 +439,7 @@ def show_single_question_results():
             st.rerun()
     
     with col2:
-        if st.button("🏠 Torna alla Home", use_container_width=True):
+        if st.button("🏠 Torna alla Home", width="stretch"):
             st.session_state.active_engine = None
             st.session_state.feedback_message = None
             st.session_state.app_mode = "home"
@@ -536,12 +536,12 @@ def show_complete_quiz():
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button("📤 Invia Risposte", use_container_width=True, type="primary"):
+        if st.button("📤 Invia Risposte", width="stretch", type="primary"):
             st.session_state.app_mode = "complete_results"
             st.rerun()
     
     with col2:
-        if st.button("🏠 Annulla", use_container_width=True):
+        if st.button("🏠 Annulla", width="stretch"):
             st.session_state.active_engine = None
             st.session_state.app_mode = "home"
             st.rerun()
@@ -604,14 +604,14 @@ def show_complete_quiz_results():
     col1, col2 = st.columns(2)
     
     with col1:
-        if st.button("🔄 Ricomincia", use_container_width=True):
+        if st.button("🔄 Ricomincia", width="stretch"):
             engine.reset()
             st.session_state.session_id = generate_session_id()
             st.session_state.app_mode = "complete_quiz"
             st.rerun()
     
     with col2:
-        if st.button("🏠 Torna alla Home", use_container_width=True):
+        if st.button("🏠 Torna alla Home", width="stretch"):
             st.session_state.active_engine = None
             st.session_state.app_mode = "home"
             st.rerun()
@@ -769,12 +769,12 @@ def show_exam_quiz():
         
         if has_next:
             with col1:
-                if st.button("▶️ Prossimo Modulo", use_container_width=True):
+                if st.button("▶️ Prossimo Modulo", width="stretch"):                    
                     exam_engine.start_current_module()
                     st.rerun()
         
         with col2 if has_next else col1:
-            if st.button("🛑 Termina Esame", use_container_width=True):
+            if st.button("🛑 Termina Esame", width="stretch"):
                 st.session_state.app_mode = "exam_final_results"
                 st.rerun()
         
@@ -812,7 +812,7 @@ def show_exam_quiz():
     # Bottone Precedente solo se NON è la prima domanda
     if not is_first_question:
         with col1:
-            if st.button("⬅️ Precedente", use_container_width=True):
+            if st.button("⬅️ Precedente", width="stretch"):
                 module_engine.previous_question()
                 st.rerun()
     
@@ -820,7 +820,7 @@ def show_exam_quiz():
     button_col = col1 if is_first_question else col2
     
     with button_col:
-        if st.button("✔️ Invia", use_container_width=True, key="btn_invia_risposta"):
+        if st.button("✔️ Invia", width="stretch", key="btn_invia_risposta"):
             module_engine.save_current_answer(answer)
             
             # Log risposta
@@ -872,7 +872,7 @@ def show_exam_quiz():
         last_button_col = col2 if is_first_question else col3
         
         with last_button_col:
-            if st.button("✅ Termina Modulo", use_container_width=True, type="primary", key="btn_termina_modulo"):
+            if st.button("✅ Termina Modulo", width="stretch", type="primary", key="btn_termina_modulo"):
                 # print(f"[DEBUG] Termina Modulo clicked - Saving answer: {answer}")
                 module_engine.save_current_answer(answer)
                 
@@ -964,7 +964,7 @@ def show_exam_module_results():
     
     if has_next:
         with col1:
-            if st.button("▶️ Prossimo Modulo", use_container_width=True, type="primary"):
+            if st.button("▶️ Prossimo Modulo", width="stretch", type="primary"):
                 # Incrementa l'indice per passare al modulo successivo
                 exam_engine.next_module()
                 # Avvia il timer del prossimo modulo
@@ -976,7 +976,7 @@ def show_exam_module_results():
                 st.rerun()
     
     with col2 if has_next else col1:
-        if st.button("🛑 Termina Esame", use_container_width=True):
+        if st.button("🛑 Termina Esame", width="stretch"):
             st.session_state.app_mode = "exam_final_results"
             st.rerun()
 
@@ -1032,7 +1032,7 @@ def show_exam_final_results():
     
     st.markdown("---")
     
-    if st.button("🏠 Torna alla Home", use_container_width=True):
+    if st.button("🏠 Torna alla Home", width="stretch"):
         st.session_state.active_engine = None
         st.session_state.app_mode = "home"
         st.rerun()
