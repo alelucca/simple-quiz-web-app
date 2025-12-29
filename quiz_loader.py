@@ -22,7 +22,12 @@ class QuizLoader:
         Args:
             quiz_folder: percorso relativo o assoluto alla cartella contenente i JSON
         """
-        self.quiz_folder = Path(quiz_folder)
+        # Risolve il path relativo alla posizione di questo file, non alla working directory
+        if not Path(quiz_folder).is_absolute():
+            base_path = Path(__file__).parent
+            self.quiz_folder = base_path / quiz_folder
+        else:
+            self.quiz_folder = Path(quiz_folder)
         
     def get_available_quizzes(self) -> List[Dict[str, str]]:
         """
@@ -119,7 +124,7 @@ class QuizLoader:
         
         # randomize question order also between various modules
         shuffled_questions = random.shuffle(all_questions)
-        
+
         return shuffled_questions
     
     def _normalize_question(self, question: Dict[str, Any], source_file: str) -> Dict[str, Any]:
