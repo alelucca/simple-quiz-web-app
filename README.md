@@ -1,34 +1,32 @@
-# Quiz App - Applicazione Streamlit per Quiz Interattivi
+# Quiz App - Streamlit Interactive Quiz Application
 
-Applicazione web per la fruizione di quiz con tre modalità:
-1. **Quiz domanda per domanda**
-2. **Quiz completo**
-3. **Simulazione esame**
+Web application for interactive quizzes with three modes:
+1. **Question by Question Quiz**
+2. **Complete Quiz**
+3. **Exam Simulation**
 
-I quiz caricati al momento riguardano un corso di laurea di infermieristica.
+## If you want to use the Streamlit application with pre-loaded quizzes
 
-## Se vuoi usare l'applicazione Streamlit con i quiz pre-inseriti
+1. Go to the link
+2. Register
+3. Log in
+4. Try a mode
 
-1. Vai a [questo link](https://simple-quiz-web-app-hxt7cvzfd2nk63bys9zgg5.streamlit.app/) 
-2. Registrati
-3. Fai il login
-4. Prova una modalità
+## If you like the idea but want to customize it with your own quizzes
 
-## Se ti piace l'idea ma vuoi personalizzarla con i tuoi quiz
+1. Clone or download the repository
 
-1. Clona o scarica il repository
-
-2. Installa le dipendenze:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Configura le credenziali per il logging delle registrazioni in `.streamlit/secrets.toml`. Puoi seguire [questa guida](https://docs.streamlit.io/develop/tutorials/databases/private-gsheet) per eventuali dubbi.
+3. Configure credentials for registration logging in `.streamlit/secrets.toml`. You can follow [this guide](https://docs.streamlit.io/develop/tutorials/databases/private-gsheet) for any questions.
 
-4. Carica i tuoi quiz nella cartella `QUIZ_CLEAN/JSON`
-   Regole per caricare i quiz: 
-   - Il file .json deve chiamarsi *_final.json
-   - Il file di quiz deve avere questo formato
+4. Upload your quizzes to the `QUIZ_CLEAN/JSON` folder
+   Rules for uploading quizzes:
+   - The .json file must be named *_final.json
+   - The quiz file must have this format:
       ```json
       [
         {
@@ -39,77 +37,75 @@ pip install -r requirements.txt
         }
       ]
       ```
-    NB: Puoi usare validate_quiz.py per verificare la correttezza dei quiz inseriti e inserire in automatico anche il codice della domanda
+    NB: You can use validate_quiz.py to verify the correctness of inserted quizzes and automatically add question codes
 
-5. Per la modalità esame, specifica il numero di domande in `exam_engine.py` (viene considerato 1 min per domanda)
+5. For exam mode, specify the number of questions in `exam_engine.py` (1 minute per question is considered)
    ```python
    QUESTIONS_AND_TIMES_PER_MODULE = {
-        "Farmacologia Clinica": 30, # come chiave, prima lettera maiuscola e spazio tra parole
-        "Il Mio Quiz": 13
+        "Module Name": 30, # as key, first letter capitalized and space between words
+        "My Quiz": 13
     }
-    DEFAULT_VALUE = 15 # valore di default: 15 domande in 15 minuti
+    DEFAULT_VALUE = 15 # default value: 15 questions in 15 minutes
     ```
 
-6. Test o utilizzo in locale
+6. Testing or local usage
 
-  Avvia l'applicazione:
+  Launch the application:
   ```bash
   streamlit run streamlit_app.py
   ```
 
-  L'app si aprirà nel browser all'indirizzo `http://localhost:8501`
+  The app will open in your browser at `http://localhost:8501`
 
 
-## 📚 Modalità Quiz
+## 📚 Quiz Modes
 
-### 1. Quiz Domanda per Domanda
+### 1. Question by Question Quiz
 
-- Seleziona uno o più moduli
-- Le domande vengono estratte casualmente senza ripetizioni
-- Per ogni domanda puoi:
-  - **Inviare** la risposta (con feedback immediato e possibilità di riprovare)
-  - **Saltare** la domanda
-  - **Mostrare** la risposta corretta
-  - **Terminare** il quiz anticipatamente
+- Select one or more modules
+- Questions are randomly extracted without repetition
+- For each question you can:
+  - **Submit** the answer (with immediate feedback and retry option)
+  - **Skip** the question
+  - **Show** the correct answer
+  - **End** the quiz early
 
-- Statistiche finali mostrate quando si termina il quiz
+- Final statistics shown when the quiz ends
 
-### 2. Quiz Completo
+### 2. Complete Quiz
 
-- Seleziona un solo modulo
-- Visualizza tutte le domande in sequenza
-- Rispondi a tutte le domande
-- Clicca "Invia Risposte" per vedere il risultato finale
-- Visualizza il dettaglio di ogni risposta (corretta/errata)
+- Select a single module
+- View all questions in sequence
+- Answer all questions
+- Click "Submit Answers" to see the final result
+- View details of each answer (correct/incorrect)
 
-### 3. Simulazione Esame
+### 3. Exam Simulation
 
-- Seleziona uno o più moduli
-- Per ogni modulo è definito il numero di domande e il tempo come all'esame
-- Naviga tra le domande con i pulsanti
-- Salva le risposte prima di passare alla successiva
-- Mappa visuale delle domande risposte
-- Risultato per ogni modulo + punteggio complessivo
+- Select one or more modules
+- For each module, the number of questions and time are defined as in a real exam
+- Navigate between questions with buttons
+- Save answers before moving to the next one
+- Visual map of answered questions
+- Result for each module + overall score
 
-### TODO: Sistema di Logging
+### TODO: Move JSON Files from In-Memory to Persistent Storage
 
-## 🗂️ Struttura File
+## 🗂️ File Structure
 
 ```
 .
-├── streamlit_app.py              # App principale
-├── quiz_loader.py                # Loader JSON
-├── quiz_engine.py                # Engine quiz singolo
-├── complete_quiz_engine.py       # Engine quiz completo
-├── exam_engine.py                # Engine esame
-├── auth.py                       # Autenticazione con gsheets
-├── logger.py                     # Logging (da integrare)
-├── requirements.txt              # Dipendenze Python
-├── README.md                     # Questo file
+├── streamlit_app.py              # Main app
+├── quiz_loader.py                # JSON loader
+├── quiz_engine.py                # Single quiz engine
+├── complete_quiz_engine.py       # Complete quiz engine
+├── exam_engine.py                # Exam engine
+├── auth.py                       # Authentication with gsheets
+├── logger.py                     # Logging (to be integrated)
+├── requirements.txt              # Python dependencies
+├── README.md                     # This file
 └── QUIZ_CLEAN/
     └── JSON/
-        ├── farmacologia_generale_final.json
-        ├── farmacologia_clinica_final.json
-        ├── aptd_final.json
-        └── radioprotezione_final.json
+        ├── *_final.json        
+        
 ```
