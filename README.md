@@ -7,7 +7,7 @@ Web application for interactive quizzes with three modes:
 
 ## If you want to use the Streamlit application with pre-loaded quizzes
 
-1. Click [https://simple-quiz-web-app-hxt7cvzfd2nk63bys9zgg5.streamlit.app/](this link)
+1. Click [this link](https://simple-quiz-web-app-hxt7cvzfd2nk63bys9zgg5.streamlit.app/)
 2. Register
 3. Log in
 4. Try a mode
