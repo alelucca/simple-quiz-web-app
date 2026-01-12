@@ -44,7 +44,9 @@ class ExamModuleEngine:
         "Farmacologia Clinica": 30,
         "Farmacologia Generale": 30,
         "Aptd": 15,
-        "Radioprotezione": 15
+        "Radioprotezione": 15,
+        "Patologia": 20,
+        "Fisiopatologia": 10
     }
     DEFAULT_VALUE = 15
     
