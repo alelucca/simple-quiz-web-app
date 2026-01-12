@@ -1,0 +1,962 @@
+[
+  {
+    "num_domanda": 1,
+    "domanda": "Il deficit di alfat-antitripsina è coinvolto in una sola delle seguenti patologie polmonari, indicare quale:",
+    "opzioni": [
+      "Asma",
+      "Enfisema polmonare",
+      "Fibrosi cistica",
+      "Polmonite interstiziale diffusa"
+    ],
+    "risposta_corretta": "Enfisema polmonare",
+    "cod_domanda": "Q07nPSSE"
+  },
+  {
+    "num_domanda": 2,
+    "domanda": "Quale proteina abilita al trasporto del ferro nel sangue?",
+    "opzioni": [
+      "Transferrina",
+      "Emoglobina",
+      "Albumina",
+      "Ferritina"
+    ],
+    "risposta_corretta": "Transferrina",
+    "cod_domanda": "S5lQcLcu"
+  },
+  {
+    "num_domanda": 3,
+    "domanda": "Quale tra le seguenti possono essere causa di insufficienza cardiaca:",
+    "opzioni": [
+      "Solo fibrillazione",
+      "Solo anemia",
+      "Solo ipertiroidismo",
+      "Tutte le risposte sono corrette (anemia, ipertiroidismo, fibrillazione)"
+    ],
+    "risposta_corretta": "Tutte le risposte sono corrette (anemia, ipertiroidismo, fibrillazione)",
+    "cod_domanda": "1uQhH178"
+  },
+  {
+    "num_domanda": 4,
+    "domanda": "L’insufficienza renale acuta può essere determinata da:",
+    "opzioni": [
+      "Glomerulonefrite e insufficienza cardiaca",
+      "Ipertensione e diabete",
+      "Esercizio fisico intenso e dieta ricca di proteine",
+      "Disidratazione e infezioni del tratto urinario"
+    ],
+    "risposta_corretta": "Glomerulonefrite e insufficienza cardiaca",
+    "cod_domanda": "hXyptKbN"
+  },
+  {
+    "num_domanda": 5,
+    "domanda": "Cosa si intende per emocateresi?",
+    "opzioni": [
+      "Coagulazione del sangue",
+      "Produzione di globuli rossi",
+      "Distruzione dei globuli rossi",
+      "Aumento della viscosità del sangue"
+    ],
+    "risposta_corretta": "Distruzione dei globuli rossi",
+    "cod_domanda": "y3XQiA5u"
+  },
+  {
+    "num_domanda": 6,
+    "domanda": "Cosa si intende per bilirubina libera?",
+    "opzioni": [
+      "La bilirubina prodotta dal fegato",
+      "La frazione di bilirubina legata all’albumina",
+      "La bilirubina escreta nelle urine",
+      "La frazione di bilirubina non legata all’albumina"
+    ],
+    "risposta_corretta": "La frazione di bilirubina legata all’albumina",
+    "cod_domanda": "GC6N5N7u"
+  },
+  {
+    "num_domanda": 7,
+    "domanda": "Quale di questi prodotti è un emoderivato?",
+    "opzioni": [
+      "Amoxicillina",
+      "Eritrociti",
+      "Insulina",
+      "Albumina"
+    ],
+    "risposta_corretta": "Albumina",
+    "cod_domanda": "lAHiCB0u"
+  },
+  {
+    "num_domanda": 8,
+    "domanda": "Quale delle seguenti affermazioni è vera per l’insufficienza pre-natale?",
+    "opzioni": [
+      "Si manifesta solo dopo la nascita",
+      "È sempre causata da infezioni post-natali",
+      "È la forma più frequente di insufficienza renale",
+      "È la forma meno frequente di insufficienza renale"
+    ],
+    "risposta_corretta": "È la forma più frequente di insufficienza renale",
+    "cod_domanda": "pJrA7Qs1"
+  },
+  {
+    "num_domanda": 9,
+    "domanda": "Indicare la definizione di refrattarietà:",
+    "opzioni": [
+      "Incapacità genetica a contrarre una malattia",
+      "Sensibilità aumentata a una malattia",
+      "Resistenza acquisita a una malattia",
+      "Capacità genetica a contrarre una malattia"
+    ],
+    "risposta_corretta": "Incapacità genetica a contrarre una malattia",
+    "cod_domanda": "hokrtvmA"
+  },
+  {
+    "num_domanda": 10,
+    "domanda": "Qual è la principale funzione dell’asse ipotalamo-ipofisi ghiandole bersaglio?",
+    "opzioni": [
+      "Regolare la temperatura corporea",
+      "Controllare la frequenza cardiaca",
+      "Rilevare variazioni della concentrazione ematica di ormoni prodotti dalle ghiandole",
+      "Filtrare le tossine dal sangue"
+    ],
+    "risposta_corretta": "Rilevare variazioni della concentrazione ematica di ormoni prodotti dalle ghiandole",
+    "cod_domanda": "bD4Kx8pM"
+  },
+  {
+    "num_domanda": 11,
+    "domanda": "Quale tra le seguenti affermazioni riferita al potassio è falsa?",
+    "opzioni": [
+      "La differenza di concentrazione intra ed extra permette di mantenere il potenziale di membrane per la concentrazione muscolare",
+      "Il potassio è essenziale per la trasmissione dell'impulso nervoso",
+      "Il potassio è il catione più abbondante nel liquido extracellulare",
+      "Il potassio contribuisce alla regolazione della pressione osmotica"
+    ],
+    "risposta_corretta": "La differenza di concentrazione intra ed extra permette di mantenere il potenziale di membrane per la concentrazione muscolare",
+    "cod_domanda": "TIOZBG9G"
+  },
+  {
+    "num_domanda": 12,
+    "domanda": "Quale tra i seguenti fenomeni non è presente in uno stato di shock compensato?",
+    "opzioni": [
+      "Liberazione di adrenalina",
+      "Aumento della frequenza cardiaca",
+      "Vasocostrizione periferica",
+      "Aumento della gittata cardiaca"
+    ],
+    "risposta_corretta": "Liberazione di adrenalina",
+    "cod_domanda": "HG858IgG"
+  },
+  {
+    "num_domanda": 13,
+    "domanda": "Quale tra queste possono essere cause di insufficienza cardiaca?",
+    "opzioni": [
+      "Ipotensione, bradicardia e ipotiroidismo",
+      "Anemia, fibrillazione e ipertiroidismo",
+      "Embolia polmonare, infarto miocardico e stenosi aortica",
+      "Ipertensione, diabete e obesità"
+    ],
+    "risposta_corretta": "Anemia, fibrillazione e ipertiroidismo",
+    "cod_domanda": "IYeWtRyD"
+  },
+  {
+    "num_domanda": 14,
+    "domanda": "Quali di queste cause NON DETERMINA acidosi metabolica?",
+    "opzioni": [
+      "Shock cardiogeno",
+      "Vomito perfuso",
+      "Insufficienza renale",
+      "Diabete mellito"
+    ],
+    "risposta_corretta": "Vomito perfuso",
+    "cod_domanda": "Bs8tjfDN"
+  },
+  {
+    "num_domanda": 15,
+    "domanda": "Quale tra le seguenti alterazioni è tipica delle infezioni parassitarie:",
+    "opzioni": [
+      "Neutrofilia",
+      "Basofilia",
+      "Eosinofilia",
+      "Linfopenia"
+    ],
+    "risposta_corretta": "Eosinofilia",
+    "cod_domanda": "tW4V6gHj"
+  },
+  {
+    "num_domanda": 16,
+    "domanda": "Dal punto di vista fisiologico, cosa comporta l’ascite?",
+    "opzioni": [
+      "Diminuzione della pressione idrostatica capillare",
+      "Perdita di sodio ed acqua dall’organismo",
+      "Aumento della diuresi",
+      "Ritenzione di sodio ed acqua nell’organismo"
+    ],
+    "risposta_corretta": "Ritenzione di sodio ed acqua nell’organismo",
+    "cod_domanda": "kbgCk7HT"
+  },
+  {
+    "num_domanda": 17,
+    "domanda": "Qual è la principale forma di trasporto dell’anidride carbonica nel sangue?",
+    "opzioni": [
+      "Come monossido di carbonio",
+      "Legata all'emoglobina",
+      "Come ione bicarbonato",
+      "Dissolta nel plasma"
+    ],
+    "risposta_corretta": "Come ione bicarbonato",
+    "cod_domanda": "3ahqpt6Z"
+  },
+  {
+    "num_domanda": 18,
+    "domanda": "In quali delle seguenti condizioni diminuisce l’affinità dell’filtrper l’ossigeno?",
+    "opzioni": [
+      "Quando aumenta la temperatura e in condizioni di alcalosi",
+      "Quando aumenta la temperatura e in condizioni di acidosi",
+      "Quando diminuisce la temperatura e in condizioni di acidosi",
+      "Quando diminuisce la temperatura e in condizioni di alcalosi"
+    ],
+    "risposta_corretta": "Quando aumenta la temperatura e in condizioni di acidosi",
+    "cod_domanda": "IftzgztU"
+  },
+  {
+    "num_domanda": 19,
+    "domanda": "In quale delle seguenti condizioni di verifica la riduzione di filtrazione del rene?",
+    "opzioni": [
+      "In tutte le situazioni descritte nelle altre opzioni (shock ipovolemico, insuff. Cardiaca, occlusione trombotica di una arteria renale)",
+      "Solo in caso di insufficienza cardiaca",
+      "Solo in caso di occlusione trombotica di una arteria renale",
+      "Solo in caso di shock ipovolemico"
+    ],
+    "risposta_corretta": "In tutte le situazioni descritte nelle altre opzioni (shock ipovolemico, insuff. Cardiaca, occlusione trombotica di una arteria renale)",
+    "cod_domanda": "OiqJnHM4"
+  },
+  {
+    "num_domanda": 20,
+    "domanda": "L’edema polmonare è una raccolta di trasudato:",
+    "opzioni": [
+      "Solo nell’interstizio polmonare",
+      "Nell’interstizio polmonare e negli alveoli",
+      "Solo negli alveoli",
+      "Nel cavo pleurico"
+    ],
+    "risposta_corretta": "Nell’interstizio polmonare e negli alveoli",
+    "cod_domanda": "GBKEzAl2"
+  },
+  {
+    "num_domanda": 21,
+    "domanda": "Qual è la principale funzione dell’asse ipotalamo-ipofisi- ghiandola bersaglio?",
+    "opzioni": [
+      "Regola la produzione di ormoni in base alla loro concentrazione nel sangue",
+      "Regola la produzione di anticorpi in base alla loro concentrazione nel sangue",
+      "Regola la produzione di neurotrasmettitori in base alla loro concentrazione nel sangue",
+      "Regola la produzione di enzimi in base alla loro concentrazione nel sangue"
+    ],
+    "risposta_corretta": "Regola la produzione di ormoni in base alla loro concentrazione nel sangue",
+    "cod_domanda": "iTCqJ2fm"
+  },
+  {
+    "num_domanda": 22,
+    "domanda": "Cosa si intende per ischemia?",
+    "opzioni": [
+      "Aumento dell’afflusso di sangue in un organo",
+      "Aumento della pressione sanguigna",
+      "Diminuzione dell’afflusso di sangue in un organo",
+      "Diminuzione della pressione sanguigna"
+    ],
+    "risposta_corretta": "Diminuzione dell’afflusso di sangue in un organo",
+    "cod_domanda": "ZbaIyRRl"
+  },
+  {
+    "num_domanda": 23,
+    "domanda": "Quale di questi è un sintomo di uno stato di shock ipovolemico",
+    "opzioni": [
+      "Respiro profondo e lento",
+      "Ipotensione",
+      "tachicardia",
+      "Bradicardia"
+    ],
+    "risposta_corretta": "tachicardia",
+    "cod_domanda": "A007vtq7"
+  },
+  {
+    "num_domanda": 24,
+    "domanda": "Cos’è l’ematocrito?",
+    "opzioni": [
+      "Il volume percentuale della parte corpuscolata del sangue rispetto al volume totale",
+      "La velocità di sedimentazione dei globuli rossi",
+      "La concentrazione di globuli bianchi nel sangue",
+      "La quantità di piastrine nel sangue"
+    ],
+    "risposta_corretta": "Il volume percentuale della parte corpuscolata del sangue rispetto al volume totale",
+    "cod_domanda": "qsMsPxI9"
+  },
+  {
+    "num_domanda": 25,
+    "domanda": "Indicare quale dei seguenti non è un ormone steroideo?",
+    "opzioni": [
+      "Testosterone",
+      "Adrenalina",
+      "Aldosterone",
+      "Cortisolo"
+    ],
+    "risposta_corretta": "Adrenalina",
+    "cod_domanda": "CBhQqq81"
+  },
+  {
+    "num_domanda": 26,
+    "domanda": "Una miocardiopatia è responsabile di:",
+    "opzioni": [
+      "Diminuzione dell’inotropismo cardiaco",
+      "Aumento della frequenza cardiaca",
+      "Aumento dell’inotropismo cardiaco",
+      "Diminuzione della resistenza vascolare periferica"
+    ],
+    "risposta_corretta": "Diminuzione dell’inotropismo cardiaco",
+    "cod_domanda": "F8ABtBzT"
+  },
+  {
+    "num_domanda": 27,
+    "domanda": "Cos’è la capacità funzionale residua?",
+    "opzioni": [
+      "Volume di riserva inspiratorio + volume di riserva espiratorio",
+      "Volume di riserva espiratorio + volume residuo+ volume di aria presente nei polmoni al termina di una normale espirazione",
+      "Volume corrente + volume di riserva inspiratorio + volume di riserva espiratorio",
+      "Volume corrente + volume residuo"
+    ],
+    "risposta_corretta": "Volume di riserva espiratorio + volume residuo+ volume di aria presente nei polmoni al termina di una normale espirazione",
+    "cod_domanda": "BJi3m1VV"
+  },
+  {
+    "num_domanda": 28,
+    "domanda": "Quale delle seguenti affermazioni riferite al flusso ematico renale è vera?",
+    "opzioni": [
+      "Aumenta nel grave shock ipotensivo",
+      "Diminuisce nel grave shock ipotensivo",
+      "Aumenta in caso di disidratazione severa",
+      "Rimane costante in tutte le condizioni"
+    ],
+    "risposta_corretta": "Diminuisce nel grave shock ipotensivo",
+    "cod_domanda": "OodSDf2O"
+  },
+  {
+    "num_domanda": 29,
+    "domanda": "Quale dei seguenti ormoni è implicato nella patogenesi del diabete insipido?",
+    "opzioni": [
+      "Aldosterone",
+      "ADH",
+      "Insulina",
+      "Cortisolo"
+    ],
+    "risposta_corretta": "ADH",
+    "cod_domanda": "VxsGsSKq"
+  },
+  {
+    "num_domanda": 30,
+    "domanda": "In corso di alcalosi respiratoria protratta, qual è il principale meccanismo di compenso",
+    "opzioni": [
+      "Eliminazione di bicarbonato da parte del rene",
+      "Ritenzione di bicarbonato da parte del rene",
+      "Diminuzione dell'escrezione di ioni idrogeno da parte del rene",
+      "Aumento della ventilazione polmonare"
+    ],
+    "risposta_corretta": "Eliminazione di bicarbonato da parte del rene",
+    "cod_domanda": "kUmonCEr"
+  },
+  {
+    "num_domanda": 31,
+    "domanda": "Qual è il principale disordine alla base di un’anemia sideropenica?",
+    "opzioni": [
+      "Eccesso di ferro nel midollo osseo",
+      "Disturbo della sintesi emoglobinica per mancanza del ferro",
+      "Deficit di vitamina B12",
+      "Distruzione accelerata dei globuli rossi"
+    ],
+    "risposta_corretta": "Disturbo della sintesi emoglobinica per mancanza del ferro",
+    "cod_domanda": "AwPzz4EV"
+  },
+  {
+    "num_domanda": 32,
+    "domanda": "Quali delle seguenti molecole aumenta in caso di danno epatico da alcol o da farmaci?",
+    "opzioni": [
+      "ALT (alanina aminotransferasi)",
+      "YGT (gamma glitamiltransferasi)",
+      "Amilasi",
+      "Creatinina"
+    ],
+    "risposta_corretta": "YGT (gamma glitamiltransferasi)",
+    "cod_domanda": "vDnEcpET"
+  },
+  {
+    "num_domanda": 33,
+    "domanda": "Secondo la legge di Frank-star ling:",
+    "opzioni": [
+      "Quando il volume telediastolico ventricolare aumenta, aumenta sempre la forza di contrazione delle miocellule ventricolari",
+      "Quando il volume telediastolico ventricolare aumenta oltre un certo limite, diminuisce sempre la forza di contrazione delle miocellule ventricolari",
+      "Quando il volume telediastolico ventricolare diminuisce, aumenta la forza di contrazione delle miocellule ventricolari",
+      "La forza di contrazione delle miocellule ventricolari è indipendente dal volume telediastolico"
+    ],
+    "risposta_corretta": "Quando il volume telediastolico ventricolare aumenta oltre un certo limite, diminuisce sempre la forza di contrazione delle miocellule ventricolari",
+    "cod_domanda": "umr39HnU"
+  },
+  {
+    "num_domanda": 34,
+    "domanda": "In quale delle seguenti condizioni si riduce la diffusione dell’ossigeno nel microcircolo?",
+    "opzioni": [
+      "Normossia",
+      "Iperossia",
+      "Ipercapnia",
+      "Ipossia"
+    ],
+    "risposta_corretta": "Ipossia",
+    "cod_domanda": "8DpCLOXu"
+  },
+  {
+    "num_domanda": 35,
+    "domanda": "Qual è la normale velocità di filtrazione glomerulare?",
+    "opzioni": [
+      "180 L al giorno (125ml/min)",
+      "90 L al giorno (60ml/min)",
+      "360 L al giorno (250ml/min)",
+      "60 L al giorno (40ml/min)"
+    ],
+    "risposta_corretta": "180 L al giorno (125ml/min)",
+    "cod_domanda": "KWwHiiHp"
+  },
+  {
+    "num_domanda": 36,
+    "domanda": "Quale delle seguenti non è una causa di alcalosi metabolica?",
+    "opzioni": [
+      "Vomito",
+      "Iperventilazione",
+      "Assunzione eccessiva di antiacidi",
+      "Diarrea"
+    ],
+    "risposta_corretta": "Diarrea",
+    "cod_domanda": "enzLS8th"
+  },
+  {
+    "num_domanda": 37,
+    "domanda": "Quale tra i seguenti costituisce la prima forma di compenso di una acidosi metabolica?",
+    "opzioni": [
+      "Bradicardia",
+      "Ipervenilazione",
+      "Diminuzione della gittata cardiaca",
+      "Ipotensione"
+    ],
+    "risposta_corretta": "Ipervenilazione",
+    "cod_domanda": "Uf5U4aiZ"
+  },
+  {
+    "num_domanda": 38,
+    "domanda": "Gli allergeni inducono una risposta mediata dalle?",
+    "opzioni": [
+      "IgG",
+      "IgE",
+      "IgA",
+      "IgM"
+    ],
+    "risposta_corretta": "IgE",
+    "cod_domanda": "h8qPDaT7"
+  },
+  {
+    "num_domanda": 39,
+    "domanda": "Quale tra queste definizioni è ERRATA se riferita ad ipofunzioni endocrine secondare?",
+    "opzioni": [
+      "Può essere dovuta ad agenesia di una ghiandola endocrina",
+      "Può essere dovuta a difetti enzimatici",
+      "Può essere dovuta a difetti del recettore ormonale",
+      "Può essere dovuta a resistenza agli ormoni"
+    ],
+    "risposta_corretta": "Può essere dovuta ad agenesia di una ghiandola endocrina",
+    "cod_domanda": "dFgCEvWj"
+  },
+  {
+    "num_domanda": 40,
+    "domanda": "In caso di piastrinopenia quale delle seguenti manifestazioni cliniche è più probabile?",
+    "opzioni": [
+      "Ipertensione",
+      "Trombosi",
+      "Emorragia",
+      "Policitemia"
+    ],
+    "risposta_corretta": "Emorragia",
+    "cod_domanda": "aeuEBRGg"
+  },
+  {
+    "num_domanda": 41,
+    "domanda": "Quale è il sintomo più grave ed evento spesso terminale nell’insufficienza epatica?",
+    "opzioni": [
+      "Ascite",
+      "Emorragie da varici esofagee",
+      "Encefalopatia porto sistemica",
+      "Ittero"
+    ],
+    "risposta_corretta": "Encefalopatia porto sistemica",
+    "cod_domanda": "FAAbZSSj"
+  },
+  {
+    "num_domanda": 42,
+    "domanda": "L’ipotensione ortostatica si manifesta?",
+    "opzioni": [
+      "Nel passaggio da ortostatismo a clinostatismo",
+      "Nel passaggio da clinostatismo a ortostatismo",
+      "Solo in pazienti con ipertensione",
+      "Durante l'esercizio fisico intenso"
+    ],
+    "risposta_corretta": "Nel passaggio da clinostatismo a ortostatismo",
+    "cod_domanda": "AogrJ2a5"
+  },
+  {
+    "num_domanda": 43,
+    "domanda": "Quali dei seguenti eventi si possono riscontrare in una grave insufficienza respiratoria ipossicoipercapnica?",
+    "opzioni": [
+      "Po2 arteriosa 60 mmhg, Pco2 arteriosa 45 mmhg, tachicardia, pH arterioso 7,35",
+      "Po2 arteriosa mmhg, Pco2 arteriosa 85 mmhg, sopore, pH arterioso 7,15",
+      "Po2 arteriosa 100 mmhg, Pco2 arteriosa 35 mmhg, agitazione, pH arterioso 7,45",
+      "Po2 arteriosa 90 mmhg, Pco2 arteriosa 50 mmhg, dispnea, pH arterioso 7,50"
+    ],
+    "risposta_corretta": "Po2 arteriosa mmhg, Pco2 arteriosa 85 mmhg, sopore, pH arterioso 7,15",
+    "cod_domanda": "UBd0jPPk"
+  },
+  {
+    "num_domanda": 44,
+    "domanda": "Indicare quale di queste alterazioni non è coinvolta dell’insorgenza del colpo di calore tropicale?",
+    "opzioni": [
+      "Ipertermia",
+      "Ipertensione",
+      "Iponatriemia",
+      "Disidratazione"
+    ],
+    "risposta_corretta": "Ipertensione",
+    "cod_domanda": "4CS6rY1L"
+  },
+  {
+    "num_domanda": 45,
+    "domanda": "Per abrasione s’intende?",
+    "opzioni": [
+      "Distruzione degli strati epidermici superficiali",
+      "Idratazione degli strati cutanei",
+      "Formazione di nuove cellule epidermiche",
+      "Distruzione degli strati dermici profondi"
+    ],
+    "risposta_corretta": "Distruzione degli strati epidermici superficiali",
+    "cod_domanda": "Hp7jxAcm"
+  },
+  {
+    "num_domanda": 46,
+    "domanda": "Nella necrosi colliquativa è importante il ruolo?",
+    "opzioni": [
+      "Reticolo endoplasmatico",
+      "Lisosomi",
+      "Ribosomi",
+      "Mitocondri"
+    ],
+    "risposta_corretta": "Lisosomi",
+    "cod_domanda": "OiXobFqF"
+  },
+  {
+    "num_domanda": 47,
+    "domanda": "Cosa si intende per iperproduzione ormonale ectopica?",
+    "opzioni": [
+      "Iperproduzione ormonale da parte di ghiandole endocrine ipertrofiche",
+      "Produzione ormonale normale da parte di tessuti non endocrini",
+      "Iperproduzione ormonale da parte di ghiandole endocrine ectopiche",
+      "Iperproduzione ormonale da parte di neoplasie insorte in tessuti non endocrini"
+    ],
+    "risposta_corretta": "Iperproduzione ormonale da parte di neoplasie insorte in tessuti non endocrini",
+    "cod_domanda": "7J4NLMiY"
+  },
+  {
+    "num_domanda": 48,
+    "domanda": "Una diuresi di 50 ml/die viene definita?",
+    "opzioni": [
+      "Nessuna delle precedenti",
+      "Poliuria",
+      "Oliguria",
+      "Anuria"
+    ],
+    "risposta_corretta": "Nessuna delle precedenti",
+    "cod_domanda": "nVC0t1pL"
+  },
+  {
+    "num_domanda": 49,
+    "domanda": "Nell’acidosi respiratoria non compensata?",
+    "opzioni": [
+      "Il Ph è 45 mmhg",
+      "Il pH è 7.25",
+      "Il pH è 7.35",
+      "Il pH è 7.45"
+    ],
+    "risposta_corretta": "Il Ph è 45 mmhg",
+    "cod_domanda": "86bi0QKy"
+  },
+  {
+    "num_domanda": 50,
+    "domanda": "Quale tra le seguenti non è una funzione fisiologia del rene?",
+    "opzioni": [
+      "Regolare la pressione sanguigna",
+      "Mantenere l'equilibrio idrico",
+      "Regolare l'equilibrio elettrolitico",
+      "Filtrare le proteine"
+    ],
+    "risposta_corretta": "Filtrare le proteine",
+    "cod_domanda": "qkZlxI83"
+  },
+  {
+    "num_domanda": 51,
+    "domanda": "Quale delle seguenti affermazioni riferite alla metaemoglobina è vera?",
+    "opzioni": [
+      "È la forma predominante di emoglobina negli eritrociti normali",
+      "È completamente assente negli eritrociti normali",
+      "Rappresenta circa il 50% di tutta l’emoglobina presente negli eritrociti normali",
+      "Rappresenta circa l’1 % di tutta l’emoglobina presente begli eritrociti normali"
+    ],
+    "risposta_corretta": "Rappresenta circa l’1 % di tutta l’emoglobina presente begli eritrociti normali",
+    "cod_domanda": "p0cY9cAi"
+  },
+  {
+    "num_domanda": 52,
+    "domanda": "Quale tra le seguenti affermazioni riguardo alla cianosi è vera?",
+    "opzioni": [
+      "È presente quando la quantità di emoglobina nel sangue capillare è inferiore a 5 gr/dl",
+      "È un segno di iperossigenazione del sangue",
+      "È causata da un eccesso di globuli rossi nel sangue",
+      "È presente quando la quantità di emoglobina nel sangue capillare è almeno 5 gr/dl"
+    ],
+    "risposta_corretta": "È presente quando la quantità di emoglobina nel sangue capillare è almeno 5 gr/dl",
+    "cod_domanda": "ZrXnSG1h"
+  },
+  {
+    "num_domanda": 53,
+    "domanda": "Quali tra queste conseguenze provoca il tamponamento cardiaco?",
+    "opzioni": [
+      "Ipotensione e bradicardia riflessa",
+      "Aumento della frequenza cardiaca e vasocostrizione periferica",
+      "Aumento della gittata sistolica e ipertrofia ventricolare",
+      "Ostacolo al riempimento diastolico degli atri e riduzione della gittata sistolica"
+    ],
+    "risposta_corretta": "Ostacolo al riempimento diastolico degli atri e riduzione della gittata sistolica",
+    "cod_domanda": "V4Fgt1zp"
+  },
+  {
+    "num_domanda": 54,
+    "domanda": "Qual è la corretta associazione fra le seguenti patologie (a-steatosi, b- calcolosi biliare, c-talassiemia) e i seguenti tipi di ittero (1-preepatico, 2-intraepatico, 3- postepatico)?",
+    "opzioni": [
+      "a2, b1, c3",
+      "a2, b3, c1",
+      "a3, b1, c2",
+      "a1, b2, c3"
+    ],
+    "risposta_corretta": "a2, b3, c1",
+    "cod_domanda": "4cbsboZ3"
+  },
+  {
+    "num_domanda": 55,
+    "domanda": "Quale tra le seguenti affermazioni è vera per l’insufficienza prerenale?",
+    "opzioni": [
+      "È sempre causata da un danno ai reni stessi",
+      "È la forma più frequente di insufficienza renale",
+      "È la forma meno frequente di insufficienza renale",
+      "Non risponde alla terapia con liquidi endovena"
+    ],
+    "risposta_corretta": "È la forma più frequente di insufficienza renale",
+    "cod_domanda": "Ws1dwg8D"
+  },
+  {
+    "num_domanda": 56,
+    "domanda": "A quale tra i seguenti elementi è associato il riassorbimento renale di sodio?",
+    "opzioni": [
+      "Acqua",
+      "Potassio",
+      "Glucosio",
+      "Calcio"
+    ],
+    "risposta_corretta": "Acqua",
+    "cod_domanda": "GP2jn7Oo"
+  },
+  {
+    "num_domanda": 57,
+    "domanda": "Quale delle seguenti definizioni non appartiene all’essudato?",
+    "opzioni": [
+      "Ha un peso specifico superiore a 1,020",
+      "È ricco di globuline",
+      "Contiene cellule infiammatorie",
+      "Il quantitativo di proteine in esso contenuto è solitamente minore 2,5 g/ 100ml"
+    ],
+    "risposta_corretta": "Il quantitativo di proteine in esso contenuto è solitamente minore 2,5 g/ 100ml",
+    "cod_domanda": "h5HCpwPM"
+  },
+  {
+    "num_domanda": 58,
+    "domanda": "Le complicanze dell’ipertensione arteriosa riguardano i seguenti organi?",
+    "opzioni": [
+      "Polmone - Timo - Ghiandole surrenali - Esófago",
+      "Occhio - Rene – Sistema nervoso centrale – Cuore",
+      "Stomaco - Vescica - Utero - Prostata",
+      "Fegato - Pancreas - Milza - Intestino"
+    ],
+    "risposta_corretta": "Occhio - Rene – Sistema nervoso centrale – Cuore",
+    "cod_domanda": "jmeMqLRv"
+  },
+  {
+    "num_domanda": 59,
+    "domanda": "Quali tra le seguenti non è causa di insufficienza respiratoria?",
+    "opzioni": [
+      "Edema polmonare",
+      "Asma",
+      "Tosse",
+      "Polmonite"
+    ],
+    "risposta_corretta": "Tosse",
+    "cod_domanda": "j5QojAIs"
+  },
+  {
+    "num_domanda": 60,
+    "domanda": "Il meccanismo che regola la secrezione di TSH ipofisario in relazione ai valori ematici di ormoni tiroidei è definito?",
+    "opzioni": [
+      "Regolazione diretta",
+      "Feedback positivo",
+      "Feed-forward",
+      "Feedback negativo"
+    ],
+    "risposta_corretta": "Feedback negativo",
+    "cod_domanda": "uatLotZB"
+  },
+  {
+    "num_domanda": 61,
+    "domanda": "Quale delle seguenti affermazioni è vera nell’infarto miocardico?",
+    "opzioni": [
+      "Nessuna delle precedenti",
+      "Solo l'ultima affermazione è vera",
+      "Tutte le precedenti",
+      "Solo la prima affermazione è vera"
+    ],
+    "risposta_corretta": "Tutte le precedenti",
+    "cod_domanda": "orL8pudw"
+  },
+  {
+    "num_domanda": 62,
+    "domanda": "Quali tra questi elementi si trovano sempre aumentati nel sangue in caso di insufficienza renale grave?",
+    "opzioni": [
+      "Potassio e creatitinina oppure potassio e vitamina d3",
+      "Sodio e calcio",
+      "Calcio e vitamina D3",
+      "Magnesio e potassio"
+    ],
+    "risposta_corretta": "Potassio e creatitinina oppure potassio e vitamina d3",
+    "cod_domanda": "xZ4gjLqi"
+  },
+  {
+    "num_domanda": 63,
+    "domanda": "Quali tra questi ormoni presiedono al mantenimento dell’equilibrio idroelettrolitico?",
+    "opzioni": [
+      "Tutte le precedenti (adh, peptide netriuretico atriale, sistema renina angiotensina aldosterone)",
+      "Solo peptide netriuretico atriale",
+      "Solo sistema renina angiotensina aldosterone",
+      "Solo ADH"
+    ],
+    "risposta_corretta": "Tutte le precedenti (adh, peptide netriuretico atriale, sistema renina angiotensina aldosterone)",
+    "cod_domanda": "f54azDS5"
+  },
+  {
+    "num_domanda": 64,
+    "domanda": "Quale delle seguenti molecole aumenta principalmente in caso di colestasi?",
+    "opzioni": [
+      "Fosfatasi alcalina",
+      "Aspartato aminotransferasi",
+      "Alanina aminotransferasi",
+      "Gamma-glutamiltransferasi"
+    ],
+    "risposta_corretta": "Fosfatasi alcalina",
+    "cod_domanda": "CwmIp9jK"
+  },
+  {
+    "num_domanda": 65,
+    "domanda": "Quale tra queste affermazioni è vera nell’ipertensione arteriosa?",
+    "opzioni": [
+      "È sempre dipendente da una carenza di catecolamine",
+      "Tutte le precedenti (la pressione arteriosa sistolica è maggiore di 150, la forma più frequente è quella secondarie ad altre patologie, è sempre dipendente da un’eccessiva secrezione di catecolamine)",
+      "La forma più frequente è quella primaria (essenziale)",
+      "La pressione arteriosa sistolica è sempre inferiore a 120"
+    ],
+    "risposta_corretta": "Tutte le precedenti (la pressione arteriosa sistolica è maggiore di 150, la forma più frequente è quella secondarie ad altre patologie, è sempre dipendente da un’eccessiva secrezione di catecolamine)",
+    "cod_domanda": "QO2W2C00"
+  },
+  {
+    "num_domanda": 66,
+    "domanda": "Quale delle seguenti non può essere abitualmente una causa di epatite cronica?",
+    "opzioni": [
+      "Virus dell’epatite B",
+      "Virus dell’epatite A",
+      "Virus dell’epatite C",
+      "Alcoolismo cronico"
+    ],
+    "risposta_corretta": "Virus dell’epatite A",
+    "cod_domanda": "YtWKRGwl"
+  },
+  {
+    "num_domanda": 67,
+    "domanda": "Come avvengono gli scambi gassosi a livello della membrana alveolocapillare?",
+    "opzioni": [
+      "Per osmosi",
+      "Per gradienti pressori",
+      "Per diffusione semplice",
+      "Per trasporto attivo"
+    ],
+    "risposta_corretta": "Per gradienti pressori",
+    "cod_domanda": "nrVTjVxF"
+  },
+  {
+    "num_domanda": 68,
+    "domanda": "Quali delle seguenti possono essere causa di ipofunzione ormonale primaria?",
+    "opzioni": [
+      "Iperattività della ghiandola pituitaria",
+      "Eccesso di iodio",
+      "Deficit di iodio",
+      "Eccessiva produzione di ormoni tiroidei"
+    ],
+    "risposta_corretta": "Deficit di iodio",
+    "cod_domanda": "rh2WnwUx"
+  },
+  {
+    "num_domanda": 69,
+    "domanda": "Quali sono i segni più caratteristici dello shock cardiogeno?",
+    "opzioni": [
+      "Ipotensione e bradicardia (tachicardia parossistica??)",
+      "Ipertensione e tachicardia",
+      "Ipotensione e tachicardia",
+      "Ipertensione e bradicardia"
+    ],
+    "risposta_corretta": "Ipotensione e bradicardia (tachicardia parossistica??)",
+    "cod_domanda": "Lhd1U06o"
+  },
+  {
+    "num_domanda": 70,
+    "domanda": "Quali tra i seguenti segni sintomi appartengono alle manifestazioni cliniche dell’uremia?",
+    "opzioni": [
+      "Polidipsia, poliuria, edema",
+      "Ipertermia, bradicardia, cefalea",
+      "Anemia, acidosi, vomito",
+      "Diarrea, febbre, ipertensione"
+    ],
+    "risposta_corretta": "Anemia, acidosi, vomito",
+    "cod_domanda": "B33QcBgY"
+  },
+  {
+    "num_domanda": 71,
+    "domanda": "Una miocardiopatia è responsabile di?",
+    "opzioni": [
+      "Diminuzione della frequenza cardiaca",
+      "Diminuzione dell’inotropismo cardiaco",
+      "Aumento dell’inotropismo cardiaco",
+      "Aumento della gittata sistolica"
+    ],
+    "risposta_corretta": "Diminuzione dell’inotropismo cardiaco",
+    "cod_domanda": "OHpjwvtL"
+  },
+  {
+    "num_domanda": 72,
+    "domanda": "Riguardo al controllo metabolico glicidico lipidico e proteico epatico, quale delle seguenti affermazioni è corretta?",
+    "opzioni": [
+      "È attivo solo in condizioni di digiuno",
+      "È attivo solo in senso anabolico",
+      "È attivo sia in senso anabolico che in senso catabolico",
+      "È attivo solo in senso catabolico"
+    ],
+    "risposta_corretta": "È attivo sia in senso anabolico che in senso catabolico",
+    "cod_domanda": "IWdQBCoe"
+  },
+  {
+    "num_domanda": 73,
+    "domanda": "Quale affermazione è FALSA relativamente al diabete mellito di tipo 1:",
+    "opzioni": [
+      "Si controlla mediante la somministrazione di insulina esogena",
+      "Compare più frequentemente in età giovanile rispetto al diabete di tipo 2",
+      "È la forma di diabete più frequente nella popolazione",
+      "È associato a micro e macro-angiopatie"
+    ],
+    "risposta_corretta": "È la forma di diabete più frequente nella popolazione",
+    "cod_domanda": "jYdS1K3K"
+  },
+  {
+    "num_domanda": 74,
+    "domanda": "Quale tra le seguenti non è causa di acidosi metabolica:",
+    "opzioni": [
+      "Diabete mellito scompensato",
+      "Diarrea persistente",
+      "Shock",
+      "Iperventilazione polmonare"
+    ],
+    "risposta_corretta": "Iperventilazione polmonare",
+    "cod_domanda": "Gw1lGjWG"
+  },
+  {
+    "num_domanda": 75,
+    "domanda": "Quale tra i seguenti ormoni presenta ridotta biosintesi in seguito alla deficiente assunzione alimentare di iodio?",
+    "opzioni": [
+      "Ormoni ipofisari",
+      "Glucocorticoidi",
+      "Ormoni tiroidei",
+      "Ormoni ipotalamici"
+    ],
+    "risposta_corretta": "Ormoni tiroidei",
+    "cod_domanda": "FDSLuzmf"
+  },
+  {
+    "num_domanda": 76,
+    "domanda": "Quale tra le seguenti affermazioni non è riferibile alla portata cardiaca:",
+    "opzioni": [
+      "Diminuisce nelle fasi avanzate dell’insufficienza cardiaca",
+      "Nel soggetto normale aumenta, se aumenta il volute telediastolico",
+      "Può raggiungere i 20 litri di sangue al minuto",
+      "È il prodotto fra gittata sistolica e frequenza cardiaca"
+    ],
+    "risposta_corretta": "Può raggiungere i 20 litri di sangue al minuto",
+    "cod_domanda": "T14HOzGy"
+  },
+  {
+    "num_domanda": 77,
+    "domanda": "Quale tra le seguenti affermazioni riferita al potassio è falsa?",
+    "opzioni": [
+      "La sua somministrazione in bolo endovenoso rapido è mortale",
+      "L’insulina promuove il suo spostamento dentro la cellula",
+      "È il principale catione extra-cellulare",
+      "La differenza di concentrazione intra ed extra-cellulare permette di mantenere il potenziale di membrana per la contrazione muscolare"
+    ],
+    "risposta_corretta": "È il principale catione extra-cellulare",
+    "cod_domanda": "ez972Pec"
+  },
+  {
+    "num_domanda": 78,
+    "domanda": "Quale tra le seguenti funzioni non è svolta dal fegato?",
+    "opzioni": [
+      "Sintesi del colesterolo",
+      "Sintesi della vitamina D",
+      "Catabolismo ormonale",
+      "glicogenolisi"
+    ],
+    "risposta_corretta": "Sintesi della vitamina D",
+    "cod_domanda": "prjDpNBT"
+  },
+  {
+    "num_domanda": 79,
+    "domanda": "Quale fra le seguenti affermazioni è vera per l’insufficienza pre-renale?",
+    "opzioni": [
+      "È la forma più frequente di insufficienza renale",
+      "Può dipendere da cause tossiche",
+      "Può essere una conseguenza di un’ostruzione delle vie urinarie",
+      "Può essere una conseguenza di un’ipertensione grave"
+    ],
+    "risposta_corretta": "È la forma più frequente di insufficienza renale",
+    "cod_domanda": "GXrtMsZf"
+  },
+  {
+    "num_domanda": 80,
+    "domanda": "Quale tra i seguenti ormoni pancreatici, ha funzione iperglicemizzante?",
+    "opzioni": [
+      "adrenalina",
+      "somatostatina",
+      "insulina",
+      "Glucagone"
+    ],
+    "risposta_corretta": "Glucagone",
+    "cod_domanda": "1ppviGN0"
+  }
+]

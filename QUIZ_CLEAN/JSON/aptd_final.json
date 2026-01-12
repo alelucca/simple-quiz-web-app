@@ -3,10 +3,10 @@
     "num_domanda": 1,
     "domanda": "A chi spetta la competenza della prescrizione",
     "opzioni": [
-      "è condivisa tra i professionisti appartenenti alle professioni sanitarie",
-      "è esclusiva del medico",
       "è condivisa tra medico ed infermiere",
-      "è esclusiva dell'infermiere"
+      "è esclusiva dell'infermiere",
+      "è esclusiva del medico",
+      "è condivisa tra i professionisti appartenenti alle professioni sanitarie"
     ],
     "risposta_corretta": "è esclusiva del medico",
     "cod_domanda": "eZzUimgy"
@@ -15,10 +15,10 @@
     "num_domanda": 2,
     "domanda": "A cosa fa riferimento Joint Commission International quando parla di “Prescrizione verbale/telefonica ripetuta”?",
     "opzioni": [
-      "quando l'infermiere riceve una prescrizione verbale o telefonica ripete al medico che non può essere considerata valida",
-      "il medico può prescrivere verbalmente o telefonicamente all'infermiere di somministrare ripetutamente il farmaco al paziente",
+      "quando l'infermiere riceve una prescrizione verbale chiede al medico di ripeterla due volte",
       "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile",
-      "quando l'infermiere riceve una prescrizione verbale chiede al medico di ripeterla due volte"
+      "quando l'infermiere riceve una prescrizione verbale o telefonica ripete al medico che non può essere considerata valida",
+      "il medico può prescrivere verbalmente o telefonicamente all'infermiere di somministrare ripetutamente il farmaco al paziente"
     ],
     "risposta_corretta": "quando l'infermiere riceve una prescrizione verbale o telefonica la ripete ad alta voce al medico prescrittore, riceve conferma della correttezza e completezza e si attiva per farla registrare il prima possibile",
     "cod_domanda": "eomZCndF"
@@ -29,8 +29,8 @@
     "opzioni": [
       "tutte le precedenti",
       "lontano da umidità e fonti di calore",
-      "nella loro confezione originale",
-      "rispettando le indicazioni circa la temperatura"
+      "rispettando le indicazioni circa la temperatura",
+      "nella loro confezione originale"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "yuuUbNPC"
@@ -40,9 +40,9 @@
     "domanda": "Gli standard di somministrazione sicura della terapia:",
     "opzioni": [
       "presuppongono un atto unitario, sequenziale e cronologico",
-      "prevedono l'applicazione degli standard denominati “sette G” prima dell'assunzione da parte del paziente",
       "tutte le precedenti",
-      "sono azioni mirate a garantire la sicurezza nella pratica assistenziale"
+      "sono azioni mirate a garantire la sicurezza nella pratica assistenziale",
+      "prevedono l'applicazione degli standard denominati “sette G” prima dell'assunzione da parte del paziente"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "L6TMS04J"
@@ -53,8 +53,8 @@
     "opzioni": [
       "farmaci che richiedono particolare attenzione nella gestione da parte della farmacia centrale",
       "farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni",
-      "farmaci che richiedono particolare attenzione nella gestione per il costo elevato",
-      "tutti i farmaci"
+      "tutti i farmaci",
+      "farmaci che richiedono particolare attenzione nella gestione per il costo elevato"
     ],
     "risposta_corretta": "farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni",
     "cod_domanda": "7m9nAhVU"
@@ -64,9 +64,9 @@
     "domanda": "A cosa si riferisce l'acronimo “LASA”?",
     "opzioni": [
       "ai farmaci che possono essere scambiati con altri per la somiglianza grafica",
+      "alla procedura di conservazione/registrazione dei farmaci stupefacenti",
       "ai farmaci ad alto livello di attenzione",
-      "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome",
-      "alla procedura di conservazione/registrazione dei farmaci stupefacenti"
+      "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome"
     ],
     "risposta_corretta": "ai farmaci che possono essere scambiati con altri per la somiglianza grafica e/o fonetica del nome",
     "cod_domanda": "Rfo76XeA"
@@ -75,10 +75,10 @@
     "num_domanda": 7,
     "domanda": "Quali sono le sedi elettive per l'esecuzione di un prelievo venoso?",
     "opzioni": [
-      "vene della mano",
-      "vene della fossa cubitale",
+      "vene degli arti inferiori",
       "vene del cavo popliteo",
-      "vene degli arti inferiori"
+      "vene della mano",
+      "vene della fossa cubitale"
     ],
     "risposta_corretta": "vene della fossa cubitale",
     "cod_domanda": "8qBG33Uj"
@@ -87,10 +87,10 @@
     "num_domanda": 8,
     "domanda": "Che cosa è un'indagine di laboratorio?",
     "opzioni": [
-      "è un procedimento analitico volto ad evidenziare la presenza di alterazioni del profilo genetico di un substrato",
-      "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico",
       "è un procedimento analitico attuato su animali, detti “cavie da laboratorio” per testare i farmaci prima di commercializzarli",
-      "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente esclusivamente nel sangue"
+      "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico",
+      "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente esclusivamente nel sangue",
+      "è un procedimento analitico volto ad evidenziare la presenza di alterazioni del profilo genetico di un substrato"
     ],
     "risposta_corretta": "è un procedimento analitico volto ad evidenziare la presenza, a misurare la quantità o definire le caratteristiche morfologiche di un costituente biochimico o di una cellula presente in un determinato materiale biologico",
     "cod_domanda": "gjlWkks8"
@@ -99,8 +99,8 @@
     "num_domanda": 9,
     "domanda": "Il volume di sangue per emocoltura raccomandato nell'adulto va:",
     "opzioni": [
-      "da 10 a 20 ml per flacone",
       "da 5 a 10 ml per flacone",
+      "da 10 a 20 ml per flacone",
       "da 20 a 30 ml per set di flaconi",
       "da 10 a 20 ml per set di flaconi"
     ],
@@ -111,10 +111,10 @@
     "num_domanda": 10,
     "domanda": "Al termine di un'infusione endovenosa il lavaggio dell'ago cannula deve essere effettuato:",
     "opzioni": [
-      "mai non è necessario alcun lavaggio",
       "solo se si è somministrato farmaci irritanti",
       "sempre con soluzione fisiologica 0,9%",
-      "sempre con soluzione eparinata"
+      "sempre con soluzione eparinata",
+      "mai non è necessario alcun lavaggio"
     ],
     "risposta_corretta": "sempre con soluzione fisiologica 0,9%",
     "cod_domanda": "hNjcWJMu"
@@ -123,10 +123,10 @@
     "num_domanda": 11,
     "domanda": "Per la somministrazione di iniezioni intramuscolari è considerata più sicura e meno dolorosa:",
     "opzioni": [
-      "sede dorsoglutea",
       "sede deltoidea",
-      "sede ventroglutea",
-      "sede retto femorale"
+      "sede retto femorale",
+      "sede dorsoglutea",
+      "sede ventroglutea"
     ],
     "risposta_corretta": "sede ventroglutea",
     "cod_domanda": "lsB2YGcu"
@@ -135,10 +135,10 @@
     "num_domanda": 12,
     "domanda": "Quale arteria è utilizzabile dall'infermiere per il prelievo di sangue arterioso?",
     "opzioni": [
-      "nessuna",
-      "entrambe",
+      "radiale",
       "femorale",
-      "radiale"
+      "nessuna",
+      "entrambe"
     ],
     "risposta_corretta": "radiale",
     "cod_domanda": "59dk5rkI"
@@ -147,8 +147,8 @@
     "num_domanda": 13,
     "domanda": "Qual è la complicanza più frequente legata alla terapia sottocutanea con eparina a basso peso molecolare?",
     "opzioni": [
-      "embolia gassosa",
       "ascesso sterile",
+      "embolia gassosa",
       "lipodistrofia muscolare",
       "ematomi locali"
     ],
@@ -160,9 +160,9 @@
     "domanda": "Come viene definito nella letteratura infermieristica l'accordo raggiunto tra operatore sanitario e assistito che rispetti le credenze e i desideri di quest'ultimo sulla gestione dei farmaci?",
     "opzioni": [
       "coping",
-      "concordance",
+      "compliance",
       "aderenza",
-      "compliance"
+      "concordance"
     ],
     "risposta_corretta": "concordance",
     "cod_domanda": "nFdIfdY8"
@@ -171,9 +171,9 @@
     "num_domanda": 15,
     "domanda": "Come si misura il diametro di un ago?",
     "opzioni": [
+      "in gauge",
       "in milliequivalenti",
       "in millimetri",
-      "in gauge",
       "in french"
     ],
     "risposta_corretta": "in gauge",
@@ -183,9 +183,9 @@
     "num_domanda": 16,
     "domanda": "Con la somministrazione dei farmaci attraverso la via sublinguale:",
     "opzioni": [
+      "si può ottenere un assorbimento lento e costante nelle 24 ore",
       "si possono somministrare farmaci ai bambini di età inferiore ai 18 mesi",
       "si curano le lesioni della mucosa del cavo orale",
-      "si può ottenere un assorbimento lento e costante nelle 24 ore",
       "si evita l'effetto di primo passaggio epatico"
     ],
     "risposta_corretta": "si evita l'effetto di primo passaggio epatico",
@@ -195,10 +195,10 @@
     "num_domanda": 17,
     "domanda": "Il registro di carico e scarico di sostanze stupefacenti e psicotrope riguardo alle operazioni di entrata/uscita può essere compilato e firmato da:",
     "opzioni": [
-      "dall'infermiere che somministra il farmaco e/o dall'operatore di supporto presente all'atto",
-      "dagli infermieri presenti nelle 24 ore successive alla somministrazione del farmaco",
+      "dall'infermiere che somministra il farmaco",
       "solo dal coordinatore dell'unità operativa",
-      "dall'infermiere che somministra il farmaco"
+      "dagli infermieri presenti nelle 24 ore successive alla somministrazione del farmaco",
+      "dall'infermiere che somministra il farmaco e/o dall'operatore di supporto presente all'atto"
     ],
     "risposta_corretta": "dall'infermiere che somministra il farmaco",
     "cod_domanda": "ZqyNos9j"
@@ -207,10 +207,10 @@
     "num_domanda": 18,
     "domanda": "Quale affermazione è corretta?",
     "opzioni": [
-      "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e inviati separatamente in laboratorio analisi",
-      "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo",
+      "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere eseguiti e firmati dal medico che ha la responsabilità del prelievo",
       "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere firmati dal medico che ha la responsabilità del prelievo",
-      "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere eseguiti e firmati dal medico che ha la responsabilità del prelievo"
+      "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e inviati separatamente in laboratorio analisi",
+      "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo"
     ],
     "risposta_corretta": "I campioni di sangue per determinare il gruppo sanguigno e le prove di compatibilità devono essere contrassegnati in modo tale da consentire l'identità del soggetto cui appartengono e firmati dal responsabile del prelievo",
     "cod_domanda": "fo0lzPdZ"
@@ -231,10 +231,10 @@
     "num_domanda": 20,
     "domanda": "Quando è possibile utilizzare una prescrizione verbale?",
     "opzioni": [
-      "è sempre consentito, purché il prescrittore sia un medico",
-      "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile",
       "è possibile solo in ambito extra ospedaliero",
-      "non è mai consentito"
+      "non è mai consentito",
+      "è sempre consentito, purché il prescrittore sia un medico",
+      "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile"
     ],
     "risposta_corretta": "è possibile solo in situazioni urgenti dove la scrittura immediata non è possibile",
     "cod_domanda": "zWb34Ltu"
@@ -244,8 +244,8 @@
     "domanda": "Come può essere espresso il dosaggio di un farmaco?",
     "opzioni": [
       "chilocalorie, peso, volume",
-      "peso, volume, unità internazionali, milliequivalenti",
       "peso, volume, unità internazionali, costo della singola confezione",
+      "peso, volume, unità internazionali, milliequivalenti",
       "peso, altezza, volume"
     ],
     "risposta_corretta": "peso, volume, unità internazionali, milliequivalenti",
@@ -257,8 +257,8 @@
     "opzioni": [
       "anticoagulanti (dicumarolici-warfarin)",
       "eparina",
-      "tutte le precedenti",
-      "soluzioni concentrate di potassio cloruro (KCI)"
+      "soluzioni concentrate di potassio cloruro (KCI)",
+      "tutte le precedenti"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "MbHVriF1"
@@ -267,10 +267,10 @@
     "num_domanda": 23,
     "domanda": "L'infermiere si assicura che tutti i farmaci siano conservati:",
     "opzioni": [
+      "lontano da umidità, ponendo particolare attenzione ai medicinali antimicotici e polivitaminici",
       "nella loro confezione originale, lontano da umidità e fonti di luce, rispettando le indicazioni circa la temperatura di conservazione",
-      "lontano da umidità e fonti di luce, in frigorifero tra i 2° e 8° C",
       "lontano da umidità e fonti di luce, a temperatura ambiente",
-      "lontano da umidità, ponendo particolare attenzione ai medicinali antimicotici e polivitaminici"
+      "lontano da umidità e fonti di luce, in frigorifero tra i 2° e 8° C"
     ],
     "risposta_corretta": "nella loro confezione originale, lontano da umidità e fonti di luce, rispettando le indicazioni circa la temperatura di conservazione",
     "cod_domanda": "JDxQqEo5"
@@ -279,8 +279,8 @@
     "num_domanda": 24,
     "domanda": "Nei contesti assistenziali in cui sono conservate soluzioni concentrate di potassio cloruro (KCI):",
     "opzioni": [
-      "devono essere conservate nell'armadio dei farmaci riposte in modo che sia in evidenza il nome del prodotto",
       "devono essere conservate separate dagli altri farmaci in armadi chiusi, in contenitori che rechino la segnalazione “diluire prima dell'infusione-mortale se infuso non diluito”",
+      "devono essere conservate nell'armadio dei farmaci riposte in modo che sia in evidenza il nome del prodotto",
       "devono essere conservate separate dagli altri farmaci in armadi chiusi",
       "devono essere conservate nell'armadio dei farmaci in uno spazio separato"
     ],
@@ -292,9 +292,9 @@
     "domanda": "I segni e i sintomi di un'infiltrazione venosa sono:",
     "opzioni": [
       "cute pallida e fredda al tatto, edema, presenza o assenza di dolore",
+      "cute pallida e fredda al tatto, dolore",
       "cute edematosa, calda, arrossata, febbre",
-      "cute pallida e fredda al tatto, edema, fuoriuscita di pus dal sito d'infusione",
-      "cute pallida e fredda al tatto, dolore"
+      "cute pallida e fredda al tatto, edema, fuoriuscita di pus dal sito d'infusione"
     ],
     "risposta_corretta": "cute pallida e fredda al tatto, edema, presenza o assenza di dolore",
     "cod_domanda": "ceRRA2jV"
@@ -303,9 +303,9 @@
     "num_domanda": 26,
     "domanda": "La somministrazione di farmaci per via endovenosa rappresentata da “introduzione di una dose concentrata di farmaco direttamente nella circolazione sistemica” viene definita come:",
     "opzioni": [
-      "bolo endovena",
-      "infusione intermittente",
       "infusione continua",
+      "infusione intermittente",
+      "bolo endovena",
       "ipodermoclisi"
     ],
     "risposta_corretta": "bolo endovena",
@@ -315,9 +315,9 @@
     "num_domanda": 27,
     "domanda": "In merito all'iniezione intradermica quale affermazione è falsa:",
     "opzioni": [
-      "si somministrano generalmente 0,1 ml",
-      "ha finalità diagnostica ed effetto locale",
       "viene effettuata nel derma con inserimento dell'ago con un'angolatura di 10°-15°",
+      "ha finalità diagnostica ed effetto locale",
+      "si somministrano generalmente 0,1 ml",
       "se compare un pomfo significa che è stato penetrato il tessuto ipodermico"
     ],
     "risposta_corretta": "se compare un pomfo significa che è stato penetrato il tessuto ipodermico",
@@ -327,8 +327,8 @@
     "num_domanda": 28,
     "domanda": "In una vena periferica non si può infondere:",
     "opzioni": [
-      "emocomponenti",
       "sacca da 2000 ml di nutrizione parenterale totale (npt)",
+      "emocomponenti",
       "500 ml di soluzione elettrolitica reidratante",
       "500ml di NaCl 0,9% (soluzione fisiologica)"
     ],
@@ -339,10 +339,10 @@
     "num_domanda": 29,
     "domanda": "Da cosa è costituito un sistema chiuso per il prelievo ematico?",
     "opzioni": [
-      "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette in vetro",
       "ago monouso, provette sottovuoto autoaspiranti, contenitore per il trasporto delle provette",
       "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti",
-      "ago monouso e siringa sterile senza ago"
+      "ago monouso e siringa sterile senza ago",
+      "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette in vetro"
     ],
     "risposta_corretta": "ago monouso, sistema di supporto (adattatore o camicia porta provette), provette sottovuoto auto aspiranti",
     "cod_domanda": "MhVHDqBU"
@@ -351,10 +351,10 @@
     "num_domanda": 30,
     "domanda": "Ogni quanto tempo devono essere sostituite le linee infusionali quando si infondono soluzioni a base di lipidi?",
     "opzioni": [
-      "ogni 72 ore",
-      "ogni 12 ore",
       "ogni 24 ore",
-      "ogni volta che si sostituisce la fleboclisi"
+      "ogni 72 ore",
+      "ogni volta che si sostituisce la fleboclisi",
+      "ogni 12 ore"
     ],
     "risposta_corretta": "ogni 24 ore",
     "cod_domanda": "AYNUPtRE"
@@ -363,10 +363,10 @@
     "num_domanda": 31,
     "domanda": "Per evitare che il sangue sia trasfuso a persona sbagliata o trasfuso sangue non compatibile è necessario:",
     "opzioni": [
-      "verificare l'identità dell'assistito in modo attivo e controllare che in cartella clinica sia presente la richiesta di trasfusione",
+      "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori",
       "verificare l'identità dell'assistito in modo attivo attraverso il braccialetto identificativo e il braccialetto con codice colore della trasfusione",
       "verificare l'identità dell'assistito in modo attivo, controllare che il numero della cartella clinica corrisponda a quello del braccialetto identificativo",
-      "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori"
+      "verificare l'identità dell'assistito in modo attivo e controllare che in cartella clinica sia presente la richiesta di trasfusione"
     ],
     "risposta_corretta": "verificare l'identità dell'assistito in modo attivo e con la presenza di due operatori",
     "cod_domanda": "IfkMoqKW"
@@ -375,9 +375,9 @@
     "num_domanda": 32,
     "domanda": "La trasfusione non può durare più di quattro ore perché:",
     "opzioni": [
+      "il sangue può perdere le sue caratteristiche",
       "il sangue può contaminarsi",
       "l'assistito tende ad avere ansia e aumento della PA",
-      "il sangue può perdere le sue caratteristiche",
       "l'anticoagulante contenuto nella sacca può provocare alterazioni dei globuli rossi"
     ],
     "risposta_corretta": "il sangue può contaminarsi",
@@ -387,10 +387,10 @@
     "num_domanda": 33,
     "domanda": "Secondo la normativa vigente dove vengono conservati i farmaci stupefacenti nelle unità operative?",
     "opzioni": [
-      "in cassaforte o un armadio farmaceutico chiuso a chiave collocato nello studio del dirigente medico",
       "in cassaforte o un armadio farmaceutico chiuso a chiave in luogo separato dagli altri farmaci",
+      "nell'armadio dei farmaci che ha la possibilità di essere chiuso a chiave",
       "in un cassetto apposito collocato nello studio del coordinatore responsabile dell'U.O.",
-      "nell'armadio dei farmaci che ha la possibilità di essere chiuso a chiave"
+      "in cassaforte o un armadio farmaceutico chiuso a chiave collocato nello studio del dirigente medico"
     ],
     "risposta_corretta": "in cassaforte o un armadio farmaceutico chiuso a chiave in luogo separato dagli altri farmaci",
     "cod_domanda": "RwfJOAvn"
@@ -399,10 +399,10 @@
     "num_domanda": 34,
     "domanda": "Che cosa si intende per prescrizione farmacologica?",
     "opzioni": [
-      "atto mediante il quale il medico prepara un trattamento specifico, in genere un farmaco, per un paziente",
-      "atto mediante il quale l'infermiere allestisce una via venosa per la somministrazione di un farmaco",
       "atto mediante il quale l'infermiere stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
-      "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente"
+      "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
+      "atto mediante il quale l'infermiere allestisce una via venosa per la somministrazione di un farmaco",
+      "atto mediante il quale il medico prepara un trattamento specifico, in genere un farmaco, per un paziente"
     ],
     "risposta_corretta": "atto mediante il quale il medico stabilisce di preparare o dispensare un trattamento specifico, in genere un farmaco, ad un paziente",
     "cod_domanda": "G3Y2gtMr"
@@ -412,9 +412,9 @@
     "domanda": "Quali sono gli elementi per una prescrizione completa?",
     "opzioni": [
       "tipo di farmaco, dosaggio, ditta farmaceutica produttrice, via di somministrazione",
-      "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico",
       "dosaggio, tempo di somministrazione, via di somministrazione, ditta farmaceutica produttrice, forma farmaceutica",
-      "nome del paziente, nome del medico prescrittore, orario di somministrazione"
+      "nome del paziente, nome del medico prescrittore, orario di somministrazione",
+      "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico"
     ],
     "risposta_corretta": "tipo di farmaco, dosaggio, tempo di somministrazione, via di somministrazione, forma farmaceutica, sottoscrizione del medico",
     "cod_domanda": "Wh2XRwk5"
@@ -423,9 +423,9 @@
     "num_domanda": 36,
     "domanda": "Per applicare lo standard di \"giusto farmaco\" è necessario effettuare il \"triplice controllo\", ovvero:",
     "opzioni": [
-      "lettura del nome del farmaco dalla scheda di terapia, lettura nella fase di apertura della confezione, lettura nella fase di sistemazione della confezione",
-      "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione",
       "nessuna delle precedenti",
+      "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione",
+      "lettura del nome del farmaco dalla scheda di terapia, lettura nella fase di apertura della confezione, lettura nella fase di sistemazione della confezione",
       "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione"
     ],
     "risposta_corretta": "lettura nella fase di selezione della confezione, lettura nella fase di apertura del blister, lettura nella fase di sistemazione della confezione",
@@ -436,8 +436,8 @@
     "domanda": "\"Farmaci che richiedono particolare attenzione nella gestione ed uso a causa della loro potenziale tossicità, del basso indice terapeutico e dell'alta possibilità di interazioni\". Si tratta della definizione di:",
     "opzioni": [
       "farmaci stupefacenti",
-      "nessuna delle precedenti",
       "farmaci ad alto livello di attenzione",
+      "nessuna delle precedenti",
       "antibiotici"
     ],
     "risposta_corretta": "farmaci ad alto livello di attenzione",
@@ -447,10 +447,10 @@
     "num_domanda": 38,
     "domanda": "Le soluzioni concentrate di Potassio cloruro (KCI):",
     "opzioni": [
-      "durante la somministrazione richiedono le precauzioni standard per la somministrazione dei farmaci",
       "possono essere somministrate esclusivamente dal medico",
+      "richiedono il controllo da parte del medico durante la preparazione, etichettatura e somministrazione",
       "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione",
-      "richiedono il controllo da parte del medico durante la preparazione, etichettatura e somministrazione"
+      "durante la somministrazione richiedono le precauzioni standard per la somministrazione dei farmaci"
     ],
     "risposta_corretta": "richiedono il controllo da parte di due operatori durante la preparazione, etichettatura e somministrazione",
     "cod_domanda": "007FJasy"
@@ -459,10 +459,10 @@
     "num_domanda": 39,
     "domanda": "Se un esame deve essere eseguito in \"condizioni basali\" come deve presentarsi la persona?",
     "opzioni": [
-      "può assumere sostanze liquide prima di eseguire l'esame (es. latte zuccherato, succhi di frutta, yogurt bianco)",
-      "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui non può assumere neanche acqua",
+      "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità",
       "non è importante mantenere il digiuno prima dell'esecuzione di un esame",
-      "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità"
+      "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui non può assumere neanche acqua",
+      "può assumere sostanze liquide prima di eseguire l'esame (es. latte zuccherato, succhi di frutta, yogurt bianco)"
     ],
     "risposta_corretta": "deve mantenere il digiuno nelle 8-12 ore precedenti, tempo in cui è possibile assumere acqua in modica quantità",
     "cod_domanda": "dF5WzIAn"
@@ -483,10 +483,10 @@
     "num_domanda": 41,
     "domanda": "La procedura per la raccolta di un campione di sangue per esame colturale prevede:",
     "opzioni": [
-      "di riempire prima il flacone per anaerobi e poi per aerobi e di eseguire la manovra con guanti sterili o guanti non sterili",
       "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili o guanti non sterili",
-      "di riempire i flaconi senza un ordine preciso e di eseguire la manovra con i guanti sterili o non sterili",
-      "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili"
+      "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili",
+      "di riempire prima il flacone per anaerobi e poi per aerobi e di eseguire la manovra con guanti sterili o guanti non sterili",
+      "di riempire i flaconi senza un ordine preciso e di eseguire la manovra con i guanti sterili o non sterili"
     ],
     "risposta_corretta": "di riempire prima il flacone per aerobi e poi per anaerobi e di eseguire la manovra con guanti sterili",
     "cod_domanda": "JR4yMPEB"
@@ -495,9 +495,9 @@
     "num_domanda": 42,
     "domanda": "Quale tra le seguenti affermazioni è falsa?",
     "opzioni": [
-      "in presenza di siringhe pre-dosate di eparina a basso peso molecolare, la bolla presente non va rimossa prima della somministrazione del farmaco",
-      "la manovra di Lesser serve per valutare se l'ago è accidentalmente finito in un vaso",
       "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione",
+      "la manovra di Lesser serve per valutare se l'ago è accidentalmente finito in un vaso",
+      "in presenza di siringhe pre-dosate di eparina a basso peso molecolare, la bolla presente non va rimossa prima della somministrazione del farmaco",
       "la manovra di Lesser non è indicata nella terapia sottocutanea"
     ],
     "risposta_corretta": "il sito di puntura in caso di terapia intramuscolare va massaggiato al termine dell'iniezione",
@@ -507,10 +507,10 @@
     "num_domanda": 43,
     "domanda": "Per prevenire la lipodistrofia in corso di terapia con insulina è utile:",
     "opzioni": [
-      "effettuare tecnica a Z o Z trak",
-      "utilizzare la tecnica del pizzicotto o plica cutanea durante l'iniezione",
       "effettuare la manovra di Lesser",
-      "ruotare i punti di iniezione e le sedi"
+      "effettuare tecnica a Z o Z trak",
+      "ruotare i punti di iniezione e le sedi",
+      "utilizzare la tecnica del pizzicotto o plica cutanea durante l'iniezione"
     ],
     "risposta_corretta": "ruotare i punti di iniezione e le sedi",
     "cod_domanda": "Xn36bfbl"
@@ -519,9 +519,9 @@
     "num_domanda": 44,
     "domanda": "Un ago cannula posizionato in un accesso periferico deve essere sostituito:",
     "opzioni": [
-      "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura",
-      "quando si devono utilizzare soluzioni ipertoniche",
       "mai prima che siano trascorse 72 ore",
+      "quando si devono utilizzare soluzioni ipertoniche",
+      "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura",
       "quando il paziente lo desidera"
     ],
     "risposta_corretta": "entro 24/48 ore se posizionato in condizioni di emergenza e senza garanzia di manovra asettica durante la procedura",
@@ -532,8 +532,8 @@
     "domanda": "Quale affermazione risulta falsa in caso di prelievo per emogasanalisi (arterioso o venoso):",
     "opzioni": [
       "è una procedura dolorosa",
-      "servono occhiali protettivi o maschera con visiera",
       "serve una siringa da 2,5 ml eparinata",
+      "servono occhiali protettivi o maschera con visiera",
       "il campione di sangue va conservato a temperatura ambiente"
     ],
     "risposta_corretta": "il campione di sangue va conservato a temperatura ambiente",
@@ -543,9 +543,9 @@
     "num_domanda": 46,
     "domanda": "Nel caso si debba somministrare terapia per via orale ad una persona disfagica è indicato:",
     "opzioni": [
-      "far rimanere la persona supina 30 minuti dopo la somministrazione",
       "posizionare il farmaco nella parte più tonica della bocca",
       "consigliare l'uso della cannuccia",
+      "far rimanere la persona supina 30 minuti dopo la somministrazione",
       "diluire il più possibile il farmaco"
     ],
     "risposta_corretta": "posizionare il farmaco nella parte più tonica della bocca",
@@ -555,10 +555,10 @@
     "num_domanda": 47,
     "domanda": "L'ipodermoclisi è un'infusione di liquidi per via:",
     "opzioni": [
-      "intradermica",
       "intramuscolare",
       "sottocutanea",
-      "endovenosa"
+      "endovenosa",
+      "intradermica"
     ],
     "risposta_corretta": "sottocutanea",
     "cod_domanda": "9bjxl3RV"
@@ -567,10 +567,10 @@
     "num_domanda": 48,
     "domanda": "Cosa si intende per trasfusione di sangue autologa?",
     "opzioni": [
-      "infusione di sangue o emoderivati provenienti da una persona appartenente alla stessa famiglia (genitore, fratello, figlio) del ricevente",
       "reinfusione alla persona del proprio sangue anticipatamente prelevato e predepositato per provvedere a sue specifiche necessità trasfusionali",
-      "infusione di sangue o emoderivati ricavati da preparazioni anticipatamente lavate e centrifugate",
-      "infusione di sangue o emoderivati provenienti da donatore volontario"
+      "infusione di sangue o emoderivati provenienti da una persona appartenente alla stessa famiglia (genitore, fratello, figlio) del ricevente",
+      "infusione di sangue o emoderivati provenienti da donatore volontario",
+      "infusione di sangue o emoderivati ricavati da preparazioni anticipatamente lavate e centrifugate"
     ],
     "risposta_corretta": "reinfusione alla persona del proprio sangue anticipatamente prelevato e predepositato per provvedere a sue specifiche necessità trasfusionali",
     "cod_domanda": "pY5eo0rZ"
@@ -591,10 +591,10 @@
     "num_domanda": 50,
     "domanda": "Il consenso informato per trasfondere sangue o emoderivati:",
     "opzioni": [
-      "è acquisito dal personale dell'unità operativa attraverso adeguate informazioni e firma di un apposito modulo",
       "è sufficiente il consenso informato presente in cartella clinica riguardante l'accettazione dei trattamenti",
-      "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo",
-      "può essere acquisito verbalmente dall’infermiere in situazioni di routine assistenziale"
+      "è acquisito dal personale dell'unità operativa attraverso adeguate informazioni e firma di un apposito modulo",
+      "può essere acquisito verbalmente dall’infermiere in situazioni di routine assistenziale",
+      "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo"
     ],
     "risposta_corretta": "è acquisito dal medico dopo aver fornito adeguate informazioni ed ottenuto la firma di un apposito modulo",
     "cod_domanda": "3G0as1Jy"
@@ -603,10 +603,10 @@
     "num_domanda": 51,
     "domanda": "Secondo la normativa vigente come deve essere compilato il registro di carico e scarico degli stupefacenti?",
     "opzioni": [
-      "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
+      "Ogni pagina del registro può contenere più preparazioni farmacologiche ma registrate in ordine rigorosamente cronologico di somministrazione, senza lacune di trascrizione, senza lasciare spazi vuoti",
       "Ogni pagina del registro può contenere più preparazioni farmacologiche ma registrate in ordine rigorosamente cronologico di somministrazione, senza lacune di trascrizione, lasciando libera la riga sottostante per eventuali annotazioni",
-      "Ogni pagina del registro intestata ad un assistito, indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
-      "Ogni pagina del registro può contenere più preparazioni farmacologiche ma registrate in ordine rigorosamente cronologico di somministrazione, senza lacune di trascrizione, senza lasciare spazi vuoti"
+      "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
+      "Ogni pagina del registro intestata ad un assistito, indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti"
     ],
     "risposta_corretta": "Ogni pagina del registro intestata ad una preparazione medicinale indicandone forma farmaceutica, dosaggio e unità di misura utilizzata, senza lacune di trascrizione, senza lasciare spazi vuoti",
     "cod_domanda": "oeLqcsmd"
@@ -617,8 +617,8 @@
     "opzioni": [
       "prescrizione imprecisa",
       "prescrizione corrente",
-      "prescrizione imperfetta",
-      "prescrizione incompleta"
+      "prescrizione incompleta",
+      "prescrizione imperfetta"
     ],
     "risposta_corretta": "prescrizione incompleta",
     "cod_domanda": "sGVpOVQ3"
@@ -627,10 +627,10 @@
     "num_domanda": 53,
     "domanda": "L'atto di somministrazione della terapia farmacologica è definito:",
     "opzioni": [
-      "atto medico, sequenziale, documentato",
-      "atto unitario, sequenziale, cronologico",
       "atto infermieristico, tecnico, sequenziale",
-      "atto tecnico, unitario, cronologico"
+      "atto tecnico, unitario, cronologico",
+      "atto unitario, sequenziale, cronologico",
+      "atto medico, sequenziale, documentato"
     ],
     "risposta_corretta": "atto unitario, sequenziale, cronologico",
     "cod_domanda": "6B9pl3jC"
@@ -639,9 +639,9 @@
     "num_domanda": 54,
     "domanda": "I medicinali di automedicazione sono destinati a:",
     "opzioni": [
-      "curare disturbi diagnosticati dallo specialista",
       "curare disturbi facilmente riconoscibili e risolvibili senza ricorrere all'aiuto di un medico",
       "curare disturbi determinati da patologie croniche",
+      "curare disturbi diagnosticati dallo specialista",
       "curare sintomi con effetto placebo"
     ],
     "risposta_corretta": "curare disturbi facilmente riconoscibili e risolvibili senza ricorrere all'aiuto di un medico",
@@ -651,10 +651,10 @@
     "num_domanda": 55,
     "domanda": "In quale D.M è siglata la \"Approvazione del registro di carico e scarico delle sostanze stupefacenti e psicotrope per le unità operative\"?",
     "opzioni": [
-      "14/3/1994",
+      "15/2/1996",
       "25/2/1999",
-      "03/08/2001",
-      "15/2/1996"
+      "14/3/1994",
+      "03/08/2001"
     ],
     "risposta_corretta": "03/08/2001",
     "cod_domanda": "Abz9FyAi"
@@ -663,10 +663,10 @@
     "num_domanda": 56,
     "domanda": "La Raccomandazione ministeriale che si occupa dei farmaci LASA è:",
     "opzioni": [
-      "n° 1/03/2008",
-      "n° 5/09/2009",
       "n° 12/08/2010",
-      "n° 7/03/2008"
+      "n° 7/03/2008",
+      "n° 1/03/2008",
+      "n° 5/09/2009"
     ],
     "risposta_corretta": "n° 12/08/2010",
     "cod_domanda": "vwyhtipC"
@@ -675,10 +675,10 @@
     "num_domanda": 57,
     "domanda": "Quale delle seguenti competenze rientra tra quelle dell'OSS nella somministrazione di farmaci?",
     "opzioni": [
-      "sorvegliare e sospendere la fleboclisi",
-      "preparare e dosare i farmaci secondo prescrizione medica",
       "aiutare per la corretta assunzione dei farmaci prescritti",
-      "aiutare per la corretta somministrazione dei farmaci prescritti"
+      "sorvegliare e sospendere la fleboclisi",
+      "aiutare per la corretta somministrazione dei farmaci prescritti",
+      "preparare e dosare i farmaci secondo prescrizione medica"
     ],
     "risposta_corretta": "aiutare per la corretta assunzione dei farmaci prescritti",
     "cod_domanda": "SPFKryxc"
@@ -687,10 +687,10 @@
     "num_domanda": 58,
     "domanda": "Quale preparato può essere somministrato per via sublinguale?",
     "opzioni": [
-      "spray",
-      "sciroppo",
+      "capsula",
       "collutorio",
-      "capsula"
+      "spray",
+      "sciroppo"
     ],
     "risposta_corretta": "spray",
     "cod_domanda": "DLLRsBOK"
@@ -699,10 +699,10 @@
     "num_domanda": 59,
     "domanda": "In quale tratto dell'apparato gastroenterico avviene il maggiore assorbimento del principio attivo dei medicinali assunti per via orale?",
     "opzioni": [
-      "intestino tenue",
-      "intestino cieco",
       "intestino crasso",
-      "stomaco"
+      "stomaco",
+      "intestino tenue",
+      "intestino cieco"
     ],
     "risposta_corretta": "intestino tenue",
     "cod_domanda": "Qq8Q5XgC"
@@ -711,10 +711,10 @@
     "num_domanda": 60,
     "domanda": "Quale tra le seguenti vie di somministrazione non si utilizza per ottenere un effetto sistemico?",
     "opzioni": [
-      "la via sublinguale",
-      "la via rettale",
       "la via sottocutanea",
-      "la via oftalmica"
+      "la via rettale",
+      "la via oftalmica",
+      "la via sublinguale"
     ],
     "risposta_corretta": "la via oftalmica",
     "cod_domanda": "hNjwoOI8"
@@ -723,10 +723,10 @@
     "num_domanda": 61,
     "domanda": "Quale tra le seguenti non è una complicanza locale della somministrazione di farmaci per via endovenosa?",
     "opzioni": [
-      "tromboflebite",
-      "flebitie",
       "stravaso",
-      "lipodistrofia"
+      "tromboflebite",
+      "lipodistrofia",
+      "flebitie"
     ],
     "risposta_corretta": "lipodistrofia",
     "cod_domanda": "ZNjYPhAk"
@@ -735,10 +735,10 @@
     "num_domanda": 62,
     "domanda": "Nel set di infusione a microgocce 1 ml corrisponde a:",
     "opzioni": [
-      "30 gocce",
       "100 gocce",
-      "40 gocce",
-      "60 gocce"
+      "60 gocce",
+      "30 gocce",
+      "40 gocce"
     ],
     "risposta_corretta": "60 gocce",
     "cod_domanda": "MxReRooK"
@@ -747,10 +747,10 @@
     "num_domanda": 63,
     "domanda": "Per ridurre la comparsa di complicanze locali nella sede di inserzione del catetere venoso periferico è necessario somministrare soluzioni con pH:",
     "opzioni": [
-      "tra 7 e 9",
-      "tra 5 e 9",
       "uguale a 7",
-      "tra 4 e 6"
+      "tra 4 e 6",
+      "tra 7 e 9",
+      "tra 5 e 9"
     ],
     "risposta_corretta": "tra 5 e 9",
     "cod_domanda": "8gB1CxSy"
@@ -759,10 +759,10 @@
     "num_domanda": 64,
     "domanda": "Quale tra le seguenti affermazioni sulla somministrazione di medicinali per via intramuscolare è falsa?",
     "opzioni": [
-      "L'angolo di iniezione intramuscolare ideale è di 90 gradi",
-      "La palpazione del muscolo è superflua per individuare il sito di iniezione corretto",
       "È preferibile utilizzare il sito deltoide per volumi superiori a 1 ml",
-      "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago"
+      "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago",
+      "L'angolo di iniezione intramuscolare ideale è di 90 gradi",
+      "La palpazione del muscolo è superflua per individuare il sito di iniezione corretto"
     ],
     "risposta_corretta": "Una volta iniettato il farmaco bisogna aspettare 30 secondi prima di ritirare l'ago",
     "cod_domanda": "8K01Wk1d"
@@ -771,10 +771,10 @@
     "num_domanda": 65,
     "domanda": "Secondo la National Committee for Clinical Laboratori Standars, 2003, la sequenza di aspirazione prevede:",
     "opzioni": [
-      "Raccolta di sangue per emocultura, provette con esami sul siero, provette contenenti altri anticoagulanti o additivi, provette per coagulazione",
-      "Provette per coagulazione, provette contenenti altri anticoagulanti o additivi, provette con esami sul siero, raccolta di sangue per emocultura",
       "Provette contenenti altri anticoagulanti o additivi, provette per coagulazione, provette con esami sul siero, raccolta di sangue per emocultura",
-      "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi."
+      "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi.",
+      "Raccolta di sangue per emocultura, provette con esami sul siero, provette contenenti altri anticoagulanti o additivi, provette per coagulazione",
+      "Provette per coagulazione, provette contenenti altri anticoagulanti o additivi, provette con esami sul siero, raccolta di sangue per emocultura"
     ],
     "risposta_corretta": "Raccolta di sangue per emocultura, provette con esami sul siero, provette per coagulazione, provette contenenti altri anticoagulanti o additivi.",
     "cod_domanda": "wlji7cMX"
@@ -783,10 +783,10 @@
     "num_domanda": 66,
     "domanda": "In che categorie di persone esiste la controindicazione assoluta all'esecuzione di prelievi sugli arti inferiori?",
     "opzioni": [
-      "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie",
       "Pazienti con ipertensione ben controllata",
       "Pazienti con obesità lieve",
-      "Pazienti con anemia da carenza di ferro stabile"
+      "Pazienti con anemia da carenza di ferro stabile",
+      "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie"
     ],
     "risposta_corretta": "Pazienti diabetici con insufficienza cardiovascolare o malattie circolatorie",
     "cod_domanda": "TIy8iKo5"
@@ -795,10 +795,10 @@
     "num_domanda": 67,
     "domanda": "La prescrizione condizionata è accettabile se:",
     "opzioni": [
+      "Basata su segni clinici rilevabili oggettivamente",
+      "Basata sulla sensazione soggettiva del paziente",
       "Basata sulla preferenza del medico",
-      "Basata su segni clinici rilevabili oggettivamente",
-      "Basata su segni clinici rilevabili oggettivamente",
-      "Basata sulla sensazione soggettiva del paziente"
+      "Basata su segni clinici rilevabili oggettivamente"
     ],
     "risposta_corretta": "Basata su segni clinici rilevabili oggettivamente",
     "cod_domanda": "lOujNyk3"
@@ -807,10 +807,10 @@
     "num_domanda": 68,
     "domanda": "Quale tra i seguenti non è un segno/sintomo di flebite o tromboflebite?",
     "opzioni": [
+      "Ipotermia della sede di inserzione del catetere venoso",
       "Dolore localizzato e costante",
-      "Rossore e calore lungo il percorso della vena",
       "Edema distale all'inserzione del catetere",
-      "Ipotermia della sede di inserzione del catetere venoso"
+      "Rossore e calore lungo il percorso della vena"
     ],
     "risposta_corretta": "Ipotermia della sede di inserzione del catetere venoso",
     "cod_domanda": "J9ZbOffO"
@@ -819,10 +819,10 @@
     "num_domanda": 69,
     "domanda": "Dove si trova la vena cubitale mediana?",
     "opzioni": [
-      "Al centro dell'avambraccio",
+      "Vicino all'articolazione della spalla",
       "Lungo il lato esterno del braccio",
-      "All'interno del polso",
-      "Vicino all'articolazione della spalla"
+      "Al centro dell'avambraccio",
+      "All'interno del polso"
     ],
     "risposta_corretta": "Al centro dell'avambraccio",
     "cod_domanda": "iCpDLYPB"
@@ -831,10 +831,10 @@
     "num_domanda": 70,
     "domanda": "Ten fold error:",
     "opzioni": [
-      "troncare i decimali durante un calcolo",
-      "errore di calcolo che comporta una dose dieci volte superiore o inferiore a quella corretta",
       "arrotondare i decimali per eccesso o difetto",
-      "approssimare i decimali senza criteri standard"
+      "errore di calcolo che comporta una dose dieci volte superiore o inferiore a quella corretta",
+      "approssimare i decimali senza criteri standard",
+      "troncare i decimali durante un calcolo"
     ],
     "risposta_corretta": "errore di calcolo che comporta una dose dieci volte superiore o inferiore a quella corretta",
     "cod_domanda": "q7ZAbITH"
@@ -855,9 +855,9 @@
     "num_domanda": 72,
     "domanda": "Per cosa non viene utilizzata la via intradermica?",
     "opzioni": [
+      "Test cutanei",
       "Prova di reazione alla tubercolina",
       "Desensibilizzazione",
-      "Test cutanei",
       "Terapia immunosoppressiva"
     ],
     "risposta_corretta": "Terapia immunosoppressiva",
@@ -867,10 +867,10 @@
     "num_domanda": 73,
     "domanda": "Quale di questi non è un segno di flebite o tromboflebite?",
     "opzioni": [
-      "Tumefazione",
-      "Palpazione visibile del cordone venoso",
       "Ipotermia della sede di inserzione del CVP",
-      "Eritema e aumento della temperatura cutanea nella sede di inserzione del CVP"
+      "Palpazione visibile del cordone venoso",
+      "Eritema e aumento della temperatura cutanea nella sede di inserzione del CVP",
+      "Tumefazione"
     ],
     "risposta_corretta": "Tumefazione",
     "cod_domanda": "ET3gufqt"
@@ -879,10 +879,10 @@
     "num_domanda": 74,
     "domanda": "Che guanti vengono usati per prelevare una emocoltura e l'ordine delle provette?",
     "opzioni": [
-      "Guanti sterili – solo aerobi",
       "Guanti in lattice – aerobi ed anaerobi",
-      "Guanti non sterili – aerobi ed anaerobi",
-      "Guanti sterili – aerobi ed anaerobi"
+      "Guanti sterili – solo aerobi",
+      "Guanti sterili – aerobi ed anaerobi",
+      "Guanti non sterili – aerobi ed anaerobi"
     ],
     "risposta_corretta": "Guanti sterili – aerobi ed anaerobi",
     "cod_domanda": "M0hUIDj9"
@@ -891,10 +891,10 @@
     "num_domanda": 75,
     "domanda": "Che tipo di siringa si usa per fare una emogasanalisi?",
     "opzioni": [
+      "Siringa standard",
       "Con eparina e conservazione in ghiaccio",
-      "Siringa con EDTA",
       "Siringa pre-eparinizzata a secco",
-      "Siringa standard"
+      "Siringa con EDTA"
     ],
     "risposta_corretta": "Con eparina e conservazione in ghiaccio",
     "cod_domanda": "YRhaLdPc"
@@ -903,10 +903,10 @@
     "num_domanda": 76,
     "domanda": "Come è fatto il registro degli stupefacenti?",
     "opzioni": [
-      "5 pagine, ogni pagina intestata ad un farmaco da banco",
+      "10 pagine, ogni pagina intestata ad una sostanza psicotropa",
       "50 pagine, ogni pagina intestata ad una preparazione galenica",
-      "100 pagine, ogni pagina intestata ad una preparazione medicinale",
-      "10 pagine, ogni pagina intestata ad una sostanza psicotropa"
+      "5 pagine, ogni pagina intestata ad un farmaco da banco",
+      "100 pagine, ogni pagina intestata ad una preparazione medicinale"
     ],
     "risposta_corretta": "100 pagine, ogni pagina intestata ad una preparazione medicinale",
     "cod_domanda": "sGkUdz3V"
@@ -916,9 +916,9 @@
     "domanda": "Quali sono le condizioni basali?",
     "opzioni": [
       "8-10 ore di digiuno",
-      "Nessun digiuno richiesto",
       "12-14 ore di digiuno",
-      "2-4 ore di digiuno"
+      "2-4 ore di digiuno",
+      "Nessun digiuno richiesto"
     ],
     "risposta_corretta": "8-10 ore di digiuno",
     "cod_domanda": "0YKaQsHl"
@@ -927,10 +927,10 @@
     "num_domanda": 78,
     "domanda": "La ragione per quale si sceglie la dimensione di un ago cannula:",
     "opzioni": [
-      "Per ridurre il rischio di flebiti",
       "Per evitare la emolisi",
       "Per minimizzare il dolore del paziente",
-      "Per garantire un flusso ottimale del farmaco in base alla viscosità"
+      "Per garantire un flusso ottimale del farmaco in base alla viscosità",
+      "Per ridurre il rischio di flebiti"
     ],
     "risposta_corretta": "Per evitare la emolisi",
     "cod_domanda": "xdnNZCEP"
@@ -939,9 +939,9 @@
     "num_domanda": 79,
     "domanda": "Cos'è il metodo Lesser?",
     "opzioni": [
-      "Irradiazione",
-      "Iniezione",
       "Aspirazione",
+      "Iniezione",
+      "Irradiazione",
       "Diluizione"
     ],
     "risposta_corretta": "Aspirazione",
