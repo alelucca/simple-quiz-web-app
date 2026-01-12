@@ -2,6 +2,7 @@ import json
 import secrets
 import string
 import os
+import random
 from pathlib import Path
 
 def normalize_question(question, source_file):
@@ -72,6 +73,35 @@ def validate_quiz(quiz_file: str) -> None:
             print(f"Error in question {idx + 1} of {quiz_file}: {str(e)}")
     
     # return normalized_questions
+
+def randomize_correct_answer_option(quiz_file: str):
+    """
+    Mescola l'ordine delle opzioni per ogni domanda nel quiz e salva il file aggiornato
+    
+    Args:
+        quiz_file: nome del file JSON da caricare
+        
+    Returns:
+        None
+    """
+    file_path = f"QUIZ_CLEAN/JSON/{quiz_file}"
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)    
+    
+    # Mescola le opzioni per ogni domanda
+    for question in data:
+        if "opzioni" in question and isinstance(question["opzioni"], list):
+            # Crea una copia delle opzioni originali per confronto
+            original_opzioni = question["opzioni"].copy()
+            
+            # Mescola le opzioni
+            random.shuffle(question["opzioni"])           
+    
+    # Salva il file aggiornato          
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
 
 def assign_unique_question_id(quiz_file: str):
     """
@@ -146,11 +176,7 @@ def main():
             with open(json_dir / filename, 'r', encoding='utf-8') as f:
                 json.load(f)
         except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON file {filename}: {str(e)}")
-        
-        # Valida la struttura del quiz
-        print(f"  Validating structure...")
-        validate_quiz(filename)
+            raise ValueError(f"Invalid JSON file {filename}: {str(e)}")        
         
         # Assegna cod_domanda se mancante
         print(f"  Checking for missing cod_domanda...")
@@ -165,7 +191,10 @@ def main():
         else:
             print(f"  ✓ {filename} already has all cod_domanda assigned")
         
-        print()
+        # Valida la struttura del quiz
+        print(f"  Validating structure...")
+        validate_quiz(filename)
+        randomize_correct_answer_option(filename)
 
 if __name__=="__main__":
     main()
