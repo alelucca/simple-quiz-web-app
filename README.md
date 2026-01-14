@@ -100,6 +100,7 @@ pip install -r requirements.txt
 ├── quiz_engine.py                # Single quiz engine
 ├── complete_quiz_engine.py       # Complete quiz engine
 ├── exam_engine.py                # Exam engine
+├── pdf_parsing.ipynb             # Notebook to parse a pdf using multimodal LLM
 ├── auth.py                       # Authentication with gsheets
 ├── logger.py                     # Logging (to be integrated)
 ├── requirements.txt              # Python dependencies
