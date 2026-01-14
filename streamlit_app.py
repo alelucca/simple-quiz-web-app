@@ -336,6 +336,11 @@ def show_single_question_quiz():
     
     with col1:
         if st.button("✔️ Invia Risposta", width="stretch", disabled=st.session_state.showing_answer):
+            
+            if answer is None:
+                st.session_state.feedback_message = f"❌ Devi selezionare un'opzione!"
+                st.rerun()
+            
             is_correct, correct_answer = engine.check_answer(answer)
             
             # Log risposta
