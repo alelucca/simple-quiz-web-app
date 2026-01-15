@@ -4,9 +4,9 @@
     "domanda": "L'energia dei raggi x è direttamente proporzionale:",
     "opzioni": [
       "alla loro lunghezza d'onda",
-      "alla loro frequenza",
+      "alla velocità della luce",
       "alla loro elasticità",
-      "alla velocità della luce"
+      "alla loro frequenza"
     ],
     "risposta_corretta": "alla loro frequenza",
     "cod_domanda": "CsdWA4Hi"
@@ -15,10 +15,10 @@
     "num_domanda": 2,
     "domanda": "L'imaging plate è:",
     "opzioni": [
+      "un sistema integrato di appiattimento delle immagini",
       "un algoritmo di ricostruzione delle immagini in tac",
       "un tipo di tubo radiogeno",
-      "un detettore che registra sulla propria superficie l'energia dei fotoni x",
-      "un sistema integrato di appiattimento delle immagini"
+      "un detettore che registra sulla propria superficie l'energia dei fotoni x"
     ],
     "risposta_corretta": "un detettore che registra sulla propria superficie l'energia dei fotoni x",
     "cod_domanda": "EhZlbyR6"
@@ -27,9 +27,9 @@
     "num_domanda": 3,
     "domanda": "Lo standard delle immagini digitali in radiologia è:",
     "opzioni": [
-      "Jpg",
-      "Dicom",
       "Rat",
+      "Dicom",
+      "Jpg",
       "Raf"
     ],
     "risposta_corretta": "Dicom",
@@ -39,10 +39,10 @@
     "num_domanda": 4,
     "domanda": "Il maggior contributo alla dose media annuale di radiazioni assorbite è dovuta a:",
     "opzioni": [
-      "prodotti commerciali",
-      "radiodiagnostica e medicina nucleare",
       "radiazione cosmica",
-      "irradiazione interna da sorgenti terrestri (radon)"
+      "prodotti commerciali",
+      "irradiazione interna da sorgenti terrestri (radon)",
+      "radiodiagnostica e medicina nucleare"
     ],
     "risposta_corretta": "irradiazione interna da sorgenti terrestri (radon)",
     "cod_domanda": "UalSENMF"
@@ -51,10 +51,10 @@
     "num_domanda": 5,
     "domanda": "Definizione di effetto deterministico:",
     "opzioni": [
-      "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo",
       "nessuna delle precedenti è corretta",
-      "esiste un valore di dose soglia al di sotto del quale l'effetto si verifica sempre",
-      "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è possibile"
+      "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo",
+      "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è possibile",
+      "esiste un valore di dose soglia al di sotto del quale l'effetto si verifica sempre"
     ],
     "risposta_corretta": "esiste un valore di dose soglia al di sotto del quale l'effetto non si verifica, e al di sopra del quale l'effetto è certo",
     "cod_domanda": "VP1dnJxC"
@@ -63,9 +63,9 @@
     "num_domanda": 6,
     "domanda": "Gli effetti stocastici si dividono in:",
     "opzioni": [
-      "genetici e deterministici",
       "genetici precoci e tardivi",
       "somatici precoci e tardivi",
+      "genetici e deterministici",
       "somatici tardivi e genetici"
     ],
     "risposta_corretta": "somatici tardivi e genetici",
@@ -76,9 +76,9 @@
     "domanda": "Quale delle seguenti affermazioni è corretta riguardo l'esposizione alle radiazioni ionizzanti di pazienti pediatrici?",
     "opzioni": [
       "alcuni organi sono meno radiosensibili di quelli degli adulti",
-      "la dose assorbita è doppia di quella dell'adulto",
+      "alcuni organi sono più radiosensibili di quelli degli adulti",
       "la dose assorbita è la metà di quella dell'adulto",
-      "alcuni organi sono più radiosensibili di quelli degli adulti"
+      "la dose assorbita è doppia di quella dell'adulto"
     ],
     "risposta_corretta": "alcuni organi sono più radiosensibili di quelli degli adulti",
     "cod_domanda": "mnef6SPH"
@@ -87,10 +87,10 @@
     "num_domanda": 8,
     "domanda": "Il fascio di raggi x:",
     "opzioni": [
-      "è emesso dal tubo radiogeno",
-      "è attenuato in misura variabile",
       "ha energia elevata, tale da attraversare il corpo",
-      "tutte le precedenti"
+      "tutte le precedenti",
+      "è attenuato in misura variabile",
+      "è emesso dal tubo radiogeno"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "OwI5LWwd"
@@ -99,10 +99,10 @@
     "num_domanda": 9,
     "domanda": "Il radiogramma del torace in ortostasi è acquisito a:",
     "opzioni": [
-      "180 cm",
       "120 cm",
-      "270 cm",
-      "150 cm"
+      "180 cm",
+      "150 cm",
+      "270 cm"
     ],
     "risposta_corretta": "180 cm",
     "cod_domanda": "qQbjBZM3"
@@ -113,8 +113,8 @@
     "opzioni": [
       "posizionare correttamente il paziente nelle radiografie delle ossa",
       "testare la fluorescenza di diversi materiali",
-      "cercare corpi estranei fluorescenti",
-      "ottenere immagini radiologiche in tempo reale"
+      "ottenere immagini radiologiche in tempo reale",
+      "cercare corpi estranei fluorescenti"
     ],
     "risposta_corretta": "ottenere immagini radiologiche in tempo reale",
     "cod_domanda": "9LL661vM"
@@ -124,9 +124,9 @@
     "domanda": "L'unità di misura della dose assorbita è:",
     "opzioni": [
       "il sievert",
-      "il kerma in aria",
+      "il radon",
       "il grey",
-      "il radon"
+      "il kerma in aria"
     ],
     "risposta_corretta": "il grey",
     "cod_domanda": "yc9ySJ9X"
@@ -135,10 +135,10 @@
     "num_domanda": 12,
     "domanda": "In TC multistrato i parametri per stimare la dose sono:",
     "opzioni": [
-      "il DAP e il CTDI",
-      "il CTDI e il DLP",
       "l'ESD",
-      "il DAP"
+      "il DAP",
+      "il CTDI e il DLP",
+      "il DAP e il CTDI"
     ],
     "risposta_corretta": "il CTDI e il DLP",
     "cod_domanda": "8ZRIhlxe"
@@ -159,10 +159,10 @@
     "num_domanda": 14,
     "domanda": "La regolamentazione dei LDR è stabilita dal decreto:",
     "opzioni": [
-      "D. Lgs 230/95",
-      "D. Lgs 241/00",
+      "D. Lgs 187/00",
       "D. Lgs 237/00",
-      "D. Lgs 187/00"
+      "D. Lgs 241/00",
+      "D. Lgs 230/95"
     ],
     "risposta_corretta": "D. Lgs 187/00",
     "cod_domanda": "NMIX626g"
@@ -173,8 +173,8 @@
     "opzioni": [
       "colpiscono le cellule del midollo osseo",
       "colpiscono le cellule dello stroma ovarico e testicolare",
-      "colpiscono l'individuo irradiato",
-      "colpiscono le generazioni successive dell'individuo irradiato"
+      "colpiscono le generazioni successive dell'individuo irradiato",
+      "colpiscono l'individuo irradiato"
     ],
     "risposta_corretta": "colpiscono le generazioni successive dell'individuo irradiato",
     "cod_domanda": "ckz0pRP7"
@@ -184,8 +184,8 @@
     "domanda": "La dose assorbita non si può misurare in:",
     "opzioni": [
       "rad",
-      "j/kg",
       "ma/s",
+      "j/kg",
       "gray"
     ],
     "risposta_corretta": "ma/s",
@@ -196,9 +196,9 @@
     "domanda": "Quale affermazione circa la dose equivalente è falsa?",
     "opzioni": [
       "è direttamente proporzionale alla dose assorbita",
+      "dipende dal tessuto-organo irradiato",
       "si misura in sievert",
-      "dipende dal tipo di radiazione considerate",
-      "dipende dal tessuto-organo irradiato"
+      "dipende dal tipo di radiazione considerate"
     ],
     "risposta_corretta": "dipende dal tessuto-organo irradiato",
     "cod_domanda": "s9gYWUtW"
@@ -207,10 +207,10 @@
     "num_domanda": 18,
     "domanda": "Quale affermazione circa la dose efficace è falsa?",
     "opzioni": [
-      "dipende dal tessuto-organo irradiato",
+      "si misura in sievert",
       "prende in considerazione gli effetti stocastici",
-      "non dipende dalla dose equivalente",
-      "si misura in sievert"
+      "dipende dal tessuto-organo irradiato",
+      "non dipende dalla dose equivalente"
     ],
     "risposta_corretta": "non dipende dalla dose equivalente",
     "cod_domanda": "xbBg6Vgc"
@@ -219,10 +219,10 @@
     "num_domanda": 19,
     "domanda": "Di queste affermazioni sulla dose in radiologia quale di queste è falsa?",
     "opzioni": [
-      "bisogna usare bassi kv per mantenere bassa la dose",
-      "aumentare la collimazione riduce la dose",
+      "bisogna usare alti kv per mantenere bassa la dose",
       "maggiore è la distanza del tubo dal paziente minore è la dose",
-      "bisogna usare alti kv per mantenere bassa la dose"
+      "bisogna usare bassi kv per mantenere bassa la dose",
+      "aumentare la collimazione riduce la dose"
     ],
     "risposta_corretta": "bisogna usare bassi kv per mantenere bassa la dose",
     "cod_domanda": "fohJsqob"
@@ -231,10 +231,10 @@
     "num_domanda": 20,
     "domanda": "Le radiazioni a bassa energia che non sono utili alla produzione delle immagini si eliminano utilizzando filtri:",
     "opzioni": [
-      "in argento",
-      "in piombo",
+      "in alluminio",
       "in titanio",
-      "in alluminio"
+      "in argento",
+      "in piombo"
     ],
     "risposta_corretta": "in alluminio",
     "cod_domanda": "JOUIBSjh"
@@ -245,8 +245,8 @@
     "opzioni": [
       "hanno un più alto range dinamico",
       "la sovraesposizione può non essere riconosciuta",
-      "i sistemi digitali richiedono una perfetta esposizione",
-      "la sottoesposizione da un'immagine rumorosa"
+      "la sottoesposizione da un'immagine rumorosa",
+      "i sistemi digitali richiedono una perfetta esposizione"
     ],
     "risposta_corretta": "i sistemi digitali richiedono una perfetta esposizione",
     "cod_domanda": "tUNLtbHj"
@@ -255,10 +255,10 @@
     "num_domanda": 22,
     "domanda": "Per ridurre la dose al paziente in fluoroscopia non devo:",
     "opzioni": [
-      "ridurre il tempo di scopia",
-      "aumentare la collimazione",
       "aumentare il numero di immagini/secondo e la risoluzione di contrasto",
-      "mantenere il paziente alla massima distanza dalla sorgente"
+      "mantenere il paziente alla massima distanza dalla sorgente",
+      "aumentare la collimazione",
+      "ridurre il tempo di scopia"
     ],
     "risposta_corretta": "aumentare il numero di immagini/secondo e la risoluzione di contrasto",
     "cod_domanda": "rTfyghLQ"
@@ -267,10 +267,10 @@
     "num_domanda": 23,
     "domanda": "La radiografia del torace si esegue con tubo radiogeno ad almeno 180 cm dal paziente per:",
     "opzioni": [
-      "ridurre l'ingrandimento delle strutture mediastiniche",
-      "ingrandire le immagini dei polmoni",
       "aumentare il contrasto tra mediastino e polmoni",
-      "evitare che cadendo lo possa ferire"
+      "ridurre l'ingrandimento delle strutture mediastiniche",
+      "evitare che cadendo lo possa ferire",
+      "ingrandire le immagini dei polmoni"
     ],
     "risposta_corretta": "ridurre l'ingrandimento delle strutture mediastiniche",
     "cod_domanda": "Sw8FdjB4"
@@ -279,10 +279,10 @@
     "num_domanda": 24,
     "domanda": "La fluoroscopia non viene utilizzata:",
     "opzioni": [
-      "nelle radiografie del polso",
       "in angiografia",
-      "in chirurgia ortopedica",
-      "nelle indagini del tratto gastrointestinale"
+      "nelle indagini del tratto gastrointestinale",
+      "nelle radiografie del polso",
+      "in chirurgia ortopedica"
     ],
     "risposta_corretta": "nelle radiografie del polso",
     "cod_domanda": "6wiCBHyg"
@@ -291,10 +291,10 @@
     "num_domanda": 25,
     "domanda": "La fluoroscopia non si usa:",
     "opzioni": [
+      "in emodinamica",
       "per centrare i pazienti nelle radiografie della mano",
       "in sala ortopedica",
-      "nell'ercp",
-      "in emodinamica"
+      "nell'ercp"
     ],
     "risposta_corretta": "per centrare i pazienti nelle radiografie della mano",
     "cod_domanda": "r467WUS8"
@@ -303,8 +303,8 @@
     "num_domanda": 26,
     "domanda": "Quale delle seguenti affermazioni riferite alla tac è falsa?",
     "opzioni": [
-      "il tubo radiogeno viene fatto ruotare attorno al paziente",
       "i raggi x emessi dal corpo sono registrati da detettori",
+      "il tubo radiogeno viene fatto ruotare attorno al paziente",
       "il paziente viene fatto ruotare tramite lettino a rotazione variabile e il tubo radiogeno è fisso",
       "il computer traduce in immagini i segnali registrati dai detettori"
     ],
@@ -316,8 +316,8 @@
     "domanda": "Non sono radiazioni ionizzanti:",
     "opzioni": [
       "raggi infrarossi",
-      "nuclei di elio ad alta velocità",
       "onde elettromagnetiche ad alta energia",
+      "nuclei di elio ad alta velocità",
       "elettroni ad alta velocità"
     ],
     "risposta_corretta": "raggi infrarossi",
@@ -339,10 +339,10 @@
     "num_domanda": 29,
     "domanda": "Quale di queste affermazioni circa gli effetti stocastici delle radiazioni è falsa?",
     "opzioni": [
-      "si verificano oltre una dose soglia",
-      "possono essere sia genetici che somatici",
       "sono legati a mutazioni del DNA",
-      "sono tendenzialmente tardivi"
+      "sono tendenzialmente tardivi",
+      "si verificano oltre una dose soglia",
+      "possono essere sia genetici che somatici"
     ],
     "risposta_corretta": "si verificano oltre una dose soglia",
     "cod_domanda": "Z8Pi58vo"
@@ -351,10 +351,10 @@
     "num_domanda": 30,
     "domanda": "Quale di queste affermazioni circa gli effetti deterministici delle radiazioni è vera?",
     "opzioni": [
-      "possono essere sia genetici che somatici",
       "sono solo somatici",
-      "non hanno dose soglia",
-      "sono solo genetici"
+      "sono solo genetici",
+      "possono essere sia genetici che somatici",
+      "non hanno dose soglia"
     ],
     "risposta_corretta": "sono solo somatici",
     "cod_domanda": "8TzjAIXS"
@@ -363,9 +363,9 @@
     "num_domanda": 31,
     "domanda": "Effetti deterministici delle radiazioni:",
     "opzioni": [
-      "possono verificarsi anche per le dosi di una radiografia al torace",
-      "oltre la dose soglia aumentando la dose aumenta la probabilità che si verifichino",
       "oltre la dose soglia aumentando la dose aumenta la loro gravità",
+      "oltre la dose soglia aumentando la dose aumenta la probabilità che si verifichino",
+      "possono verificarsi anche per le dosi di una radiografia al torace",
       "non hanno una dose soglia"
     ],
     "risposta_corretta": "oltre la dose soglia aumentando la dose aumenta la loro gravità",
@@ -376,9 +376,9 @@
     "domanda": "Cataratta, eritema cutaneo e depilazione, sindrome da radiazioni:",
     "opzioni": [
       "sono effetti deterministici",
-      "sono effetti stocastici",
       "sono effetti genetici",
-      "si verificano anche per una singola radiografia del torace"
+      "si verificano anche per una singola radiografia del torace",
+      "sono effetti stocastici"
     ],
     "risposta_corretta": "sono effetti deterministici",
     "cod_domanda": "Qv2rAN41"
@@ -387,10 +387,10 @@
     "num_domanda": 33,
     "domanda": "Come funziona il tubo radiogeno?",
     "opzioni": [
-      "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve",
       "nessuna delle affermazioni precedenti è corretta",
-      "si tratta di un tubo di tallio che converte i fotoni emergenti dal corpo attraversato in fotoni di luce visibile",
-      "si tratta di un tubo di vetro nel quale c'è un anodo che emette elettroni e un catodo che li riceve"
+      "si tratta di un tubo di vetro nel quale c'è un anodo che emette elettroni e un catodo che li riceve",
+      "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve",
+      "si tratta di un tubo di tallio che converte i fotoni emergenti dal corpo attraversato in fotoni di luce visibile"
     ],
     "risposta_corretta": "si tratta di un tubo di vetro nel quale c'è un catodo che emette elettroni e un anodo che li riceve",
     "cod_domanda": "hyn77sVT"
@@ -399,10 +399,10 @@
     "num_domanda": 34,
     "domanda": "La radioprotezione si basa principalmente su due principi:",
     "opzioni": [
+      "ottimizzazione e resa diagnostica",
       "giustificazione ed ottimizzazione",
       "giustificazione e resa diagnostica",
-      "giustificazione e potenza diagnostica",
-      "ottimizzazione e resa diagnostica"
+      "giustificazione e potenza diagnostica"
     ],
     "risposta_corretta": "giustificazione ed ottimizzazione",
     "cod_domanda": "ZfImBDql"
@@ -411,10 +411,10 @@
     "num_domanda": 35,
     "domanda": "Tra le apparecchiature di radiodiagnostica contribuisce maggiormente alla dose assorbita dal paziente:",
     "opzioni": [
-      "l'RX del torace",
       "l'RX del bacino",
       "la TC addome-pelvi",
-      "la TC dell'encefalo"
+      "la TC dell'encefalo",
+      "l'RX del torace"
     ],
     "risposta_corretta": "la TC addome-pelvi",
     "cod_domanda": "SMPIst2K"
@@ -423,9 +423,9 @@
     "num_domanda": 36,
     "domanda": "Le radiazioni elettromagnetiche (raggi X):",
     "opzioni": [
-      "nessuna delle affermazioni precedenti è corretta",
       "si propagano con velocità inferiore a quella della luce",
       "si propagano con velocità superiore a quella della luce",
+      "nessuna delle affermazioni precedenti è corretta",
       "si propagano con la velocità della luce"
     ],
     "risposta_corretta": "si propagano con la velocità della luce",
@@ -448,9 +448,9 @@
     "domanda": "Qual è la giusta sequenza in ordine crescente di dose erogata per esame?",
     "opzioni": [
       "angiografia coronarie interventistica-tac torace-rx lombare-rx torace",
-      "rx lombare-tac torace-angiografia coronarie interventistica-rx torace",
+      "rx torace-tac torace-angiografia coronarie interventistica-rx lombare",
       "rx torace-rx lombare-tac torace-angiografia coronarie interventistica",
-      "rx torace-tac torace-angiografia coronarie interventistica-rx lombare"
+      "rx lombare-tac torace-angiografia coronarie interventistica-rx torace"
     ],
     "risposta_corretta": "rx torace-rx lombare-tac torace-angiografia coronarie interventistica",
     "cod_domanda": "0IeUSSgm"
@@ -459,10 +459,10 @@
     "num_domanda": 39,
     "domanda": "I lavoratori di categoria A sono quelli che:",
     "opzioni": [
-      "non devono in alcun modo superare 6 ms/anno di esposizione globale",
-      "non sono a rischio di esposizione",
       "possono superare 20 ms/anno di esposizione globale",
-      "possono superare 6 msv/anno di esposizione globale"
+      "possono superare 6 msv/anno di esposizione globale",
+      "non devono in alcun modo superare 6 ms/anno di esposizione globale",
+      "non sono a rischio di esposizione"
     ],
     "risposta_corretta": "possono superare 6 msv/anno di esposizione globale",
     "cod_domanda": "jucxZ7EG"
@@ -471,10 +471,10 @@
     "num_domanda": 40,
     "domanda": "I lavoratori di categoria B:",
     "opzioni": [
-      "superano regolarmente 6 ma/anno per esposizione globale",
-      "non possono superare 6 msv/anno per esposizione globale",
       "non sono esposti a radiazioni",
-      "non devono superare i limiti stabiliti per i non esposti"
+      "non possono superare 6 msv/anno per esposizione globale",
+      "non devono superare i limiti stabiliti per i non esposti",
+      "superano regolarmente 6 ma/anno per esposizione globale"
     ],
     "risposta_corretta": "non possono superare 6 msv/anno per esposizione globale",
     "cod_domanda": "wuivl0Ax"
@@ -483,9 +483,9 @@
     "num_domanda": 41,
     "domanda": "Non è un parametro per stimare la dose in tac multistrato:",
     "opzioni": [
-      "mip",
       "dose efficale (e)",
       "dlp",
+      "mip",
       "ctdi"
     ],
     "risposta_corretta": "mip",
@@ -495,10 +495,10 @@
     "num_domanda": 42,
     "domanda": "Quale affermazione è falsa circa la tac multistrato? (...sulla tac multistrato è falsa?)",
     "opzioni": [
-      "riduco la dose se riduco i kv",
       "riduco la dose se aumento il pitch",
       "riduco la dose se aumento i ma",
-      "riduco la dose se riduco il tempo di scansione"
+      "riduco la dose se riduco il tempo di scansione",
+      "riduco la dose se riduco i kv"
     ],
     "risposta_corretta": "riduco la dose se aumento i ma",
     "cod_domanda": "JPlG5UWx"
@@ -507,9 +507,9 @@
     "num_domanda": 43,
     "domanda": "Non è un principio della radioprotezione:",
     "opzioni": [
-      "evitamento",
       "ottimizzazione",
       "giustificazione",
+      "evitamento",
       "limitazione delle dosi individuali"
     ],
     "risposta_corretta": "evitamento",
@@ -519,8 +519,8 @@
     "num_domanda": 44,
     "domanda": "Qual è il limite di esposizione globale per i lavoratori non esposti?",
     "opzioni": [
-      "6 ms/anno",
       "20 ms/anno",
+      "6 ms/anno",
       "1 ms/anno",
       "40 ms/anno"
     ],
@@ -531,9 +531,9 @@
     "num_domanda": 45,
     "domanda": "Non fa parte degli interventi di prevenzione del rischio da radiazioni ionizzanti:",
     "opzioni": [
+      "individuazione e studio delle cause e dei fattori di rischio",
       "controllo degli esposti",
       "corso per gli addetti allo spegnimento degli incendi",
-      "individuazione e studio delle cause e dei fattori di rischio",
       "riduzione dei rischi a livello collettivo e individuale"
     ],
     "risposta_corretta": "corso per gli addetti allo spegnimento degli incendi",
@@ -543,10 +543,10 @@
     "num_domanda": 46,
     "domanda": "Non è un algoritmo di ricostruzione delle immagini tac:",
     "opzioni": [
-      "srl (soft rendering location)",
       "vrt (volume rendering)",
       "mpr (ricostruzioni multiplanari)",
-      "mip (maximum intensity projection)"
+      "mip (maximum intensity projection)",
+      "srl (soft rendering location)"
     ],
     "risposta_corretta": "srl (soft rendering location)",
     "cod_domanda": "wHRwdD23"
@@ -555,8 +555,8 @@
     "num_domanda": 47,
     "domanda": "Tra queste affermazioni riferite ai raggi x è falsa:",
     "opzioni": [
-      "alcuni materiali colpiti dai raggi x emettono fotoni luminosi",
       "impressionano le pellicole fotografiche",
+      "alcuni materiali colpiti dai raggi x emettono fotoni luminosi",
       "sono in grado di penetrare la materia a seconda della sua densità",
       "necessitano di aria per propagarsi da un punto ad un altro"
     ],
@@ -568,9 +568,9 @@
     "domanda": "Le radiazioni ionizzanti in ambito medico sono utilizzate:",
     "opzioni": [
       "solo in medicina nucleare e radioterapia",
-      "in nessuna delle tre metodiche sopraindicate",
       "in radiodiagnostica, medicina nucleare e radioterapia",
-      "solo in radiodiagnostica e radioterapia"
+      "solo in radiodiagnostica e radioterapia",
+      "in nessuna delle tre metodiche sopraindicate"
     ],
     "risposta_corretta": "in radiodiagnostica, medicina nucleare e radioterapia",
     "cod_domanda": "7rWC6Iy2"
@@ -579,10 +579,10 @@
     "num_domanda": 49,
     "domanda": "Il tubo radiogeno utilizzato in radiodiagnostica:",
     "opzioni": [
-      "è una ampolla di vetro sotto vuoto con anodo e catodo",
+      "è un anello metallico con anodo e catodo",
       "è una barra metallica che emette fotoni",
-      "è una barra metallica all'interno di una ampolla di vetro sotto vuoto",
-      "è un anello metallico con anodo e catodo"
+      "è una ampolla di vetro sotto vuoto con anodo e catodo",
+      "è una barra metallica all'interno di una ampolla di vetro sotto vuoto"
     ],
     "risposta_corretta": "è una ampolla di vetro sotto vuoto con anodo e catodo",
     "cod_domanda": "kzxT16sX"
@@ -591,10 +591,10 @@
     "num_domanda": 50,
     "domanda": "I raggi X persistono nella sala radiologica, una volta interrotta la esposizione radiante, per:",
     "opzioni": [
-      "circa 5 secondi",
+      "scompaiono immediatamente",
       "circa 10 secondi",
-      "circa 2 secondi",
-      "scompaiono immediatamente"
+      "circa 5 secondi",
+      "circa 2 secondi"
     ],
     "risposta_corretta": "scompaiono immediatamente",
     "cod_domanda": "qNWU1B0Q"
@@ -603,10 +603,10 @@
     "num_domanda": 51,
     "domanda": "L'effetto fotoelettrico avviene:",
     "opzioni": [
-      "interazione tra fotone ed elettrone dell'orbitale più esterno dell'atomo colpito",
       "interazione tra fotone (X) e elettrone dell'orbitale più interno dell'atomo colpito",
+      "interazione elettrone proveniente dall'anodo e metallo del catodo",
       "interazione tra elettrone e un fascio luminoso",
-      "interazione elettrone proveniente dall'anodo e metallo del catodo"
+      "interazione tra fotone ed elettrone dell'orbitale più esterno dell'atomo colpito"
     ],
     "risposta_corretta": "interazione tra fotone (X) e elettrone dell'orbitale più interno dell'atomo colpito",
     "cod_domanda": "qljC3PPF"
@@ -616,9 +616,9 @@
     "domanda": "La dose efficace annua media dipendente dalla radioattiva naturale nell'ambiente terrestre è:",
     "opzioni": [
       "di circa 20 mSv",
+      "solo teorica",
       "di circa 2 mSv",
-      "di circa 10 mSv",
-      "solo teorica"
+      "di circa 10 mSv"
     ],
     "risposta_corretta": "di circa 2 mSv",
     "cod_domanda": "0DNHAseh"
@@ -628,8 +628,8 @@
     "domanda": "La dose equivalente è:",
     "opzioni": [
       "la dose assorbita moltiplicata per l’area esposta",
-      "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
       "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata",
+      "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
       "la dose assorbita moltiplicata per lo spessore di corpo attraversato"
     ],
     "risposta_corretta": "la dose assorbita moltiplicata per il fattore peso dipendente dal tipo di radiazione utilizzata",
@@ -639,10 +639,10 @@
     "num_domanda": 54,
     "domanda": "Il decadimento radioattivo:",
     "opzioni": [
-      "non ha alcun utilizzo nelle applicazioni mediche",
-      "è un fattore importante in medicina nucleare",
       "non è utilizzato in radioterapia",
-      "è un fattore importante in radiologia diagnostica assieme ai raggi X"
+      "è un fattore importante in radiologia diagnostica assieme ai raggi X",
+      "non ha alcun utilizzo nelle applicazioni mediche",
+      "è un fattore importante in medicina nucleare"
     ],
     "risposta_corretta": "è un fattore importante in medicina nucleare",
     "cod_domanda": "qwfU9y6v"
@@ -651,10 +651,10 @@
     "num_domanda": 55,
     "domanda": "L’effetto stocastico:",
     "opzioni": [
-      "non è presente in ambito medico",
-      "non è soglia dipendente",
       "ha una rappresentazione grafica curvilinea",
-      "è soglia dipendente"
+      "non è presente in ambito medico",
+      "è soglia dipendente",
+      "non è soglia dipendente"
     ],
     "risposta_corretta": "non è soglia dipendente",
     "cod_domanda": "IxV0FPe2"
@@ -663,9 +663,9 @@
     "num_domanda": 56,
     "domanda": "L’effetto deterministico:",
     "opzioni": [
+      "non è presente in ambito medico",
       "è soglia dipendente",
       "non è soglia dipendente",
-      "non è presente in ambito medico",
       "ha una rappresentazione grafica curvilinea"
     ],
     "risposta_corretta": "è soglia dipendente",
@@ -675,10 +675,10 @@
     "num_domanda": 57,
     "domanda": "In gravidanza l’utilizzo diagnostico di radiazioni ionizzanti:",
     "opzioni": [
-      "non è mai giustificato",
       "può essere eseguito solo con il consenso scritto da parte del ginecologo",
-      "è giustificato solo in caso di effettiva necessità",
-      "è sempre giustificato"
+      "non è mai giustificato",
+      "è sempre giustificato",
+      "è giustificato solo in caso di effettiva necessità"
     ],
     "risposta_corretta": "è giustificato solo in caso di effettiva necessità",
     "cod_domanda": "tzZffgry"
@@ -687,8 +687,8 @@
     "num_domanda": 58,
     "domanda": "L’utilizzo di camici piombati durante procedure radiodiagnostiche:",
     "opzioni": [
-      "ha una moderata efficacia nel proteggere il paziente e/o l’operatore",
       "non ha alcuna efficacia nel proteggere paziente e/o operatore",
+      "ha una moderata efficacia nel proteggere il paziente e/o l’operatore",
       "può in taluni casi essere addirittura dannoso per l’eccessiva ionizzazione del materiale piombifero a stretto contatto con il corpo del paziente e/o dell’operatore",
       "ha una elevata efficacia nel proteggere il paziente e/o l’operatore"
     ],
@@ -699,10 +699,10 @@
     "num_domanda": 59,
     "domanda": "Il danno deterministico:",
     "opzioni": [
-      "non avviene alle dosi utilizzate in radiologia diagnostica",
       "non avviene in radioterapia",
       "è un evento raro in radioterapia",
-      "avviene anche alle dosi utilizzate in radiologia diagnostica"
+      "avviene anche alle dosi utilizzate in radiologia diagnostica",
+      "non avviene alle dosi utilizzate in radiologia diagnostica"
     ],
     "risposta_corretta": "non avviene alle dosi utilizzate in radiologia diagnostica",
     "cod_domanda": "hX0Jad9L"
@@ -711,10 +711,10 @@
     "num_domanda": 60,
     "domanda": "Il danno cellulare diretto:",
     "opzioni": [
-      "è il tipo di danno prevalente nel corpo umano",
-      "è un danno irreparabile",
+      "non dipende dai radicali liberi prodotti",
       "dipende dai radicali liberi prodotti",
-      "non dipende dai radicali liberi prodotti"
+      "è il tipo di danno prevalente nel corpo umano",
+      "è un danno irreparabile"
     ],
     "risposta_corretta": "non dipende dai radicali liberi prodotti",
     "cod_domanda": "G0h7Qc8W"
@@ -723,9 +723,9 @@
     "num_domanda": 61,
     "domanda": "Il danno cellulare indiretto:",
     "opzioni": [
-      "avviene solo ad elevate dosi",
-      "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
       "non è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+      "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
+      "avviene solo ad elevate dosi",
       "è un danno trascurabile"
     ],
     "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
@@ -735,10 +735,10 @@
     "num_domanda": 62,
     "domanda": "La dose efficace è:",
     "opzioni": [
-      "la dose equivalente moltiplicata per il solo fattore peso dipendente dal tipo di radiazione utilizzata",
       "la dose equivalente moltiplicata per lo spessore del corpo attraversato",
-      "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
-      "la dose equivalente moltiplicata per l’area esposta"
+      "la dose equivalente moltiplicata per l’area esposta",
+      "la dose equivalente moltiplicata per il solo fattore peso dipendente dal tipo di radiazione utilizzata",
+      "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
     ],
     "risposta_corretta": "la dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
     "cod_domanda": "DjoyLwIw"
@@ -747,10 +747,10 @@
     "num_domanda": 63,
     "domanda": "L’attenuazione dei raggi x è direttamente proporzionale:",
     "opzioni": [
-      "al contenuto in aria del corpo attraversato",
-      "alla costante di Plank",
       "al contenuto di acqua nel corpo attraversato",
-      "al numero atomico medio del corpo attraversato"
+      "al numero atomico medio del corpo attraversato",
+      "alla costante di Plank",
+      "al contenuto in aria del corpo attraversato"
     ],
     "risposta_corretta": "al numero atomico medio del corpo attraversato",
     "cod_domanda": "gMvC3HP5"
@@ -760,9 +760,9 @@
     "domanda": "Quale fra queste affermazioni riferite ai raggi x è falsa:",
     "opzioni": [
       "necessitano di aria per propagarsi da un punto a un altro",
-      "alcuni materiali colpiti dai raggi x emettono fotoni luminosi",
       "impressionano le pellicole fotografiche",
-      "sono in grado di penetrare la materia secondo la sua densità"
+      "sono in grado di penetrare la materia secondo la sua densità",
+      "alcuni materiali colpiti dai raggi x emettono fotoni luminosi"
     ],
     "risposta_corretta": "necessitano di aria per propagarsi da un punto a un altro",
     "cod_domanda": "dfCaR3uG"
@@ -771,10 +771,10 @@
     "num_domanda": 65,
     "domanda": "Sono radiazioni ionizzanti:",
     "opzioni": [
-      "ultrasuoni",
       "raggi infrarossi",
-      "raggi gamma",
-      "onde radio"
+      "onde radio",
+      "ultrasuoni",
+      "raggi gamma"
     ],
     "risposta_corretta": "raggi gamma",
     "cod_domanda": "hPZFbuAz"
@@ -783,10 +783,10 @@
     "num_domanda": 66,
     "domanda": "Il danno cellulare indiretto:",
     "opzioni": [
-      "avviene solo ad elevate dosi",
+      "non è il danno determinato dai radicali liberi prodotti dalle radiazioni",
       "è un danno trascurabile",
       "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
-      "non è il danno determinato dai radicali liberi prodotti dalle radiazioni"
+      "avviene solo ad elevate dosi"
     ],
     "risposta_corretta": "è il danno determinato dai radicali liberi prodotti dalle radiazioni",
     "cod_domanda": "AWLiAsy3"
@@ -795,9 +795,9 @@
     "num_domanda": 67,
     "domanda": "Le radiazioni ionizzanti sono caratterizzate:",
     "opzioni": [
-      "da una unica natura fisica",
-      "da entrambe queste caratteristiche",
       "da una specifica lunghezza d’onda",
+      "da entrambe queste caratteristiche",
+      "da una unica natura fisica",
       "da un livello energetico adeguatamente elevato"
     ],
     "risposta_corretta": "da un livello energetico adeguatamente elevato",
@@ -808,9 +808,9 @@
     "domanda": "L’energia delle radiazioni si misura in:",
     "opzioni": [
       "kcal",
-      "joule",
+      "ma/s",
       "kev",
-      "ma/s"
+      "joule"
     ],
     "risposta_corretta": "kev",
     "cod_domanda": "oX6nkIXP"
@@ -819,10 +819,10 @@
     "num_domanda": 69,
     "domanda": "L’unità di misura della dose assorbita è:",
     "opzioni": [
-      "Gray",
-      "silvert",
+      "kilovolt",
       "ma/s",
-      "kilovolt"
+      "silvert",
+      "Gray"
     ],
     "risposta_corretta": "Gray",
     "cod_domanda": "FhC0u1gB"
@@ -831,8 +831,8 @@
     "num_domanda": 70,
     "domanda": "Il flusso di corrente nel tubo radiogeno si misura in:",
     "opzioni": [
-      "m/s",
       "ma/s",
+      "m/s",
       "joule",
       "kev"
     ],
@@ -843,10 +843,10 @@
     "num_domanda": 71,
     "domanda": "Non è un componente del tubo radiogeno:",
     "opzioni": [
-      "anodo",
+      "ampolla",
       "laser",
       "catodo",
-      "ampolla"
+      "anodo"
     ],
     "risposta_corretta": "laser",
     "cod_domanda": "piZ5wlFQ"
@@ -855,10 +855,10 @@
     "num_domanda": 72,
     "domanda": "Un telecomandato è:",
     "opzioni": [
-      "un tavolo radiologico fisso",
       "un tavolo radiologico rotante",
-      "un tavolo radiologico mobile a rotelle",
-      "un tavolo radiologico inclinabile"
+      "un tavolo radiologico fisso",
+      "un tavolo radiologico inclinabile",
+      "un tavolo radiologico mobile a rotelle"
     ],
     "risposta_corretta": "un tavolo radiologico inclinabile",
     "cod_domanda": "YfXxEwUg"
@@ -867,9 +867,9 @@
     "num_domanda": 73,
     "domanda": "Un telecomandato viene utilizzato per:",
     "opzioni": [
-      "radiografia della mano per età ossea",
       "eseguire tac",
       "eseguire radiografie del torace",
+      "radiografia della mano per età ossea",
       "esami radiologici al tubo digerente"
     ],
     "risposta_corretta": "esami radiologici al tubo digerente",
@@ -879,10 +879,10 @@
     "num_domanda": 74,
     "domanda": "Quale delle seguenti affermazioni riferite alla TAC è falsa",
     "opzioni": [
-      "il computer traduce in immagini i segnali registrati dai detettori",
-      "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso",
+      "il tubo radiogeno viene fatto ruotare attorno al paziente",
       "i raggi x emessi dal corpo sono registrati da detettori",
-      "il tubo radiogeno viene fatto ruotare attorno al paziente"
+      "il computer traduce in immagini i segnali registrati dai detettori",
+      "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso"
     ],
     "risposta_corretta": "il paziente viene fatto ruotare su un lettino a rotazione e il tubo radiogeno è fisso",
     "cod_domanda": "7BmaQAeR"
@@ -903,10 +903,10 @@
     "num_domanda": 76,
     "domanda": "Quale delle seguenti affermazioni è corretta riguardo l'esposizione alle radiazioni ionizzanti di pazienti pediatrici:",
     "opzioni": [
-      "la dose assorbita è la metà di quella dell'adulto",
-      "alcuni organi dei bambini sono meno radiosensibili di quelli degli adulti",
       "la dose assorbita è il doppio di quella dell'adulto",
-      "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti"
+      "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti",
+      "la dose assorbita è la metà di quella dell'adulto",
+      "alcuni organi dei bambini sono meno radiosensibili di quelli degli adulti"
     ],
     "risposta_corretta": "in genere gli organi dei bambini sono più radiosensibili di quelli degli adulti",
     "cod_domanda": "2eTrWRP1"
@@ -915,10 +915,10 @@
     "num_domanda": 77,
     "domanda": "Le interazioni fotoni materia biologica non avvengono attraverso",
     "opzioni": [
-      "effetto fotoelettrico",
-      "effetto Compton",
       "produzione di coppie",
-      "effetto Johnson"
+      "effetto Compton",
+      "effetto Johnson",
+      "effetto fotoelettrico"
     ],
     "risposta_corretta": "effetto Johnson",
     "cod_domanda": "7M1ixqTt"
@@ -927,9 +927,9 @@
     "num_domanda": 78,
     "domanda": "Quale di queste affermazioni è vera circa l'effetto Compton",
     "opzioni": [
-      "è causato dall'interazione fra ultrasuoni e materia",
-      "determina la produzione di positroni",
       "determina la produzione di un elettrone secondario",
+      "determina la produzione di positroni",
+      "è causato dall'interazione fra ultrasuoni e materia",
       "è di tipo di interazione più frequente in radiodiagnostica"
     ],
     "risposta_corretta": "determina la produzione di un elettrone secondario",
@@ -939,10 +939,10 @@
     "num_domanda": 79,
     "domanda": "La cessione di energia mediante effetto Fotoelettrico ed effetto Compton si realizza:",
     "opzioni": [
-      "mediante interazione sia con il nucleo sia con gli elettroni orbitali dell'atomo irradiato",
-      "mediante interazione con il nucleo dell'atomo irradiato",
       "mediante interazione con il campo magnetico dell'atomo irradiato",
-      "mediante interazione con elettroni orbitali dell'atomo irradiato"
+      "mediante interazione sia con il nucleo sia con gli elettroni orbitali dell'atomo irradiato",
+      "mediante interazione con elettroni orbitali dell'atomo irradiato",
+      "mediante interazione con il nucleo dell'atomo irradiato"
     ],
     "risposta_corretta": "mediante interazione con elettroni orbitali dell'atomo irradiato",
     "cod_domanda": "w9DnGepr"
@@ -951,10 +951,10 @@
     "num_domanda": 80,
     "domanda": "In quale di questi effetti la cessione di energia alla materia dipende in modo rilevante dal peso atomico del materiale irradiato",
     "opzioni": [
-      "effetto fotoelettrico",
       "effetto coppia",
-      "effetto Compton",
-      "fotodisintegrazione nucleare"
+      "effetto fotoelettrico",
+      "fotodisintegrazione nucleare",
+      "effetto Compton"
     ],
     "risposta_corretta": "effetto fotoelettrico",
     "cod_domanda": "vCuzZLnv"
@@ -963,10 +963,10 @@
     "num_domanda": 81,
     "domanda": "Il trasferimento lineare di energia (LET) di una radiazione ionizzante:",
     "opzioni": [
-      "aumenta con l'aumentare della capacità di ionizzazione della radiazione",
+      "è costante in tutte le radiazioni ionizzanti",
       "dipende dalle proprietà biologiche del tessuto irradiato",
-      "è tanto maggiore quanto è più penetrante la radiazione",
-      "è costante in tutte le radiazioni ionizzanti"
+      "aumenta con l'aumentare della capacità di ionizzazione della radiazione",
+      "è tanto maggiore quanto è più penetrante la radiazione"
     ],
     "risposta_corretta": "aumenta con l'aumentare della capacità di ionizzazione della radiazione",
     "cod_domanda": "zkEsmW2c"
@@ -975,9 +975,9 @@
     "num_domanda": 82,
     "domanda": "Sono radiazioni a basso LET:",
     "opzioni": [
-      "protoni",
       "elettroni",
       "raggi alfa",
+      "protoni",
       "neutroni"
     ],
     "risposta_corretta": "elettroni",
@@ -988,9 +988,9 @@
     "domanda": "L'efficacia biologica relativa di una radiazione dipende:",
     "opzioni": [
       "dalle caratteristiche biologiche del tessuto irradiato",
+      "dalla energia della radiazione",
       "dal tasso di ossigeno presente nel tessuto irradiato",
-      "dalla natura della radiazione",
-      "dalla energia della radiazione"
+      "dalla natura della radiazione"
     ],
     "risposta_corretta": "dalla natura della radiazione",
     "cod_domanda": "fh3Cddoj"
@@ -1001,8 +1001,8 @@
     "opzioni": [
       "solo danni diretti",
       "nessuno dei due tipi di danno",
-      "solo danni indiretti tramite la radiolisi dell'acqua",
-      "entrambi i tipi di danno"
+      "entrambi i tipi di danno",
+      "solo danni indiretti tramite la radiolisi dell'acqua"
     ],
     "risposta_corretta": "entrambi i tipi di danno",
     "cod_domanda": "5C0puU7R"
@@ -1023,10 +1023,10 @@
     "num_domanda": 86,
     "domanda": "Si definisce mortalità cellulare \"da colpo singolo\" quella provocata da:",
     "opzioni": [
+      "danno letale e danno potenzialmente letale",
       "danno subletale",
-      "danno potenzialmente letale",
       "danno letale",
-      "danno letale e danno potenzialmente letale"
+      "danno potenzialmente letale"
     ],
     "risposta_corretta": "danno letale e danno potenzialmente letale",
     "cod_domanda": "E88Lzs06"
@@ -1035,10 +1035,10 @@
     "num_domanda": 87,
     "domanda": "La mortalità cellulare da basse dosi di radiazioni ionizzanti si verifica principalmente per:",
     "opzioni": [
-      "blocco della mitosi per danni letali al DNA",
       "mutazioni geniche ed aberrazioni cromosomiche",
-      "attivazione della apoptosi",
-      "coagulazione delle proteine"
+      "blocco della mitosi per danni letali al DNA",
+      "coagulazione delle proteine",
+      "attivazione della apoptosi"
     ],
     "risposta_corretta": "blocco della mitosi per danni letali al DNA",
     "cod_domanda": "pSUhZSdO"
@@ -1047,10 +1047,10 @@
     "num_domanda": 88,
     "domanda": "Perché l'ossigeno è importante per il manifestarsi dell'effetto biologico delle radiazioni ionizzanti?",
     "opzioni": [
-      "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche",
       "perché aumenta la radiosensibilità intrinseca delle cellule irradiate",
+      "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno diretto alle macromolecole organiche",
       "perché ostacola il recupero del danno sub-letale",
-      "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno diretto alle macromolecole organiche"
+      "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche"
     ],
     "risposta_corretta": "perché aumenta la produzione di radicali liberi ossidanti e quindi il danno indiretto alle macromolecole organiche",
     "cod_domanda": "79UJzjfD"
@@ -1059,10 +1059,10 @@
     "num_domanda": 89,
     "domanda": "Quale di questi fattori non influenza la sopravvivenza cellulare di una popolazione irradiata",
     "opzioni": [
-      "il frazionamento della dose",
-      "il LET della radiazione",
       "la tensione di ossigeno nel tessuto irradiato",
-      "l'energia della radiazione ionizzante"
+      "il LET della radiazione",
+      "l'energia della radiazione ionizzante",
+      "il frazionamento della dose"
     ],
     "risposta_corretta": "l'energia della radiazione ionizzante",
     "cod_domanda": "NiPXVDlV"
@@ -1071,10 +1071,10 @@
     "num_domanda": 90,
     "domanda": "La radiosensibilità intrinseca dipende principalmente:",
     "opzioni": [
-      "LET della radiazione ionizzante",
-      "energia della radiazione ionizzante",
       "capacità di recupero del danno riparabile",
-      "tensione di ossigeno"
+      "tensione di ossigeno",
+      "LET della radiazione ionizzante",
+      "energia della radiazione ionizzante"
     ],
     "risposta_corretta": "capacità di recupero del danno riparabile",
     "cod_domanda": "2hHZADdh"
@@ -1083,10 +1083,10 @@
     "num_domanda": 91,
     "domanda": "Quale di queste affermazioni sul frazionamento della dose è vera?",
     "opzioni": [
-      "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\"",
       "nell'intervallo fra le frazioni si verifica il recupero del danno sub-letale",
+      "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata",
       "somministrando la dose in modo frazionato aumenta l'effetto di letalità cellulare",
-      "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata"
+      "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\""
     ],
     "risposta_corretta": "nell'intervallo fra le frazioni si verifica il recupero del danno sub-letale",
     "cod_domanda": "ITuWcyoY"
@@ -1097,8 +1097,8 @@
     "opzioni": [
       "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità",
       "somministrando la dose in modo frazionato si modifica l'efficacia biologica della radiazione utilizzata",
-      "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\"",
-      "somministrando la dose in modo frazionato aumenta l'effetto di letalità cellulare"
+      "somministrando la dose in modo frazionato aumenta l'effetto di letalità cellulare",
+      "somministrando la dose in modo frazionato aumenta letalità cellulare per danno letale \"da colpo singolo\""
     ],
     "risposta_corretta": "aumenta il differenziale di mortalità fra popolazioni cellulari con diversa radiosensibilità",
     "cod_domanda": "H7Wf4Wpm"
@@ -1107,10 +1107,10 @@
     "num_domanda": 93,
     "domanda": "È un effetto stocastico delle radiazioni ionizzanti:",
     "opzioni": [
-      "la dermatite da raggi",
-      "l'opacizzazione del cristallino",
       "la neoplasia radioindotta",
-      "la sclerodermia"
+      "la sclerodermia",
+      "la dermatite da raggi",
+      "l'opacizzazione del cristallino"
     ],
     "risposta_corretta": "la neoplasia radioindotta",
     "cod_domanda": "Cn5tsonF"
@@ -1119,10 +1119,10 @@
     "num_domanda": 94,
     "domanda": "Tumori e malformazioni genetiche",
     "opzioni": [
-      "possono verificarsi anche per una singola radiografia del torace",
+      "sono causati dai raggi gamma ma non dai raggi x",
       "richiedono il superamento di una dose soglia per verificarsi",
       "sono effetti deterministici",
-      "sono causati dai raggi gamma ma non dai raggi x"
+      "possono verificarsi anche per una singola radiografia del torace"
     ],
     "risposta_corretta": "possono verificarsi anche per una singola radiografia del torace",
     "cod_domanda": "9TyNa4o5"
@@ -1131,10 +1131,10 @@
     "num_domanda": 95,
     "domanda": "Gli effetti somatici delle radiazioni ionizzanti",
     "opzioni": [
-      "colpiscono sia l'individuo irradiato che le generazioni successive",
+      "colpiscono solo l'individuo irradiato",
       "colpiscono solo i somi delle vertebre lombari",
       "colpiscono le generalizzazioni successive dell'individuo irradiato",
-      "colpiscono solo l'individuo irradiato"
+      "colpiscono sia l'individuo irradiato che le generazioni successive"
     ],
     "risposta_corretta": "colpiscono solo l'individuo irradiato",
     "cod_domanda": "hYcK6T7p"
@@ -1144,8 +1144,8 @@
     "domanda": "Quando si manifestano i danni tardivi delle radiazioni ionizzanti",
     "opzioni": [
       "appena conclusa l'irradiazione",
-      "entro tre mesi dall'irradiazione",
       "durante l'irradiazione",
+      "entro tre mesi dall'irradiazione",
       "molti mesi o anni dopo l'irradiazione"
     ],
     "risposta_corretta": "molti mesi o anni dopo l'irradiazione",
@@ -1155,10 +1155,10 @@
     "num_domanda": 97,
     "domanda": "I danni stocastici da radiazioni ionizzanti:",
     "opzioni": [
+      "tutte le risposte precedenti sono corrette",
       "di solito si manifestano dopo un periodo di latenza di anni",
       "non richiedono un valore soglia della dose",
-      "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose",
-      "tutte le risposte precedenti sono corrette"
+      "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose"
     ],
     "risposta_corretta": "tutte le risposte precedenti sono corrette",
     "cod_domanda": "ZovFJvZV"
@@ -1167,8 +1167,8 @@
     "num_domanda": 98,
     "domanda": "Quale di queste affermazioni sui danni stocastici da radiazioni ionizzanti è falsa:",
     "opzioni": [
-      "non richiedono un valore soglia della dose",
       "si manifestano con intensità graduata, in funzione della dose",
+      "non richiedono un valore soglia della dose",
       "di solito si manifestano dopo un periodo di latenza di anni",
       "sono a carattere probabilistico, con probabilità di comparsa crescente con la dose"
     ],
@@ -1179,10 +1179,10 @@
     "num_domanda": 99,
     "domanda": "I danni deterministici da radiazioni ionizzanti:",
     "opzioni": [
-      "di solito si manifestano dopo un periodo di latenza di anni",
+      "richiedono un valore soglia della dose nella loro manifestazione clinica",
       "tutte le risposte precedenti sono corrette",
       "si manifestano in modo graduato. con intensità correlata alla dose",
-      "richiedono un valore soglia della dose nella loro manifestazione clinica"
+      "di solito si manifestano dopo un periodo di latenza di anni"
     ],
     "risposta_corretta": "tutte le risposte precedenti sono corrette",
     "cod_domanda": "t4JWogey"
@@ -1191,10 +1191,10 @@
     "num_domanda": 100,
     "domanda": "I danni deterministici da radiazioni ionizzanti:",
     "opzioni": [
-      "non richiedono un valore soglia della dose nella loro manifestazione clinica",
+      "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa",
       "si manifestano analogamente in tutti i tessuti, indipendentemente dalla cinetica proliferativa",
-      "si manifestano soprattutto nei tessuti con popolazioni cellulari a rapida cinetica proliferativa",
-      "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa"
+      "non richiedono un valore soglia della dose nella loro manifestazione clinica",
+      "si manifestano soprattutto nei tessuti con popolazioni cellulari a rapida cinetica proliferativa"
     ],
     "risposta_corretta": "si manifestano soprattutto nei tessuti con popolazioni cellulari a lenta cinetica proliferativa",
     "cod_domanda": "jYf57dYz"
@@ -1203,8 +1203,8 @@
     "num_domanda": 101,
     "domanda": "Quale di queste affermazioni sui danni deterministici da radiazioni ionizzanti è falsa:",
     "opzioni": [
-      "si manifestano in modo graduato, con l'intensità correlata alla dose",
       "possono essere sia genetici che somatici",
+      "si manifestano in modo graduato, con l'intensità correlata alla dose",
       "di solito si manifestano dopo un periodo di latenza di anni",
       "richiedono un valore soglia della dose nella loro manifestazione clinica"
     ],
@@ -1215,10 +1215,10 @@
     "num_domanda": 102,
     "domanda": "Negli organi con organizzazione strutturale di tipo parallelo la probabilità e l'entità del danno tardivo sono correlati con:",
     "opzioni": [
-      "entrambi i fattori",
       "nessuno dei due fattori",
       "il volume di organo irradiato",
-      "la dose totale erogata e il suo frazionamento"
+      "la dose totale erogata e il suo frazionamento",
+      "entrambi i fattori"
     ],
     "risposta_corretta": "entrambi i fattori",
     "cod_domanda": "h2yu3hi9"
@@ -1227,10 +1227,10 @@
     "num_domanda": 103,
     "domanda": "Negli organi con organizzazione strutturale di tipo seriale la probabilità e l'entità del danno tardivo sono correlati con:",
     "opzioni": [
-      "la dose totale erogata e il suo frazionamento",
       "il volume di organo irradiato",
-      "entrambi i fattori",
-      "nessuno dei due fattori"
+      "nessuno dei due fattori",
+      "la dose totale erogata e il suo frazionamento",
+      "entrambi i fattori"
     ],
     "risposta_corretta": "la dose totale erogata e il suo frazionamento",
     "cod_domanda": "NKVF2N2c"
@@ -1239,10 +1239,10 @@
     "num_domanda": 104,
     "domanda": "Quale di questi organi ha una organizzazione \"seriale\":",
     "opzioni": [
-      "il fegato",
+      "il rene",
       "il polmone",
       "il midollo spinale",
-      "il rene"
+      "il fegato"
     ],
     "risposta_corretta": "il midollo spinale",
     "cod_domanda": "PZISaokF"
@@ -1251,10 +1251,10 @@
     "num_domanda": 105,
     "domanda": "Quale di questi organi non ha una organizzazione “seriale”:",
     "opzioni": [
-      "l’intestino",
-      "il midollo spinale",
       "l’esofago",
-      "il fegato"
+      "il fegato",
+      "il midollo spinale",
+      "l’intestino"
     ],
     "risposta_corretta": "il fegato",
     "cod_domanda": "p8PmqjYc"
@@ -1263,10 +1263,10 @@
     "num_domanda": 106,
     "domanda": "Quale di questi organi ha una organizzazione “parallela”:",
     "opzioni": [
-      "il midollo spinale",
-      "l’intestino",
+      "il polmone",
       "l’esofago",
-      "il polmone"
+      "il midollo spinale",
+      "l’intestino"
     ],
     "risposta_corretta": "il polmone",
     "cod_domanda": "dkTqTQOh"
@@ -1276,8 +1276,8 @@
     "domanda": "Quale di questi organi non ha una organizzazione “parallela”:",
     "opzioni": [
       "il fegato",
-      "il midollo spinale",
       "il molmone",
+      "il midollo spinale",
       "l’encefalo"
     ],
     "risposta_corretta": "il midollo spinale",
@@ -1287,10 +1287,10 @@
     "num_domanda": 108,
     "domanda": "I danni tardivi deterministici sono la conseguenza di danni a livello:",
     "opzioni": [
-      "della componente stromale del tessuto/organo",
-      "della componente vascolare del tessuto/organo",
+      "di tutte queste strutture",
       "del comportamento staminale delle cellule parenchimali",
-      "di tutte queste strutture"
+      "della componente vascolare del tessuto/organo",
+      "della componente stromale del tessuto/organo"
     ],
     "risposta_corretta": "di tutte queste strutture",
     "cod_domanda": "O2Qp9Bmv"
@@ -1299,10 +1299,10 @@
     "num_domanda": 109,
     "domanda": "Quale di questi organi ha maggior rischio di danno tardivo a parità di dose?",
     "opzioni": [
-      "midollo emopoietico",
-      "midollo spinale",
       "fegato",
-      "osso nell’adulto"
+      "osso nell’adulto",
+      "midollo emopoietico",
+      "midollo spinale"
     ],
     "risposta_corretta": "midollo emopoietico",
     "cod_domanda": "nELvyaLm"
@@ -1312,9 +1312,9 @@
     "domanda": "Qual è il periodo più sensibile della gravidanza ai danni da radiazioni ionizzanti?",
     "opzioni": [
       "la radiosensibilità è sempre uguale",
+      "secondo trimestre",
       "primo trimestre",
-      "terzo trimestre",
-      "secondo trimestre"
+      "terzo trimestre"
     ],
     "risposta_corretta": "primo trimestre",
     "cod_domanda": "nWoeEdlI"
@@ -1323,10 +1323,10 @@
     "num_domanda": 111,
     "domanda": "Non fa parte degli interventi di prevenzione del rischio da radiazioni ionizzanti",
     "opzioni": [
-      "individuazione e studio delle cause e dei fattori di rischio",
+      "controllo degli esposti",
       "riduzione dei rischi a livello collettivo e individuale",
       "frequenza di un corso per addetti allo spegnimento degli incendi",
-      "controllo degli esposti"
+      "individuazione e studio delle cause e dei fattori di rischio"
     ],
     "risposta_corretta": "frequenza di un corso per addetti allo spegnimento degli incendi",
     "cod_domanda": "4zXZCHnh"
@@ -1335,10 +1335,10 @@
     "num_domanda": 112,
     "domanda": "L’esposizione alle radiazioni ionizzanti può avvenire:",
     "opzioni": [
-      "tutte le risposte sono corrette",
-      "per l’attività lavorativa controllata e con rispetto delle norme di radioprotezione",
+      "per scopi sanitari diagnostici e terapeutici secondo il principio della giustificazione",
       "quotidianamente, per esposizione alla radioattività naturale",
-      "per scopi sanitari diagnostici e terapeutici secondo il principio della giustificazione"
+      "per l’attività lavorativa controllata e con rispetto delle norme di radioprotezione",
+      "tutte le risposte sono corrette"
     ],
     "risposta_corretta": "tutte le risposte sono corrette",
     "cod_domanda": "WS7k01D6"
@@ -1347,10 +1347,10 @@
     "num_domanda": 113,
     "domanda": "Cos'è la contaminazione radioattiva?",
     "opzioni": [
-      "contaminazione batterica di una sostanza radioattiva",
-      "nessuna delle risposte precedenti è giusta",
       "esposizione al fascio emesso da una sorgente radioattiva",
-      "contatto diretto della sostanza radioattiva con l’individuo"
+      "nessuna delle risposte precedenti è giusta",
+      "contatto diretto della sostanza radioattiva con l’individuo",
+      "contaminazione batterica di una sostanza radioattiva"
     ],
     "risposta_corretta": "contatto diretto della sostanza radioattiva con l’individuo",
     "cod_domanda": "7n33iGhM"
@@ -1360,9 +1360,9 @@
     "domanda": "Se si rispettano i limiti di dose della attuale legislazione (legge 230/95) quali danni sono sicuramente evitabili?",
     "opzioni": [
       "i danni deterministici",
-      "nessun danno è totalmente evitabile",
+      "tutti i danni sono evitabili",
       "i danni stocastici",
-      "tutti i danni sono evitabili"
+      "nessun danno è totalmente evitabile"
     ],
     "risposta_corretta": "i danni deterministici",
     "cod_domanda": "puR2uuA7"
@@ -1371,10 +1371,10 @@
     "num_domanda": 115,
     "domanda": "Un’indagine diagnostica con esposizione alle radiazioni ionizzanti",
     "opzioni": [
-      "può essere eseguita senza alcuna restrizione",
       "deve essere giustificata in termini di efficacia diagnostica",
+      "non comporta rischi in età adulta",
       "può essere eseguita in donne gravide in programmi di screening",
-      "non comporta rischi in età adulta"
+      "può essere eseguita senza alcuna restrizione"
     ],
     "risposta_corretta": "deve essere giustificata in termini di efficacia diagnostica",
     "cod_domanda": "zJMKRuoa"
@@ -1385,8 +1385,8 @@
     "opzioni": [
       "l’esperto qualificato",
       "il medico del lavoro",
-      "il fisico sanitario",
-      "il medico autorizzato"
+      "il medico autorizzato",
+      "il fisico sanitario"
     ],
     "risposta_corretta": "l’esperto qualificato",
     "cod_domanda": "qdBrHWxA"
@@ -1395,10 +1395,10 @@
     "num_domanda": 117,
     "domanda": "Indicare chi effettua la sorveglianza medica dei lavoratori professionalmente esposti alle radiazioni ionizzanti di categoria A:",
     "opzioni": [
-      "il primario del reparto dove si lavora",
+      "l’esperto qualificato",
       "il medico del lavoro",
       "il medico autorizzato",
-      "l’esperto qualificato"
+      "il primario del reparto dove si lavora"
     ],
     "risposta_corretta": "il medico autorizzato",
     "cod_domanda": "08wEDZA0"
@@ -1407,10 +1407,10 @@
     "num_domanda": 118,
     "domanda": "Quale di queste non è una figura professionale della radioprotezione",
     "opzioni": [
-      "responsabile dell’impianto radiologico",
+      "medico autorizzato",
       "fisico medico",
-      "esercente",
-      "medico autorizzato"
+      "responsabile dell’impianto radiologico",
+      "esercente"
     ],
     "risposta_corretta": "fisico medico",
     "cod_domanda": "N6mmtNQC"
@@ -1420,9 +1420,9 @@
     "domanda": "Chi è responsabile della verifica periodica dei livelli diagnostici di riferimento (LDR) di un impianto radiologico",
     "opzioni": [
       "esperto qualificato",
+      "responsabile dell’impianto radiologico",
       "medico autorizzato",
-      "esercente",
-      "responsabile dell’impianto radiologico"
+      "esercente"
     ],
     "risposta_corretta": "responsabile dell’impianto radiologico",
     "cod_domanda": "AI8NkBnO"
@@ -1431,10 +1431,10 @@
     "num_domanda": 120,
     "domanda": "Le radiazioni ionizzanti in ambito medico sono utilizzate:",
     "opzioni": [
-      "Nell'illuminazione pubblica, nella produzione di energia e nella conservazione degli alimenti",
-      "Per la sterilizzazione di alimenti e cosmetici, la datazione archeologica e la ricerca scientifica",
       "In radiodiagnostica, medicina nucleare e radioterapia",
-      "In omeopatia, fitoterapia e agopuntura"
+      "Per la sterilizzazione di alimenti e cosmetici, la datazione archeologica e la ricerca scientifica",
+      "In omeopatia, fitoterapia e agopuntura",
+      "Nell'illuminazione pubblica, nella produzione di energia e nella conservazione degli alimenti"
     ],
     "risposta_corretta": "In radiodiagnostica, medicina nucleare e radioterapia",
     "cod_domanda": "TrnB1Ewk"
@@ -1444,9 +1444,9 @@
     "domanda": "I raggi X persistono nella sala radiologica, una volta interrotta la esposizione radiante, per:",
     "opzioni": [
       "Scompaiono immediatamente",
+      "Rimangono per alcuni secondi",
       "Si attenuano gradualmente nell'arco di un'ora",
-      "Persistono per diversi minuti",
-      "Rimangono per alcuni secondi"
+      "Persistono per diversi minuti"
     ],
     "risposta_corretta": "Scompaiono immediatamente",
     "cod_domanda": "ltc6XW6k"
@@ -1455,8 +1455,8 @@
     "num_domanda": 122,
     "domanda": "L’effetto fotoelettrico avviene:",
     "opzioni": [
-      "Interazione tra fotone e nucleo atomico con successiva emissione di particelle alfa",
       "Interazione tra fotone (X) e elettrone dell’orbitale più interno dell’atomo colpito",
+      "Interazione tra fotone e nucleo atomico con successiva emissione di particelle alfa",
       "Emissione di elettroni dalla superficie di un metallo a causa dell'assorbimento di calore",
       "Assorbimento di un fotone da parte di un elettrone che decade ad un livello energetico inferiore senza emissione di particelle"
     ],
@@ -1479,10 +1479,10 @@
     "num_domanda": 124,
     "domanda": "Il decadimento radioattivo:",
     "opzioni": [
-      "È un fattore importante in medicina nucleare",
       "È un processo che aumenta la stabilità del nucleo",
-      "Non ha applicazioni pratiche al di fuori della fisica",
-      "Avviene solo in elementi con numero atomico elevato"
+      "È un fattore importante in medicina nucleare",
+      "Avviene solo in elementi con numero atomico elevato",
+      "Non ha applicazioni pratiche al di fuori della fisica"
     ],
     "risposta_corretta": "È un fattore importante in medicina nucleare",
     "cod_domanda": "n6FhaE7V"
@@ -1491,9 +1491,9 @@
     "num_domanda": 125,
     "domanda": "L’effetto stocastico:",
     "opzioni": [
+      "È sempre reversibile",
       "Non è soglia dipendente",
       "Si manifesta solo al superamento di una soglia",
-      "È sempre reversibile",
       "È direttamente proporzionale alla dose"
     ],
     "risposta_corretta": "Non è soglia dipendente",
@@ -1505,8 +1505,8 @@
     "opzioni": [
       "È sempre reversibile",
       "È soglia dipendente",
-      "È proporzionale alla dose",
-      "Non ha una relazione dose-risposta"
+      "Non ha una relazione dose-risposta",
+      "È proporzionale alla dose"
     ],
     "risposta_corretta": "È soglia dipendente",
     "cod_domanda": "DtvGe9zY"
@@ -1516,9 +1516,9 @@
     "domanda": "In gravidanza l'utilizzo diagnostico di radiazioni ionizzanti:",
     "opzioni": [
       "È sempre sconsigliato, indipendentemente dalla situazione clinica",
-      "Può essere eseguito liberamente fino al primo trimestre",
+      "È sicuro se la dose è inferiore a 1 mGy",
       "È giustificato solo in caso di effettiva necessità",
-      "È sicuro se la dose è inferiore a 1 mGy"
+      "Può essere eseguito liberamente fino al primo trimestre"
     ],
     "risposta_corretta": "È giustificato solo in caso di effettiva necessità",
     "cod_domanda": "hy6Jd3kU"
@@ -1527,10 +1527,10 @@
     "num_domanda": 128,
     "domanda": "L'utilizzo di camici piombati durante procedure radiodiagnostiche:",
     "opzioni": [
-      "Sono utili solo per proteggere l'operatore, non il paziente",
+      "Offrono una protezione minima, sufficiente solo per esposizioni molto basse",
       "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore",
       "Aumentano l'assorbimento delle radiazioni, intensificando l'immagine radiografica",
-      "Offrono una protezione minima, sufficiente solo per esposizioni molto basse"
+      "Sono utili solo per proteggere l'operatore, non il paziente"
     ],
     "risposta_corretta": "Ha una elevata efficacia nel proteggere il paziente e/o l'operatore",
     "cod_domanda": "qW2IjnyP"
@@ -1539,9 +1539,9 @@
     "num_domanda": 129,
     "domanda": "Il danno deterministico:",
     "opzioni": [
-      "È proporzionale alla dose ricevuta, senza soglia",
       "Riguarda principalmente le cellule germinali",
       "Non avviene alle dosi utilizzate in radiologia diagnostica",
+      "È proporzionale alla dose ricevuta, senza soglia",
       "Si manifesta anche a basse dosi di radiazioni"
     ],
     "risposta_corretta": "Non avviene alle dosi utilizzate in radiologia diagnostica",
@@ -1551,10 +1551,10 @@
     "num_domanda": 130,
     "domanda": "Il danno cellulare diretto:",
     "opzioni": [
-      "Non dipende dai radicali liberi prodotti",
-      "È causato esclusivamente da stress ossidativo",
+      "È sempre indotto da radicali liberi",
       "Coinvolge principalmente la denaturazione proteica",
-      "È sempre indotto da radicali liberi"
+      "È causato esclusivamente da stress ossidativo",
+      "Non dipende dai radicali liberi prodotti"
     ],
     "risposta_corretta": "Non dipende dai radicali liberi prodotti",
     "cod_domanda": "LvSXyESN"
@@ -1563,10 +1563,10 @@
     "num_domanda": 131,
     "domanda": "Il danno cellulare indiretto:",
     "opzioni": [
-      "È il danno causato dall'aumento della temperatura cellulare",
-      "È il danno determinato dai radicali liberi prodotti dalle radiazioni",
+      "È il danno dovuto all'alterazione della membrana cellulare",
       "È il danno diretto al DNA causato dalle radiazioni",
-      "È il danno dovuto all'alterazione della membrana cellulare"
+      "È il danno causato dall'aumento della temperatura cellulare",
+      "È il danno determinato dai radicali liberi prodotti dalle radiazioni"
     ],
     "risposta_corretta": "È il danno determinato dai radicali liberi prodotti dalle radiazioni",
     "cod_domanda": "mYmae9ho"
@@ -1575,10 +1575,10 @@
     "num_domanda": 132,
     "domanda": "La dose efficace è:",
     "opzioni": [
-      "La dose assorbita divisa per il fattore peso dipendente dal tipo di tessuto irradiato",
       "La dose equivalente moltiplicata per il fattore di qualità",
-      "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
-      "La dose assorbita moltiplicata per il fattore di qualità"
+      "La dose assorbita moltiplicata per il fattore di qualità",
+      "La dose assorbita divisa per il fattore peso dipendente dal tipo di tessuto irradiato",
+      "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato"
     ],
     "risposta_corretta": "La dose equivalente moltiplicata per il fattore peso dipendente dal tipo di tessuto irradiato",
     "cod_domanda": "yay5wQPa"
@@ -1587,9 +1587,9 @@
     "num_domanda": 133,
     "domanda": "Cosa differenzia le zone controllate dalle zone sorvegliate:",
     "opzioni": [
-      "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti",
-      "Diversa tipologia di attività svolta",
       "Diversa necessità di schermatura",
+      "Diversa tipologia di attività svolta",
+      "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti",
       "Diversa presenza di personale addestrato"
     ],
     "risposta_corretta": "Diversa entità dell'esposizione al rischio di radiazioni ionizzanti",
@@ -1600,9 +1600,9 @@
     "domanda": "Indicare l'organo o tessuto che a parità di classificazione ha il limite di dose annuale più restrittivo:",
     "opzioni": [
       "Corpo intero",
-      "Gonadi",
       "Pelle",
-      "Cristallino"
+      "Cristallino",
+      "Gonadi"
     ],
     "risposta_corretta": "Corpo intero",
     "cod_domanda": "LS8aewEV"
@@ -1611,10 +1611,10 @@
     "num_domanda": 135,
     "domanda": "Un dosimetro individuale:",
     "opzioni": [
-      "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione",
+      "Può essere indossato in qualsiasi parte del corpo",
       "Non richiede taratura periodica",
       "Fornisce una misura della dose assorbita dagli organi interni",
-      "Può essere indossato in qualsiasi parte del corpo"
+      "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione"
     ],
     "risposta_corretta": "Si deve usare secondo le modalità indicate nelle norme interne di radioprotezione",
     "cod_domanda": "HPG9SKUo"
@@ -1623,10 +1623,10 @@
     "num_domanda": 136,
     "domanda": "Quale affermazione è falsa:",
     "opzioni": [
-      "I radicali liberi sono altamente reattivi",
+      "I radicali liberi si formano durante il normale metabolismo cellulare",
       "I radicali liberi hanno un elettrone spaiato",
-      "I radicali liberi sono molto stabili",
-      "I radicali liberi si formano durante il normale metabolismo cellulare"
+      "I radicali liberi sono altamente reattivi",
+      "I radicali liberi sono molto stabili"
     ],
     "risposta_corretta": "I radicali liberi sono molto stabili",
     "cod_domanda": "ySGK6WuR"
@@ -1636,8 +1636,8 @@
     "domanda": "Radiazioni ad alto LET:",
     "opzioni": [
       "Raggi X",
-      "Radiazioni elettromagnetiche",
       "Radiazioni corpuscolate",
+      "Radiazioni elettromagnetiche",
       "Radiazioni a basso LET"
     ],
     "risposta_corretta": "Radiazioni corpuscolate",
@@ -1647,10 +1647,10 @@
     "num_domanda": 138,
     "domanda": "Molecola bersaglio:",
     "opzioni": [
-      "Proteine",
-      "RNA",
       "DNA",
-      "Lipidi"
+      "Lipidi",
+      "RNA",
+      "Proteine"
     ],
     "risposta_corretta": "DNA",
     "cod_domanda": "UrHX4ssh"
@@ -1659,10 +1659,10 @@
     "num_domanda": 139,
     "domanda": "Fase del ciclo cellulare più radiosensibile",
     "opzioni": [
+      "S e G1",
       "G0 e G1",
-      "G1 e S",
       "M e G2",
-      "S e G1"
+      "G1 e S"
     ],
     "risposta_corretta": "M e G2",
     "cod_domanda": "RuwhD0i0"
@@ -1671,10 +1671,10 @@
     "num_domanda": 140,
     "domanda": "Particelle cariche pesanti (protoni, neutroni, alfa):",
     "opzioni": [
-      "Hanno basso LET e basso range",
-      "Hanno alto LET e basso range",
+      "Hanno alto LET e alto range",
       "Hanno basso LET e alto range",
-      "Hanno alto LET e alto range"
+      "Hanno basso LET e basso range",
+      "Hanno alto LET e basso range"
     ],
     "risposta_corretta": "Hanno alto LET e basso range",
     "cod_domanda": "YjSsHzxs"
@@ -1684,9 +1684,9 @@
     "domanda": "Effetto fotoelettrico",
     "opzioni": [
       "Diminuisce la frequenza della radiazione incidente",
-      "Genera solo elettroni emessi",
+      "Produce una coppia di ioni e radiazione caratteristica",
       "Aumenta l'energia cinetica del fotone incidente",
-      "Produce una coppia di ioni e radiazione caratteristica"
+      "Genera solo elettroni emessi"
     ],
     "risposta_corretta": "Produce una coppia di ioni e radiazione caratteristica",
     "cod_domanda": "6kfrbAMM"
@@ -1695,10 +1695,10 @@
     "num_domanda": 142,
     "domanda": "Fattore di ponderazione della radiazione",
     "opzioni": [
-      "Unità di misura della dose equivalente",
-      "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento",
+      "Misura dell'energia assorbita dal tessuto",
       "Coefficiente di assorbimento del materiale",
-      "Misura dell'energia assorbita dal tessuto"
+      "Unità di misura della dose equivalente",
+      "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento"
     ],
     "risposta_corretta": "Parametro di comparazione delle varie radiazioni rispetto a quella di riferimento",
     "cod_domanda": "PVkjEqny"
@@ -1707,10 +1707,10 @@
     "num_domanda": 143,
     "domanda": "L'unità di misura gray corrisponde a:",
     "opzioni": [
-      "Assorbimento di un joule per un kg di materia",
+      "Unità di attività di una sorgente radioattiva",
       "Dose equivalente biologica",
       "Misura della schermatura necessaria per ridurre la dose di radiazione",
-      "Unità di attività di una sorgente radioattiva"
+      "Assorbimento di un joule per un kg di materia"
     ],
     "risposta_corretta": "Assorbimento di un joule per un kg di materia",
     "cod_domanda": "9X9wTb7s"
@@ -1719,20 +1719,20 @@
     "num_domanda": 144,
     "domanda": "Quale affermazione sulle radiazioni ionizzanti è vera?",
     "opzioni": [
-      "Sono innocue a basse dosi",
       "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi",
       "Causano sempre mutazioni genetiche dirette",
+      "Sono innocue a basse dosi",
       "Vengono schermate efficacemente dalla pelle"
     ],
     "risposta_corretta": "Se colpiscono una molecola di H2O la possono trasformare in radicali liberi",
     "cod_domanda": "Gy3blXx3"
   },
   {
-    "num_domanda": 146,
+    "num_domanda": 145,
     "domanda": "Quale malattia è correlata agli effetti stocastici genetici?",
     "opzioni": [
-      "Sterilità",
       "Cataratta",
+      "Sterilità",
       "Neoplasia radioindotta",
       "Ustioni cutanee"
     ],
@@ -1740,15 +1740,135 @@
     "cod_domanda": "ceBO9Czf"
   },
   {
-    "num_domanda": 147,
+    "num_domanda": 146,
     "domanda": "Quante volte è più grande la dose assorbita nella TC-pelvi che nella RX torace",
     "opzioni": [
-      "Più di 400 rx torace",
+      "Meno di 20 rx torace",
       "Circa 10 rx torace",
       "Tra 50 e 100 rx torace",
-      "Meno di 20 rx torace"
+      "Più di 400 rx torace"
     ],
     "risposta_corretta": "Più di 400 rx torace",
     "cod_domanda": "NlZu5twI"
+  },
+  {
+    "num_domanda": 147,
+    "domanda": "Qual è l'obiettivo principale della radioterapia curativa?",
+    "opzioni": [
+      "Ridurre i sintomi",
+      "Prevenire le recidive",
+      "Minimizzare la tossicità",
+      "Eradicare il tumore"
+    ],
+    "risposta_corretta": "Eradicare il tumore",
+    "cod_domanda": "s3ed7LqL"
+  },
+  {
+    "num_domanda": 148,
+    "domanda": "Quale tecnica di radioterapia utilizza fasci modellati secondo la geometria del tumore?",
+    "opzioni": [
+      "Adroterapia",
+      "Radioterapia stereotassica",
+      "Radioterapia conformazionale 3D",
+      "Brachiterapia"
+    ],
+    "risposta_corretta": "Radioterapia conformazionale 3D",
+    "cod_domanda": "qMUDr5fm"
+  },
+  {
+    "num_domanda": 149,
+    "domanda": "Qual è il tipo di frazionamento che prevede dosi giornaliere più alte per ridurre il numero di sedute?",
+    "opzioni": [
+      "Ipofrazionato",
+      "Iperfrazionato",
+      "Frazionato adattativo",
+      "Convenzionale"
+    ],
+    "risposta_corretta": "Ipofrazionato",
+    "cod_domanda": "BpooxWte"
+  },
+  {
+    "num_domanda": 150,
+    "domanda": "Quale innovazione tecnologica consente di modificare il piano di trattamento durante la terapia?",
+    "opzioni": [
+      "Terapia con particelle pesanti",
+      "IGRT",
+      "Radioterapia adattativa",
+      "Radioterapia stereotassica"
+    ],
+    "risposta_corretta": "Radioterapia adattativa",
+    "cod_domanda": "vhdQGFQX"
+  },
+  {
+    "num_domanda": 151,
+    "domanda": "Qual è un possibile effetto cronico della radioterapia sui tessuti sani?",
+    "opzioni": [
+      "Eritema",
+      "Fibrosi",
+      "Nausea",
+      "Mucosite"
+    ],
+    "risposta_corretta": "Fibrosi",
+    "cod_domanda": "S0sd0Wq7"
+  },
+  {
+    "num_domanda": 152,
+    "domanda": "Qual è il principio fondamentale della radioprotezione che punta a mantenere la dose più bassa possibile?",
+    "opzioni": [
+      "Sorveglianza",
+      "Limiti di dose",
+      "Giustificazione",
+      "Ottimizzazione"
+    ],
+    "risposta_corretta": "Ottimizzazione",
+    "cod_domanda": "kXkPHMaX"
+  },
+  {
+    "num_domanda": 153,
+    "domanda": "Qual è il limite di dose annuale per i lavoratori esposti in categoria A?",
+    "opzioni": [
+      "1 mSv",
+      "50 mSv",
+      "6 mSv",
+      "20 mSv"
+    ],
+    "risposta_corretta": "50 mSv",
+    "cod_domanda": "4FRHukQ2"
+  },
+  {
+    "num_domanda": 154,
+    "domanda": "Quale dispositivo di protezione individuale riduce l'esposizione fino a 20 volte?",
+    "opzioni": [
+      "Dosimetro",
+      "Grembiule piombato",
+      "Schermo protettivo",
+      "Guanti in lattice"
+    ],
+    "risposta_corretta": "Grembiule piombato",
+    "cod_domanda": "8WIam852"
+  },
+  {
+    "num_domanda": 155,
+    "domanda": "Qual è la principale sorgente di esposizione interna per i lavoratori?",
+    "opzioni": [
+      "Contatto con materiali contaminati",
+      "Fascio primario",
+      "Ingestione di radionuclidi",
+      "Radiazione diffusa"
+    ],
+    "risposta_corretta": "Ingestione di radionuclidi",
+    "cod_domanda": "HGszDXjQ"
+  },
+  {
+    "num_domanda": 156,
+    "domanda": "Qual è la procedura raccomandata per pazienti in gravidanza che necessitano di indagini radiologiche?",
+    "opzioni": [
+      "Evitare l'esame se non strettamente necessario",
+      "Utilizzare radiazioni ridotte",
+      "Usare mezzi di contrasto",
+      "Proseguire senza modifiche"
+    ],
+    "risposta_corretta": "Evitare l'esame se non strettamente necessario",
+    "cod_domanda": "wqpGbHHz"
   }
 ]
