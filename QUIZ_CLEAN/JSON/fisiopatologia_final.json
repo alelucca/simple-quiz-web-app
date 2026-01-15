@@ -27,9 +27,9 @@
     "num_domanda": 3,
     "domanda": "Quale tra le seguenti possono essere causa di insufficienza cardiaca:",
     "opzioni": [
-      "Solo fibrillazione",
-      "Solo anemia",
-      "Solo ipertiroidismo",
+      "Fibrillazione",
+      "Anemia",
+      "Ipertiroidismo",
       "Tutte le risposte sono corrette (anemia, ipertiroidismo, fibrillazione)"
     ],
     "risposta_corretta": "Tutte le risposte sono corrette (anemia, ipertiroidismo, fibrillazione)",
@@ -570,7 +570,7 @@
       "Nessuna delle precedenti",
       "Poliuria",
       "Oliguria",
-      "Anuria"
+      "Pollachiuria"
     ],
     "risposta_corretta": "Nessuna delle precedenti",
     "cod_domanda": "nVC0t1pL"
@@ -718,19 +718,7 @@
     ],
     "risposta_corretta": "Feedback negativo",
     "cod_domanda": "uatLotZB"
-  },
-  {
-    "num_domanda": 61,
-    "domanda": "Quale delle seguenti affermazioni è vera nell’infarto miocardico?",
-    "opzioni": [
-      "Nessuna delle precedenti",
-      "Solo l'ultima affermazione è vera",
-      "Tutte le precedenti",
-      "Solo la prima affermazione è vera"
-    ],
-    "risposta_corretta": "Tutte le precedenti",
-    "cod_domanda": "orL8pudw"
-  },
+  },  
   {
     "num_domanda": 62,
     "domanda": "Quali tra questi elementi si trovano sempre aumentati nel sangue in caso di insufficienza renale grave?",
@@ -748,9 +736,9 @@
     "domanda": "Quali tra questi ormoni presiedono al mantenimento dell’equilibrio idroelettrolitico?",
     "opzioni": [
       "Tutte le precedenti (adh, peptide netriuretico atriale, sistema renina angiotensina aldosterone)",
-      "Solo peptide netriuretico atriale",
-      "Solo sistema renina angiotensina aldosterone",
-      "Solo ADH"
+      "Peptide netriuretico atriale",
+      "Sistema renina angiotensina aldosterone",
+      "ADH"
     ],
     "risposta_corretta": "Tutte le precedenti (adh, peptide netriuretico atriale, sistema renina angiotensina aldosterone)",
     "cod_domanda": "f54azDS5"
@@ -771,10 +759,10 @@
     "num_domanda": 65,
     "domanda": "Quale tra queste affermazioni è vera nell’ipertensione arteriosa?",
     "opzioni": [
-      "È sempre dipendente da una carenza di catecolamine",
+      "È sempre dipendente da un’eccessiva secrezione di catecolamine",
       "Tutte le precedenti (la pressione arteriosa sistolica è maggiore di 150, la forma più frequente è quella secondarie ad altre patologie, è sempre dipendente da un’eccessiva secrezione di catecolamine)",
-      "La forma più frequente è quella primaria (essenziale)",
-      "La pressione arteriosa sistolica è sempre inferiore a 120"
+      "La forma più frequente è quella secondarie ad altre patologie",
+      "La pressione arteriosa sistolica è maggiore di 150"
     ],
     "risposta_corretta": "Tutte le precedenti (la pressione arteriosa sistolica è maggiore di 150, la forma più frequente è quella secondarie ad altre patologie, è sempre dipendente da un’eccessiva secrezione di catecolamine)",
     "cod_domanda": "QO2W2C00"
