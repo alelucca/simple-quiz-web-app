@@ -3,9 +3,9 @@
     "num_domanda": 1,
     "domanda": "Un paziente riferisce tosse secca e perdita di gusto. Quale farmaco sta assumendo presumibilmente?",
     "opzioni": [
-      "lisinopril",
-      "lorazepam",
       "propanolo",
+      "lorazepam",
+      "lisinopril",
       "clonidina"
     ],
     "risposta_corretta": "lisinopril",
@@ -15,10 +15,10 @@
     "num_domanda": 2,
     "domanda": "Quale di questi farmaci è antipertensivo con effetto diuretico?",
     "opzioni": [
-      "nitroglicerina",
+      "diazepam",
       "efedrina",
       "furosemide",
-      "diazepam"
+      "nitroglicerina"
     ],
     "risposta_corretta": "furosemide",
     "cod_domanda": "gsMqI3Zj"
@@ -28,8 +28,8 @@
     "domanda": "Quale dei seguenti farmaci ha effetto inotropo positivo?",
     "opzioni": [
       "enalapril",
-      "salbutamolo",
       "digitale",
+      "salbutamolo",
       "nebivololo"
     ],
     "risposta_corretta": "digitale",
@@ -39,10 +39,10 @@
     "num_domanda": 4,
     "domanda": "Un paziente riferisce mal di testa. Quale farmaco sta assumendo verosimilmente? (Quale tra questi farmaci potrebbe essere la causa del suo disturbo?)",
     "opzioni": [
-      "carvedilolo",
+      "nitroglicerina",
       "beclometasone",
       "propafenone",
-      "nitroglicerina"
+      "carvedilolo"
     ],
     "risposta_corretta": "nitroglicerina",
     "cod_domanda": "IBXWLyJ4"
@@ -51,9 +51,9 @@
     "num_domanda": 5,
     "domanda": "Quale fra questi farmaci è un antiaritmico di classe III?",
     "opzioni": [
-      "lidocaina",
       "amiodarone",
       "felcainide",
+      "lidocaina",
       "propafenone"
     ],
     "risposta_corretta": "amiodarone",
@@ -63,9 +63,9 @@
     "num_domanda": 6,
     "domanda": "Qual è l'antagonista dell'eparina?",
     "opzioni": [
-      "adrenalina",
-      "protamina solfato",
       "warfarin",
+      "protamina solfato",
+      "adrenalina",
       "vitamina K"
     ],
     "risposta_corretta": "protamina solfato",
@@ -87,10 +87,10 @@
     "num_domanda": 8,
     "domanda": "Quale tra i seguenti farmaci può dare miopatia?",
     "opzioni": [
-      "nitroglicerina",
-      "carvedilolo",
+      "fenitoina",
       "atorvastatina",
-      "fenitoina"
+      "nitroglicerina",
+      "carvedilolo"
     ],
     "risposta_corretta": "atorvastatina",
     "cod_domanda": "SV4K7u3Q"
@@ -99,8 +99,8 @@
     "num_domanda": 9,
     "domanda": "Sono effetti collaterali comuni per corticosteroidi:",
     "opzioni": [
-      "aumento glicemia",
       "osteoporosi",
+      "aumento glicemia",
       "ulcera peptica",
       "tutte le precedenti"
     ],
@@ -123,10 +123,10 @@
     "num_domanda": 11,
     "domanda": "Nel paziente scompensato con edema il farmaco d'elezione è: (Nel paziente scompensato con edema quale tra i seguenti farmaci è indicato?)",
     "opzioni": [
-      "nebivololo",
-      "amiodarone",
+      "furosemide",
       "lidocaina",
-      "furosemide"
+      "amiodarone",
+      "nebivololo"
     ],
     "risposta_corretta": "furosemide",
     "cod_domanda": "1vMRl8Xm"
@@ -135,10 +135,10 @@
     "num_domanda": 12,
     "domanda": "Quali sono i principali gruppi di farmaci per prevenire e trattare ulcera peptica?",
     "opzioni": [
+      "inibitori pompa protonica",
       "ACE-inibitori",
       "betastimolanti",
-      "antileucotrieni",
-      "inibitori pompa protonica"
+      "antileucotrieni"
     ],
     "risposta_corretta": "inibitori pompa protonica",
     "cod_domanda": "CWWeO4lT"
@@ -147,9 +147,9 @@
     "num_domanda": 13,
     "domanda": "Principali farmaci per osteoporosi: (Sono utilizzabili nella terapia dell'osteoporosi):",
     "opzioni": [
-      "bifosfonati",
-      "vitamina D3",
       "tutti i precedenti",
+      "vitamina D3",
+      "bifosfonati",
       "sali di calcio"
     ],
     "risposta_corretta": "tutti i precedenti",
@@ -159,10 +159,10 @@
     "num_domanda": 14,
     "domanda": "Nell'attacco acuto d'asma quale dei seguenti gruppi di farmaci è utile?",
     "opzioni": [
-      "antileucotrieni",
-      "laba",
+      "corticosteroidi",
       "saba",
-      "corticosteroidi"
+      "laba",
+      "antileucotrieni"
     ],
     "risposta_corretta": "saba",
     "cod_domanda": "dBsT3eXA"
@@ -183,10 +183,10 @@
     "num_domanda": 16,
     "domanda": "Quali sono le vie di somministrazione per insulina?",
     "opzioni": [
-      "solo ev",
       "ev/im/sc",
-      "per bocca",
-      "solo sc"
+      "solo ev",
+      "solo sc",
+      "per bocca"
     ],
     "risposta_corretta": "ev/im/sc",
     "cod_domanda": "IkveRfXE"
@@ -195,10 +195,10 @@
     "num_domanda": 17,
     "domanda": "Qual è il principale meccanismo azione dei FANS?",
     "opzioni": [
-      "stimolano la sintesi delle prostaglandine e cicloossigenasi",
-      "inibiscono la sintesi dei leucotrieni",
+      "stimolano la sintesi delle prostaglandine",
       "stimolano l'attività della cicloossigenasi",
-      "stimolano la sintesi delle prostaglandine"
+      "inibiscono la sintesi dei leucotrieni",
+      "stimolano la sintesi delle prostaglandine e cicloossigenasi"
     ],
     "risposta_corretta": "stimolano la sintesi delle prostaglandine e cicloossigenasi",
     "cod_domanda": "PbRyMOBs"
@@ -208,8 +208,8 @@
     "domanda": "Se ho depressione del respiro da morfina somministro:",
     "opzioni": [
       "sufentanil",
-      "naloxone",
       "fentatienil",
+      "naloxone",
       "nitroglicerina"
     ],
     "risposta_corretta": "naloxone",
@@ -221,8 +221,8 @@
     "opzioni": [
       "e l'attività motoria e sensoriale",
       "deprimere SNC con perdita coscienza",
-      "potenziare azione inibitoria del gaba",
-      "potenziare la trasmissione dopaminergica"
+      "potenziare la trasmissione dopaminergica",
+      "potenziare azione inibitoria del gaba"
     ],
     "risposta_corretta": "potenziare azione inibitoria del gaba",
     "cod_domanda": "WKYkKAuH"
@@ -233,8 +233,8 @@
     "opzioni": [
       "delirio eccitabilità",
       "effetti di dipendenza",
-      "perdita coscienza",
-      "mal di testa ed ipotensione"
+      "mal di testa ed ipotensione",
+      "perdita coscienza"
     ],
     "risposta_corretta": "mal di testa ed ipotensione",
     "cod_domanda": "yvNNXTsu"
@@ -243,10 +243,10 @@
     "num_domanda": 21,
     "domanda": "In Pronto Soccorso un paziente epilettico riceverà:",
     "opzioni": [
+      "risperidone",
       "levetiracetam",
       "diazepam",
-      "gabapentin",
-      "risperidone"
+      "gabapentin"
     ],
     "risposta_corretta": "diazepam",
     "cod_domanda": "5SS3oDAW"
@@ -255,10 +255,10 @@
     "num_domanda": 22,
     "domanda": "Un paziente deve ricevere sedazione per un piccolo intervento chirurgico, riceverà:",
     "opzioni": [
-      "propofol",
-      "alotano",
       "ketamina",
-      "lidocaina"
+      "alotano",
+      "lidocaina",
+      "propofol"
     ],
     "risposta_corretta": "propofol",
     "cod_domanda": "nbFhjKAN"
@@ -267,8 +267,8 @@
     "num_domanda": 23,
     "domanda": "Un farmaco antipsicotico agisce:",
     "opzioni": [
-      "bloccando recettori adrenergici",
       "bloccando i recettori dopaminergici",
+      "bloccando recettori adrenergici",
       "aumentando sintesi prostaglandine",
       "aumentando azione gaba"
     ],
@@ -279,10 +279,10 @@
     "num_domanda": 24,
     "domanda": "Un paziente riceve levodopa-carbidopa. Come controllare nausea e vomito?",
     "opzioni": [
-      "lansoprazolo",
-      "clorpromazina",
       "furosemide",
-      "domperidone"
+      "domperidone",
+      "clorpromazina",
+      "lansoprazolo"
     ],
     "risposta_corretta": "domperidone",
     "cod_domanda": "PQCevYyg"
@@ -292,9 +292,9 @@
     "domanda": "Quale tra i seguenti è un diuretico risparmiatore di potassio?",
     "opzioni": [
       "furosemide",
+      "nifedipina",
       "idroclorotiazide",
-      "spironolattone",
-      "nifedipina"
+      "spironolattone"
     ],
     "risposta_corretta": "spironolattone",
     "cod_domanda": "vXTZXoxE"
@@ -303,10 +303,10 @@
     "num_domanda": 26,
     "domanda": "Come agisce l'eparina?",
     "opzioni": [
-      "inibisce l'aggregazione piastrinica",
       "aumenta la fibrinolisi",
       "riduce la sintesi epatica dei fattori della coagulazione",
-      "inibisce la funzione di alcuni fattori della coagulazione mediante un potenziamento dell'attività dell'antrombina III"
+      "inibisce la funzione di alcuni fattori della coagulazione mediante un potenziamento dell'attività dell'antrombina III",
+      "inibisce l'aggregazione piastrinica"
     ],
     "risposta_corretta": "inibisce la funzione di alcuni fattori della coagulazione mediante un potenziamento dell'attività dell'antrombina III",
     "cod_domanda": "yHTCoVrA"
@@ -315,10 +315,10 @@
     "num_domanda": 27,
     "domanda": "Le indicazioni per l'impiego dei sartani sono:",
     "opzioni": [
-      "tutte le precedenti",
       "terapia dello scompenso cardiaco congestizio",
+      "trattamento dell'ipertensione arteriosa",
       "trattamento del post-infarto",
-      "trattamento dell'ipertensione arteriosa"
+      "tutte le precedenti"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "Gr6WDoYb"
@@ -327,10 +327,10 @@
     "num_domanda": 28,
     "domanda": "Indicare l'affermazione ERRATA: verapamil e diltiazem",
     "opzioni": [
-      "aumentano l'apporto di ossigeno al miocardio",
-      "sono indicati nella terapia della cardiopatia ischemica",
+      "riducono il consumo di ossigeno da parte del miocardio",
       "aumentano la contrattilità miocardica e la frequenza cardiaca",
-      "riducono il consumo di ossigeno da parte del miocardio"
+      "sono indicati nella terapia della cardiopatia ischemica",
+      "aumentano l'apporto di ossigeno al miocardio"
     ],
     "risposta_corretta": "aumentano la contrattilità miocardica e la frequenza cardiaca",
     "cod_domanda": "ndytVZsi"
@@ -339,10 +339,10 @@
     "num_domanda": 29,
     "domanda": "Il principale effetto collaterale dei farmaci antagonisti dei recettori H1 dell'istamina di I generazione è:",
     "opzioni": [
-      "insonnia",
       "sedazione",
-      "nausea e vomito",
-      "ipertensione"
+      "insonnia",
+      "ipertensione",
+      "nausea e vomito"
     ],
     "risposta_corretta": "sedazione",
     "cod_domanda": "A0alt7zL"
@@ -351,10 +351,10 @@
     "num_domanda": 30,
     "domanda": "Le statine:",
     "opzioni": [
+      "devono essere assunte solo per brevi periodi",
       "non vanno mai utilizzate in associazione a ezetimibe/a resine",
-      "sono controindicate nei pazienti diabetici",
       "possono provocare miopatie",
-      "devono essere assunte solo per brevi periodi"
+      "sono controindicate nei pazienti diabetici"
     ],
     "risposta_corretta": "possono provocare miopatie",
     "cod_domanda": "uuRh3Wr5"
@@ -363,8 +363,8 @@
     "num_domanda": 31,
     "domanda": "Qual è il principio attivo liberato dal profarmaco isosorbide mononitrato?",
     "opzioni": [
-      "AMP ciclico",
       "cicloossigenasi di tipo I",
+      "AMP ciclico",
       "nessuno dei precedenti",
       "monossido d'azoto o ossido nitrico (NO)"
     ],
@@ -375,10 +375,10 @@
     "num_domanda": 32,
     "domanda": "Un farmaco ACE inibitore è indicato:",
     "opzioni": [
-      "nell'ipertensione arteriosa",
       "nella nefropatia diabetica",
-      "in tutti i casi indicati",
-      "nel periodo post-infarto miocardico"
+      "nel periodo post-infarto miocardico",
+      "nell'ipertensione arteriosa",
+      "in tutti i casi indicati"
     ],
     "risposta_corretta": "in tutti i casi indicati",
     "cod_domanda": "3SkeaFbA"
@@ -388,9 +388,9 @@
     "domanda": "In pazienti in trattamento con digitale, aritmie cardiache gravi possono essere causate dalla deplezione di:",
     "opzioni": [
       "Ca++",
-      "Mg++",
+      "Na+",
       "K+",
-      "Na+"
+      "Mg++"
     ],
     "risposta_corretta": "K+",
     "cod_domanda": "ah9m2fBr"
@@ -401,8 +401,8 @@
     "opzioni": [
       "poliposi intestinale",
       "asma bronchiale o BPCO",
-      "gastrite cronica",
-      "calcolosi renale"
+      "calcolosi renale",
+      "gastrite cronica"
     ],
     "risposta_corretta": "asma bronchiale o BPCO",
     "cod_domanda": "9kh7D3Qg"
@@ -411,10 +411,10 @@
     "num_domanda": 35,
     "domanda": "La digitale viene utilizzata per la terapia di:",
     "opzioni": [
+      "vomito",
       "colica renale",
       "scompenso cardiaco",
-      "diarrea",
-      "vomito"
+      "diarrea"
     ],
     "risposta_corretta": "scompenso cardiaco",
     "cod_domanda": "SCOpsKFo"
@@ -423,9 +423,9 @@
     "num_domanda": 36,
     "domanda": "I farmaci cortisonici:",
     "opzioni": [
-      "possono causare osteoporosi",
       "possono aumentare il rischio di sanguinamento gastrointestinale se associati ai FANS",
       "tutte le affermazioni sono corrette",
+      "possono causare osteoporosi",
       "possono determinare un aumento della glicemia in un paziente diabetico"
     ],
     "risposta_corretta": "tutte le affermazioni sono corrette",
@@ -435,10 +435,10 @@
     "num_domanda": 37,
     "domanda": "Sertralina e citalopram sono SSRI utilizzati principalmente nella terapia della:",
     "opzioni": [
-      "depressione",
+      "epilessia",
       "schizofrenia",
-      "obesità",
-      "epilessia"
+      "depressione",
+      "obesità"
     ],
     "risposta_corretta": "depressione",
     "cod_domanda": "TvFZzuxh"
@@ -447,9 +447,9 @@
     "num_domanda": 38,
     "domanda": "Quale delle seguenti affermazioni NON è corretta?",
     "opzioni": [
+      "l'effetto ansiolitico delle benzodiazepine si manifesta in breve tempo",
       "l'effetto antiepilettico delle benzodiazepine va in tolleranza in seguito a uso cronico",
       "le benzodiazepine sono indicate per la terapia a breve termine dell'insonnia",
-      "l'effetto ansiolitico delle benzodiazepine si manifesta in breve tempo",
       "le benzodiazepine esercitano effetti ipnoinducenti ma non ansiolitici"
     ],
     "risposta_corretta": "le benzodiazepine esercitano effetti ipnoinducenti ma non ansiolitici",
@@ -459,9 +459,9 @@
     "num_domanda": 39,
     "domanda": "Quale affermazione inerente i seguenti farmaci antiepilettici è errata:",
     "opzioni": [
-      "l'acido valproico è indicato nella terapia dei disturbi bipolari",
       "l'acido valproico ha effetti teratogeni",
       "l'acido valproico può alterare la funzionalità epatica",
+      "l'acido valproico è indicato nella terapia dei disturbi bipolari",
       "l'acido valproico ha limitate applicazioni in terapia antiepilettica"
     ],
     "risposta_corretta": "l'acido valproico ha limitate applicazioni in terapia antiepilettica",
@@ -484,8 +484,8 @@
     "domanda": "Riguardo ai farmaci curarici competitivi tipo vencuronio quale di queste affermazioni è vera?",
     "opzioni": [
       "causano depressione respiratoria per effetto inibente il sistema nervoso centrale",
-      "hanno un alto indice terapeutico",
       "vengono somministrati per inalazione",
+      "hanno un alto indice terapeutico",
       "bloccano i recettori nicotinici per l'acetilcolina a livello della placca motoria"
     ],
     "risposta_corretta": "bloccano i recettori nicotinici per l'acetilcolina a livello della placca motoria",
@@ -495,10 +495,10 @@
     "num_domanda": 42,
     "domanda": "I FANS sono controindicati nei casi seguenti tranne uno, quale?",
     "opzioni": [
-      "artrite reumatoide",
-      "insufficienza epatica o renale grave",
       "emofilia ed alterazioni della coagulazione",
-      "ulcera peptica"
+      "ulcera peptica",
+      "insufficienza epatica o renale grave",
+      "artrite reumatoide"
     ],
     "risposta_corretta": "artrite reumatoide",
     "cod_domanda": "xPcXrHlx"
@@ -507,10 +507,10 @@
     "num_domanda": 43,
     "domanda": "Gli inibitori della pompa protonica (PPI) sono indicati:",
     "opzioni": [
+      "per prevenire le gastrolesività dei FANS",
       "tutte le precedenti",
       "per la terapia dell'ulcera peptica",
-      "per la terapia del reflusso gastroesofageo",
-      "per prevenire le gastrolesività dei FANS"
+      "per la terapia del reflusso gastroesofageo"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "Ax5164ks"
@@ -520,9 +520,9 @@
     "domanda": "La terapia dell'attacco acuto d'asma bronchiale per risolvere il broncospasmo prevede:",
     "opzioni": [
       "beta2 agonisti a breve durata d'azione per via inalatoria",
-      "cromoni",
       "omalizumab",
-      "beta2 agonisti a lunga durata d'azione per via inalatoria"
+      "beta2 agonisti a lunga durata d'azione per via inalatoria",
+      "cromoni"
     ],
     "risposta_corretta": "beta2 agonisti a breve durata d'azione per via inalatoria",
     "cod_domanda": "c4zjzpA4"
@@ -532,9 +532,9 @@
     "domanda": "La Metformina è un ipoglicemizzante orale della classe:",
     "opzioni": [
       "inibitori dell'enzima DDP/IV",
-      "glitazoni",
+      "sulfaniluree",
       "biguanidi",
-      "sulfaniluree"
+      "glitazoni"
     ],
     "risposta_corretta": "biguanidi",
     "cod_domanda": "RrwUpAZK"
@@ -543,10 +543,10 @@
     "num_domanda": 46,
     "domanda": "Modalità d'azione dei farmaci antistaminici:",
     "opzioni": [
-      "attività agonista sui recettori per l'istamina",
-      "inibizione della produzione di anticorpi della classe IgE",
       "hanno effetto vasocostrittore diretto mediato da NO",
-      "attività antagonista sui recettori per l'istamina"
+      "attività agonista sui recettori per l'istamina",
+      "attività antagonista sui recettori per l'istamina",
+      "inibizione della produzione di anticorpi della classe IgE"
     ],
     "risposta_corretta": "attività antagonista sui recettori per l'istamina",
     "cod_domanda": "sSM7R8YY"
@@ -555,10 +555,10 @@
     "num_domanda": 47,
     "domanda": "Quale tra i seguenti farmaci è un inibitore di pompa protonica?",
     "opzioni": [
+      "rifampicina",
       "ranitidina",
-      "pantoprazolo",
       "metoprololo",
-      "rifampicina"
+      "pantoprazolo"
     ],
     "risposta_corretta": "pantoprazolo",
     "cod_domanda": "MB0lwtca"
@@ -567,10 +567,10 @@
     "num_domanda": 48,
     "domanda": "In quale di queste situazioni cliniche gli steroidi andrebbero, quando possibile, evitati?",
     "opzioni": [
+      "malattie allergiche",
       "tumori",
-      "diabete",
       "patologie infiammatorie croniche",
-      "malattie allergiche"
+      "diabete"
     ],
     "risposta_corretta": "diabete",
     "cod_domanda": "Y1IKdY36"
@@ -579,10 +579,10 @@
     "num_domanda": 49,
     "domanda": "Qual è l'indicazione alla terapia con litio?",
     "opzioni": [
-      "epilessia",
-      "disturbo bipolare",
       "disturbo d'ansia",
-      "schizofrenia"
+      "schizofrenia",
+      "disturbo bipolare",
+      "epilessia"
     ],
     "risposta_corretta": "disturbo bipolare",
     "cod_domanda": "iVl4SYQb"
@@ -591,10 +591,10 @@
     "num_domanda": 50,
     "domanda": "Su quale dei seguenti sistemi agiscono maggiormente gli antipsicotici di prima generazione?",
     "opzioni": [
-      "dopaminergico",
       "noradrenergico",
-      "serotoninergico",
-      "acetilcolinergico"
+      "acetilcolinergico",
+      "dopaminergico",
+      "serotoninergico"
     ],
     "risposta_corretta": "dopaminergico",
     "cod_domanda": "G01tAjLQ"
@@ -603,9 +603,9 @@
     "num_domanda": 51,
     "domanda": "Tutte le seguenti affermazioni rispetto ai sartani sono vere tranne:",
     "opzioni": [
+      "possono essere utilizzati in pazienti nei quali l'uso di un ace inibitore ha indotto tosse secca",
       "sono agonisti dei recettori AT1 dell'angiotensina",
       "sono indicati nella terapia dell'ipertensione e in alcuni casi di scompenso cardiaco",
-      "possono essere utilizzati in pazienti nei quali l'uso di un ace inibitore ha indotto tosse secca",
       "sono controindicati in gravidanza"
     ],
     "risposta_corretta": "sono agonisti dei recettori AT1 dell'angiotensina",
@@ -615,10 +615,10 @@
     "num_domanda": 52,
     "domanda": "L'aspirina può essere impiegata per la prevenzione secondaria delle malattie tromboliche. Qual è il dosaggio in questo caso?",
     "opzioni": [
-      "500 mg ogni 2 ore",
-      "500 mg x 4/die",
       "3-4 g/die",
-      "100 mg x 1/die"
+      "500 mg ogni 2 ore",
+      "100 mg x 1/die",
+      "500 mg x 4/die"
     ],
     "risposta_corretta": "100 mg x 1/die",
     "cod_domanda": "EGvsFokd"
@@ -627,10 +627,10 @@
     "num_domanda": 53,
     "domanda": "La terapia a lungo termine con un cortisonico:",
     "opzioni": [
-      "nessuna delle precedenti",
-      "può causare osteoporosi",
       "può stimolare la funzione corticosurrenalica",
-      "è indicata per l'ulcera gastrica"
+      "è indicata per l'ulcera gastrica",
+      "può causare osteoporosi",
+      "nessuna delle precedenti"
     ],
     "risposta_corretta": "può causare osteoporosi",
     "cod_domanda": "A3K8asJz"
@@ -639,10 +639,10 @@
     "num_domanda": 54,
     "domanda": "L'omeprazolo è un farmaco antiulcera che agisce tramite:",
     "opzioni": [
-      "blocco del recettore H2 dell'istamina",
       "produzione di muco protettivo",
       "stimolazione del recettore delle prostaglandine",
-      "inibizione della pompa protonica H+/K+-ATPasi"
+      "inibizione della pompa protonica H+/K+-ATPasi",
+      "blocco del recettore H2 dell'istamina"
     ],
     "risposta_corretta": "inibizione della pompa protonica H+/K+-ATPasi",
     "cod_domanda": "QbWK2vLd"
@@ -651,9 +651,9 @@
     "num_domanda": 55,
     "domanda": "I bifosfonati impiegati nella terapia dell'osteoporosi:",
     "opzioni": [
+      "si somministrano per os vicino ai pasti",
       "sono molecole poco polari facilmente assorbite a livello intestinale",
       "sono facilmente metabolizzati per via epatica",
-      "si somministrano per os vicino ai pasti",
       "aumentano la sopravvivenza degli osteoblasti/osteociti"
     ],
     "risposta_corretta": "aumentano la sopravvivenza degli osteoblasti/osteociti",
@@ -663,10 +663,10 @@
     "num_domanda": 56,
     "domanda": "L'ipoglicemia riscontrabile come effetto collaterale della somministrazione di insulina può dipendere da:",
     "opzioni": [
-      "tutte le precedenti",
       "errori nella dose",
+      "fattori concomitanti che hanno alterato la sensibilità o l'assorbimento dell'insulina",
       "non corrispondenza tra il picco plasmatico di insulina ed il pasto",
-      "fattori concomitanti che hanno alterato la sensibilità o l'assorbimento dell'insulina"
+      "tutte le precedenti"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "BzgIoaOJ"
@@ -675,10 +675,10 @@
     "num_domanda": 57,
     "domanda": "I glucocorticoidi:",
     "opzioni": [
-      "attivano la proteina Gp",
       "interagiscono con recettori intracellulari",
-      "bloccano i canali per il calcio",
-      "modificano il potenziale di membrana a riposo nelle cellule bersaglio"
+      "attivano la proteina Gp",
+      "modificano il potenziale di membrana a riposo nelle cellule bersaglio",
+      "bloccano i canali per il calcio"
     ],
     "risposta_corretta": "interagiscono con recettori intracellulari",
     "cod_domanda": "rv3UgrsK"
@@ -688,9 +688,9 @@
     "domanda": "Possibili effetti indesiderati in una terapia con L-dopa in pazienti con malattia di Parkinson:",
     "opzioni": [
       "tremore",
-      "allucinazioni visive",
+      "bradicinesia",
       "rigidità muscolare",
-      "bradicinesia"
+      "allucinazioni visive"
     ],
     "risposta_corretta": "allucinazioni visive",
     "cod_domanda": "VymTFNPa"
@@ -699,10 +699,10 @@
     "num_domanda": 59,
     "domanda": "Uno dei farmaci elencati è un anestetico locale:",
     "opzioni": [
-      "lidocaina",
-      "amlodipina",
       "loratidina",
-      "tetraciclina"
+      "amlodipina",
+      "tetraciclina",
+      "lidocaina"
     ],
     "risposta_corretta": "lidocaina",
     "cod_domanda": "LE8MlkEQ"
@@ -711,10 +711,10 @@
     "num_domanda": 60,
     "domanda": "Il recettore coinvolto nell'azione delle benzodiazepine è:",
     "opzioni": [
-      "il recettore D1 per la dopamina",
-      "il recettore GABA-A",
       "il recettore 5-HT2 per la serotonina",
-      "nessuno dei 3"
+      "il recettore GABA-A",
+      "nessuno dei 3",
+      "il recettore D1 per la dopamina"
     ],
     "risposta_corretta": "il recettore GABA-A",
     "cod_domanda": "WDE7tOtd"
@@ -723,9 +723,9 @@
     "num_domanda": 61,
     "domanda": "L'alprazolam può determinare tutti i seguenti effetti eccetto:",
     "opzioni": [
-      "sindrome parkinsoniana iatrogena",
-      "effetto ansiolitico in breve tempo",
       "sonnolenza nelle fasi iniziali della terapia",
+      "effetto ansiolitico in breve tempo",
+      "sindrome parkinsoniana iatrogena",
       "ridotta coordinazione dei movimenti ad alte dosi"
     ],
     "risposta_corretta": "sindrome parkinsoniana iatrogena",
@@ -735,10 +735,10 @@
     "num_domanda": 62,
     "domanda": "I farmaci BETA bloccanti hanno le seguenti indicazioni terapeutiche tranne una. Quale?",
     "opzioni": [
-      "tachiaritmie sopraventricolari",
-      "ipertensione arteriosa",
       "ischemia miocardica",
-      "broncopneumopatia cronico ostruttiva"
+      "ipertensione arteriosa",
+      "broncopneumopatia cronico ostruttiva",
+      "tachiaritmie sopraventricolari"
     ],
     "risposta_corretta": "broncopneumopatia cronico ostruttiva",
     "cod_domanda": "Kon25ix2"
@@ -747,10 +747,10 @@
     "num_domanda": 63,
     "domanda": "Quale tra i seguenti diuretici è considerato a media intensità d'azione:",
     "opzioni": [
-      "mannitolo",
       "spironolattone",
-      "idroclorotiazide",
-      "furosemide"
+      "furosemide",
+      "mannitolo",
+      "idroclorotiazide"
     ],
     "risposta_corretta": "idroclorotiazide",
     "cod_domanda": "wDKPnW40"
@@ -759,10 +759,10 @@
     "num_domanda": 64,
     "domanda": "Quale tra le seguenti affermazioni inerenti i diuretici tiazidici è corretta:",
     "opzioni": [
-      "sono indicati per la terapia dell'iperaldosteronismo secondario (insufficienza cardiaca congestizia, cirrosi epatica, sindrome nefrosica)",
-      "agiscono principalmente nel tubulo contorto distale riducendo il riassorbimento di Na+ tramite l'inibizione di un cotrasportatore di Na+/Cl-",
       "devono essere somministrati per via endovenosa",
-      "sono usati frequentemente in associazione ad altri diuretici per le loro proprietà di risparmio di K+"
+      "sono usati frequentemente in associazione ad altri diuretici per le loro proprietà di risparmio di K+",
+      "sono indicati per la terapia dell'iperaldosteronismo secondario (insufficienza cardiaca congestizia, cirrosi epatica, sindrome nefrosica)",
+      "agiscono principalmente nel tubulo contorto distale riducendo il riassorbimento di Na+ tramite l'inibizione di un cotrasportatore di Na+/Cl-"
     ],
     "risposta_corretta": "agiscono principalmente nel tubulo contorto distale riducendo il riassorbimento di Na+ tramite l'inibizione di un cotrasportatore di Na+/Cl-",
     "cod_domanda": "l2zrvuVn"
@@ -772,9 +772,9 @@
     "domanda": "Nella cardiopatia ischemica sono utili i bloccanti del canale del calcio in quanto determinano le seguenti azioni, tranne una. Quale?",
     "opzioni": [
       "riduzione del consumo di ossigeno da parte del miocardio",
+      "aumento dell'apporto di ossigeno al miocardio",
       "vasocostrizione del distretto coronarico",
-      "riduzione del post-carico tramite la vasodilatazione periferica",
-      "aumento dell'apporto di ossigeno al miocardio"
+      "riduzione del post-carico tramite la vasodilatazione periferica"
     ],
     "risposta_corretta": "vasocostrizione del distretto coronarico",
     "cod_domanda": "KQ8HgTEc"
@@ -784,9 +784,9 @@
     "domanda": "Quale tra i seguenti effetti collaterali attribuiti ai bloccanti del canale di calcio, risulta errato?",
     "opzioni": [
       "ipertensione",
-      "bradicardia provocata da verapamile e diltiazem",
+      "tachicardia con uso di nifedipina a breve durata d'azione",
       "vampate ed edemi periferici",
-      "tachicardia con uso di nifedipina a breve durata d'azione"
+      "bradicardia provocata da verapamile e diltiazem"
     ],
     "risposta_corretta": "ipertensione",
     "cod_domanda": "W6bq6Yd1"
@@ -795,10 +795,10 @@
     "num_domanda": 67,
     "domanda": "Quale tra i seguenti effetti collaterali attribuiti agli ACE-inibitori, risulta errato?",
     "opzioni": [
+      "tosse",
       "teratogenicità",
       "vampate edemi periferici",
-      "ipotensione",
-      "tosse"
+      "ipotensione"
     ],
     "risposta_corretta": "vampate edemi periferici",
     "cod_domanda": "eTyhMfth"
@@ -807,10 +807,10 @@
     "num_domanda": 68,
     "domanda": "Dal punto di vista dell'efficacia diverse molecole di ACE inibitori sono sovrapponibili. In cosa differiscono tra loro?",
     "opzioni": [
-      "caratteristiche farmacocinetiche",
+      "tutte le precedenti",
       "farmaco attivo o profarmaco",
       "potenza",
-      "tutte le precedenti"
+      "caratteristiche farmacocinetiche"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "GBGC6BQz"
@@ -819,10 +819,10 @@
     "num_domanda": 69,
     "domanda": "Quale tra le seguenti affermazioni inerenti ALISKIREN è corretta?",
     "opzioni": [
-      "è un antagonista competitivo dei recettori AT1",
       "è un inibitore competitivo della renina",
-      "è indicato in gravidanza",
-      "provoca stipsi come effetto collaterale"
+      "è un antagonista competitivo dei recettori AT1",
+      "provoca stipsi come effetto collaterale",
+      "è indicato in gravidanza"
     ],
     "risposta_corretta": "è un inibitore competitivo della renina",
     "cod_domanda": "oonFJvro"
@@ -831,10 +831,10 @@
     "num_domanda": 70,
     "domanda": "Quale delle seguenti affermazioni relative alla digitale è errata?",
     "opzioni": [
-      "ha attività inotropa negativa",
       "gli effetti collaterali della digitale includono nausea, vomito, dolore addominale",
       "in caso di tossicità di grado elevato provoca effetti proaritmogeni fino a fibrillazione ventricolare",
-      "la digitale inibisce lo scambio Na+/K+ operato dalla Na+/K-ATPasi della membrana cellulare cardiaca"
+      "la digitale inibisce lo scambio Na+/K+ operato dalla Na+/K-ATPasi della membrana cellulare cardiaca",
+      "ha attività inotropa negativa"
     ],
     "risposta_corretta": "ha attività inotropa negativa",
     "cod_domanda": "TX1lkEJL"
@@ -843,10 +843,10 @@
     "num_domanda": 71,
     "domanda": "Quale tra i seguenti effetti collaterali attribuiti ai NITRATI ORGANICI risulta errato?",
     "opzioni": [
+      "ipokaliemia",
       "cefalea",
-      "arrossamento della cute vampate (flushing)",
       "ipotensione ortostatica",
-      "ipokaliemia"
+      "arrossamento della cute vampate (flushing)"
     ],
     "risposta_corretta": "ipokaliemia",
     "cod_domanda": "R6yrIM0r"
@@ -855,10 +855,10 @@
     "num_domanda": 72,
     "domanda": "L'amiodarone:",
     "opzioni": [
-      "è un antidepressivo triciclico",
-      "è un antiaritmico e può portare a ipotiroidismo o ipertiroidismo per la presenza di iodio nella molecola",
+      "è un farmaco per la sindrome metabolica in disuso",
       "è un antiaggregante piastrinico",
-      "è un farmaco per la sindrome metabolica in disuso"
+      "è un antiaritmico e può portare a ipotiroidismo o ipertiroidismo per la presenza di iodio nella molecola",
+      "è un antidepressivo triciclico"
     ],
     "risposta_corretta": "è un antiaritmico e può portare a ipotiroidismo o ipertiroidismo per la presenza di iodio nella molecola",
     "cod_domanda": "s11v9vd8"
@@ -867,10 +867,10 @@
     "num_domanda": 73,
     "domanda": "Gli inibitori della glicoproteina IIb/IIIa:",
     "opzioni": [
-      "sono selettivi per le piastrine attivate",
       "non danno il rischio di sanguinamento",
-      "hanno lunga durata d'azione",
-      "sono assunti per via orale"
+      "sono selettivi per le piastrine attivate",
+      "sono assunti per via orale",
+      "hanno lunga durata d'azione"
     ],
     "risposta_corretta": "sono selettivi per le piastrine attivate",
     "cod_domanda": "OWLQSaTN"
@@ -879,9 +879,9 @@
     "num_domanda": 74,
     "domanda": "Quale tra questi anticoagulanti interagisce con il metabolismo della vitamina K:",
     "opzioni": [
-      "Warfarin",
       "Enoxaparina",
       "eparina",
+      "Warfarin",
       "fondaparinux"
     ],
     "risposta_corretta": "Warfarin",
@@ -891,10 +891,10 @@
     "num_domanda": 75,
     "domanda": "Le statine:",
     "opzioni": [
-      "attivano PPARα",
-      "inibiscono la sintesi epatica del colesterolo",
+      "sono sequestranti gli acidi biliari",
       "inibiscono l'assorbimento intestinale del colesterolo",
-      "sono sequestranti gli acidi biliari"
+      "inibiscono la sintesi epatica del colesterolo",
+      "attivano PPARα"
     ],
     "risposta_corretta": "inibiscono la sintesi epatica del colesterolo",
     "cod_domanda": "oW1zJGLz"
@@ -903,10 +903,10 @@
     "num_domanda": 76,
     "domanda": "Il fibrato Gemfibrozil ha un alto rischio di dare miopatia se associato a:",
     "opzioni": [
-      "statine",
       "ezetimibe",
+      "niacina",
       "altri fibrati",
-      "niacina"
+      "statine"
     ],
     "risposta_corretta": "statine",
     "cod_domanda": "79VPLLhZ"
@@ -916,8 +916,8 @@
     "domanda": "Quale è la dose di utilizzo dell'ASA acido acetilsalicilico qualora venga impiegato come antiaggregante?",
     "opzioni": [
       "dose: 3-4 g/die",
-      "dose: ≤ 100 mg/die in singola somministrazione",
       "dose: 300-600 mg ogni 6 ore",
+      "dose: ≤ 100 mg/die in singola somministrazione",
       "dose: 500 mg/die"
     ],
     "risposta_corretta": "dose: ≤ 100 mg/die in singola somministrazione",
@@ -927,9 +927,9 @@
     "num_domanda": 78,
     "domanda": "Quando un cortisonico viene somministrato per un periodo prolungato cosa si verifica?",
     "opzioni": [
-      "la sospensione della terapia deve essere effettuata lentamente",
       "osteoporosi",
       "soppressione della funzione corticosurrenalica",
+      "la sospensione della terapia deve essere effettuata lentamente",
       "tutte le precedenti"
     ],
     "risposta_corretta": "tutte le precedenti",
@@ -940,9 +940,9 @@
     "domanda": "La loratadina è:",
     "opzioni": [
       "un antidepressivo inibitore della ricaptazione della serotonina",
+      "un bifosfonato usato nella terapia dell'osteoporosi",
       "un inibitore della pompa protonica usato nella terapia dell'ulcera",
-      "un protagonista del recettore H1 dell'istamina usato nella terapia delle allergie",
-      "un bifosfonato usato nella terapia dell'osteoporosi"
+      "un protagonista del recettore H1 dell'istamina usato nella terapia delle allergie"
     ],
     "risposta_corretta": "un protagonista del recettore H1 dell'istamina usato nella terapia delle allergie",
     "cod_domanda": "4mubJucp"
@@ -951,10 +951,10 @@
     "num_domanda": 80,
     "domanda": "La metformina è un ipoglicemizzante orale della classe:",
     "opzioni": [
+      "biguanidi",
       "inibitori dell'enzima DDP/IV",
       "sulfaniluree",
-      "glitazoni",
-      "biguanidi"
+      "glitazoni"
     ],
     "risposta_corretta": "biguanidi",
     "cod_domanda": "JBfWQIet"
@@ -963,10 +963,10 @@
     "num_domanda": 81,
     "domanda": "Quale tra le seguenti affermazioni circa l'intossicazione acuta da oppioidi errata:",
     "opzioni": [
+      "per il trattamento dell'intossicazione si somministra naloxone",
       "i segni sintomi caratteristici sono miosi, depressione respiratoria, depressione del SNC",
       "l'intossicazione acuta si osserva con il sovradosaggio degli agonisti puri con elevata affinità per i recettori μ",
-      "la terapia dell'intossicazione acuta viene fatta impiegando il naltrexone",
-      "per il trattamento dell'intossicazione si somministra naloxone"
+      "la terapia dell'intossicazione acuta viene fatta impiegando il naltrexone"
     ],
     "risposta_corretta": "la terapia dell'intossicazione acuta viene fatta impiegando il naltrexone",
     "cod_domanda": "GGYWH3fH"
@@ -975,10 +975,10 @@
     "num_domanda": 82,
     "domanda": "Gli effetti collaterali della terapia a lungo termine con L-dopa nel Parkinson comprendono:",
     "opzioni": [
-      "ipotensione ortostatica",
-      "nausea e vomito",
       "fluttuazioni dei sintomi motori tipo effetti \"wearing off\" e \"on/off\"",
-      "anoressia"
+      "anoressia",
+      "nausea e vomito",
+      "ipotensione ortostatica"
     ],
     "risposta_corretta": "fluttuazioni dei sintomi motori tipo effetti \"wearing off\" e \"on/off\"",
     "cod_domanda": "jyKkxht2"
@@ -987,10 +987,10 @@
     "num_domanda": 83,
     "domanda": "Si definisce MAC (concentrazione alveolare minima) di un anestetico generale:",
     "opzioni": [
-      "la concentrazione del gas anestetico necessaria per abolire i movimenti nel 50% dei pazienti sottoposti ad incisione cutanea (espresso come % di gas nella miscela necessaria per ottenere l'effetto)",
-      "la concentrazione plasmatica degli anestetici endovenosi",
       "la pressione parziale del gas nell'alveolo",
-      "la concentrazione plasmatica degli anestetici gassosi"
+      "la concentrazione plasmatica degli anestetici endovenosi",
+      "la concentrazione plasmatica degli anestetici gassosi",
+      "la concentrazione del gas anestetico necessaria per abolire i movimenti nel 50% dei pazienti sottoposti ad incisione cutanea (espresso come % di gas nella miscela necessaria per ottenere l'effetto)"
     ],
     "risposta_corretta": "la concentrazione del gas anestetico necessaria per abolire i movimenti nel 50% dei pazienti sottoposti ad incisione cutanea (espresso come % di gas nella miscela necessaria per ottenere l'effetto)",
     "cod_domanda": "YT3bcKeh"
@@ -999,10 +999,10 @@
     "num_domanda": 84,
     "domanda": "il Sevoflurano è:",
     "opzioni": [
+      "un anestetico generale inalatorio che da rapida induzione rapido recupero",
       "un anestetico locale della classe degli esteri",
       "un anestetico generale natatorio che da irritazione alle vie respiratorie e broncocostrizione",
-      "un generale inalatorio che da lenta induzione e lento recupero",
-      "un anestetico generale inalatorio che da rapida induzione rapido recupero"
+      "un generale inalatorio che da lenta induzione e lento recupero"
     ],
     "risposta_corretta": "un anestetico generale inalatorio che da rapida induzione rapido recupero",
     "cod_domanda": "Gsyb3JEW"
@@ -1011,10 +1011,10 @@
     "num_domanda": 85,
     "domanda": "Il midazolam:",
     "opzioni": [
-      "è una benzodiazepina emivita lunga e perciò usato nell'insonnia grave",
-      "è un antidepressivo triciclico",
       "viene usato indistintamente per varie patologie",
-      "è una benzodiazepina a emivita breve e perciò usato per la situazione nelle procedure diagnostiche"
+      "è una benzodiazepina emivita lunga e perciò usato nell'insonnia grave",
+      "è una benzodiazepina a emivita breve e perciò usato per la situazione nelle procedure diagnostiche",
+      "è un antidepressivo triciclico"
     ],
     "risposta_corretta": "è una benzodiazepina a emivita breve e perciò usato per la situazione nelle procedure diagnostiche",
     "cod_domanda": "DZC0Xqru"
@@ -1036,9 +1036,9 @@
     "domanda": "I farmaci BETA bloccanti",
     "opzioni": [
       "tachiaritmie sopraventricolari",
+      "ischemia miocardica",
       "broncopneumopatia cronico ostruttiva",
-      "ipertensione arteriosa",
-      "ischemia miocardica"
+      "ipertensione arteriosa"
     ],
     "risposta_corretta": "broncopneumopatia cronico ostruttiva",
     "cod_domanda": "vsKNeZmr"
@@ -1047,10 +1047,10 @@
     "num_domanda": 88,
     "domanda": "Il paziente in trattamento con antidepressivi:",
     "opzioni": [
-      "a lungo termine ha un rischio di suicidio ridotto",
-      "se affetto da depressione grave avrà maggiore beneficio dalla terapia rispetto a un paziente affetto da depressione lieve",
       "tutte le precedenti",
-      "è a rischio di suicidio aumentato nelle prime settimane di terapia e perciò va monitorato attentamente"
+      "è a rischio di suicidio aumentato nelle prime settimane di terapia e perciò va monitorato attentamente",
+      "a lungo termine ha un rischio di suicidio ridotto",
+      "se affetto da depressione grave avrà maggiore beneficio dalla terapia rispetto a un paziente affetto da depressione lieve"
     ],
     "risposta_corretta": "tutte le precedenti",
     "cod_domanda": "YXO0I9Ao"
@@ -1059,8 +1059,8 @@
     "num_domanda": 89,
     "domanda": "Il principale effetto collaterale dei neurolettici atipici è:",
     "opzioni": [
-      "tremori parkinsoniani",
       "difficoltà respiratorie",
+      "tremori parkinsoniani",
       "vomito",
       "aumento di peso con rischio di sindrome metabolica"
     ],
@@ -1071,10 +1071,10 @@
     "num_domanda": 90,
     "domanda": "I sartani sono indicati nei seguenti casi tranne uno:",
     "opzioni": [
-      "gravidanza",
       "scompenso cardiaco congestizio",
       "trattamento post-infarto",
-      "Ipertensione arteriosa"
+      "Ipertensione arteriosa",
+      "gravidanza"
     ],
     "risposta_corretta": "gravidanza",
     "cod_domanda": "U3abxFsN"
@@ -1084,9 +1084,9 @@
     "domanda": "In un paziente con una forte intossicazione da oppiacei cosa somministro?",
     "opzioni": [
       "naloxone EV",
+      "sufentanil",
       "fentatienil",
-      "naloxone SC",
-      "sufentanil"
+      "naloxone SC"
     ],
     "risposta_corretta": "naloxone EV",
     "cod_domanda": "GJhqXk7E"
@@ -1095,10 +1095,10 @@
     "num_domanda": 92,
     "domanda": "L'azione di un anestetico locale viene prolungata dalla somministrazione contemporanea di:",
     "opzioni": [
-      "un vasodilatatore",
+      "una benzodiazepina",
       "un vasocostrittore",
       "nessuna delle precedenti",
-      "una benzodiazepina"
+      "un vasodilatatore"
     ],
     "risposta_corretta": "una benzodiazepina",
     "cod_domanda": "8PHorLIk"
@@ -1107,10 +1107,10 @@
     "num_domanda": 93,
     "domanda": "Quale delle seguenti classi di farmaci NON ha un ruolo nella terapia delle dislipidemie:",
     "opzioni": [
-      "sequestranti degli acidi biliari",
-      "attivatori del PPARα",
+      "inibitori dell'enzima HMG-CoA reduttasi",
       "inibitori della glicoproteina IIb/IIIa",
-      "inibitori dell'enzima HMG-CoA reduttasi"
+      "sequestranti degli acidi biliari",
+      "attivatori del PPARα"
     ],
     "risposta_corretta": "inibitori della glicoproteina IIb/IIIa",
     "cod_domanda": "5DAdysEu"
@@ -1119,10 +1119,10 @@
     "num_domanda": 94,
     "domanda": "L'acido acetilsalicilico è controindicato nei casi seguenti tranne uno, quale?",
     "opzioni": [
-      "artrite reumatoide",
       "insufficienza epatica o renale grave",
+      "emofilia ed alterazioni della coagulazione",
       "ulcera peptica",
-      "emofilia ed alterazioni della coagulazione"
+      "artrite reumatoide"
     ],
     "risposta_corretta": "artrite reumatoide",
     "cod_domanda": "UMRtFUOg"
@@ -1132,9 +1132,9 @@
     "domanda": "Quale tra le seguenti farmaci ha più breve emivita?",
     "opzioni": [
       "lorazepam",
-      "non vi sono differenze di emivita tra i farmaci indicati",
+      "diazepam",
       "zopiclone",
-      "diazepam"
+      "non vi sono differenze di emivita tra i farmaci indicati"
     ],
     "risposta_corretta": "zopiclone",
     "cod_domanda": "bFeX2SwU"
@@ -1143,9 +1143,9 @@
     "num_domanda": 96,
     "domanda": "I farmaci beta 2 agonisti sono indicati nella terapia dell'asma perché:",
     "opzioni": [
-      "determinano solo broncodilatazione",
       "determinano broncodilatazione e hanno effetto sinergico con i farmaci steroidei",
       "hanno solo effetto sinergico con i farmaci steroidei",
+      "determinano solo broncodilatazione",
       "determinano broncodilatazione ma non hanno effetto sinergico con i farmaci steroidei"
     ],
     "risposta_corretta": "determinano broncodilatazione e hanno effetto sinergico con i farmaci steroidei",
@@ -1155,9 +1155,9 @@
     "num_domanda": 97,
     "domanda": "Affermazioni corrette riguardo al paracetamolo:",
     "opzioni": [
+      "è controindicato nei bambini",
       "è analgesico e antipiretico",
       "ha effetti teratogeni",
-      "è controindicato nei bambini",
       "è analgesico ma non antipiretico"
     ],
     "risposta_corretta": "è analgesico e antipiretico",
@@ -1167,10 +1167,10 @@
     "num_domanda": 98,
     "domanda": "Quale delle seguenti affermazioni è corretta?",
     "opzioni": [
-      "la risposta farmacologico agli oppioidi aumenta durante la terapia cronica",
-      "la codeina è un antagonista dei recettori per gli oppioidi",
       "morfina, ossicodone e fentanil sono oppioidi puri potenti",
-      "il più comune effetto collaterale degli oppioidi utilizzati nella terapia del dolore è la depressione respiratoria"
+      "la codeina è un antagonista dei recettori per gli oppioidi",
+      "il più comune effetto collaterale degli oppioidi utilizzati nella terapia del dolore è la depressione respiratoria",
+      "la risposta farmacologico agli oppioidi aumenta durante la terapia cronica"
     ],
     "risposta_corretta": "morfina, ossicodone e fentanil sono oppioidi puri potenti",
     "cod_domanda": "1ConpRyS"
@@ -1179,10 +1179,10 @@
     "num_domanda": 99,
     "domanda": "In caso di crisi epilettica della durata superiore a 30 minuti:",
     "opzioni": [
-      "ketamina per via rettale",
       "lorazepam per via endovenosa",
+      "etosuccimide per via endovenosa",
       "fenitoina per via orale",
-      "etosuccimide per via endovenosa"
+      "ketamina per via rettale"
     ],
     "risposta_corretta": "lorazepam per via endovenosa",
     "cod_domanda": "HhsYkoLJ"
@@ -1191,10 +1191,10 @@
     "num_domanda": 100,
     "domanda": "Quale tra i seguenti farmaci non è un antidiabetico per uso orale:",
     "opzioni": [
-      "ketaatrovastatina",
       "metformina",
-      "pioglitazone",
-      "liraglutide"
+      "ketaatrovastatina",
+      "liraglutide",
+      "pioglitazone"
     ],
     "risposta_corretta": "liraglutide",
     "cod_domanda": "CgCx5Lz7"
@@ -1203,9 +1203,9 @@
     "num_domanda": 101,
     "domanda": "Indicare l'affermazione errata:",
     "opzioni": [
-      "il litio ha un alto indice terapeutico",
-      "è utile dosare i livelli plasmatici di litio",
       "carbamazepina, valproato o larinotrigina si possono prescrivere in sostituzione del litio",
+      "è utile dosare i livelli plasmatici di litio",
+      "il litio ha un alto indice terapeutico",
       "il litio è indicato nel trattamento della sindrome bipolare"
     ],
     "risposta_corretta": "il litio ha un alto indice terapeutico",
@@ -1215,10 +1215,10 @@
     "num_domanda": 102,
     "domanda": "Qual è l'affermazione corretta:",
     "opzioni": [
-      "le benzodiazepine hanno azioni analgesiche",
-      "le benzodiazepine sono controindicate in pazienti psicotici",
       "il sovradosaggio da benzodiazepine è frequentemente letale",
-      "la terapia con benzodiazepine non va sospesa bruscamente"
+      "le benzodiazepine hanno azioni analgesiche",
+      "la terapia con benzodiazepine non va sospesa bruscamente",
+      "le benzodiazepine sono controindicate in pazienti psicotici"
     ],
     "risposta_corretta": "la terapia con benzodiazepine non va sospesa bruscamente",
     "cod_domanda": "B5Vd3CrL"
@@ -1227,10 +1227,10 @@
     "num_domanda": 103,
     "domanda": "Quale tra questi farmaci utilizzati in ambito cardiovascolare è indicato nel trattamento delle aritmie ipercinetiche sopraventricolari:",
     "opzioni": [
-      "verapamil",
       "enalapril",
+      "clonidina",
       "isosorbide mononitrato",
-      "clonidina"
+      "verapamil"
     ],
     "risposta_corretta": "verapamil",
     "cod_domanda": "FfxMCfAg"
@@ -1240,8 +1240,8 @@
     "domanda": "Il mannitolo è:",
     "opzioni": [
       "un nitrato organico",
-      "un diuretico osmolitico",
       "un anticoagulante orale",
+      "un diuretico osmolitico",
       "un calcio antagonista"
     ],
     "risposta_corretta": "un diuretico osmolitico",
@@ -1251,10 +1251,10 @@
     "num_domanda": 105,
     "domanda": "La brusca sospensione della terapia antiipertensiva con beta bloccanti può essere associata a:",
     "opzioni": [
-      "tutti gli effetti indicati",
       "tremore",
       "ipertensione arteriosa",
-      "tachicardia"
+      "tachicardia",
+      "tutti gli effetti indicati"
     ],
     "risposta_corretta": "tutti gli effetti indicati",
     "cod_domanda": "lhp309Ch"
@@ -1264,9 +1264,9 @@
     "domanda": "Un effetto collaterale molto importante dei diuretici è:",
     "opzioni": [
       "bradicardia",
+      "alterazione degli elettroliti plasmatici",
       "ipertensione",
-      "ritenzione di liquidi",
-      "alterazione degli elettroliti plasmatici"
+      "ritenzione di liquidi"
     ],
     "risposta_corretta": "alterazione degli elettroliti plasmatici",
     "cod_domanda": "9kDCP3rO"
@@ -1275,10 +1275,10 @@
     "num_domanda": 107,
     "domanda": "La famotidina può essere utilizzata nella terapia dell'ulcera perché è:",
     "opzioni": [
-      "è un inibitore diretto della pompa protonica",
-      "è una prostaglandina sintetica",
       "è un antagonista del recettore H2 dell'istamina",
-      "è un antagonista del recettore colinergico muscarinico"
+      "è un inibitore diretto della pompa protonica",
+      "è un antagonista del recettore colinergico muscarinico",
+      "è una prostaglandina sintetica"
     ],
     "risposta_corretta": "è un antagonista del recettore H2 dell'istamina",
     "cod_domanda": "fnNjiCAA"
@@ -1287,10 +1287,10 @@
     "num_domanda": 108,
     "domanda": "La potenza di un anestetico è espressa da:",
     "opzioni": [
-      "minima concentrazione alveolare (MAC)",
-      "coefficiente di riparazione",
       "solubilità",
-      "emivita"
+      "minima concentrazione alveolare (MAC)",
+      "emivita",
+      "coefficiente di riparazione"
     ],
     "risposta_corretta": "minima concentrazione alveolare (MAC)",
     "cod_domanda": "sT8wgQu3"
@@ -1299,10 +1299,10 @@
     "num_domanda": 109,
     "domanda": "Quale farmaco è di prima scelta nei bambini con crisi di assenza:",
     "opzioni": [
-      "etosuccimide",
-      "fenitoina",
       "fenobarbital",
-      "nessuno dei tre"
+      "nessuno dei tre",
+      "fenitoina",
+      "etosuccimide"
     ],
     "risposta_corretta": "etosuccimide",
     "cod_domanda": "LVMF1Oje"
@@ -1311,9 +1311,9 @@
     "num_domanda": 110,
     "domanda": "Non è effetto collaterale dell'aloperidolo:",
     "opzioni": [
-      "parkinsoniano",
       "discinesia tardiva",
       "agitazione",
+      "parkinsoniano",
       "iperprolattina"
     ],
     "risposta_corretta": "agitazione",
@@ -1325,8 +1325,8 @@
     "opzioni": [
       "un riducono l'isolamento sociale ma non le allucinazioni e i deliri",
       "possono essere usati negli stati maniacali con delirio",
-      "sono antagonisti dei recettori D2 della dopamina",
-      "sono indicati al primo attacco di schizofrenia e per prevenire le recidive"
+      "sono indicati al primo attacco di schizofrenia e per prevenire le recidive",
+      "sono antagonisti dei recettori D2 della dopamina"
     ],
     "risposta_corretta": "un riducono l'isolamento sociale ma non le allucinazioni e i deliri",
     "cod_domanda": "OqcYYplm"
@@ -1335,9 +1335,9 @@
     "num_domanda": 112,
     "domanda": "Quale tra le seguenti è una caratteristica degli SSRI:",
     "opzioni": [
-      "sono oggi di seconda scelta rispetto agli antidepressivi triciclici",
-      "sono più lenti ad agire rispetto agli antidepressivi triciclici",
       "sono meglio tollerati degli antidepressivi triciclici",
+      "sono più lenti ad agire rispetto agli antidepressivi triciclici",
+      "sono oggi di seconda scelta rispetto agli antidepressivi triciclici",
       "sono meno efficaci rispetto agli antidepressivi triciclici"
     ],
     "risposta_corretta": "sono meglio tollerati degli antidepressivi triciclici",
@@ -1349,8 +1349,8 @@
     "opzioni": [
       "fortemente selettivi",
       "ampio range di sicurezza",
-      "breve emivita",
-      "scarsi effetti ipnotici"
+      "scarsi effetti ipnotici",
+      "breve emivita"
     ],
     "risposta_corretta": "breve emivita",
     "cod_domanda": "Oa7jjCU8"
@@ -1360,9 +1360,9 @@
     "domanda": "Quale di questi farmaci NON ha effetto analgesico:",
     "opzioni": [
       "morfina",
+      "atenololo ?",
       "ketorolac",
-      "paracetamolo",
-      "atenololo ?"
+      "paracetamolo"
     ],
     "risposta_corretta": "atenololo ?",
     "cod_domanda": "0ApBGHY0"
@@ -1371,10 +1371,10 @@
     "num_domanda": 115,
     "domanda": "Quale tra i seguenti effetti collaterali attribuiti ai betabloccanti, risulta errato?",
     "opzioni": [
-      "perdita della libido",
+      "ipotensione",
       "ipertensione",
       "astenia",
-      "ipotensione"
+      "perdita della libido"
     ],
     "risposta_corretta": "ipertensione",
     "cod_domanda": "fNCNRTIP"
@@ -1383,9 +1383,9 @@
     "num_domanda": 116,
     "domanda": "Calcio Antagonista che influenza più la muscolatura cardiaca che quella vascolare:",
     "opzioni": [
+      "diltiazem",
       "verapamil",
       "nifedipina",
-      "diltiazem",
       "amlodipina"
     ],
     "risposta_corretta": "verapamil",
@@ -1396,8 +1396,8 @@
     "domanda": "I bloccanti neuromuscolari (curari):",
     "opzioni": [
       "agiscono inibendo l'acetilcolinesterasi",
-      "aumentano il rilascio di acetilcolina",
       "agiscono sui recettori muscarinici dell'acetilcolina",
+      "aumentano il rilascio di acetilcolina",
       "agiscono sui recettori adrenergici"
     ],
     "risposta_corretta": "agiscono sui recettori muscarinici dell'acetilcolina",
@@ -1407,10 +1407,10 @@
     "num_domanda": 118,
     "domanda": "Farmaco per attacco di asma acuto:",
     "opzioni": [
-      "montelukast",
-      "teofillina",
       "budesonide",
-      "sulbutamolo"
+      "sulbutamolo",
+      "montelukast",
+      "teofillina"
     ],
     "risposta_corretta": "sulbutamolo",
     "cod_domanda": "Cy39nIzP"
@@ -1419,10 +1419,10 @@
     "num_domanda": 119,
     "domanda": "Frequenti effetti collaterali della morfina:",
     "opzioni": [
-      "aumento della pressione sanguigna",
-      "perdita di appetito",
       "stipsi, nausea e vomito, sonnolenza",
-      "miglioramento della vista"
+      "miglioramento della vista",
+      "aumento della pressione sanguigna",
+      "perdita di appetito"
     ],
     "risposta_corretta": "stipsi, nausea e vomito, sonnolenza",
     "cod_domanda": "mLIdiUIN"
@@ -1431,10 +1431,10 @@
     "num_domanda": 120,
     "domanda": "Antagonista competitivo dei recettori per l'aldosterone:",
     "opzioni": [
-      "captopril",
       "spironolattone",
+      "idroclorotiazide",
       "furosemide",
-      "idroclorotiazide"
+      "captopril"
     ],
     "risposta_corretta": "spironolattone",
     "cod_domanda": "YI9xZEMG"
@@ -1443,9 +1443,9 @@
     "num_domanda": 121,
     "domanda": "Farmaci antinfiammatori nella terapia dell'asma:",
     "opzioni": [
-      "corticosteroidi inalatori",
       "antistaminici di seconda generazione",
       "beta2-agonisti ad azione prolungata",
+      "corticosteroidi inalatori",
       "agonisti dei leucotrieni"
     ],
     "risposta_corretta": "agonisti dei leucotrieni",
@@ -1455,10 +1455,10 @@
     "num_domanda": 122,
     "domanda": "Quale tra i seguenti sintomi è più difficilmente controllato dagli antipsicotici in un paziente schizofrenico:",
     "opzioni": [
-      "deliri di persecuzione",
-      "allucinazioni uditive",
       "appiattimento affettivo",
-      "deficit di attenzione e di memoria"
+      "deficit di attenzione e di memoria",
+      "allucinazioni uditive",
+      "deliri di persecuzione"
     ],
     "risposta_corretta": "deficit di attenzione e di memoria",
     "cod_domanda": "lkIPlLu2"
@@ -1467,10 +1467,10 @@
     "num_domanda": 123,
     "domanda": "Il propanololo è controindicato in caso di asma, bradicardia e blocco atrioventricolare:",
     "opzioni": [
+      "è indicato nell'ipertensione arteriosa",
       "raccomandato in caso di ipertiroidismo per ridurre i tremori",
       "utile nel trattamento dell'insufficienza cardiaca congestizia",
-      "impiegato per trattare l'angina pectoris instabile",
-      "è indicato nell'ipertensione arteriosa"
+      "impiegato per trattare l'angina pectoris instabile"
     ],
     "risposta_corretta": "è indicato nell'ipertensione arteriosa",
     "cod_domanda": "8iItfje5"
@@ -1479,10 +1479,10 @@
     "num_domanda": 124,
     "domanda": "Quale dei seguenti principi attivi appartengono alla classe dei nitrati organici:",
     "opzioni": [
-      "isosorbide dinitrato",
-      "propranololo",
       "amlodipina",
-      "nitroglicerina"
+      "isosorbide dinitrato",
+      "nitroglicerina",
+      "propranololo"
     ],
     "risposta_corretta": "isosorbide dinitrato",
     "cod_domanda": "c3A03bY1"
@@ -1491,10 +1491,10 @@
     "num_domanda": 125,
     "domanda": "Un effetto collaterale frequente delle statine è:",
     "opzioni": [
-      "bradicardia",
-      "epatotossicità",
+      "miopatia",
       "iperglicemia",
-      "miopatia"
+      "bradicardia",
+      "epatotossicità"
     ],
     "risposta_corretta": "miopatia",
     "cod_domanda": "z7SqDf9Y"
@@ -1503,10 +1503,10 @@
     "num_domanda": 126,
     "domanda": "Quale dei seguenti farmaci riduce l'aggregazione piastrinica in seguito all'inibizione dell'enzima ciclo ossigenasi?",
     "opzioni": [
-      "aspirina",
+      "ibuprofene",
       "warfarin",
       "paracetamolo",
-      "ibuprofene"
+      "aspirina"
     ],
     "risposta_corretta": "aspirina",
     "cod_domanda": "eAtpscOA"
@@ -1528,8 +1528,8 @@
     "domanda": "Qual è tra quelli elencati uno dei motivi per cui gli SSRI sono oggi preferiti agli antidepressivi triciclici?",
     "opzioni": [
       "maggiore efficacia nel trattamento della depressione grave",
-      "costo di produzione significativamente inferiore",
       "minore rischio di eventi indesiderati",
+      "costo di produzione significativamente inferiore",
       "spettro d'azione più ampio che include disturbi d'ansia e psicosi"
     ],
     "risposta_corretta": "minore rischio di eventi indesiderati",
@@ -1551,10 +1551,10 @@
     "num_domanda": 130,
     "domanda": "Nell'intossicazione acuta da oppioidi:",
     "opzioni": [
-      "I segni e sintomi caratteristici sono tachicardia, ipertermia, aumento della diuresi; per il trattamento dell'intossicazione si somministra flumazenil i.m.",
       "i segni e sintomi caratteristici sono miosi, depressione respiratoria, depressione del snc; per il trattamento dell'intossicazione si somministra naloxone i.v no naltrexone per os; si osserva con il sovradosaggio di agonisti puri con elevata affinità per i recettori μ",
       "Il sovradosaggio da oppioidi causa iperventilazione, aumento della pressione arteriosa, iperreflessia; il trattamento prevede somministrazione di diazepam i.v.",
-      "I segni e sintomi caratteristici sono midriasi, ipertensione, agitazione; per il trattamento dell'intossicazione si somministra naltrexone per os, no naloxone i.v."
+      "I segni e sintomi caratteristici sono midriasi, ipertensione, agitazione; per il trattamento dell'intossicazione si somministra naltrexone per os, no naloxone i.v.",
+      "I segni e sintomi caratteristici sono tachicardia, ipertermia, aumento della diuresi; per il trattamento dell'intossicazione si somministra flumazenil i.m."
     ],
     "risposta_corretta": "i segni e sintomi caratteristici sono miosi, depressione respiratoria, depressione del snc; per il trattamento dell'intossicazione si somministra naloxone i.v no naltrexone per os; si osserva con il sovradosaggio di agonisti puri con elevata affinità per i recettori μ",
     "cod_domanda": "LZfMB593"
@@ -1563,10 +1563,10 @@
     "num_domanda": 131,
     "domanda": "Le benzodiazepine a durata d'azione intermedia possono essere indicate in un paziente che lamenta:",
     "opzioni": [
-      "sindrome ansiosa, frequenti risvegli notturni",
       "attacchi di panico isolati",
+      "insonnia ad addormentamento",
       "disturbo bipolare in fase maniacale",
-      "insonnia ad addormentamento"
+      "sindrome ansiosa, frequenti risvegli notturni"
     ],
     "risposta_corretta": "sindrome ansiosa, frequenti risvegli notturni",
     "cod_domanda": "oA0CKrTK"
@@ -1575,9 +1575,9 @@
     "num_domanda": 132,
     "domanda": "Non è un antipsicotico:",
     "opzioni": [
-      "olanzapina",
       "risperidone",
       "zolpidem",
+      "olanzapina",
       "aloperidolo"
     ],
     "risposta_corretta": "zolpidem",
@@ -1587,9 +1587,9 @@
     "num_domanda": 133,
     "domanda": "Modalità d'azione degli steroidi:",
     "opzioni": [
-      "inibiscono direttamente l’attività degli enzimi citoplasmatici coinvolti nel metabolismo cellulare",
-      "agiscono legandosi ai recettori nucleari già presenti sul DNA senza attraversare la membrana cellulare",
       "attivano recettori di membrana accoppiati a proteine G con produzione di secondi messaggeri intracellulari",
+      "agiscono legandosi ai recettori nucleari già presenti sul DNA senza attraversare la membrana cellulare",
+      "inibiscono direttamente l’attività degli enzimi citoplasmatici coinvolti nel metabolismo cellulare",
       "si legano a recettori citoplasmatici con successivo passaggio nel nucleo e regolazione della trascrizione genica"
     ],
     "risposta_corretta": "si legano a recettori citoplasmatici con successivo passaggio nel nucleo e regolazione della trascrizione genica",
@@ -1599,10 +1599,10 @@
     "num_domanda": 134,
     "domanda": "Prima di un intervento chirurgico che impone anestesia generale si può somministrare:",
     "opzioni": [
-      "morfina",
       "caffeina",
       "adrenalina",
-      "diazepam"
+      "diazepam",
+      "morfina"
     ],
     "risposta_corretta": "diazepam",
     "cod_domanda": "1Y1FG58v"
@@ -1611,10 +1611,10 @@
     "num_domanda": 135,
     "domanda": "L'azione simpatico-adrenergica cosa provoca nei bronchi?",
     "opzioni": [
+      "broncodilatazione mediata da recettori Beta2",
       "broncocostrizione mediata da recettori Alfa1",
-      "vasocostrizione dei vasi bronchiali mediata da recettori Beta1",
       "aumento della secrezione mucosa bronchiale",
-      "broncodilatazione mediata da recettori Beta2"
+      "vasocostrizione dei vasi bronchiali mediata da recettori Beta1"
     ],
     "risposta_corretta": "broncodilatazione mediata da recettori Beta2",
     "cod_domanda": "8EZZ524j"
@@ -1623,10 +1623,10 @@
     "num_domanda": 136,
     "domanda": "Che farmaco si utilizza per indurre un'anestesia bilanciata:",
     "opzioni": [
-      "ketamina",
       "propofol",
-      "tiopental",
-      "morfina"
+      "ketamina",
+      "morfina",
+      "tiopental"
     ],
     "risposta_corretta": "propofol",
     "cod_domanda": "7aM8N8za"
@@ -1635,10 +1635,10 @@
     "num_domanda": 137,
     "domanda": "A cosa servono i farmaci Z?",
     "opzioni": [
-      "alleviamento del dolore cronico",
-      "riduzione del colesterolo",
+      "per difficoltà di addormentamento",
       "trattamento dell'ipertensione",
-      "per difficoltà di addormentamento"
+      "riduzione del colesterolo",
+      "alleviamento del dolore cronico"
     ],
     "risposta_corretta": "per difficoltà di addormentamento",
     "cod_domanda": "BcVd1nHX"
@@ -1648,9 +1648,9 @@
     "domanda": "Quale farmaco provoca tosse secca e persistente?",
     "opzioni": [
       "amlodipina (calcio-antagonista)",
-      "enalapril (ACE-inibitore)",
+      "atorvastatina (statina)",
       "paracetamolo (analgesico/antipiretico)",
-      "atorvastatina (statina)"
+      "enalapril (ACE-inibitore)"
     ],
     "risposta_corretta": "enalapril (ACE-inibitore)",
     "cod_domanda": "YiqBCJhR"
@@ -1659,9 +1659,9 @@
     "num_domanda": 139,
     "domanda": "Quale di questi non è un antipsicotico?",
     "opzioni": [
+      "risperidone",
       "lorazepam",
       "aloperidolo",
-      "risperidone",
       "olanzapina"
     ],
     "risposta_corretta": "lorazepam",
@@ -1671,9 +1671,9 @@
     "num_domanda": 140,
     "domanda": "Cosa provoca l'inibizione di HMG-CoA reduttasi?",
     "opzioni": [
-      "aumenta la sintesi epatica di colesterolo e inibisce la sintesi dei recettori LDL",
       "stimola la sintesi di acidi grassi e inibisce la gluconeogenesi",
       "impedisce la sintesi epatica di colesterolo e stimola la sintesi dei recettori LDL",
+      "aumenta la sintesi epatica di colesterolo e inibisce la sintesi dei recettori LDL",
       "aumenta la degradazione del colesterolo e diminuisce l'assorbimento intestinale degli acidi biliari"
     ],
     "risposta_corretta": "impedisce la sintesi epatica di colesterolo e stimola la sintesi dei recettori LDL",
@@ -1684,9 +1684,9 @@
     "domanda": "Come agiscono gli steroidi?",
     "opzioni": [
       "Attivano enzimi che degradano l'RNA messaggero",
-      "Aumentano la permeabilità della membrana cellulare per gli ioni calcio",
       "Si legano direttamente al DNA causando mutazioni",
-      "si legano a recettori citoplasmatici, passano nel nucleo e modulano la trascrizione"
+      "si legano a recettori citoplasmatici, passano nel nucleo e modulano la trascrizione",
+      "Aumentano la permeabilità della membrana cellulare per gli ioni calcio"
     ],
     "risposta_corretta": "si legano a recettori citoplasmatici, passano nel nucleo e modulano la trascrizione",
     "cod_domanda": "gZqQ5JDH"
@@ -1695,10 +1695,10 @@
     "num_domanda": 142,
     "domanda": "Come funziona l'eparina?",
     "opzioni": [
-      "attiva la cascata della coagulazione",
       "dissolve i trombi preformati",
-      "anticoagulante legato all'antitrombina III (e amplifica l'attività dell'antitrombina III, ovvero l'effetto principale)",
-      "inibisce direttamente la trombina"
+      "attiva la cascata della coagulazione",
+      "inibisce direttamente la trombina",
+      "anticoagulante legato all'antitrombina III (e amplifica l'attività dell'antitrombina III, ovvero l'effetto principale)"
     ],
     "risposta_corretta": "anticoagulante legato all'antitrombina III (e amplifica l'attività dell'antitrombina III, ovvero l'effetto principale)",
     "cod_domanda": "Yup1mjGy"
@@ -1707,10 +1707,10 @@
     "num_domanda": 143,
     "domanda": "Quale di questi farmaci non è usato per il trattamento dell'ipertensione in pz con asma grave?",
     "opzioni": [
-      "i B-bloccanti non selettivi",
-      "I calcio-antagonisti",
       "ACE-inibitori",
-      "I diuretici tiazidici"
+      "i B-bloccanti non selettivi",
+      "I diuretici tiazidici",
+      "I calcio-antagonisti"
     ],
     "risposta_corretta": "i B-bloccanti non selettivi",
     "cod_domanda": "uAGnpTmu"
@@ -1719,10 +1719,10 @@
     "num_domanda": 144,
     "domanda": "Quale sarà la terapia di prima scelta in un paziente affetto da attacchi di panico ricorrenti?",
     "opzioni": [
-      "Beta-bloccanti (sono efficaci per ridurre i sintomi fisici ma non affrontano la componente psicologica)",
       "Litio (principalmente usato nel trattamento del disturbo bipolare, non di prima linea per gli attacchi di panico)",
+      "benzodiazepina a breve durata d'azione come triazolam (all'inizio fin che non compare dipendenza e sindrome di astinenza) oppure SSRI (sono più utilizzati per gli attacchi di panico ricorrenti e per fobie più importanti come l'agorafobia), mentre i triciclici (TCA) nel caso questi ultimi (SSRI) non fossero efficaci, mentre gli IMAO sono di ultima scelta per via degli effetti collaterali importanti.",
       "Antipsicotici di prima generazione (utilizzati principalmente in psicosi, non in attacchi di panico)",
-      "benzodiazepina a breve durata d'azione come triazolam (all'inizio fin che non compare dipendenza e sindrome di astinenza) oppure SSRI (sono più utilizzati per gli attacchi di panico ricorrenti e per fobie più importanti come l'agorafobia), mentre i triciclici (TCA) nel caso questi ultimi (SSRI) non fossero efficaci, mentre gli IMAO sono di ultima scelta per via degli effetti collaterali importanti."
+      "Beta-bloccanti (sono efficaci per ridurre i sintomi fisici ma non affrontano la componente psicologica)"
     ],
     "risposta_corretta": "benzodiazepina a breve durata d'azione come triazolam (all'inizio fin che non compare dipendenza e sindrome di astinenza) oppure SSRI (sono più utilizzati per gli attacchi di panico ricorrenti e per fobie più importanti come l'agorafobia), mentre i triciclici (TCA) nel caso questi ultimi (SSRI) non fossero efficaci, mentre gli IMAO sono di ultima scelta per via degli effetti collaterali importanti.",
     "cod_domanda": "I74ps7Iy"
@@ -1731,10 +1731,10 @@
     "num_domanda": 145,
     "domanda": "Quale di questi farmaci è un diuretico molto efficace?",
     "opzioni": [
-      "Verapamil",
       "Candesartan",
+      "Furosemide",
       "Propanololo",
-      "Furosemide"
+      "Verapamil"
     ],
     "risposta_corretta": "Furosemide",
     "cod_domanda": "cirZTlFV"
@@ -1755,10 +1755,10 @@
     "num_domanda": 147,
     "domanda": "Quali dei seguenti farmaci possono essere somministrati per il trattamento dell’osteoporosi in post-menopausa?",
     "opzioni": [
-      "Androgeni",
-      "Progestinici",
       "Modulatori dei recettori degli estrogeni",
-      "Glucocorticoidi"
+      "Glucocorticoidi",
+      "Androgeni",
+      "Progestinici"
     ],
     "risposta_corretta": "Modulatori dei recettori degli estrogeni",
     "cod_domanda": "wBVwOyJy"
@@ -1779,9 +1779,9 @@
     "num_domanda": 149,
     "domanda": "Quale delle seguenti affermazioni riguardanti il paracetamolo è errata:",
     "opzioni": [
-      "Può essere somministrato tramite diverse vie di somministrazione",
       "Ha elevata attività anti-infiammatoria",
       "Ha attività analgesica ed antipiretica",
+      "Può essere somministrato tramite diverse vie di somministrazione",
       "Il suo metabolismo epatico può dare origine ad un metabolita tossico in caso di sovradosaggio"
     ],
     "risposta_corretta": "Ha elevata attività anti-infiammatoria",
@@ -1791,10 +1791,10 @@
     "num_domanda": 150,
     "domanda": "Quale delle seguenti affermazioni è sbagliata: la benzodiazepina lorazepam",
     "opzioni": [
-      "Ha emivita ultrabreve (1-3 ore)",
-      "È indicata nelle sindromi ansiose",
       "Può provocare sonnolenza",
-      "Non deve essere assunta con alcolici"
+      "Ha emivita ultrabreve (1-3 ore)",
+      "Non deve essere assunta con alcolici",
+      "È indicata nelle sindromi ansiose"
     ],
     "risposta_corretta": "Ha emivita ultrabreve (1-3 ore)",
     "cod_domanda": "qa82jcn8"
@@ -1803,9 +1803,9 @@
     "num_domanda": 151,
     "domanda": "I farmaci B-bloccanti di II generazione:",
     "opzioni": [
-      "Agiscono in maniera preferenziale sui recettori B1",
-      "Tutte le risposte sono errate",
       "Bloccano in egual misura i recettori B1 e B2",
+      "Tutte le risposte sono errate",
+      "Agiscono in maniera preferenziale sui recettori B1",
       "Non agiscono sui recettori B1"
     ],
     "risposta_corretta": "Agiscono in maniera preferenziale sui recettori B1",
@@ -1827,10 +1827,10 @@
     "num_domanda": 153,
     "domanda": "I farmaci inibitori della ricaptazione di serotonina (SSRI) sono utilizzati principalmente nella terapia di:",
     "opzioni": [
-      "Epilessia",
       "Schizofrenia",
-      "Depressione e sindromi ansiose",
-      "Insonnia"
+      "Epilessia",
+      "Insonnia",
+      "Depressione e sindromi ansiose"
     ],
     "risposta_corretta": "Depressione e sindromi ansiose",
     "cod_domanda": "sZ33FXrk"
@@ -1839,10 +1839,10 @@
     "num_domanda": 154,
     "domanda": "Qual è l’affermazione corretta?",
     "opzioni": [
-      "Le benzodiazepine sono controindicate in pazienti psicotici",
-      "La terapia con benzodiazepine non va sospesa bruscamente",
       "Il sovradosaggio da benzodiazepine è frequentemente letale",
-      "Le benzodiazepine hanno azioni analgesiche"
+      "Le benzodiazepine sono controindicate in pazienti psicotici",
+      "Le benzodiazepine hanno azioni analgesiche",
+      "La terapia con benzodiazepine non va sospesa bruscamente"
     ],
     "risposta_corretta": "La terapia con benzodiazepine non va sospesa bruscamente",
     "cod_domanda": "DhYY8fdJ"
@@ -1851,10 +1851,10 @@
     "num_domanda": 155,
     "domanda": "Quale tra i seguenti antiaritmici è un B-bloccante?",
     "opzioni": [
-      "Amiodarone",
-      "Chinidina",
+      "Bisoprololo",
       "Diltiazem",
-      "Bisoprololo"
+      "Chinidina",
+      "Amiodarone"
     ],
     "risposta_corretta": "Bisoprololo",
     "cod_domanda": "3lj7xykJ"
@@ -1863,10 +1863,10 @@
     "num_domanda": 156,
     "domanda": "I bifosfonati:",
     "opzioni": [
-      "Sono farmaci indicati per il trattamento dell’osteoporosi",
-      "Sono ben tollerati quando somministrati per bocca",
       "Non sono utilizzati in terapia cronica",
-      "Sono una classe di farmaci utilizzati nella terapia del diabete"
+      "Sono ben tollerati quando somministrati per bocca",
+      "Sono una classe di farmaci utilizzati nella terapia del diabete",
+      "Sono farmaci indicati per il trattamento dell’osteoporosi"
     ],
     "risposta_corretta": "Sono farmaci indicati per il trattamento dell’osteoporosi",
     "cod_domanda": "mOH6ebsP"
@@ -1876,9 +1876,9 @@
     "domanda": "Verapamil e diazepam sono utili nella terapia dell’angina pectoris perché determinano le seguenti azioni, tranne:",
     "opzioni": [
       "Riduzione del consumo di ossigeno da parte del miocardio",
+      "Riduzione del post-carico tramite la vasodilatazione arteriolare periferica",
       "Aumento dell’apporto di ossigeno al miocardio tramite vasodilatazione coronarica",
-      "Aumento della frequenza cardiaca",
-      "Riduzione del post-carico tramite la vasodilatazione arteriolare periferica"
+      "Aumento della frequenza cardiaca"
     ],
     "risposta_corretta": "Aumento della frequenza cardiaca",
     "cod_domanda": "1ifYryHy"
@@ -1887,10 +1887,10 @@
     "num_domanda": 158,
     "domanda": "Indicare l’affermazione corretta sugli effetti indesiderati della digossina:",
     "opzioni": [
-      "L’effetto collaterale più rischioso è rappresentato dalle aritmie",
-      "Non provoca alcun effetto sul sistema nervoso",
       "Le interazioni con altri farmaci non influiscono sugli effetti indesiderati",
-      "Non esiste alcun antidoto in caso di grave intossicazione digitalica"
+      "Non esiste alcun antidoto in caso di grave intossicazione digitalica",
+      "L’effetto collaterale più rischioso è rappresentato dalle aritmie",
+      "Non provoca alcun effetto sul sistema nervoso"
     ],
     "risposta_corretta": "L’effetto collaterale più rischioso è rappresentato dalle aritmie",
     "cod_domanda": "reJughEw"
@@ -1899,10 +1899,10 @@
     "num_domanda": 159,
     "domanda": "Tra gli effetti indesiderati dei diuretici tiazidici si osserva:",
     "opzioni": [
-      "Riduzione dei livelli plasmatici di potassio",
       "Edema",
+      "Insufficienza cardiaca",
       "Ipertensione",
-      "Insufficienza cardiaca"
+      "Riduzione dei livelli plasmatici di potassio"
     ],
     "risposta_corretta": "Riduzione dei livelli plasmatici di potassio",
     "cod_domanda": "bIvsWckH"
@@ -1912,9 +1912,9 @@
     "domanda": "Quale dei seguenti farmaci non ha effetto analgesico:",
     "opzioni": [
       "Ketorolac",
-      "Paracetamolo",
       "Morfina",
-      "Atenololo"
+      "Atenololo",
+      "Paracetamolo"
     ],
     "risposta_corretta": "Atenololo",
     "cod_domanda": "cVoMaPDh"
@@ -1923,10 +1923,10 @@
     "num_domanda": 161,
     "domanda": "Lo “stato epilettico” è un’emergenza che si affronta con:",
     "opzioni": [
+      "Lorazepam o diazepam per via endovenosa",
       "Ketamina endovena come primo approccio",
-      "Un antipsicotico potente come l’aloperidolo",
       "Fenitoina per via orale, se il paziente è collaborante",
-      "Lorazepam o diazepam per via endovenosa"
+      "Un antipsicotico potente come l’aloperidolo"
     ],
     "risposta_corretta": "Lorazepam o diazepam per via endovenosa",
     "cod_domanda": "EXmWCza8"
@@ -1935,9 +1935,9 @@
     "num_domanda": 162,
     "domanda": "L’efficacia dell’acido acetilsalicilico per la profilassi antitrombotica è dovuta",
     "opzioni": [
-      "All’inibizione della sintesi dei fattori della coagulazione",
       "All’effetto antiaggregante piastrinico",
       "Alla stimolazione della cicloossigenasi nelle cellule endoteliali",
+      "All’inibizione della sintesi dei fattori della coagulazione",
       "All’inibizione della trombina"
     ],
     "risposta_corretta": "All’effetto antiaggregante piastrinico",
@@ -1947,10 +1947,10 @@
     "num_domanda": 163,
     "domanda": "Indicare l’affermazione corretta:",
     "opzioni": [
-      "Il tempo di emivita dell’eparina è indipendente dal suo peso molecolare (PM)",
-      "La terapia con eparina può provocare trombocitopenia transitoria",
       "L’eparina a basso PM ha un basso profilo di sicurezza e necessita di uno stretto monitoraggio",
-      "L’eparina a basso PM ha un effetto anticoagulante instabile e imprevedibile"
+      "La terapia con eparina può provocare trombocitopenia transitoria",
+      "L’eparina a basso PM ha un effetto anticoagulante instabile e imprevedibile",
+      "Il tempo di emivita dell’eparina è indipendente dal suo peso molecolare (PM)"
     ],
     "risposta_corretta": "La terapia con eparina può provocare trombocitopenia transitoria",
     "cod_domanda": "QKiHkFTk"
@@ -1959,10 +1959,10 @@
     "num_domanda": 164,
     "domanda": "Qual è la dose di utilizzo dell’acido acetilsalicitico qualora venga impiegato come antiaggregante?",
     "opzioni": [
-      "100 mg/die in singola somministrazione",
+      "3-4 g/die",
       "500 mg ogni 6 ore",
-      "500 mg una volta alla settimana",
-      "3-4 g/die"
+      "100 mg/die in singola somministrazione",
+      "500 mg una volta alla settimana"
     ],
     "risposta_corretta": "100 mg/die in singola somministrazione",
     "cod_domanda": "HT3ddgJf"
