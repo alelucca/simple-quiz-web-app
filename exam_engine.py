@@ -49,6 +49,10 @@ class ExamModuleEngine:
         "Radioprotezione": 12,
         "Patologia": 20,
         "Fisiopatologia": 10,
+        "Educazione Alla Salute": 10,
+        "Sicurezza": 10,
+        "Sociologia": 10,
+        "Epidemiologia": 10
     }
     DEFAULT_VALUE = 15
 
