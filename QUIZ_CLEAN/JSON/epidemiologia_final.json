@@ -1,0 +1,470 @@
+[
+  {
+    "num_domanda": 1,
+    "domanda": "Quale di queste affermazioni è ERRATA?",
+    "opzioni": [
+      "L'esposizione all'amianto è correlata al mesotelioma pleurico",
+      "L'alcolismo cronico favorisce l'insorgenza della cirrosi epatica",
+      "L’infezione da Helicobacter pylori rappresenta un fattore di rischio per ca del colon",
+      "Il fumo di sigaretta è un fattore di rischio per il tumore al polmone"
+    ],
+    "risposta_corretta": "L’infezione da Helicobacter pylori rappresenta un fattore di rischio per ca del colon",
+    "cod_domanda": "ajbrrbFj"
+  },
+  {
+    "num_domanda": 2,
+    "domanda": "Il carcinoma della mammella è la più frequente nelle seguenti condizioni:",
+    "opzioni": [
+      "Fumo di sigaretta",
+      "Esposizione moderata alla luce solare",
+      "Attività fisica regolare e intensa",
+      "Consumo elevato di verdure a foglia verde"
+    ],
+    "risposta_corretta": "Fumo di sigaretta",
+    "cod_domanda": "qc9ZkmjZ"
+  },
+  {
+    "num_domanda": 3,
+    "domanda": "Nella piramide delle età che cosa è riportato in ordinate e che cosa è riportato in ascisse?",
+    "opzioni": [
+      "In ordinate il tasso di mortalità e in ascisse l'anno di nascita",
+      "In ordinate la numerosità e in ascisse l'età",
+      "In ordinate il sesso e in ascisse la nazionalità",
+      "In ordinate l'età e in ascisse la numerosità"
+    ],
+    "risposta_corretta": "In ordinate l'età e in ascisse la numerosità",
+    "cod_domanda": "gVXBFfvq"
+  },
+  {
+    "num_domanda": 4,
+    "domanda": "Gli studi epidemiologici che classificano inizialmente i due gruppi in studio in base alla presenza o all’assenza della malattia sono:",
+    "opzioni": [
+      "Studi sperimentali randomizzati",
+      "Studi trasversali",
+      "Studi di coorte",
+      "Studi caso-controllo"
+    ],
+    "risposta_corretta": "Studi caso-controllo",
+    "cod_domanda": "mEgdZf38"
+  },
+  {
+    "num_domanda": 5,
+    "domanda": "Che cos’è la mortalità neonatale tardiva?",
+    "opzioni": [
+      "Il numero di decessi entro il primo anno di vita",
+      "Il rapporto tra il numero di morti dalla seconda alla quarta settimana di vita e numero di nati vivi",
+      "Il numero di morti entro la prima settimana di vita",
+      "Il rapporto tra morti fetali e nati vivi"
+    ],
+    "risposta_corretta": "Il rapporto tra il numero di morti dalla seconda alla quarta settimana di vita e numero di nati vivi",
+    "cod_domanda": "S513IIs3"
+  },
+  {
+    "num_domanda": 6,
+    "domanda": "Quale di queste affermazioni sugli studi caso-controllo è ERRATA?",
+    "opzioni": [
+      "Sono relativamente economici e veloci da condurre",
+      "Sono utili per studiare malattie rare",
+      "Consentono di determinare in modo più rapido l’incidenza o la prevalenza delle malattie",
+      "Partono dalla malattia per risalire all'esposizione"
+    ],
+    "risposta_corretta": "Consentono di determinare in modo più rapido l’incidenza o la prevalenza delle malattie",
+    "cod_domanda": "wDMdrmKa"
+  },
+  {
+    "num_domanda": 7,
+    "domanda": "In base alla definizione, un rischio relativo pari a 0,3 indica presumibilmente che:",
+    "opzioni": [
+      "L'esposizione aumenta il rischio di malattia",
+      "L'incidenza di malattia è uguale in entrambi i gruppi",
+      "Non c'è alcuna associazione tra esposizione e malattia",
+      "L’incidenza di malattia negli esposti è inferiore a quella nei non esposti"
+    ],
+    "risposta_corretta": "L’incidenza di malattia negli esposti è inferiore a quella nei non esposti",
+    "cod_domanda": "R7WCQZKv"
+  },
+  {
+    "num_domanda": 8,
+    "domanda": "La prevenzione secondaria dei tumori maligni si basa su:",
+    "opzioni": [
+      "Campagne informative contro il fumo e l'alcol",
+      "Vaccinazione contro i virus oncogeni",
+      "Programmi di screening di tumori per quali sia stata dimostrata l'utilità della diagnosi precoce",
+      "Riabilitazione post-chirurgica e chemioterapia adiuvante"
+    ],
+    "risposta_corretta": "Programmi di screening di tumori per quali sia stata dimostrata l'utilità della diagnosi precoce",
+    "cod_domanda": "hut07JFy"
+  },
+  {
+    "num_domanda": 9,
+    "domanda": "Quali sono i genotipi HPV maggiormente responsabili del carcinoma della cervice uterina?",
+    "opzioni": [
+      "45,52",
+      "16,18",
+      "6,11",
+      "31,33"
+    ],
+    "risposta_corretta": "16,18",
+    "cod_domanda": "hNaD3Lcq"
+  },
+  {
+    "num_domanda": 10,
+    "domanda": "Qual è la principale e più attendibile fonte ospedaliera di dati epidemiologici?",
+    "opzioni": [
+      "Il registro delle prenotazioni ambulatoriali",
+      "Il diario infermieristico di reparto",
+      "La scheda di dimissione ospedaliera",
+      "Le fatture emesse dalla farmacia ospedaliera"
+    ],
+    "risposta_corretta": "La scheda di dimissione ospedaliera",
+    "cod_domanda": "wLqqKCGt"
+  },
+  {
+    "num_domanda": 11,
+    "domanda": "L’indice di massa corporea (BMI) è definito come:",
+    "opzioni": [
+      "Altezza(cm) - 100",
+      "Peso(kg)/altezza(metri)",
+      "Peso(kg)/quadrato dell’altezza (metri)",
+      "Circonferenza vita(cm)/circonferenza fianchi(cm)"
+    ],
+    "risposta_corretta": "Peso(kg)/quadrato dell’altezza (metri)",
+    "cod_domanda": "B6tdXSWD"
+  },
+  {
+    "num_domanda": 12,
+    "domanda": "Quale delle seguenti affermazioni è ERRATA?",
+    "opzioni": [
+      "La mortalità infantile considera i decessi entro il primo anno di vita",
+      "Il tasso di natalità rapporta i nati vivi alla popolazione totale",
+      "La speranza di vita alla nascita è una stima degli anni che un neonato vivrà",
+      "Il tasso di fecondità totale esprime il numero di nuovi nati per anno ogni 100 abitanti"
+    ],
+    "risposta_corretta": "Il tasso di fecondità totale esprime il numero di nuovi nati per anno ogni 100 abitanti",
+    "cod_domanda": "b0Byar0g"
+  },
+  {
+    "num_domanda": 13,
+    "domanda": "In una patologia cronico-degenerativa irreversibile una diminuzione della prevalenza a incidenza invariata depone per:",
+    "opzioni": [
+      "Una maggiore efficacia della prevenzione primaria",
+      "Un peggioramento della prognosi",
+      "Un aumento della durata media della malattia",
+      "Un miglioramento delle cure disponibili"
+    ],
+    "risposta_corretta": "Un peggioramento della prognosi",
+    "cod_domanda": "o32rKGbF"
+  },
+  {
+    "num_domanda": 14,
+    "domanda": "Quale di queste affermazioni sugli studi caso-controllo è errata?",
+    "opzioni": [
+      "Consentono di determinare in modo più rapido l’incidenza o la prevalenza delle malattie",
+      "Confrontano soggetti malati con soggetti sani",
+      "Sono retrospettivi",
+      "Sono adatti per patologie con lungo periodo di latenza"
+    ],
+    "risposta_corretta": "Consentono di determinare in modo più rapido l’incidenza o la prevalenza delle malattie",
+    "cod_domanda": "tpARD1GY"
+  },
+  {
+    "num_domanda": 15,
+    "domanda": "Nelle broncopneumopatie croniche ostruttive la prevenzione secondaria si basi su:",
+    "opzioni": [
+      "Ossigenoterapia domiciliare a lungo termine",
+      "Campagne di sensibilizzazione contro l'inquinamento atmosferico",
+      "Trapianto polmonare in fase avanzata",
+      "Diagnosi precoce dell’insorgenza delle prime alterazioni"
+    ],
+    "risposta_corretta": "Diagnosi precoce dell’insorgenza delle prime alterazioni",
+    "cod_domanda": "S6OEI705"
+  },
+  {
+    "num_domanda": 16,
+    "domanda": "Quale di queste affermazioni è ERRATA?",
+    "opzioni": [
+      "L'ipertensione arteriosa è un fattore di rischio cardiovascolare maggiore",
+      "I due più importanti fattori di rischio per malattie cardiovascolari sono rappresentati da ipercolesterolemia e ipertrigliceridemia",
+      "L'obesità viscerale aumenta il rischio di eventi cardiaci",
+      "Il fumo di sigaretta danneggia l'endotelio vascolare"
+    ],
+    "risposta_corretta": "I due più importanti fattori di rischio per malattie cardiovascolari sono rappresentati da ipercolesterolemia e ipertrigliceridemia",
+    "cod_domanda": "Fh0ov6G9"
+  },
+  {
+    "num_domanda": 17,
+    "domanda": "Quale di queste affermazioni relative ai test di screening è ERRATA?",
+    "opzioni": [
+      "La specificità indica la capacità di identificare i sani",
+      "Più bassa è la specificità e più bassa è la proporzione di falsi positivi (positivi al test ma non malati)",
+      "Il valore predittivo positivo dipende dalla prevalenza della malattia",
+      "Un test sensibile identifica correttamente i malati"
+    ],
+    "risposta_corretta": "Più bassa è la specificità e più bassa è la proporzione di falsi positivi (positivi al test ma non malati)",
+    "cod_domanda": "4LFtqxNQ"
+  },
+  {
+    "num_domanda": 18,
+    "domanda": "Indicare quale di queste affermazioni è ERRATA. La prevenzione primaria contempla:",
+    "opzioni": [
+      "La vaccinazione della popolazione suscettibile",
+      "L'educazione sanitaria per stili di vita sani",
+      "L'eliminazione dei fattori di rischio ambientali",
+      "Il riconoscimento tempestivo delle malattie"
+    ],
+    "risposta_corretta": "Il riconoscimento tempestivo delle malattie",
+    "cod_domanda": "2D0ROojN"
+  },
+  {
+    "num_domanda": 19,
+    "domanda": "Il rischio relativo è:",
+    "opzioni": [
+      "Il rapporto tra prevalenza negli esposti e prevalenza nei non esposti",
+      "La proporzione di casi attribuibili all'esposizione",
+      "La differenza tra incidenza negli esposti e nei non esposti",
+      "Il rapporto tra incidenza negli esposti e incidenza nei non esposti"
+    ],
+    "risposta_corretta": "Il rapporto tra incidenza negli esposti e incidenza nei non esposti",
+    "cod_domanda": "4jgyxSLR"
+  },
+  {
+    "num_domanda": 20,
+    "domanda": "Lo studio epidemiologico a coorte serve per:",
+    "opzioni": [
+      "Calcolare il rischio relativo",
+      "Analizzare retrospettivamente le cause di un'epidemia",
+      "Valutare l'efficacia di un nuovo farmaco in fase sperimentale",
+      "Stimare la prevalenza puntuale di una malattia"
+    ],
+    "risposta_corretta": "Calcolare il rischio relativo",
+    "cod_domanda": "v8tWzwV5"
+  },
+  {
+    "num_domanda": 21,
+    "domanda": "L’incidenza è una misura epidemiologica che valuta:",
+    "opzioni": [
+      "Il numero di nuovi casi di malattia",
+      "Il numero di decessi per una specifica causa",
+      "Il numero totale di casi esistenti in un dato momento",
+      "La percentuale di guarigioni dopo una terapia"
+    ],
+    "risposta_corretta": "Il numero di nuovi casi di malattia",
+    "cod_domanda": "Doo0OXkq"
+  },
+  {
+    "num_domanda": 22,
+    "domanda": "In una scheda di morte quale, tra i seguenti, è il dato epidemiologico più importante?",
+    "opzioni": [
+      "Luogo del decesso",
+      "Stato civile del defunto",
+      "Professione svolta in vita",
+      "Causa di morte iniziale"
+    ],
+    "risposta_corretta": "Causa di morte iniziale",
+    "cod_domanda": "xbFJ3w9n"
+  },
+  {
+    "num_domanda": 23,
+    "domanda": "Quale di queste affermazioni sul carcinoma mammario è ERRATA?",
+    "opzioni": [
+      "L'obesità post-menopausale è correlata a un aumento del rischio",
+      "L'età avanzata aumenta la probabilità di insorgenza",
+      "La familiarità è un fattore di rischio importante",
+      "Il rischio è tanto maggiore quanto più anticipata è la menopausa"
+    ],
+    "risposta_corretta": "Il rischio è tanto maggiore quanto più anticipata è la menopausa",
+    "cod_domanda": "rnK8yZp2"
+  },
+  {
+    "num_domanda": 24,
+    "domanda": "Gli screening di massa vengono eseguiti:",
+    "opzioni": [
+      "Per malattie rare e incurabili",
+      "Per malattie diagnosticabili attraverso test sensibili e specifici",
+      "Solo su pazienti già sintomatici",
+      "Esclusivamente per malattie infettive acute"
+    ],
+    "risposta_corretta": "Per malattie diagnosticabili attraverso test sensibili e specifici",
+    "cod_domanda": "nuMIksc1"
+  },
+  {
+    "num_domanda": 25,
+    "domanda": "Il co presente nel fumo di tabacco esplica la seguente azione:",
+    "opzioni": [
+      "Fa diminuire la quantità di ossigeno che si lega all’emoglobina",
+      "Aumenta la fluidità del sangue riducendo il rischio di trombosi",
+      "Stimola la produzione di globuli bianchi",
+      "Migliora la capacità polmonare a breve termine"
+    ],
+    "risposta_corretta": "Fa diminuire la quantità di ossigeno che si lega all’emoglobina",
+    "cod_domanda": "p6tU5Gly"
+  },
+  {
+    "num_domanda": 26,
+    "domanda": "In base alla definizione epidemiologica di proporzione è corretta la seguente affermazione:",
+    "opzioni": [
+      "Può assumere valori infiniti positivi",
+      "Non ha dimensione ed è sempre maggiore di 1",
+      "Il valore numerico è sempre compreso nell’intervallo tra 0 e 1",
+      "Il numeratore non è mai compreso nel denominatore"
+    ],
+    "risposta_corretta": "Il valore numerico è sempre compreso nell’intervallo tra 0 e 1",
+    "cod_domanda": "t9LceVnS"
+  },
+  {
+    "num_domanda": 27,
+    "domanda": "Quale di queste affermazioni sul fumo di sigaretta è ERRATA?",
+    "opzioni": [
+      "Contiene oltre 4000 sostanze chimiche",
+      "Aumenta il rischio di broncopneumopatia cronica ostruttiva (BPCO)",
+      "Genera cinque diversi idrocarburi cancerogeni",
+      "È la principale causa prevenibile di morte nei paesi sviluppati"
+    ],
+    "risposta_corretta": "Genera cinque diversi idrocarburi cancerogeni",
+    "cod_domanda": "vrME2mdd"
+  },
+  {
+    "num_domanda": 28,
+    "domanda": "Sotto l’aspetto demografico una popolazione si trova in una fase di “crescita zero” quando:",
+    "opzioni": [
+      "Il tasso di natalità supera quello di mortalità del 5%",
+      "Non ci sono flussi migratori in entrata o uscita",
+      "Il numero medio di figli per donna è pari a 2,1",
+      "La speranza di vita media supera gli 80 anni"
+    ],
+    "risposta_corretta": "Il numero medio di figli per donna è pari a 2,1",
+    "cod_domanda": "UiWO9XnB"
+  },
+  {
+    "num_domanda": 29,
+    "domanda": "La coorte è definita come:",
+    "opzioni": [
+      "Un campione casuale estratto dalla popolazione generale",
+      "Un gruppo di soggetti aventi una o più caratteristiche in comune",
+      "L'insieme dei pazienti ricoverati in un reparto ospedaliero",
+      "Il totale dei decessi registrati in un anno solare"
+    ],
+    "risposta_corretta": "Un gruppo di soggetti aventi una o più caratteristiche in comune",
+    "cod_domanda": "XEj9UAy5"
+  },
+  {
+    "num_domanda": 30,
+    "domanda": "Un fattore di rischio è:",
+    "opzioni": [
+      "Un fattore che, se presente, non necessariamente provoca la malattia, ma ne aumenta la probabilità di insorgenza",
+      "La causa necessaria e sufficiente di una malattia",
+      "Sempre un agente infettivo esterno",
+      "Un elemento che garantisce l'immunità verso una patologia"
+    ],
+    "risposta_corretta": "Un fattore che, se presente, non necessariamente provoca la malattia, ma ne aumenta la probabilità di insorgenza",
+    "cod_domanda": "7jkJvpgx"
+  },
+  {
+    "num_domanda": 31,
+    "domanda": "La prevalenza è uguale al rapporto tra:",
+    "opzioni": [
+      "Il numero di nuovi casi su popolazione a rischio",
+      "Il numero di guariti su numero di malati",
+      "Il numero di casi presenti in una popolazione si popolazione totale",
+      "Il numero di decessi su popolazione totale"
+    ],
+    "risposta_corretta": "Il numero di casi presenti in una popolazione si popolazione totale",
+    "cod_domanda": "RRImST4n"
+  },
+  {
+    "num_domanda": 32,
+    "domanda": "Qual è la seconda causa di morte in Italia?",
+    "opzioni": [
+      "Tumori",
+      "Incidenti stradali",
+      "Malattie cardiovascolari",
+      "Malattie infettive"
+    ],
+    "risposta_corretta": "Tumori",
+    "cod_domanda": "djMpODSm"
+  },
+  {
+    "num_domanda": 33,
+    "domanda": "I tumori nel loro complesso nei paesi sviluppati sono:",
+    "opzioni": [
+      "La prima causa di morte",
+      "Una causa di morte trascurabile",
+      "Meno frequenti delle malattie infettive",
+      "La seconda causa di morte"
+    ],
+    "risposta_corretta": "La seconda causa di morte",
+    "cod_domanda": "2NTVJDBv"
+  },
+  {
+    "num_domanda": 34,
+    "domanda": "La prevenzione secondaria dei tumori maligni si basa su:",
+    "opzioni": [
+      "Cambiamento degli stili di vita",
+      "Chirurgia radicale profilattica",
+      "Programmi di screening di tumori per i quali sia stata dimostrata l’utilità della diagnosi precoce",
+      "Chemioterapia preventiva ad alte dosi"
+    ],
+    "risposta_corretta": "Programmi di screening di tumori per i quali sia stata dimostrata l’utilità della diagnosi precoce",
+    "cod_domanda": "acjoe0pg"
+  },
+  {
+    "num_domanda": 35,
+    "domanda": "Il diabete mellito di tipo due riconosce quali fattori di rischio:",
+    "opzioni": [
+      "Familiarità e predisposizione genetica",
+      "Sedentarietà",
+      "Tutte le risposte sono corrette",
+      "Obesità e sovrappeso"
+    ],
+    "risposta_corretta": "Tutte le risposte sono corrette",
+    "cod_domanda": "9goczULv"
+  },
+  {
+    "num_domanda": 36,
+    "domanda": "La prevenzione del consumo di tabacco in Italia potrebbe prevedere:",
+    "opzioni": [
+      "Aumento del prezzo delle sigarette",
+      "Tutte le risposte",
+      "Divieto di fumo nei luoghi pubblici",
+      "Campagne educative nelle scuole"
+    ],
+    "risposta_corretta": "Tutte le risposte",
+    "cod_domanda": "z0boBQeX"
+  },
+  {
+    "num_domanda": 37,
+    "domanda": "Il fumo di sigaretta ormai dimostrato essere un rischio per:",
+    "opzioni": [
+      "Malattie cardiovascolari",
+      "Tumore al polmone",
+      "Tutte le risposte sono corrette",
+      "BPCO"
+    ],
+    "risposta_corretta": "Tutte le risposte sono corrette",
+    "cod_domanda": "yR0I2ufE"
+  },
+  {
+    "num_domanda": 38,
+    "domanda": "Le complicanze del diabete:",
+    "opzioni": [
+      "Riguardano esclusivamente il sistema nervoso centrale",
+      "Sono retinopatia, nefropatia, neuropatia, aterosclerosi, cardiopatie schemi mica con frequenza diversa nel diabete di tipo uno e tipo due",
+      "Non comportano rischi cardiovascolari significativi",
+      "Sono limitate a infezioni cutanee superficiali"
+    ],
+    "risposta_corretta": "Sono retinopatia, nefropatia, neuropatia, aterosclerosi, cardiopatie schemi mica con frequenza diversa nel diabete di tipo uno e tipo due",
+    "cod_domanda": "C3aBRoZe"
+  },
+  {
+    "num_domanda": 39,
+    "domanda": "Ipertensione arteriosa:",
+    "opzioni": [
+      "È un fattore di rischio per le malattie cerebro vascolari",
+      "Non ha alcuna correlazione con l'infarto del miocardio",
+      "È causata principalmente da un'eccessiva assunzione di zuccheri",
+      "Protegge dall'ictus ischemico"
+    ],
+    "risposta_corretta": "È un fattore di rischio per le malattie cerebro vascolari",
+    "cod_domanda": "NBcYhfcN"
+  }
+]

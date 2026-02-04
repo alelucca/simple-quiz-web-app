@@ -1,0 +1,290 @@
+[
+  {
+    "num_domanda": 1,
+    "domanda": "Il programma nazionale “Guadagnare salute” ha l’obiettivo di promuovere interventi salutari per ridurre i seguenti fattori di rischio:",
+    "opzioni": [
+      "Stress lavorativo, insonnia, disturbi dell'umore",
+      "Fumo, alcol, sedentarietà, alimentazione scorretta",
+      "Incidenti stradali, infortuni domestici, malattie infettive",
+      "Inquinamento atmosferico, esposizione ai raggi UV, rumore ambientale"
+    ],
+    "risposta_corretta": "Fumo, alcol, sedentarietà, alimentazione scorretta",
+    "cod_domanda": "IJVBZZpV"
+  },
+  {
+    "num_domanda": 2,
+    "domanda": "La margherita di Lalonde è costituita dai seguenti campi:",
+    "opzioni": [
+      "Prevenzione primaria, prevenzione secondaria, prevenzione terziaria, riabilitazione",
+      "Fattori economici, fattori politici, fattori sociali, fattori tecnologici",
+      "Diagnosi, terapia, assistenza infermieristica, supporto psicologico",
+      "Influenze ambientali, influenze biologiche e genetiche, stili di vita individuali, natura ed estensione dei servizi"
+    ],
+    "risposta_corretta": "Influenze ambientali, influenze biologiche e genetiche, stili di vita individuali, natura ed estensione dei servizi",
+    "cod_domanda": "LTxvou1m"
+  },
+  {
+    "num_domanda": 3,
+    "domanda": "Quali documenti sanciscono la funzione educativa dell’infermiere?",
+    "opzioni": [
+      "Il profilo professionale, il codice deontologico e il patto infermiere-cittadino",
+      "Le linee guida cliniche, i protocolli operativi e le istruzioni operative",
+      "Il regolamento ospedaliero, il contratto nazionale di lavoro e le procedure aziendali",
+      "La Costituzione, il codice civile e il codice penale"
+    ],
+    "risposta_corretta": "Il profilo professionale, il codice deontologico e il patto infermiere-cittadino",
+    "cod_domanda": "bedQFYdF"
+  },
+  {
+    "num_domanda": 4,
+    "domanda": "Quali tra queste affermazioni sul “focus group” è corretta?",
+    "opzioni": [
+      "È una tecnica qualitativa di raccolta dati basata sulle informazioni che emergono da una discussione di gruppo (8-12 partecipanti), su un argomento da approfondire, guidata da un conduttore.",
+      "È una sessione di terapia di gruppo condotta da uno psicologo per risolvere conflitti interpersonali.",
+      "È una riunione amministrativa per decidere le strategie di marketing di un'azienda sanitaria.",
+      "È un metodo quantitativo che utilizza questionari a risposta chiusa somministrati a un ampio campione di popolazione."
+    ],
+    "risposta_corretta": "È una tecnica qualitativa di raccolta dati basata sulle informazioni che emergono da una discussione di gruppo (8-12 partecipanti), su un argomento da approfondire, guidata da un conduttore.",
+    "cod_domanda": "bOHZQrPs"
+  },
+  {
+    "num_domanda": 5,
+    "domanda": "Come è evoluto nel tempo il concetto di “salute”?",
+    "opzioni": [
+      "Da un concetto puramente religioso a un concetto esclusivamente biologico basato sui parametri vitali.",
+      "Da assenza di malattia, a stato di completo benessere fisico, psichico e sociale, a stato di migliorare equilibrio possibile tra un individuo e il suo ambiente, a condizione in cui un soggetto o comunità è in grado di realizzare le proprie aspirazione e soddisfare i propri bisogni.",
+      "Da una visione olistica antica a una moderna frammentazione specialistica che ignora l'ambiente.",
+      "Il concetto è rimasto invariato nel tempo, definendosi sempre come la semplice assenza di dolore fisico."
+    ],
+    "risposta_corretta": "Da assenza di malattia, a stato di completo benessere fisico, psichico e sociale, a stato di migliorare equilibrio possibile tra un individuo e il suo ambiente, a condizione in cui un soggetto o comunità è in grado di realizzare le proprie aspirazione e soddisfare i propri bisogni.",
+    "cod_domanda": "d1Mp1tYl"
+  },
+  {
+    "num_domanda": 6,
+    "domanda": "Quali sono i principali programmi di intervento di promozione della salute individuati nel PRP 14-18 da regione Lombardia per il raggiungimento degli obiettivi di salute della popolazione?",
+    "opzioni": [
+      "Programmi di ristrutturazione edilizia degli ospedali e acquisto di nuove tecnologie diagnostiche.",
+      "Esclusivamente campagne vaccinali contro l'influenza stagionale e il morbillo.",
+      "Interventi di promozione della corretta alimentazione, dell’attività fisica, dell’allattamento al seno, degli screening oncologici, le reti delle scuole che promuovono la salute e delle aziende che promuovono la salute, la disassuefazione dal tabagismo.",
+      "Corsi di formazione obbligatoria per il personale medico sulla gestione delle emergenze cardiovascolari."
+    ],
+    "risposta_corretta": "Interventi di promozione della corretta alimentazione, dell’attività fisica, dell’allattamento al seno, degli screening oncologici, le reti delle scuole che promuovono la salute e delle aziende che promuovono la salute, la disassuefazione dal tabagismo.",
+    "cod_domanda": "PSrPmb26"
+  },
+  {
+    "num_domanda": 7,
+    "domanda": "Al termine degli anni 70 il rapporto black ha descritto per primo un fenomeno delle disuguaglianze nella distribuzione di un fenomeno: quale?",
+    "opzioni": [
+      "Delle risorse idriche potabili nelle aree urbane rispetto a quelle rurali",
+      "Delle malattie e delle cause di morte tra le classi sociali",
+      "Della disponibilità di farmaci essenziali nei paesi in via di sviluppo",
+      "Dell'accesso all'istruzione universitaria tra nord e sud"
+    ],
+    "risposta_corretta": "Delle malattie e delle cause di morte tra le classi sociali",
+    "cod_domanda": "VRYdmAPJ"
+  },
+  {
+    "num_domanda": 8,
+    "domanda": "Il modello delle credenze sulla salute health belief model HBM prevede 4 variabili chiave. Quali?",
+    "opzioni": [
+      "Età anagrafica, genere, livello di istruzione, reddito familiare",
+      "Diagnosi medica, prognosi, terapia farmacologica, riabilitazione fisica",
+      "Suscettibilità percepita, severità percepita, benefici percepiti e vincoli percepiti",
+      "Motivazione intrinseca, motivazione estrinseca, ricompensa, punizione"
+    ],
+    "risposta_corretta": "Suscettibilità percepita, severità percepita, benefici percepiti e vincoli percepiti",
+    "cod_domanda": "P5fnQdUt"
+  },
+  {
+    "num_domanda": 9,
+    "domanda": "Secondo la tassonomia NANDA-I,2015-2017, quali tra i seguenti titoli è una diagnosi di promozione della salute?",
+    "opzioni": [
+      "Disponibilità a migliorare l’educazione alla salute",
+      "Ansia correlata a intervento chirurgico imminente",
+      "Rischio di infezione correlato a procedure invasive",
+      "Dolore acuto correlato a trauma fisico"
+    ],
+    "risposta_corretta": "Disponibilità a migliorare l’educazione alla salute",
+    "cod_domanda": "bruCQyVu"
+  },
+  {
+    "num_domanda": 10,
+    "domanda": "Il concetto di health literacy esprime:",
+    "opzioni": [
+      "L’insieme delle capacità cognitive e sociali che determinano la motivazione e le abilità indispensabili ad ogni individuo per accedere, comprendere e utilizzare le informazioni necessarie a compiere scelte salutari.",
+      "La capacità del personale sanitario di leggere e interpretare correttamente le cartelle cliniche elettroniche.",
+      "La conoscenza approfondita della terminologia medica latina da parte dei pazienti.",
+      "Il livello di alfabetizzazione informatica necessario per utilizzare i portali sanitari online."
+    ],
+    "risposta_corretta": "L’insieme delle capacità cognitive e sociali che determinano la motivazione e le abilità indispensabili ad ogni individuo per accedere, comprendere e utilizzare le informazioni necessarie a compiere scelte salutari.",
+    "cod_domanda": "mzr9kv2z"
+  },
+  {
+    "num_domanda": 11,
+    "domanda": "Con il termine “life skills” si intende:",
+    "opzioni": [
+      "Quelle abilità, competenze socio-emotive che è necessario apprendere per mettersi in relazione con gli altri e per affrontare i problemi, le pressioni e gli stress della vita quotidiana",
+      "Le abilità manuali necessarie per l'autosufficienza nelle attività di vita quotidiana (ADL)",
+      "Le competenze tecniche specifiche richieste per svolgere una professione sanitaria",
+      "La capacità di sopravvivenza in ambienti estremi e selvaggi"
+    ],
+    "risposta_corretta": "Quelle abilità, competenze socio-emotive che è necessario apprendere per mettersi in relazione con gli altri e per affrontare i problemi, le pressioni e gli stress della vita quotidiana",
+    "cod_domanda": "oEwkUyOH"
+  },
+  {
+    "num_domanda": 12,
+    "domanda": "Qual è la definizione di “Empowerment” secondo L’OMS nel 1999",
+    "opzioni": [
+      "Il processo attraverso il quale i soggetti accrescono il controllo sulle azioni e decisioni che riguardano la propria vita",
+      "L'acquisizione di potere politico da parte delle organizzazioni sanitarie internazionali",
+      "La sottomissione passiva alle linee guida governative in materia di salute",
+      "La delega totale delle decisioni sanitarie al personale medico specializzato"
+    ],
+    "risposta_corretta": "Il processo attraverso il quale i soggetti accrescono il controllo sulle azioni e decisioni che riguardano la propria vita",
+    "cod_domanda": "B75AF4di"
+  },
+  {
+    "num_domanda": 13,
+    "domanda": "Le componenti del senso di coerenza (SOC) di Antonovsky sono",
+    "opzioni": [
+      "Senso di responsabilità, senso del dovere, senso etico.",
+      "Senso logico, senso critico, senso pratico.",
+      "Senso di comprensibilità, senso di affrontabilità, senso di significatività.",
+      "Senso di appartenenza, senso di identità, senso di sicurezza."
+    ],
+    "risposta_corretta": "Senso di comprensibilità, senso di affrontabilità, senso di significatività.",
+    "cod_domanda": "qxRh8YiN"
+  },
+  {
+    "num_domanda": 14,
+    "domanda": "Quale è la definizione che L’OMS (1998) dà di promozione della salute?",
+    "opzioni": [
+      "L'insieme delle attività volte esclusivamente alla cura delle malattie infettive",
+      "Il processo che mette in grado le persone di aumentare il controllo sulla propria salute e migliorarla",
+      "La distribuzione gratuita di farmaci essenziali alle popolazioni bisognose",
+      "La gestione amministrativa ed economica delle strutture ospedaliere pubbliche"
+    ],
+    "risposta_corretta": "Il processo che mette in grado le persone di aumentare il controllo sulla propria salute e migliorarla",
+    "cod_domanda": "FOnzxHis"
+  },
+  {
+    "num_domanda": 15,
+    "domanda": "Che cosa è il precede-proceed model?",
+    "opzioni": [
+      "Rappresenta un algoritmo decisionale per la prescrizione di antibiotici",
+      "È una normativa europea per la sicurezza alimentare e l'igiene pubblica",
+      "Costituisce un modello teorico per la progettazione di programmi di promozione della salute che prevede inizialmente un’analisi multidimensionale della situazione di partenza, cui segue l’implementazione del programma e infine la valutazione dei risultati",
+      "È un protocollo clinico per la gestione delle emergenze in pronto soccorso"
+    ],
+    "risposta_corretta": "Costituisce un modello teorico per la progettazione di programmi di promozione della salute che prevede inizialmente un’analisi multidimensionale della situazione di partenza, cui segue l’implementazione del programma e infine la valutazione dei risultati",
+    "cod_domanda": "QIpOuaAV"
+  },
+  {
+    "num_domanda": 16,
+    "domanda": "Che cosa sono i Prerequisiti della salute secondo l’OMS?",
+    "opzioni": [
+      "I fondi monetari stanziati dai governi per la costruzione di nuovi ospedali",
+      "Situazioni o risorse iniziali che devono essere presenti nelle comunità affinché la salute si sviluppi o condizioni che devono essere presenti nelle comunità che acquisiscono la consapevolezza e la decisione di perseguire la salute dei suoi componenti",
+      "Le predisposizioni genetiche ereditarie che garantiscono una vita lunga",
+      "Gli esami del sangue annuali obbligatori per tutti i cittadini"
+    ],
+    "risposta_corretta": "Situazioni o risorse iniziali che devono essere presenti nelle comunità affinché la salute si sviluppi o condizioni che devono essere presenti nelle comunità che acquisiscono la consapevolezza e la decisione di perseguire la salute dei suoi componenti",
+    "cod_domanda": "HOEnoiBK"
+  },
+  {
+    "num_domanda": 17,
+    "domanda": "Secondo prochaska e di clemente (1984), di cosa tratta il “modello” che promuove il muoversi nella direzione della salute?",
+    "opzioni": [
+      "I passaggi biochimici del metabolismo dei carboidrati",
+      "Le fasi dello sviluppo fetale durante la gravidanza",
+      "Fasi che possono essere identificate nel comportamento del soggetto adulto verso il cambiamento",
+      "Le tappe della carriera professionale di un infermiere"
+    ],
+    "risposta_corretta": "Fasi che possono essere identificate nel comportamento del soggetto adulto verso il cambiamento",
+    "cod_domanda": "uuxAtNfL"
+  },
+  {
+    "num_domanda": 18,
+    "domanda": "Secondo la carta di ottawa (1986), le azioni essenziali per promuovere la salute sono:",
+    "opzioni": [
+      "Punire, sanzionare, controllare",
+      "Finanziare, costruire, privatizzare",
+      "Diagnosticare, trattare, riabilitare",
+      "Sostenere, mettere in grado, mediare"
+    ],
+    "risposta_corretta": "Sostenere, mettere in grado, mediare",
+    "cod_domanda": "db4756xV"
+  },
+  {
+    "num_domanda": 19,
+    "domanda": "L’ambiente ecologico è costituito dai seguenti elementi:",
+    "opzioni": [
+      "Atmosfera, idrosfera, litosfera",
+      "Microsistemi, esosistemi, macrosistemi",
+      "Ambiente domestico, ambiente lavorativo, ambiente scolastico",
+      "Sistema nervoso, sistema endocrino, sistema immunitario"
+    ],
+    "risposta_corretta": "Microsistemi, esosistemi, macrosistemi",
+    "cod_domanda": "ptJ851R6"
+  },
+  {
+    "num_domanda": 20,
+    "domanda": "Il concetto di resilienza esprime:",
+    "opzioni": [
+      "La resistenza fisica agli sforzi prolungati senza affaticamento muscolare.",
+      "La tendenza a negare i problemi emotivi per evitare sofferenze psicologiche.",
+      "La capacità dell’essere umano di affrontare le avversità della vita e di superarle positivamente trasformato, con la possibilità di ritrovare un equilibrio di salute e benessere.",
+      "L'incapacità di adattarsi ai cambiamenti improvvisi dell'ambiente circostante."
+    ],
+    "risposta_corretta": "La capacità dell’essere umano di affrontare le avversità della vita e di superarle positivamente trasformato, con la possibilità di ritrovare un equilibrio di salute e benessere.",
+    "cod_domanda": "wDgP1UWg"
+  },
+  {
+    "num_domanda": 21,
+    "domanda": "Con il termine “andragogia” ci si riferisce a:",
+    "opzioni": [
+      "Un metodo di insegnamento rivolto esclusivamente ai bambini in età prescolare",
+      "Lo studio delle malattie specifiche della popolazione maschile",
+      "La scienza che studia l'invecchiamento della popolazione",
+      "Un modello centrato sulle diversità di bisogni di apprendimento degli adulti rispetto ai bambini"
+    ],
+    "risposta_corretta": "Un modello centrato sulle diversità di bisogni di apprendimento degli adulti rispetto ai bambini",
+    "cod_domanda": "BVDdKgH3"
+  },
+  {
+    "num_domanda": 22,
+    "domanda": "Nell’articolo n°32 della costituzione italiana, la salute è considerata:",
+    "opzioni": [
+      "Diritto dell’individuo e interesse della collettività",
+      "Un bene di consumo acquistabile sul libero mercato",
+      "Un privilegio riservato ai cittadini che pagano le tasse",
+      "Una responsabilità esclusiva del singolo cittadino senza intervento statale"
+    ],
+    "risposta_corretta": "Diritto dell’individuo e interesse della collettività",
+    "cod_domanda": "mPCj9kx0"
+  },
+  {
+    "num_domanda": 23,
+    "domanda": "Il sistema di sorveglianza Okkio alla salute prevede una rilevazione dei dati:",
+    "opzioni": [
+      "Quinquennale",
+      "Mensile",
+      "Biennale",
+      "Annuale"
+    ],
+    "risposta_corretta": "Biennale",
+    "cod_domanda": "QHWMlNJ0"
+  },
+  {
+    "num_domanda": 24,
+    "domanda": "Secondo il programma “Guadagnare in salute”:",
+    "opzioni": [
+      "Bisogna aumentare le tasse sui farmaci per finanziare la ricerca",
+      "È fondamentale privatizzare tutti i servizi sanitari regionali",
+      "È necessario contrastare i 4 principali fattori di rischio delle malattie cronico-degenerative",
+      "Occorre ridurre il numero di medici di base per risparmiare risorse"
+    ],
+    "risposta_corretta": "È necessario contrastare i 4 principali fattori di rischio delle malattie cronico-degenerative",
+    "cod_domanda": "XrupVyUf"
+  }
+]
