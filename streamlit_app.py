@@ -8,10 +8,13 @@ Supporta tre modalità:
 Con autenticazione e logging opzionali.
 """
 
+import json
+import os
 from pathlib import Path
 import streamlit as st
 from datetime import datetime
 import time
+import pymongo
 
 # Import dei moduli custom
 from quiz_loader import QuizLoader
@@ -69,6 +72,23 @@ def init_session_state():
     if "feedback_message" not in st.session_state:
         st.session_state.feedback_message = None
 
+
+@st.cache_data
+def get_data():
+    _client = pymongo.MongoClient(host=st.secrets["mongo"]["mongodb_uri"])
+    db = _client.quiz_app
+    # items = db.infermieristica.find({},{"materia":1,"lista_domande_risposte":1})
+    items = db.infermieristica.find()
+
+    items = list(items)  # make hashable for st.cache_data
+    
+    folder = "QUIZ_CLEAN/JSON"
+    os.makedirs(folder, exist_ok=True)
+    for item in items:
+        filename=item["materia"]
+        lista_domande_risposte=item["lista_domande_risposte"]
+        with open(f"{folder}/{filename}_final.json", "w", encoding="utf-8") as f:
+            json.dump(lista_domande_risposte, f, indent=2, ensure_ascii=False)
 
 # ============================================================================
 # LOGIN / AUTENTICAZIONE
@@ -1087,6 +1107,9 @@ def main():
     
     # Inizializza session state
     init_session_state()
+    
+    # Ottieni la lista di quiz dal client mongodb e salvala in locale
+    get_data()
     
     # Sidebar con logout
     with st.sidebar:
