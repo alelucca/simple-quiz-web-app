@@ -23,10 +23,10 @@ pip install -r requirements.txt
 
 3. Configure credentials for registration logging in `.streamlit/secrets.toml`. You can follow [this guide](https://docs.streamlit.io/develop/tutorials/databases/private-gsheet) for any questions.
 
-4. Upload your quizzes to the `QUIZ_CLEAN/JSON` folder
+4. Upload your quizzes in your MongoDB collection
    Rules for uploading quizzes:
-   - The .json file must be named *_final.json
-   - The quiz file must have this format:
+   - Each document should have as 'materia' the name of the subject of the quiz
+   - Each document should have an array of questions and answers with 'lista_domande_risposte' as key, in this format    
       ```json
       [
         {
