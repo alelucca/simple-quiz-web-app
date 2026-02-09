@@ -3,6 +3,7 @@ QUIZ_CLEAN/WORD
 raw_input_files
 .env
 QUIZ_CLEAN/JSON/backup
+QUIZ_CLEAN/JSON
 
 # Streamlit secrets
 .streamlit/
