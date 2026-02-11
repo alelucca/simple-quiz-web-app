@@ -24,6 +24,7 @@ pip install -r requirements.txt
 3. Configure credentials for registration logging in `.streamlit/secrets.toml`. You can follow [this guide](https://docs.streamlit.io/develop/tutorials/databases/private-gsheet) for any questions.
 
 4. Upload your quizzes in your MongoDB collection
+
    Rules for uploading quizzes:
    - Each document should have as 'materia' the name of the subject of the quiz
    - Each document should have an array of questions and answers with 'lista_domande_risposte' as key, in this format    
@@ -39,7 +40,7 @@ pip install -r requirements.txt
       ```
     NB: You can use validate_quiz.py to verify the correctness of inserted quizzes and automatically add question codes
 
-5. For exam mode, specify the number of questions in `exam_engine.py` (1 minute per question is considered)
+6. For exam mode, specify the number of questions in `exam_engine.py` (1 minute per question is considered)
    ```python
    QUESTIONS_AND_TIMES_PER_MODULE = {
         "Module Name": 30, # as key, first letter capitalized and space between words
@@ -48,7 +49,7 @@ pip install -r requirements.txt
     DEFAULT_VALUE = 15 # default value: 15 questions in 15 minutes
     ```
 
-6. Testing or local usage
+7. Testing or local usage
 
   Launch the application:
   ```bash
@@ -104,9 +105,6 @@ pip install -r requirements.txt
 ├── auth.py                       # Authentication with gsheets
 ├── logger.py                     # Logging (to be integrated)
 ├── requirements.txt              # Python dependencies
-├── README.md                     # This file
-└── QUIZ_CLEAN/
-    └── JSON/
-        ├── *_final.json        
+├── README.md                     # This file     
         
 ```
