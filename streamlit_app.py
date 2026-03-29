@@ -8,9 +8,6 @@ Supporta tre modalità:
 Con autenticazione e logging opzionali.
 """
 
-import json
-import os
-from pathlib import Path
 import streamlit as st
 from datetime import datetime
 import time
@@ -31,8 +28,20 @@ from logger import QuizLogger, generate_session_id
 # ============================================================================
 # CONFIGURAZIONE E INIZIALIZZAZIONE
 # ============================================================================
-BASE_DIR = Path(__file__).parent
-QUIZ_DIR = BASE_DIR / "QUIZ_CLEAN" / "JSON"
+
+
+@st.cache_resource
+def get_mongo_client() -> pymongo.MongoClient:
+    """Restituisce un client MongoDB cached per tutta la sessione app."""
+    return pymongo.MongoClient(host=st.secrets["mongo"]["mongodb_uri"])
+
+
+@st.cache_data
+def get_data():
+    """Carica i documenti quiz da MongoDB senza side effects."""
+    client = get_mongo_client()
+    db = client.quiz_app
+    return list(db.infermieristica.find())
 
 def init_session_state():
     """Inizializza tutte le variabili di sessione necessarie"""
@@ -46,7 +55,7 @@ def init_session_state():
     
     # Quiz loader
     if "quiz_loader" not in st.session_state:
-        st.session_state.quiz_loader = QuizLoader(QUIZ_DIR)
+        st.session_state.quiz_loader = QuizLoader(get_data())
     
     # Auth manager
     if "auth_manager" not in st.session_state:
@@ -71,24 +80,6 @@ def init_session_state():
     # Feedback temporaneo
     if "feedback_message" not in st.session_state:
         st.session_state.feedback_message = None
-
-
-@st.cache_data
-def get_data():
-    _client = pymongo.MongoClient(host=st.secrets["mongo"]["mongodb_uri"])
-    db = _client.quiz_app
-    # items = db.infermieristica.find({},{"materia":1,"lista_domande_risposte":1})
-    items = db.infermieristica.find()
-
-    items = list(items)  # make hashable for st.cache_data
-    
-    folder = "QUIZ_CLEAN/JSON"
-    os.makedirs(folder, exist_ok=True)
-    for item in items:
-        filename=item["materia"]
-        lista_domande_risposte=item["lista_domande_risposte"]
-        with open(f"{folder}/{filename}_final.json", "w", encoding="utf-8") as f:
-            json.dump(lista_domande_risposte, f, indent=2, ensure_ascii=False)
 
 # ============================================================================
 # LOGIN / AUTENTICAZIONE

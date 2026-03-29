@@ -1,33 +1,40 @@
 """
-Modulo per il caricamento e la normalizzazione dei quiz da file JSON.
+Modulo per il caricamento e la normalizzazione dei quiz da MongoDB (in memoria).
 Responsabile di:
-- Elencare i file JSON disponibili nella cartella
+- Elencare i quiz disponibili a partire dai documenti Mongo
 - Caricare e validare la struttura dei quiz
 - Normalizzare i dati per l'uso nei diversi engine
 """
 
-import json
 import random
-from pathlib import Path
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 
 class QuizLoader:
-    """Gestisce il caricamento dei quiz da file JSON"""
+    """Gestisce il caricamento dei quiz da documenti MongoDB"""
     
-    def __init__(self, quiz_folder: Path):
+    def __init__(self, quiz_documents: List[Dict[str, Any]]):
         """
-        Inizializza il loader con il percorso della cartella quiz
+        Inizializza il loader con i documenti del quiz caricati da MongoDB
         
         Args:
-            quiz_folder: percorso relativo o assoluto alla cartella contenente i JSON
+            quiz_documents: lista di documenti Mongo con campi `materia` e
+                `lista_domande_risposte`
         """
-        # Risolve il path relativo alla posizione di questo file, non alla working directory
-        self.quiz_folder = quiz_folder
+        self.quiz_documents = list(quiz_documents)
+        self._quizzes_by_file: Dict[str, Dict[str, Any]] = {}
 
-        # print("QUIZ FOLDER:", self.quiz_folder)
-        # print("EXISTS:", self.quiz_folder.exists())
-        # print("FILES:", list(self.quiz_folder.glob("*.json")))
+        for item in self.quiz_documents:
+            materia = item.get("materia")
+            if not materia:
+                continue
+            quiz_file = self._build_quiz_file_name(str(materia))
+            self._quizzes_by_file[quiz_file] = item
+
+    @staticmethod
+    def _build_quiz_file_name(materia: str) -> str:
+        """Costruisce un identificatore compatibile con il vecchio naming a file."""
+        return f"{materia}_final.json"
         
     def get_available_quizzes(self) -> List[Dict[str, str]]:
         """
@@ -36,24 +43,24 @@ class QuizLoader:
         Returns:
             Lista di dizionari con 'name' (nome visualizzato) e 'file' (nome file)
         """
-        # print("QUIZ folder in get_available_quizzes:", self.quiz_folder)
-        if not self.quiz_folder.exists():
-            return []
-        
         quizzes = []
-        for json_file in self.quiz_folder.glob("*_final.json"):
-            # Estrae il nome del modulo dal nome file (es. "farmacologia_final.json" -> "Farmacologia")
-            module_name = json_file.stem.replace("_final", "").replace("_", " ").title()
+        for item in self.quiz_documents:
+            materia = item.get("materia")
+            questions = item.get("lista_domande_risposte")
+            if not materia or not isinstance(questions, list):
+                continue
+
+            module_name = str(materia).replace("_", " ").title()
             quizzes.append({
                 "name": module_name,
-                "file": json_file.name
+                "file": self._build_quiz_file_name(str(materia)),
             })
         
         return sorted(quizzes, key=lambda x: x["name"])
     
     def load_quiz(self, quiz_file: str) -> List[Dict[str, Any]]:
         """
-        Carica un singolo quiz da file JSON
+        Carica un singolo quiz dai documenti Mongo in memoria
         
         Args:
             quiz_file: nome del file JSON da caricare
@@ -62,19 +69,14 @@ class QuizLoader:
             Lista di domande normalizzate
             
         Raises:
-            FileNotFoundError: se il file non esiste
-            json.JSONDecodeError: se il file non è un JSON valido
+            FileNotFoundError: se il quiz non esiste nei documenti Mongo
             ValueError: se la struttura non è valida
         """
-        file_path = self.quiz_folder / quiz_file
+        quiz_document = self._quizzes_by_file.get(quiz_file)
+        if quiz_document is None:
+            raise FileNotFoundError(f"Quiz not found: {quiz_file}")
 
-        print("File path in load_quiz: ", file_path)
-        
-        if not file_path.exists():
-            raise FileNotFoundError(f"Quiz file not found: {file_path}")
-        
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        data = quiz_document.get("lista_domande_risposte")
         
         # Valida la struttura
         if not isinstance(data, list):
@@ -122,8 +124,9 @@ class QuizLoader:
             questions = self.load_quiz(quiz_file)
             # Aggiunge metadata sul quiz di origine
             for question in questions:
-                question["source_quiz"] = quiz_file
-                all_questions.append(question)
+                question_with_source = question.copy()
+                question_with_source["source_quiz"] = quiz_file
+                all_questions.append(question_with_source)
         
         # randomize question order also between various modules
         random.shuffle(all_questions)
@@ -169,12 +172,11 @@ class QuizLoader:
         }
 
 
-def get_quiz_loader(quiz_folder: Path = None) -> QuizLoader:
+def get_quiz_loader(quiz_documents: List[Dict[str, Any]] = None) -> QuizLoader:
     """
     Factory function per ottenere un'istanza del QuizLoader
     Utile per dependency injection e testing
     """
-    if quiz_folder is None:
-        # Default: path relativo alla posizione di questo file
-        quiz_folder = Path(__file__).parent / "QUIZ_CLEAN" / "JSON"
-    return QuizLoader(quiz_folder)
+    if quiz_documents is None:
+        quiz_documents = []
+    return QuizLoader(quiz_documents)
