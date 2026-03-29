@@ -41,7 +41,9 @@ def get_data():
     """Carica i documenti quiz da MongoDB senza side effects."""
     client = get_mongo_client()
     db = client.quiz_app
-    return list(db.infermieristica.find())
+    data = list(db.infermieristica.find())
+    print("MongoDB data cached successfully")
+    return data
 
 def init_session_state():
     """Inizializza tutte le variabili di sessione necessarie"""
