@@ -49,13 +49,13 @@ class AuthManager:
 
     def _get_login_worksheet_name(self) -> str:
         settings = self._get_auth_settings()
-        return settings.get("login_worksheet_name", "login_access_log")
+        return settings.get("login_worksheet_name", "users_pswd")
 
-    def _get_system_password(self) -> str:
+    def _get_system_password(self) -> Optional[str]:
         settings = self._get_auth_settings()
         system_password = settings.get("system_password") or st.secrets.get("system_password")
         if not system_password:
-            raise RuntimeError("System password not configured in Streamlit secrets")
+            return None
         return str(system_password)
     
     @staticmethod
@@ -154,9 +154,15 @@ class AuthManager:
             else:
                 updated_df = existing_df.copy()
                 updated_df.loc[updated_df["username"].astype(str) == username, "last_login_at"] = timestamp
-                updated_df.loc[updated_df["username"].astype(str) == username, "password_hash"] = password_hash
 
-            conn.update(worksheet=self.worksheet_name, data=updated_df)
+            try:
+                conn.update(worksheet=self.worksheet_name, data=updated_df)
+            except Exception as update_err:
+                import gspread
+                if isinstance(update_err, gspread.exceptions.WorksheetNotFound) or "WorksheetNotFound" in str(type(update_err)):
+                    conn.create(worksheet=self.worksheet_name, data=updated_df)
+                else:
+                    raise
             return True
         except Exception as e:
             st.error(f"Errore salvataggio login su Google Sheets: {str(e)}")
@@ -178,6 +184,9 @@ class AuthManager:
             return None, error
 
         system_password = self._get_system_password()
+        if not system_password:
+            return None, "Password di sistema non configurata. Contatta l'amministratore."
+
         if not self._password_matches(password, system_password):
             return None, "Password del sistema errata"
 
