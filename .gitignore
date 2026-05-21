@@ -15,4 +15,6 @@ quiz_logs.json
 
 venv/
 
+.archive/
+
 GOOGLE_SHEETS_SETUP.md
